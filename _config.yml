@@ -1,0 +1,9 @@
+# Site settings
+title: MetaPiping documentation
+author:
+  name: Sébastien Wauquier
+  email: sw@cwantic.com
+description: "All you need to know about MetaPiping"
+
+# Build settings
+remote_theme: jekyll/minima
