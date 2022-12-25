@@ -6,7 +6,7 @@ author:
 description: "All you need to know about MetaPiping"
 
 # Build settings
-remote_theme: jekyll/just-the-docs 
+remote_theme: just-the-docs 
 
 color_scheme: dark
 
