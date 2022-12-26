@@ -1,15 +1,13 @@
 # Site settings
-title: MetaPiping
+title: MetaPiping documentation
 author:
   name: Sébastien Wauquier
   email: sw@cwantic.com
 description: "All you need to know about MetaPiping"
 
 # Build settings
-remote_theme: just-the-docs/just-the-docs 
+remote_theme: jekyll/just-the-docs 
 
-color_scheme: light
-logo: "/Images/MetaPiping_Logo_48x48.png"
+color_scheme: dark
 
-# Footer
-footer: "Copyright Cwantic"
+logo: "/Images/MetaPiping_web_title.png"
