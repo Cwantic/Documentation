@@ -4,22 +4,22 @@ title: MetaPiping
 nav_order: 1
 ---
 
-# Welcome to MetaPiping's documentation
+## Welcome to MetaPiping's documentation
 
 ![Logo](Images/MetaPiping_Logo_48x48.png)
 
 &copy; CWANTIC
 
-## Version
+### 1. Version
 
 
 >MetaPiping version zero
 
-## Minimal configuration
+### 2. Minimal configuration
 
 To do
 
-## Software architecture
+### 3. Software architecture
 
 To do
 
