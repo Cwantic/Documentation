@@ -5,4 +5,7 @@ nav_order: 1
 parent: Python
 ---
 
-**Python/Introduction.md**
+# Python integration
+
+>Python 3.7
+
