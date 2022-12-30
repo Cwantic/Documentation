@@ -12,7 +12,6 @@ nav_order: 1
 
 ### 1. Version
 
-    *Welcome Joseph !!!*
 >MetaPiping version zero
 
 ### 2. Minimal configuration
