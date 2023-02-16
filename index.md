@@ -10,7 +10,7 @@ nav_order: 1
 
 The new modeling and analysis software for NUCLEAR and INDUSTRIAL piping systems.
 
-![Logo](Images/MetaPiping_Logo_48x48.png)
+![Logo](Images/Piping.jpg)
 
 ## 1. Version
 
