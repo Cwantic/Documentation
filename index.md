@@ -18,8 +18,6 @@ This documentation is related to :
 
     MetaPiping 2023.0
 
-{: .note }
-> MetaPiping 2023.0
 ## 2. System Requirements
 
 ![Image](Images/Configuration.jpg)

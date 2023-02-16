@@ -10,16 +10,13 @@ has_children: false
 >Cwantic has a very ambitious roadmap in order to deliver qualified professional solutions, written in the state of the art, using the latest computer technologies and open to Python developers.
 
 ---
-
-{: .new }
-> ## MetaPiping 2023.0 (Current release)
+## MetaPiping 2023.0 (Current release)
 
 [See the main features](https://documentation.metapiping.com/WhatsNew/2023_0.html)
 
 ---
 
-{: .new }
-> ## MetaPiping 2023.1
+## MetaPiping 2023.1
 
 ### *Expected date*
 
@@ -34,8 +31,7 @@ has_children: false
 
 ---
 
-{: .new }
-> ## MetaPiping 2023.2
+## MetaPiping 2023.2
 
 ### *Expected date*
 
