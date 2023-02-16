@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Roadmap
-nav_order: 11
+nav_order: 10
 has_children: false
 ---
 
@@ -12,14 +12,14 @@ has_children: false
 ---
 
 {: .new }
->## MetaPiping 2023.0 (Latest release)
+> ## MetaPiping 2023.0 (Current release)
 
 [See the main features](https://documentation.metapiping.com/WhatsNew/2023_0.html)
 
 ---
 
 {: .new }
->## MetaPiping 2023.1
+> ## MetaPiping 2023.1
 
 ### *Expected date*
 
@@ -35,7 +35,7 @@ has_children: false
 ---
 
 {: .new }
->## MetaPiping 2023.2
+> ## MetaPiping 2023.2
 
 ### *Expected date*
 
