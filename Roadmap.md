@@ -25,7 +25,7 @@ has_children: false
 ### *Main features*
 
 * Spec driven mode
-* Revision and modification improvements
+* Review and modification improvements
 * Python script user manual
 * Requests from the user community
 
