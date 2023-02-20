@@ -6,4 +6,6 @@ parent: Classes
 grand_parent: Python
 ---
 
+# Solution
+
 Documentation will come soon...

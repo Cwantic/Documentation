@@ -6,4 +6,6 @@ parent: Classes
 grand_parent: Python
 ---
 
+# MetaL
+
 Documentation will come soon...

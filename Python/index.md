@@ -15,15 +15,3 @@ The integration can be done at 2 different levels :
 
 - Project/study phase
 - Design phase
-
-## 1. Study
-
-
-
-
-## 2. Design
-
-
-
-## 3. Settings
-

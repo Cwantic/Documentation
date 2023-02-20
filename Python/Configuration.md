@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pyckage
+title: Configuration
 nav_order: 1
 parent: Python
 ---

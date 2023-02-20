@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Pyckage
-nav_order: 5
+title: Samples
+nav_order: 6
+has_children: true
 parent: Python
 ---
 
-# Pyckage
+# Samples
 
 Documentation will come soon...
