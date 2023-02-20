@@ -30,7 +30,7 @@ Select **Python** in the application's ribbon :
 
 ![Image](../Images/PythonMenu.jpg)
 
-On the upper left menu, a **menu** proposes several tools :
+On the upper left menu, a list of buttons proposes several tools :
 
 1. Create a script for **study** level - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
 2. Remove the selected script
@@ -48,6 +48,6 @@ The screen is made up of different parts :
 1. The list of all scripts (of all type)
 2. The files (and directories) used in the script - select a file shows it in the editor (6)
 3. The properties of the script (Type, Name, Input, Output...)
-4. The **Requirements.txt** of the virtual environment of the script
+4. The **requirements.txt** of the virtual environment of the script
 5. The chatGPT help - [See chatGPT page for more information](https://documentation.metapiping.com/Python/chatGPT.html) 
 6. The Python **Editor** - or image viewer if you select an image in the file explorer (2)
