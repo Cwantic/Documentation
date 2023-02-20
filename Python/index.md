@@ -7,7 +7,7 @@ has_children: true
 
 # Python integration
 
-MetaPiping offer to user the possibility to manipulate datas produced by the software in order to operate custom treatment.
+MetaPiping offers to user the possibility to manipulate datas produced by the software in order to operate custom treatment.
 
 These manipulations can be done via **Python** scripts, a simple and well documented language, with a great free mathematical, scientific and computer library, appreciated by engineers.
 

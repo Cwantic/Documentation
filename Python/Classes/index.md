@@ -10,9 +10,9 @@ parent: Python
 
 MetoPiping opens its classes in order to allow the user to **navigate** inside the structure of objects and create customer information processing.
 
-The internal format of the whole model in Design mode is the **metaL** structure.
+The internal format of the whole model in Design mode is the **metaL** object.
 
-After calculation, the **solution** contains all the results.
+After calculation, the **solution** object contains all the results.
 
-The instructions that MetaPiping understand are the **commands**.
+The instructions that MetaPiping understand are the **command** objects.
 
