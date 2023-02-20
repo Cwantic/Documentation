@@ -21,7 +21,7 @@ A script contains one or more *.py files in a **python virtual environment**.
 The integration can be done at 2 different levels :
 
 - Project/study phase - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
-- Design phase - [See Design page for more information](https://documentation.metapiping.com/Python/Design.html) 
+- Design phase - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
 
 ---
 ## Main menu
@@ -34,7 +34,7 @@ On the upper left menu, a **menu** proposes several tools :
 
 1. Create a script for **study** level - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
 2. Remove the selected script
-3. Create a script for **design** level - [See Design page for more information](https://documentation.metapiping.com/Python/Design.html) 
+3. Create a script for **design** level - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
 4. Save a script to disk - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
 5. Load a script from disk - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
 
