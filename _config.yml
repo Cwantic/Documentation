@@ -10,4 +10,9 @@ remote_theme: just-the-docs/just-the-docs
 
 color_scheme: light
 
+callouts:
+  warning:
+    title: Warning
+    color: red
+
 #logo: "/Images/MetaPiping_web_title.png"
