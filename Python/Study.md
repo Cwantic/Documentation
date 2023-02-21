@@ -25,7 +25,7 @@ Let's see how to create this kind of script.
 
 ---
 
-## 1. Script properties
+## 1. Script definition
 
 From the Home/Python, click on button 1 (Add project script) :
 
@@ -67,19 +67,21 @@ The TEXT input can only receive an information by connection from a TEXT output 
 
 In requirements.txt :
 
+
+```
+    - Save                      : Save the file
+    - Install                   : Install the libraries defined in the file
+```
+
 This file must contain the name and version of the Python libraries used in the script. MetaPiping will install all libraries by internally doing :
 
-```pip
+```python
 pip install -r requirements.txt
 ```
 
 [See the specification of the file for more information](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 
 
-```
-    - Save                      : Save the file
-    - Install                   : Install the libraries defined in the file
-```
 
 In main.py
 
@@ -91,6 +93,13 @@ A *study script* brick contains a **RUN** button that will execute the **main.py
 
 ![Image](../Images/PythonStudy5.jpg)
 
+In the Editor, you have access to the object **study** that exposes some functions. A dropdown menu will appear after writing :
+
+```python
+study.
+```
+
+![Image](../Images/PythonStudy4.jpg)
 
 ---
 
@@ -100,7 +109,7 @@ This kind of script don't need to have access to the files of the current study/
 
 It can for example ask some data from the user via INPUT **EDIT** and give answers after treatment via OUTPUTS **TEXT**.
 
-
+[See an example of independant script](https://documentation.metapiping.com/Python/Samples/datetimefile.html)
 
 ---
 ## 3. MetaL injection
