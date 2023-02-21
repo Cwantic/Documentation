@@ -6,6 +6,6 @@ parent: Classes
 grand_parent: Python
 ---
 
-# Command
+# Commands
 
 Documentation will come soon...

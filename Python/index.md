@@ -35,8 +35,8 @@ On the upper left menu, a list of buttons proposes several tools :
 1. Create a script for **study** level - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
 2. Remove the selected script
 3. Create a script for **design** level - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
-4. Save a script to disk - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
-5. Load a script from disk - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
+4. Export a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
+5. Import a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
 
 ---
 ## Screen
