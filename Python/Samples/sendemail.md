@@ -76,7 +76,7 @@ Add a new python file and name it **MyEmail.py** from the three points button.
 {: .warning }
 > Use name that don't exists in Python. In this example, if you choose the name email.py, it would not work !
 
-### 6.3 email.py
+### 6.3 MyEmail.py
 
 Select the file.
 
@@ -124,7 +124,7 @@ def send_email(to_email, subject, body, attachement = None):
         mail.send(msg)
 ```
 
-Save it !
+Complete it with your email server data and save it !
 
 ### 6.4 main.py
 
@@ -143,6 +143,8 @@ study.Outputs[0] = 'Email sent !'
 Save it !
 
 ## 7. New result
+
+ After a click on the RUN button :
 
 ![Image](../../Images/PythonSample2_6.jpg)
 
