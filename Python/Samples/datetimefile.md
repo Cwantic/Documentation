@@ -6,7 +6,7 @@ parent: Samples
 grand_parent: Python
 ---
 
-# Sample 1
+# Sample 1 : Date, time and file manipulation
 
 ## 1. Goal
 
@@ -86,6 +86,7 @@ if (len(dates) > 3):
     study.Outputs[3] += dates[3]
 ```
 
+Save it !
 ## 5. Result
 
 When you add this script in a current study, and after a first click on the **RUN** button :

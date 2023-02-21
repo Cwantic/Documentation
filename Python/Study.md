@@ -109,7 +109,9 @@ This kind of script don't need to have access to the files of the current study/
 
 It can for example ask some data from the user via INPUT **EDIT** and give answers after treatment via OUTPUTS **TEXT**.
 
-[See an example of independant script](https://documentation.metapiping.com/Python/Samples/datetimefile.html)
+[See an example of independant script](https://documentation.metapiping.com/Python/Samples/datetimefile.html) : Date, time and file
+
+[See another example of independant script](https://documentation.metapiping.com/Python/Samples/sendemail.html) : Send an email
 
 ---
 ## 3. MetaL injection
