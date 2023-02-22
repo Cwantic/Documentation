@@ -122,7 +122,7 @@ Cwantic has created **PLUGINS**, with the same principle, that converts **PIPEST
 
 User can for example inject **LOADIND TEMPLATES** in current project based on his own datas.
 
-
+[See an example of a CONVERTER from Excel file to MetaL](https://documentation.metapiping.com/Python/Samples/converter.html) : Converter
 
 ---
 
