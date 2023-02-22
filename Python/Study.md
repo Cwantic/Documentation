@@ -53,14 +53,13 @@ In Project script :
 
 ```
     - Add TEXT input            : Add a text in the script brick
-    - Add TEXTLIST input        : Add a memo in the script brick (Not yet functional)
     - Add EDIT input            : Add an edit in the script brick where user can write values
     - Add METAL input           : Add an access to the internal structure metaL
     - Add SOLUTION input        : Add an access to the solution
     - Add TEXT output           : Add an output text in the script brick
     - Add FILENAME output       : Add an output filename that can be edit by the user by double clic
     - Save                      : Save the script definition
-    - Remove                    : Remove the selected item (Not yet functional)
+    - Remove                    : Remove the selected item
 ```
 
 The TEXT input can only receive an information by connection from a TEXT output of another script.

@@ -61,6 +61,8 @@ The XLSX file has 4 sheets : MATERIALS, SECTIONS, NODES and ELEMENTS :
 
 It represents a single pipe.
 
+You can download this file at the bottom of this page.
+
 ## 6 main.py
 
 Select the file.
@@ -199,4 +201,4 @@ And in the Design mode :
 
 With the material and section correctly set.
 
-Click [here](https://metapiping.com/wp-content/uploads/2023/02/Sample3.xlsx)  to download the EXCEL file used in this example.
+Click [here](https://metapiping.com/wp-content/uploads/2023/02/Sample3.zip) to download the EXCEL file used in this example.
