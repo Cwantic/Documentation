@@ -39,7 +39,7 @@ User can make his own scripts to interact with the application or manipulate the
 
 Cwantic chooses **Python** language to create these scripts. But Why **Python** ? Let ChatGPT answers :
 
-![Image](../Images/ChatGPT1.jpg)
+![Image](../Images/chatGPT1.jpg)
 
 1. Write your question in english our in your native language
 2. Submit
@@ -65,13 +65,13 @@ ChatGPT knows almost everything and retains the thread of the conversation.
 
 Here is an example of a conversation. In blue the question asked by the user. Click on **Submit** button. Then in black the answer :
 
-![Image](../Images/ChatGPT2.jpg)
+![Image](../Images/chatGPT2.jpg)
 
-![Image](../Images/ChatGPT3.jpg)
+![Image](../Images/chatGPT3.jpg)
 
-![Image](../Images/ChatGPT4.jpg)
+![Image](../Images/chatGPT4.jpg)
 
-![Image](../Images/ChatGPT5.jpg)
+![Image](../Images/chatGPT5.jpg)
 
 ---
 ## 5. Python language
@@ -80,11 +80,11 @@ ChatGPT is also an **expert** in Python.
 
 Examples :
 
-![Image](../Images/ChatGPT6.jpg)
+![Image](../Images/chatGPT6.jpg)
 
-![Image](../Images/ChatGPT7.jpg)
+![Image](../Images/chatGPT7.jpg)
 
-![Image](../Images/ChatGPT8.jpg)
+![Image](../Images/chatGPT8.jpg)
 
 These answers were used to create [Sample1](https://documentation.metapiping.com/Python/Samples/datetimefile.html).
 
@@ -95,11 +95,11 @@ ChatGPT is also an **expert** in all libraries of **pip**.
 
 Examples used to create [Sample3](https://documentation.metapiping.com/Python/Samples/converter.html) about **EXCEL** files :
 
-![Image](../Images/ChatGPT9.jpg)
+![Image](../Images/chatGPT9.jpg)
 
-![Image](../Images/ChatGPT10.jpg)
+![Image](../Images/chatGPT10.jpg)
 
-![Image](../Images/ChatGPT11.jpg)
+![Image](../Images/chatGPT11.jpg)
 
 ---
 ## 7. Conclusion
