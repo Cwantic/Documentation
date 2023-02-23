@@ -130,11 +130,16 @@ User can for example inject **LOADIND TEMPLATES** in current project based on hi
 Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own script to retrieve informations of the model. 
 
 
-[See an example of how to calculate the total mass of a piping](https://documentation.metapiping.com/Python/Samples/totalmass.html)
+[See an example of MetaL data extraction](https://documentation.metapiping.com/Python/Samples/totalmass.html) : Calculate the total mass of a piping
+
+
+[See another example of MetaL data extraction](https://documentation.metapiping.com/Python/Samples/staticases.html) : Get all static cases of a piping
 
 ---
 
 ## 5. Solution extraction
 
-Documentation will come soon...
+Based on the explained [Solution](https://documentation.metapiping.com/Python/Classes/solution.html) internal structure, user can create his own script to retrieve informations of the solution. 
 
+
+[See an example of Solution data extraction](https://documentation.metapiping.com/Python/Samples/maxdisplacement.html) : Get the max displacement by static case number
