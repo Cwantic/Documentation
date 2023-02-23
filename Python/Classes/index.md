@@ -8,7 +8,7 @@ parent: Python
 
 # Classes
 
-MetaPiping opens its classes in order to allow the user to **navigate** inside the structure of objects and create customer information processing.
+MetaPiping opens its classes in order to allow the user to **navigate** inside the structure of objects and create custom information processing.
 
 The internal format of the whole model in Design mode is the **metaL** object (aka **metaL**anguage).
 

@@ -8,4 +8,4 @@ parent: Python
 
 # Samples
 
-Documentation will come soon...
+You can find here some examples of script.
