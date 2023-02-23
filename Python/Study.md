@@ -127,7 +127,10 @@ User can for example inject **LOADIND TEMPLATES** in current project based on hi
 
 ## 4. MetaL extraction
 
-Documentation will come soon...
+Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own script to retrieve informations of the model. 
+
+
+[See an example of how to calculate the total mass of a piping](https://documentation.metapiping.com/Python/Samples/totalmass.html)
 
 ---
 
