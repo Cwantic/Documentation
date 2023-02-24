@@ -71,7 +71,7 @@ Here is an example of a conversation. In blue the question asked by the user. Cl
 
 ![Image](../Images/chatGPT4.jpg)
 
-![Image](../Images/chatGPT5.jpg)
+![Image](../Images/chatGPT12.jpg)
 
 ---
 ## 5. Python language
