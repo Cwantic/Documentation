@@ -74,3 +74,9 @@ If a tool is missing, user can create his own **command** that can interact with
 
 [See an example of a Design script](https://documentation.metapiping.com/Python/Samples/lyre.html) : Replace a selected pipe by a lyre
 
+## 4. Review script
+
+If a tool is missing, user can create his own **tool** to inspect the objects in selection or the whole model.
+
+[See an example of a Review script](https://documentation.metapiping.com/Python/Samples/distance.html) : Measure the distance between 2 nodes by message
+

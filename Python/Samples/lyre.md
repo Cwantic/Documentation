@@ -38,7 +38,7 @@ We will choose wxPython :
 
 ![Image](../../Images/PythonSample7_3.jpg)
 
-Add this the library in requirements.txt, **save** and **install** it from the three points button.
+Add this library in requirements.txt, **save** and **install** it from the three points button.
 
 This window will appears :
 
@@ -55,7 +55,7 @@ This kind of script needs some **images** in order to illustrate the **button** 
 
 Press the "three points" button and select "Import image". You need to create a 32x32 transparent PNG for the icon of the button and an illustration of the lyre for the window.
 
-Press the "three points" button and select "Add apython file". We will create a file for some trigonometric functions and one for the definition of the window.
+Press the "three points" button and select "Add a python file". We will create a file for some trigonometric functions and one for the definition of the window.
 
 ### 4.1 trigonometry.py
 
