@@ -46,3 +46,6 @@ This directory can be changed via the configuration settings :
 ![Image](../Images/PythonConfiguration.jpg)
 
 [See the settings page for more information](https://documentation.metapiping.com/Settings/index.html)
+
+{: .warning }
+> Attention ! Changing the data directory could break the link between Python scripts and projects.
