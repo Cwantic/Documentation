@@ -20,11 +20,11 @@ From the Home/Python, click on **button 3** (Add 3D script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Distance between 2 nodes by message"
+Give it the name "Show distance between 2 nodes"
 
 ## 3. Script files
 
-This kind of script needs some **images** in order to illustrate the **button**.
+This kind of script needs an **image** in order to illustrate the **button**.
 
 ![Image](../../Images/PythonSample8_3.jpg)
 

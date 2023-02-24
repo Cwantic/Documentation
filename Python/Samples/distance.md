@@ -24,7 +24,7 @@ Give it the name "Distance between 2 nodes by message"
 
 ## 3. Script files
 
-This kind of script needs some **images** in order to illustrate the **button**.
+This kind of script needs an **image** in order to illustrate the **button**.
 
 ![Image](../../Images/PythonSample8_3.jpg)
 

@@ -54,6 +54,8 @@ This 32x32 button will appear on the possible locations :
 - Review    : In Review ribbon
 - Analysis  : In Analysis ribbon
 
+Example of the **Design** ribbon :
+
 ![Image](../Images/PythonDesign2.jpg)
 
 A new *main.py* will be created in the file explorer and requirements.txt and the Editor will be empty.
@@ -70,7 +72,7 @@ design.
 
 ## 3. Design script
 
-If a tool is missing, user can create his own **command** that can interact with the user and modify the whole model.
+If a tool is missing, user can create his own **command** that can interact with the user and modify the selected elements or the whole model.
 
 [See an example of a Design script](https://documentation.metapiping.com/Python/Samples/lyre.html) : Replace a selected pipe by a lyre
 
