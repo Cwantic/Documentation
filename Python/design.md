@@ -80,3 +80,5 @@ If a tool is missing, user can create his own **tool** to inspect the objects in
 
 [See an example of a Review script](https://documentation.metapiping.com/Python/Samples/distance.html) : Measure the distance between 2 nodes by message
 
+
+[See another example of a Review script](https://documentation.metapiping.com/Python/Samples/distance2.html) : Show the distance between 2 nodes in left frame
