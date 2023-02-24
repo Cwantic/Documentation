@@ -70,4 +70,7 @@ design.
 
 ## 3. Design script
 
-Documentation will come soon...
+If a tool is missing, user can create his own **command** that can interact with the user and modify the whole model.
+
+[See an example of a Design script](https://documentation.metapiping.com/Python/Samples/lyre.html) : Replace a selected pipe by a lyre
+
