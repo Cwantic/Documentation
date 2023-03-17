@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Commands
-nav_order: 3
+title: command
+nav_order: 5
 parent: Classes
 grand_parent: Python
 ---
 
-# Commands
+# command
 
 Documentation will come soon...

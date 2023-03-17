@@ -100,6 +100,8 @@ study.
 
 ![Image](../Images/PythonStudy4.jpg)
 
+[See the description of the object study](https://documentation.metapiping.com/Python/Classes/study.md)
+
 ---
 
 ## 2. Independant script

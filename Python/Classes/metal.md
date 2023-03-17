@@ -1,7 +1,7 @@
 ---
 layout: default
-title: MetaL
-nav_order: 1
+title: metaL
+nav_order: 3
 parent: Classes
 grand_parent: Python
 ---

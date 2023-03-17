@@ -68,6 +68,8 @@ design.
 
 ![Image](../Images/PythonDesign3.jpg)
 
+[See the description of the object design](https://documentation.metapiping.com/Python/Classes/design.md)
+
 ---
 
 ## 3. Design script

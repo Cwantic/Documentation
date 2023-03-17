@@ -1,11 +1,11 @@
 ---
 layout: default
-title: solution
-nav_order: 4
+title: study
+nav_order: 1
 parent: Classes
 grand_parent: Python
 ---
 
-# solution
+# study
 
 Documentation will come soon...
