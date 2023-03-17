@@ -4,9 +4,8 @@ title: MetaPiping 2023.0
 nav_order: 1
 ---
 
-# Welcome to MetaPiping's documentation
+# Welcome to MetaPiping User Manual
 
-{: .text-center }
 
 The new modeling and analysis software for NUCLEAR and INDUSTRIAL piping systems.
 
