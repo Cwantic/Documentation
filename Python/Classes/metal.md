@@ -1,11 +1,11 @@
 ---
 layout: default
-title: metaL
+title: metal
 nav_order: 3
 parent: Classes
 grand_parent: Python
 ---
 
-# MetaL
+# metal
 
 Documentation will come soon...
