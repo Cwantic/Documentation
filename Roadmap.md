@@ -40,7 +40,7 @@ has_children: false
 ### *Main features*
 
 * Dashboard and settings improvements
-* Equipment databases
+* Component databases
 * RCC-M Class 1
 * Requests from the user community
 
