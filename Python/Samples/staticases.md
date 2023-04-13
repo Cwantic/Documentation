@@ -43,7 +43,7 @@ import os
 # Check if the connection has been made with the MetaL connector
 metal = study.getMetal()
 if metal != None:
-    dir = study.getStudyDirectory()
+    dir = study.getDirectory()
     filename = os.path.join(dir, "StaticLoadcases.txt")
     
     # Get all static cases

@@ -158,7 +158,7 @@ if os.path.exists(filename):
     
     if not df_materials.empty and not df_sections.empty and not df_nodes.empty and not df_elements.empty:
         # 1. output filename
-        dir = study.getStudyDirectory()
+        dir = study.getDirectory()
         filename = os.path.join(dir, "conception.metaL")
         
         # 2. Create empty metaL

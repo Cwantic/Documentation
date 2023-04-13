@@ -53,7 +53,7 @@ if solution != None:
     
     if case>0:
         # Get displacements from solution with case number
-        displacements = solution.GetDisplacements(case)
+        displacements = solution.getDisplacements(case)
         if len(displacements)>0:
             # Calculate the max
             max = -999999
