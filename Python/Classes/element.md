@@ -15,8 +15,9 @@ grand_parent: Python
 | X | X | X |
 
 
-# 2. Piping : Element
+# 2. Piping
 
+Piping is a descendant of Element (see § 1). Every **Piping** object has the properties of **Element**.
 ## 2.1 Properties
 
 | Name | Return | Description |

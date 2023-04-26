@@ -16,8 +16,8 @@ The **study** object gives access to several methods and can be used only in [Pr
 
 | Name | Return | Description |
 | --- | ----------- | ----------- |
-| Inputs | List of string | Access to items in Project script's Inputs |
-| Outputs | List of string | Access to items in Project script's Outputs |
+| Inputs | array of string | Access to an item [i] in Project script's Inputs |
+| Outputs | array of string | Access to an item [i] in Project script's Outputs |
 | getDirectory() | string | Get the current study directory|
 | createMetal() | metal | Create an empty MetaL object |
 | getMetal() | metal | Access to current MetaL object of the study |
@@ -27,7 +27,6 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 
 See [solution](https://documentation.metapiping.com/Python/Classes/solution.html) for more information.
 
-REM : getStudyDirectory() is depreciated. Use getDirectory() instead.
 
 ---
 

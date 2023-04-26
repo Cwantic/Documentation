@@ -6,6 +6,9 @@ parent: Classes
 grand_parent: Python
 ---
 
-# command
+# CustomCommand
+
+A custom command is simply a list of MetaPiping existing commands.
+
 
 Documentation will come soon...
