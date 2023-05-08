@@ -119,7 +119,7 @@ It can for example ask some data from the user via INPUT **EDIT** and give answe
 
 Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own **CONVERTERS** from other file format or from company's internal datas.
 
-Cwantic has created **PLUGINS**, with the same principle, that converts **PIPESTRESS** and **NUPIPE** file format to MetaL file format.
+Cwantic has created **PLUGINS**, with the same principle, that converts **PIPESTRESS**, **PIPSYS** and **PCF** file format to MetaL file format.
 
 User can for example inject **LOADIND TEMPLATES** in current project based on his own datas.
 

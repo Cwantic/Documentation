@@ -22,12 +22,11 @@ This object gives you access to the objects in selection, some current propertie
 | createCommand() | CustomCommand | Return an empty command with a name (param1) (see § 5) |
 | executeCommand() | - | Execute a CustomCommand passed in parameter (see § 6) |
 | getVerticalVector() | array of 3 double | Return the current vertical vector (Y or Z) |
-| getCurrentLayerID() |  |  |
-| getCurrentJointType() |  |  |
-| getMetal() |  |  |
-| addText() |  |  |
-| addSeparator() |  |  |
-| result |  |  |
+| getCurrentLayerID() | integer | Depreciated |
+| getMetal() | metal | Access to current MetaL object of the study |
+| addText() | - | Add a text on left panel |
+| addSeparator() | - | Add a line separator on left panel |
+| result | - | Set a message as output (empty = no message) |
 
 
 ## 2. selectedList
@@ -120,61 +119,78 @@ verticalvec = design.getVerticalVector()
 ---
 ## 8. getCurrentLayerID()
 
+Depreciated
 
+---
+## 9. getMetal()
+
+
+Imagine user wants to check if the 3D model exists (result as a text in Outputs[0]).
+```python
+# Python script
+metal = design.getMetal()
+if metal != None:
+    study.Outputs[0] = "The model exists"
+else:
+    study.Outputs[0] = "The model doesn't exist"
+```
+
+See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for more information.
+
+
+---
+## 10. addText()
+
+In review mode, it can be usefull to shows some information about the model or about the selected objects.
+
+These informations can be shown in a standard way using the same controls as MetaPiping.
+
+You can show texts on the left panel using the **addText** method:
+
+    addText(string aText, bool aTitle = false, byte aR = 255, byte aG = 255, byte aB = 255)
+
+param1 = the text
+
+param2 = True or False = is a title or not
+
+param3, param4, param5 = the color of the text in Red, Green, Blue value (0..255)
 
 ```python
 # Python script
+distance = 1.0
 
+design.addText("Distances", True, 255, 255, 255)
+design.addSeparator()
+design.addText(" ")
+design.addText("Distance = " + str(round(distance, 3)) + " m", False, 255, 255, 255)
 ```
 
 ---
-## 9. getCurrentJointType()
+## 11. addSeparator()
 
-
+In the same way as the **addText** method, **addSeparator** just add a white horizontal line
 
 ```python
 # Python script
+distance = 1.0
 
+design.addText("Distances", True, 255, 255, 255)
+design.addSeparator()
+design.addText(" ")
+design.addText("Distance = " + str(round(distance, 3)) + " m", False, 255, 255, 255)
 ```
 
 ---
-## 10. getMetal()
+## 12. result
 
-
-
-```python
-# Python script
-
-```
-
----
-## 11. addText()
-
-
+If result is not an empty string, a message will appears at the end of exuction of the script.
 
 ```python
 # Python script
-
-```
-
----
-## 12. addSeparator()
-
-
-
-```python
-# Python script
-
-```
-
----
-## 13. result
-
-
-
-```python
-# Python script
-
+res = "Error !"
+if valid:
+    res = ""
+design.result = res
 ```
 
 ---

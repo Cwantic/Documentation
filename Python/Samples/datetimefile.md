@@ -59,7 +59,7 @@ now = datetime.now()
 now_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
 # info.txt is the file that contains all dates in the current study directory
-dir = study.getStudyDirectory()
+dir = study.getDirectory()
 filename = os.path.join(dir, "info.txt")
 
 # Read the file if exists

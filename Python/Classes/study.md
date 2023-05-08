@@ -86,7 +86,7 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 
 ### 2.4 getMetal()
 
-Imagine user wants to check that the 3D model exists (result as a text in Outputs[0]).
+Imagine user wants to check if the 3D model exists (result as a text in Outputs[0]).
 ```python
 # Python script
 metal = study.getMetal()
@@ -102,7 +102,7 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 
 The **solution** object contains all results after calculation.
 
-Imagine user wants to check that the solution exists (result as a text in Outputs[0]).
+Imagine user wants to check if the solution exists (result as a text in Outputs[0]).
 
 ```python
 # Python script
