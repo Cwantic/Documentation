@@ -22,7 +22,6 @@ This object gives you access to the objects in selection, some current propertie
 | createCommand() | CustomCommand | Return an empty command with a name (param1) (see § 5) |
 | executeCommand() | - | Execute a CustomCommand passed in parameter (see § 6) |
 | getVerticalVector() | array of 3 double | Return the current vertical vector (Y or Z) |
-| getCurrentLayerID() | integer | Depreciated |
 | getMetal() | metal | Access to current MetaL object of the study |
 | addText() | - | Add a text on left panel |
 | addSeparator() | - | Add a line separator on left panel |
@@ -117,12 +116,7 @@ verticalvec = design.getVerticalVector()
 ```
 
 ---
-## 8. getCurrentLayerID()
-
-Depreciated
-
----
-## 9. getMetal()
+## 8. getMetal()
 
 
 Imagine user wants to check if the 3D model exists (result as a text in Outputs[0]).
@@ -139,7 +133,7 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 
 
 ---
-## 10. addText()
+## 9. addText()
 
 In review mode, it can be usefull to shows some information about the model or about the selected objects.
 
@@ -166,7 +160,7 @@ design.addText("Distance = " + str(round(distance, 3)) + " m", False, 255, 255, 
 ```
 
 ---
-## 11. addSeparator()
+## 10. addSeparator()
 
 In the same way as the **addText** method, **addSeparator** just add a white horizontal line
 
@@ -181,7 +175,7 @@ design.addText("Distance = " + str(round(distance, 3)) + " m", False, 255, 255, 
 ```
 
 ---
-## 12. result
+## 11. result
 
 If result is not an empty string, a message will appears at the end of exuction of the script.
 
