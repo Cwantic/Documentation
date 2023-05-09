@@ -139,15 +139,15 @@ In review mode, it can be usefull to shows some information about the model or a
 
 These informations can be shown in a standard way using the same controls as MetaPiping.
 
-You can show texts on the left panel using the **addText** method:
+You can show texts on the left panel using the **addText** method :
 
-    addText(string aText, bool aTitle = false, byte aR = 255, byte aG = 255, byte aB = 255)
-
-param1 = the text
-
-param2 = True or False = is a title or not
-
-param3, param4, param5 = the color of the text in Red, Green, Blue value (0..255)
+| Param | Type | Description |
+| ---- | ----------- | ----------- |
+| Text | String  | The text |
+| IsTitle | Bool  | True or False - if True, enlarged text |
+| R | Byte  | Red component of the text color |
+| G | Byte  | Green component of the text color |
+| B | Byte  | Blue component of the text color |
 
 ```python
 # Python script
