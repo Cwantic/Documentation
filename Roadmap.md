@@ -41,6 +41,7 @@ has_children: false
 
 * Dashboard and settings improvements
 * Component databases
+* User manual
 * RCC-M Class 1
 * Requests from the user community
 
