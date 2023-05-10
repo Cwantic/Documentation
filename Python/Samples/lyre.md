@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Add lyre
+title: Add loop
 nav_order: 7
 parent: Samples
 grand_parent: Python
 ---
 
-# Sample 7 : Replace a selected pipe by a lyre
+# Sample 7 : Replace a selected pipe by an expansion loop
 
 ## 1. Goal
 
-Create a script that will (after pressing a **button** in the ribbon) replace a selected pipe by a lyre. A window will appear to define the size and the default bend radius.
+Create a script that will (after pressing a **button** in the ribbon) replace a selected pipe by an expansion loop. A window will appear to define the size and the default bend radius.
 
 ![Image](../../Images/illustration256x165.png)
 
@@ -24,11 +24,11 @@ From the Home/Python, click on **button 3** (Add 3D script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Add lyre"
+Give it the name "Add loop"
 
 ## 3. requirements.txt
 
-We want to show a **window** so that the user can define the **L** and **R** values, respectively the size and the bend radius of the lyre.
+We want to show a **window** so that the user can define the **L** and **R** values, respectively the size and the bend radius of the expansion loop.
 
 We ask [ChatGPT](https://documentation.metapiping.com/Python/chatGPT.html) to recommand some python libraries :
 
@@ -53,7 +53,7 @@ This kind of script needs some **images** in order to illustrate the **button** 
 
 ![Image](../../Images/PythonSample7_1.jpg)
 
-Press the "three points" button and select "Import image". You need to create a 32x32 transparent PNG for the icon of the button and an illustration of the lyre for the window.
+Press the "three points" button and select "Import image". You need to create a 32x32 transparent PNG for the icon of the button and an illustration of the expansion loop for the window.
 
 Press the "three points" button and select "Add a python file". We will create a file for some trigonometric functions and one for the definition of the window.
 
@@ -128,7 +128,7 @@ class App(wx.App):
         wx.App.__init__(self)
         self.Lvalue = ""
         self.Rvalue = ""
-        self.frame = Frame(None, wx.ID_ANY, "Lyre definition", self)
+        self.frame = Frame(None, wx.ID_ANY, "Loop definition", self)
         self.SetTopWindow(self.frame)
         self.frame.Show(True)
         
@@ -189,18 +189,18 @@ if n==1:
         # Get the piping values (section, material,...) of the selected pipe
         currentPipingValues = CurrentPipingValues.CreateCurrentPipingValuesFromPiping(model, pipe)
         
-        # Create empty Tee values (not important for the lyre but mandatory for the pipe command)
+        # Create empty Tee values (not important for the loop but mandatory for the pipe command)
         currentTeeValues = CurrentTeeValues()
         
         # Get the pipe direction vector
         vec1 = (pipe.DL.X, pipe.DL.Y, pipe.DL.Z)
         
-        # Compute the cross product to determine the lyre direction
+        # Compute the cross product to determine the loope direction
         dir = cross(vec1, verticalvec)
         dir = normalize(dir)
 
         # Create a new USER command
-        cmd = design.createCommand("AddLyre")
+        cmd = design.createCommand("AddLoop")
         
         # 1 : Remove the selected pipe
         
@@ -216,7 +216,7 @@ if n==1:
             
             # Remark : the bends are automatically made by the "AddPipeCommand"
             
-            # 2.0 : Launch window to get lyre's size and bend radius
+            # 2.0 : Launch window to get loop's size and bend radius
             app = App()
             app.MainLoop()
             
@@ -262,7 +262,7 @@ if n==1:
                 valid = cmd.addSubCommand("AddPipeCommand", params)
                 
                 if valid:
-                    # 4 : Create new pipe to close the lyre
+                    # 4 : Create new pipe to close the loop
                     
                     # 4.1 : Create params for command "AddPipeCommand" (see Help)
                     params = []
@@ -298,11 +298,11 @@ Save it !
 
 ## 7. Result
 
-In **Design mode**, select a pipe that you want to replace by a lyre :
+In **Design mode**, select a pipe that you want to replace by an expansion loop :
 
 ![Image](../../Images/PythonSample7_6.jpg)
 
-Click on the new button **Add lyre** :
+Click on the new button **Add loop** :
 
 ![Image](../../Images/PythonSample7_7.jpg)
 
@@ -310,6 +310,6 @@ Complete **L**, **R** and press **Run** :
 
 ![Image](../../Images/PythonSample7_8.jpg)
 
-The lyre appears !
+The expansion loop appears !
 
 You can undo/redo your COMMAND !
