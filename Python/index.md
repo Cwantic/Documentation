@@ -15,6 +15,7 @@ A script contains one or more *.py files in a **python virtual environment**.
 
 **Main.py** is mantadory and represents the main access of the script.
 
+>ATTENTION, the use of libraries take place on the disk ! To be used with care.
 ---
 ## Script types
 
@@ -51,3 +52,5 @@ The screen is made up of different parts :
 4. The **requirements.txt** of the virtual environment of the script
 5. The chatGPT help - [See chatGPT page for more information](https://documentation.metapiping.com/Python/chatGPT.html) 
 6. The Python **Editor** - or image viewer if you select an image in the file explorer (2)
+
+>ATTENTION : The installation of libraries and the chatGPT help need an internet connection !
