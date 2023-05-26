@@ -22,11 +22,13 @@ The **study** object gives access to several methods and can be used only in [Pr
 | createMetal() | metal | Create an empty MetaL object |
 | getMetal() | metal | Access to current MetaL object of the study |
 | getSolution() | solution | Access to current Solution object of the study |
+| getMaterialLibraryModel() | materialLibraryModel | Access to a material library by its name (without .materials) |
 
 See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for more information.
 
 See [solution](https://documentation.metapiping.com/Python/Classes/solution.html) for more information.
 
+See [libraries](https://documentation.metapiping.com/Python/Classes/libraries.html) for more information about materialLibraryModel.
 
 ---
 
