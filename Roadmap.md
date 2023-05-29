@@ -10,24 +10,9 @@ has_children: false
 >Cwantic has a very ambitious roadmap in order to deliver qualified professional solutions, written in the state of the art, using the latest computer technologies and open to Python developers.
 
 ---
-## MetaPiping 2023.0 (Current release)
+## MetaPiping 2023.1 (Current release)
 
-[See the main features](https://documentation.metapiping.com/WhatsNew/2023_0.html)
-
----
-
-## MetaPiping 2023.1
-
-### *Expected date*
-
-* May 2023
-
-### *Main features*
-
-* Spec driven mode
-* Review and modification improvements
-* Python script user manual
-* Requests from the user community
+[See the main features](https://documentation.metapiping.com/WhatsNew/2023_1.html)
 
 ---
 
@@ -42,7 +27,7 @@ has_children: false
 * Dashboard and settings improvements
 * Component databases
 * User manual
-* RCC-M Class 1
+* RCC-M Class 1 & EN-13480 edition 2017
 * Requests from the user community
 
 ---
