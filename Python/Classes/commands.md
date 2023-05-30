@@ -90,7 +90,7 @@ from Cwantic.MetaPiping.Core import CurrentTeeValues
 currentTeeValues = CurrentTeeValues()
 currentTeeValues.Type = '1'
 currentTeeValues.TN = 4.2
-currentTeeValues.ConnectorSize = 0.1429
+currentTeeValues.CollectorSize = 0.1429
 currentTeeValues.BranchSize = 0.1429
 ```
 
