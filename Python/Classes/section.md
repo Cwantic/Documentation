@@ -1,6 +1,6 @@
 ---
 layout: default
-title: node
+title: section
 nav_order: 9
 parent: Classes
 grand_parent: Python

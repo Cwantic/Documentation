@@ -2,7 +2,7 @@
 layout: default
 title: node
 nav_order: 6
-parent: Classes
+parent: Classe
 grand_parent: Python
 ---
 

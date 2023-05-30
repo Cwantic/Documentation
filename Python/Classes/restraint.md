@@ -1,6 +1,6 @@
 ---
 layout: default
-title: element
+title: restraint
 nav_order: 8
 parent: Classes
 grand_parent: Python
