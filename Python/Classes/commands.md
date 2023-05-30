@@ -107,7 +107,7 @@ PROPERTIES :
 
 | Name | Type | Description | Unit | Default value |
 | --- | ----------- | ----------- | ---| ---|
-| Type | char | Type of tee | - | '0' (see below) |
+| Type | TeeType | Type of tee | - | BranchConnection (see below) |
 | TN | float | Branch pipe wall thickness | Diameter | 0 |
 | RP | float | Branch Outer Radius | Diameter | 0 |
 | PD | float | Pad Thickness for Reinforced Fabricated Tees  | Diameter | 0 |
@@ -119,22 +119,22 @@ PROPERTIES :
 
 See [Units](https://documentation.metapiping.com/Design/units.html) for explanation of Length and Diameter units.
 
-Values for **Type** :
+The type *TeeType* is an enumeration with the following values:
 
 | Value | Description |
 | ---- | ----------- |
-| '0' | Branch connection |
-| '1' | Butt welding tee |
-| '2' | Junction of elements |
-| '3' | Reinforced or un-reinforced fabricated tee |
-| '4' | Bonney Forge Sweepolet® (flush welded) |
-| '5' | Bonney Forge Sweepolet® (as welded) |
-| '6' | Bonney Forge Weldolet® |
-| '7' | Extruded Outlet or Extruded welding tee |
-| '8' | Welded-in contour insert |
-| '9' | Branch welded-on fitting |
-| 'L' | Piping lateral connection per WRC Bulletin 360 |
-| 'P' | Branch connection with partial penetration welds or fillet welds |
+| BranchConnection | Branch connection |
+| WeldingTee | Butt welding tee |
+| NonStandard | Junction of elements |
+| Fabricated | Reinforced or un-reinforced fabricated tee |
+| SweepoletFlush | Bonney Forge Sweepolet® (flush welded) |
+| SweepoletAsWelded | Bonney Forge Sweepolet® (as welded) |
+| Weldolet | Bonney Forge Weldolet® |
+| ExtrudedOutlet | Extruded Outlet or Extruded welding tee |
+| WeldedInContourInsert | Welded-in contour insert |
+| BranchWeldedOnFitting | Branch welded-on fitting |
+| Lateral | Piping lateral connection per WRC Bulletin 360 |
+| PartialPenetration | Branch connection with partial penetration welds or fillet welds |
 
 See an example of creation of a [CurrentTeeValues](https://documentation.metapiping.com/Python/Samples/lyre.html).
 
