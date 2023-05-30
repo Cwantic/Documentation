@@ -114,7 +114,7 @@ PROPERTIES :
 | R2 | float | Branch-to-run Fillet Radius | Diameter | 0 |
 | RX | float | Transition Radius | Diameter | 0 |
 | Angle | float | Angle between collector and branch | Degree | 0 |
-| ConnectorSize | float | Length of collector | Length | 0.3 |
+| CollectorSize | float | Length of collector | Length | 0.3 |
 | BranchSize | float | Length of branch | Length | 0.3 |
 
 See [Units](https://documentation.metapiping.com/Design/units.html) for explanation of Length and Diameter units.
