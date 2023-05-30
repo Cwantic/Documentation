@@ -61,7 +61,7 @@ design.executeCommand(cmd)
 ---
 ## 4. Common objects
 
-Two general object control all properties of current tee, current material, current section, current bend radius...
+Two general objects control all properties of current tee, current material, current section, current bend radius...
 
     - CurrentTeeValues
     - CurrentPipingValues
