@@ -35,7 +35,7 @@ The **metal** object gives access to the geometry and the loads of the whole pip
 | MassGenerationFrequency | float | Frequency for automatic mass point generation |
 | NbMaxModes | int | Maximum number of extracted mode shapes |
 
-The class **Model** also provides lists of the objects contained in the piping model:
+The class **metal** also provides lists of the objects contained in the piping model:
 
 
 | Name | Description |
