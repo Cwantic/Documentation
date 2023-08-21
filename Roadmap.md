@@ -24,12 +24,28 @@ has_children: false
 
 ### *Main features*
 
-* Dashboard and settings improvements
+* Settings improvements
 * Component databases
 * User manual
 * RCC-M Class 1 & EN-13480 edition 2017
 * Requests from the user community
 
+---
+
+## MetaPiping 2024
+
+### *Expected date*
+
+* February 2024
+
+### *Main features*
+
+* MetaStructure : advanced structural/pipe supports/assemblies/anchor plates calculation - fully integrated to MetaPiping
+* EDF composite & PEHD code
+* Underground/buried piping code
+* CODETI & ASME B31.3 for industrial piping
+* Requests from the user community
+  
 ---
 
 ## Disclaimer

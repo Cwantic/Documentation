@@ -7,4 +7,6 @@ has_children: true
 
 # Settings
 
-Documentation will come soon...
+![Image](../Images/Settings.jpg)
+
+Click on **Configure** button to access the settings panel.

@@ -20,8 +20,9 @@ A script contains one or more *.py files in a **python virtual environment**.
 ---
 ## Script types
 
-The integration can be done at 2 different levels :
+The integration can be done at 3 different levels :
 
+- Explorer phase- [See Info page for more information](https://documentation.metapiping.com/Python/Info.html) 
 - Project/study phase - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
 - Design phase - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
 
