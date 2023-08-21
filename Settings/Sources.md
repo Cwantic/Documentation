@@ -31,7 +31,7 @@ The data directory is the directory where the **databases**, the python **script
 
 ![Image](../Images/DataDirectory.jpg)
 
-[See Database page for more information](https://documentation.metapiping.com/Settings/Databases.html).
+[See Database page for more information](https://documentation.metapiping.com/Settings/Databases/index.html).
 
 [See Python page for more information](https://documentation.metapiping.com/Python/index.html).
 
