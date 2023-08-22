@@ -7,3 +7,100 @@ grand_parent: Settings
 ---
 
 # Piping
+
+In this section, libraries of piping elements can be created. 
+
+A library is a **JSON** file with a name, units and a list of pipe sizes, bend, reducer, welding tee and flange definitions.
+
+Click the **+** button to add a new library or click the **-** button to remove an **unused** library (not defined in a specification).
+
+![Image](../../Images/Piping1.jpg)
+
+Example : "My Piping Library"
+
+## 1. Pipe sizes
+
+To add new pipe sizes, click on **+** button and give it a name (Ex : 4") :
+
+![Image](../../Images/Piping2.jpg)
+
+Each size exists in different schedules. click on **+** button to add schedules :
+
+| Property | Unit Metric | Unit USA | 
+| -------- | ---- | ---- | 
+| Schedule | - | - | 
+| Outside diameter | mm | in |
+| Thickness | mm | in | 
+| Linear mass | kg/m | lb/ft | 
+
+    To know the UNIT of a property, just let the mouse over the property name. For example : mm for the Outside diameter
+
+>ATTENTION, the name of the pipe size is very important (Ex : 4"). It will be used as a **reference** for all other piping elements. The american notation is used even in metric definition.
+
+>ATTENTION, the sizes must be defined in an **ascending** order.
+
+## 2. Bends
+
+To add **bend** properties for each pipe sizes, click on **+** button and select a pipe size :
+
+![Image](../../Images/Piping3.jpg)
+
+Standard radius and mass can be entered :
+
+| Property | Unit Metric | Unit USA | 
+| -------- | ---- | ---- | 
+| Long radius | m | ft | 
+| Small radius | m | ft |
+| Mass | ton | kips | 
+
+>ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order. 
+
+## 3. Reducers
+
+To add **reducer** properties for each pipe sizes, click on **+** button and select a pipe size :
+
+![Image](../../Images/Piping4.jpg)
+
+Click on **+** button (next to Mass) to add all possible reduction from the current size to a **smaller** one.
+
+Length and mass can be entered :
+
+| Property | Unit Metric | Unit USA | 
+| -------- | ---- | ---- | 
+| Length | m | ft | 
+| Mass | ton | kips | 
+
+>ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order. 
+
+## 4. Welding tees
+
+Welding tee is a special case of tee with a collector and a branch.
+
+The section of the branch must be equal or smaller than the section of the header pipe.
+
+To add **welding tee** properties for each pipe sizes, click on **+** button and select a pipe size :
+
+![Image](../../Images/Piping6.jpg)
+
+| Property | Unit Metric | Unit USA | 
+| -------- | ---- | ---- | 
+| Length | m | ft | 
+
+The length corresponds to half the length of the collector (L1 in the picture) :
+
+![Image](../../Images/Piping5.jpg)
+
+Click on **+** button (next to Mass) to add all possible branch sizes from the current size to a **smaller** one.
+
+Length and mass can be entered :
+
+| Property | Unit Metric | Unit USA | 
+| -------- | ---- | ---- | 
+| Length of the branch L2 | m | ft | 
+| Mass | ton | kips | 
+
+>ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order.
+
+## 5. Flanges
+
+See [Components](https://documentation.metapiping.com/Settings/Databases/Components.html) for more informations about the flange definition.

@@ -11,7 +11,7 @@ parent: Settings
 
 ## 1. Projects sources
 
-Define the *local directory* or *server directory* where all the projects will be saved. [See Project page for more information](https://documentation.metapiping.com/Explorer/Project.html).
+Define the *local directory* or *server directory* where all projects will be saved. [See Project page for more information](https://documentation.metapiping.com/Explorer/Project.html).
 
 After installation, the default directory will be:
 
@@ -25,7 +25,7 @@ This way you can organize yourself by splitting the projects into main categorie
 
 ## 2. Data sources
 
-Define the *local directory* or *server directory* where all the data will be saved.
+Define the *local directory* or *server directory* where all data will be saved.
 
 The data directory is the directory where the **databases**, the python **scripts** and the **specifications** are saved.
 
