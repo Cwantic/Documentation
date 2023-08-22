@@ -33,7 +33,8 @@ Each size exists in different schedules. click on **+** button to add schedules 
 | Thickness | mm | in | 
 | Linear mass | kg/m | lb/ft | 
 
-    To know the UNIT of a property, just let the mouse over the property name. For example : mm for the Outside diameter
+    To know the UNIT of a property, just let the mouse over the property name. 
+    For example : mm for the Outside diameter
 
 >ATTENTION, the name of the pipe size is very important (Ex : 4"). It will be used as a **reference** for all other piping elements. The american notation is used even in metric definition.
 

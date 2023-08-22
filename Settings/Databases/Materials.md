@@ -18,7 +18,8 @@ Click the **+** button to add a new library or click the **-** button to remove 
 
 Example : "My Material Library"
 
-    To know the UNIT of a property, just let the mouse over the property name. For example : °C for the Ref. temperature
+    To know the UNIT of a property, just let the mouse over the property name. 
+    For example : °C for the Ref. temperature
 
 ![Image](../../Images/Material2.jpg)
 
