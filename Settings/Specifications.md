@@ -104,6 +104,8 @@ MetaPiping automatically fills the table with the corresponding informations :
 
 ![Image](../Images/Spec6.jpg)
 
+Fill the **Angle** property.
+
 | Property | Unit Metric | Unit USA | Note |
 | -------- | ---- | ---- | -- |
 | Length | m | ft | |

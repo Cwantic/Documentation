@@ -6,3 +6,5 @@ parent: Python
 ---
 
 # Info script
+
+Documentation will come soon...
