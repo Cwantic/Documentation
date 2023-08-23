@@ -88,6 +88,12 @@ MetaPiping automatically fills the table with the corresponding informations :
 
 ![Image](../Images/Spec5.jpg)
 
+| Property | Unit Metric | Unit USA | 
+| -------- | ---- | ---- | 
+| Long radius | m | ft | 
+| Small radius | m | ft |
+| Mass | ton | kips | 
+
 Just informative.
 
     To know the UNIT of a property, just let the mouse over the property name.
@@ -98,9 +104,69 @@ MetaPiping automatically fills the table with the corresponding informations :
 
 ![Image](../Images/Spec6.jpg)
 
-The property **Angle** can be filled for **Class 1** calculation code.
+| Property | Unit Metric | Unit USA | Note |
+| -------- | ---- | ---- | -- |
+| Length | m | ft | |
+| Mass | ton | kips | |
+| Angle | ° | ° | Class 1 only|
 
     To know the UNIT of a property, just let the mouse over the property name.
 
 ## 2.4 Tees
 
+MetaPiping automatically fills the table with the corresponding informations :
+
+![Image](../Images/Spec7.jpg)
+
+For each combination, you can define the type of tee :
+
+- Branch connection
+- WeldingTee
+- Non Standard
+- Fabricated
+- Sweepolet flush weld
+- Sweepolet as welded
+- Weldolet
+- Extruded weldingTee
+- Welded-in contour insert
+- Branch welded-on fitting
+- Lateral connection
+- Partial penetration branch connection
+
+Based on the type, some other properties must be filled :
+
+| Property | Description | Unit Metric | Unit USA |
+| -------- | ---- | ---- | -- |
+| L1 | Branch length | m | ft |
+| R2 | Branch-to-run fillet radius | mm | in |
+| TN | Branch connections and piping lateral connections CONSTANT thickness | mm | in |
+| Y | Branch connections and piping lateral connections VARIABLE thickness | mm | in |
+| Thickness type | Variable or constant | - | - |
+| RE | Pad or saddle outer radius for reinforced fabricated tees  | mm | in |
+| RX | Transition radius | mm | in |
+| PD | Pad thickness for reinforced fabricated tees | mm | in |
+| Collector length | Half length of the collector of welding tees | m | ft |
+| Branch length | Branch length of welding tees | m | ft |
+| Mass | Mass of the tee | ton | kips |
+
+## 2.5 Flanges
+
+MetaPiping automatically fills the table with the corresponding informations :
+
+![Image](../Images/Spec8.jpg)
+
+For each size, select the **Nominal pressure** (Rating) and select the predefined **type** of flange :
+
+- Welding neck
+- Slip-on
+- Lap joint
+- Threaded
+- Socket welding
+- Blind
+
+The predefined properties will be shown.
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| Length | m | ft |
+| Mass | ton | kips |

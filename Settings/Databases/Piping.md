@@ -83,6 +83,8 @@ To add **welding tee** properties for each pipe sizes, click on **+** button and
 
 ![Image](../../Images/Piping6.jpg)
 
+>ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order.
+
 | Property | Unit Metric | Unit USA | 
 | -------- | ---- | ---- | 
 | Length | m | ft | 
@@ -100,8 +102,28 @@ Length and mass can be entered :
 | Length of the branch L2 | m | ft | 
 | Mass | ton | kips | 
 
->ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order.
-
 ## 5. Flanges
 
-See [Components](https://documentation.metapiping.com/Settings/Databases/Components.html) for more informations about the flange definition.
+To add **flange** properties for each pipe sizes, click on **+** button and select a pipe size :
+
+![Image](../../Images/Piping7.jpg)
+
+>ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order.
+
+For this size, create several **Ratings** (max service pressure). It is a text and is just informative (Ex : 50).
+
+Click the **+** button (next to Mass) to add a new flange of a certain type :
+
+- Welding neck
+- Slip-on
+- Lap joint
+- Threaded
+- Socket welding
+- Blind
+
+Length and mass can be entered :
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| Length of the flange | m | ft |
+| Mass | ton | kips |
