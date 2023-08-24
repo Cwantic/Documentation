@@ -36,8 +36,10 @@ Each size exists in different schedules. click on **+** button to add schedules 
     To know the UNIT of a property, just let the mouse over the property name. 
     For example : mm for the Outside diameter
 
+{: .warning }
 >ATTENTION, the name of the pipe size is very important (Ex : 4"). It will be used as a **reference** for all other piping elements. The american notation is used even in metric definition.
 
+{: .warning }
 >ATTENTION, the sizes must be defined in an **ascending** order.
 
 ## 2. Bends
@@ -54,6 +56,7 @@ Standard radius and mass can be entered :
 | Small radius | m | ft |
 | Mass | ton | kips | 
 
+{: .warning }
 >ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order. 
 
 ## 3. Reducers
@@ -71,6 +74,7 @@ Length and mass can be entered :
 | Length | m | ft | 
 | Mass | ton | kips | 
 
+{: .warning }
 >ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order. 
 
 ## 4. Welding tees
@@ -83,6 +87,7 @@ To add **welding tee** properties for each pipe sizes, click on **+** button and
 
 ![Image](../../Images/Piping6.jpg)
 
+{: .warning }
 >ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order.
 
 | Property | Unit Metric | Unit USA | 
@@ -108,6 +113,7 @@ To add **flange** properties for each pipe sizes, click on **+** button and sele
 
 ![Image](../../Images/Piping7.jpg)
 
+{: .warning }
 >ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order.
 
 For this size, create several **Ratings** (max service pressure). It is a text and is just informative (Ex : 50).

@@ -15,6 +15,7 @@ A script contains one or more *.py files in a **python virtual environment**.
 
 **Main.py** is mantadory and represents the main access of the script.
 
+{: .warning }
 >ATTENTION, the use of libraries take place on the disk ! To be used with care.
 
 ---
@@ -40,6 +41,7 @@ On the upper left menu, a list of buttons proposes several tools :
 3. Create a script for **design** level - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
 4. Export a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
 5. Import a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
+6. Create a script for **explorer** level - [See Info page for more information](https://documentation.metapiping.com/Python/Info.html) 
 
 ---
 ## Screen
@@ -55,4 +57,5 @@ The screen is made up of different parts :
 5. The chatGPT help - [See chatGPT page for more information](https://documentation.metapiping.com/Python/chatGPT.html) 
 6. The Python **Editor** - or image viewer if you select an image in the file explorer (2)
 
+{: .warning }
 >ATTENTION : The installation of libraries and the chatGPT help need an internet connection !

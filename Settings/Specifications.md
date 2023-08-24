@@ -19,6 +19,7 @@ It brings together a variety of information :
 
 Click the **+** button to add a new specification or click the **-** button to remove an **unused** one.
 
+{: .warning }
 >ATTENTION, do not remove specification used in one or more projects otherwise the opening will be compromised.
 
 ## 1. Header
@@ -35,9 +36,10 @@ Properties :
 - Material library              - See [Materials](https://documentation.metapiping.com/Settings/Databases/Materials.html) for more information
 - Piping library                - See [Piping](https://documentation.metapiping.com/Settings/Databases/Piping.html) for more information
 
-
+{: .warning }
 > ATTENTION, a specification has UNITS, so only libraries of materials and piping elements with the same UNITS can be connected.
 
+{: .warning }
 > ATTENTION, when starting a new project, be sure to select a specification that will be compatible with the Units, Code and Edition of the project and do not change these 3 properties during design.
 
 ## 2. Elements

@@ -24,6 +24,7 @@ The **study** object gives access to several methods and can be used only in [Pr
 | getSolution() | solution | Access to current Solution object of the study |
 | getMaterialLibraryModel() | materialLibraryModel | Access to a material library by its name (without .materials) |
 | createMaterialLibraryModel() | materialLibraryModel | Create a material library by a name (without .materials) |
+| showInformation() | - | Add a string into the description of a strudy |
 
 See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for more information.
 

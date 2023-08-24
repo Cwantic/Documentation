@@ -42,8 +42,10 @@ This new study become the **current study** shown in the main panel (3).
 
 Select a study in the **container** (2) and click to **Delete study** to remove the selected study (and all it contains).
 
+{: .warning }
 >ATTENTION, this action is irreversible
 
+{: .warning }
 >ATTENTION, You cannot remove the current study if it is the only one
 
 After deleting, the first study of the project become the current study shown in the main panel (3).

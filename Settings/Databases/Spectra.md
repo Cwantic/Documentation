@@ -51,6 +51,7 @@ Fill the tables by adding rows for the pair frequency/acceleration.
 | Frequency | Hz | 
 | Acceleration | G's | 
 
+{: .warning }
 >ATTENTION, the frequencies must be filled in ascending order
 
     Each table can have its own number of rows

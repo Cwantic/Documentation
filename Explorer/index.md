@@ -62,6 +62,14 @@ A **Python script** can be created to explore the current **MetaL** and **result
 
 ![Image](../Images/Explorer7.jpg)
 
-Click [here](https://documentation.metapiping.com/Python/info.html) to have more information about python script creation for a project.
+Click [here](https://documentation.metapiping.com/Python/Info.html) to have more information about python script creation for a project.
 
 Click [here](https://documentation.metapiping.com/Settings/General.html) to see how to define a python script as default "information script" in the settings.
+
+## 4. External opening
+
+User can **Right click** a *.fre file in Windows explorer and ask to open it with MetaPiping.
+
+A project will be created with a study and a complete connection of the internal MetaL to this file + solver PIPESTRESS.
+
+Click [here](https://documentation.metapiping.com/Explorer/Study.html) to have more information about PIPESTRESS **bricks**.

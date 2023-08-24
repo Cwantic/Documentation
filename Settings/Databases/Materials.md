@@ -47,4 +47,5 @@ Click the **+** button (next to Properties) to add a new row of properties for a
 
 See [Units](https://documentation.metapiping.com/Design/units.html) for more informations.
 
+{: .warning }
 >ATTENTION, temperatures must be entered in ascending order!
