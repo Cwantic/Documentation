@@ -13,8 +13,4 @@ parent: Design
 
 ## 2. Output units
 
-
-## 3. Model options
-
-
 Documentation will come soon...

@@ -177,7 +177,7 @@ MetaPiping let you simplify your visualization by using **Layer** concept :
 
 ![Image](../Images/Layer1.jpg)
 
-By default, all piping element is assigned to **Layer 0**.
+By default, all piping elements are assigned to **Layer 0**.
 
 To create a new layer, click on **Add layer** button (1).
 
