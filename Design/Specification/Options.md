@@ -16,7 +16,8 @@ This tab let you define the **calculation code** and its **Edition**, the direct
 
 {: .warning }
 > ATTENTION, when starting a new project, be sure to select a specification that will be compatible with the Units, Code and Edition of the project and do not change these 3 properties during design.
-> 
+
+
 ## 2. Analysis
 
 ![Image](../../Images/Options2.jpg)
