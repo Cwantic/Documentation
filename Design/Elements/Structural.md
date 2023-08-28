@@ -7,3 +7,5 @@ grand_parent: Design
 ---
 
 # Create structurals
+
+Documentation will come soon...
