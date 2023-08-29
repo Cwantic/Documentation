@@ -21,9 +21,9 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 ## 1. Create a reducer from another element
 
-1. Select the current **section/material** in the specification box (1).
-2. Select a **node** (2).
-3. Click the **Add reducer** button
+- Select the current **section/material** in the specification box (1).
+- Select a **node** (2).
+- Click the **Add reducer** button
 
 ![Image](../../Images/Reducer2.jpg)
 

@@ -157,6 +157,10 @@ Change the **Selection mode** to ELEMENT and select a bend :
 
 Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
 
+You can modify the radius of the bend. The lengths of the adjacent pipes will be adapted.
+
+You can also modify all bend properties.
+
 **SECTION AND MATERIAL** :
 
 You can change the **specification** and **section/material** of the bend.
