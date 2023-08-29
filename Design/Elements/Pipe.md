@@ -14,50 +14,13 @@ Select a **specification** (default = Out of spec) and a current **section**.
 
 Click on the **Draw piping** button.
 
-As we start the modelisation, we need to create a **First point** :
+As we start the modelisation, we need to create a **First node** :
 
 ![Image](../../Images/Pipe1.jpg)
 
-    To know the UNIT of the value, just let the mouse over the cell. 
+Click [here](https://documentation.metapiping.com/Design/Elements/Node.html) for more information about the **First node** creation.
 
-| Property | Description | Unit Metric | Unit USA |
-| -------- | ----------- | ---- | ---- |
-| X | X global coordinate | m | ft |
-| Y | Y global coordinate  | m | ft |
-| Z | Z global coordinate  | m | ft |
-| Name | Text or number | - | - |
-
-If **Name** is blanck, the new node will receive an automatic name based on the **Node settings**.
-
-Click [here](https://documentation.metapiping.com/Settings/General.html) for more information about node naming.
-
-### 1.1. Node properties
-
-All new node follow the **current specification** node connection properties :
-
-| Property | Description | Unit Metric | Unit USA |
-| -------- | ----------- | ---- | ---- |
-| Mismatch | Mismatch for welded joints | mm | in |
-| Fillet length | Length of fillet weld Cx | mm | in |
-| TMax | for Class 1 transition within 1:3 slope envelope | mm | in |
-
-The **Joint** can be :
-
-- None
-- Butt weld - flush
-- Butt weld - as welded
-- Fillet weld
-- Full fillet weld
-- Threaded
-- Brazed
-
-In this example, the values correspond to **current specification** preset :
-
-![Image](../../Images/Pipe2.jpg)
-
-Click the **Create** button to create the first node of the model.
-
-### 1.2. Draw first pipe
+### 1.2. Draw the first pipe
 
 After the first node has been created, you can draw your first pipe :
 
@@ -73,5 +36,61 @@ Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.ht
 
 ## 2. Draw piping
 
-Documentation will come soon...
+When you click on the **Draw piping** button without selection, the left panel shows a message :
 
+    Select a node
+
+![Image](../../Images/Pipe4.jpg)
+
+The **selecteion mode** is automatically set to **POINT**. You can so directly select a node :
+
+![Image](../../Images/Pipe5.jpg)
+
+1. Select the current **section/material** in the specification box.
+2. Select a **node**.
+3. The current diameter and thickness is shown on top of the left panel.
+
+MetaPiping checks the section of the element on the selected node.
+
+### 2.1 Same section
+
+If the section of the element on the selected node is the same as the **current section** (1), the left panel shows **ELBOW PROPERTIES** (4).
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Bend.html) for more information about the elbow properties.
+
+You can then define the second point of the pipe thanks to the **Orientation tool** (5).
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.html) for more information about the orientation tool.
+
+Based on the elbow properties and the second point definition (distance **D** in **X** direction for example), the pipe is created with a bend :
+
+![Image](../../Images/Pipe6.jpg)
+
+The distance **D** start from old point 20 to point 40. An elbow is then inserted from new point 20 - point 20-30 to point 30.
+
+The previous pipe is reduced from old point 20 (actually point 20-30) to new point 20.
+
+You can **undo** this command.
+
+### 2.2 Different section
+
+If the section of the element on the selected node is different from the **current section** (1), the left panel shows **REDUCER PROPERTIES** (4).
+
+![Image](../../Images/Pipe7.jpg)
+
+{: .warning }
+>ATTENTION, you are supposed to draw the pipe tangent from the previous one.
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Reducer.html) for more information about the reducer properties.
+
+You can then define the second point of the pipe thanks to the **Orientation tool** (5).
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.html) for more information about the orientation tool.
+
+Based on the reducer properties and the second point definition (distance **D** in **TANGENT** direction for example), the pipe is created with a reducer :
+
+![Image](../../Images/Pipe8.jpg)
+
+The previous pipe is NOT affected.
+
+You can **undo** this command.
