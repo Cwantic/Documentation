@@ -42,13 +42,15 @@ When you click on the **Draw piping** button without selection, the left panel s
 
 ![Image](../../Images/Pipe4.jpg)
 
-The **selecteion mode** is automatically set to **POINT**. You can so directly select a node :
+The **selection mode** is automatically set to **POINT**. You can so directly select a node :
 
 ![Image](../../Images/Pipe5.jpg)
 
 1. Select the current **section/material** in the specification box.
 2. Select a **node**.
 3. The current diameter and thickness is shown on top of the left panel.
+
+Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
 
 MetaPiping checks the section of the element on the selected node.
 
@@ -92,5 +94,45 @@ Based on the reducer properties and the second point definition (distance **D** 
 ![Image](../../Images/Pipe8.jpg)
 
 The previous pipe is NOT affected.
+
+You can **undo** this command.
+
+## 3. Modify/Remove a pipe
+
+Change the **Selection mode** to ELEMENT and select a pipe :
+
+![Image](../../Images/Pipe9.jpg)
+
+Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
+
+**SECTION AND MATERIAL** (1) :
+
+You can change the **specification** and **section/material** of the pipe.
+
+**X-AXIS DIRECTION** (2) :
+
+You can change the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
+
+**LONG WELD** (3) :
+
+You can change the **Long weld properties** :
+
+For the type, you can choose between :
+
+- None
+- Butt weld flush
+- Butt weld as welded
+
+Based on this property, define the **Long weld mismatch** [mm or in].
+
+In this example, the default values correspond to **current specification** preset :
+
+![Image](../../Images/Pipe2.jpg)
+
+Click on the **Modify** button to change the selected pipe with these new properties.
+
+You can **undo** this command.
+
+Click on the **Remove** button to delete the selected pipe.
 
 You can **undo** this command.

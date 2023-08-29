@@ -82,6 +82,8 @@ If a node is selected, you can create a new node relative to it in **Global dire
 3. Define the DX, DY, DZ, name of the new node.
 4. Define the node properties
 
+Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
+
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
 | DX | Relative distance from the selected node in X global direction | m | ft |
@@ -150,3 +152,4 @@ Click on the **Create** button to add a new lumped mass to the node.
 You can later modify or remove this object by selecting this node and click on **Modify/Remove** buttons.
 
 You can **Undo** this command.
+

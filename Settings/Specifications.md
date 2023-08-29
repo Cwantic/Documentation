@@ -70,7 +70,7 @@ Based on this property, define the **mismatch** or the **fillet length** [mm or 
 Select then the **Long weld type** of the pipe between :
 - None
 - Butt weld flush
-- Butt weld as welde
+- Butt weld as welded
 
 Based on this property, define the **Long weld mismatch** [mm or in].
 
