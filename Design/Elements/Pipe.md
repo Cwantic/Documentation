@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pipe
-nav_order: 1
+nav_order: 2
 parent: Elements
 grand_parent: Design
 ---
