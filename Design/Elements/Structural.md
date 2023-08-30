@@ -8,4 +8,11 @@ grand_parent: Design
 
 # Create structurals
 
-Documentation will come soon...
+
+
+
+## 1. Create a structural
+
+## 2. Modify/Remove a structural
+
+## 3. Insert a structural on an intermediate node

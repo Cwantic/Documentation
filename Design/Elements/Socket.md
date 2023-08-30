@@ -8,4 +8,11 @@ grand_parent: Design
 
 # Create sockets
 
-Documentation will come soon...
+
+
+
+## 1. Create a socket
+
+## 2. Modify/Remove a socket
+
+## 3. Insert a socket on an intermediate node
