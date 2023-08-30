@@ -26,7 +26,6 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 **SOCKET PROPERTIES** :
 
-
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
 | Length | m | ft |
