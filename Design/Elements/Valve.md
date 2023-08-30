@@ -87,6 +87,8 @@ You can then define the second point of the valve thanks to the **Orientation to
 
 Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.html) for more information about the orientation tool.
 
+Create the valve :
+
 ![Image](../../Images/Valve8.jpg)
 
 ## 2. Modify/Remove a valve

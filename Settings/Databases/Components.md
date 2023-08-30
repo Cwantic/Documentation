@@ -114,15 +114,15 @@ Click the **+** button to add a new bellow of a certain type :
 - Angular in all planes : *Rotations are permitted about all axes perpendicular to Z’*
 
 
-| Property | Unit Metric | Unit USA | 
-| -------- | ---- | ---- | 
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
 | Length | m | ft |
-| Distributed mass | ton | kips | 
-| Pressure area | mm² | in² | 
-| Axial stiffness| kN/mm | kips/in | 
-| Lateral stiffness | kN/mm | kips/in | 
-| Angular stiffness | kN.m/rad | kips.ft/rad | 
-| Torsional stiffness | kN.m/rad | kips.ft/rad | 
+| Distributed mass | ton | kips |
+| Pressure area | mm² | in² |
+| Axial stiffness| kN/mm | kips/in |
+| Lateral stiffness | kN/mm | kips/in |
+| Angular stiffness | kN.m/rad | kips.ft/rad |
+| Torsional stiffness | kN.m/rad | kips.ft/rad |
 
     If Torsional stiffness is zero or blank, the joint is modeled as rigid in torsion and the user should verify that the moments about the element axis Z’ are acceptable.
 
