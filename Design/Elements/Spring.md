@@ -36,6 +36,8 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 | Kry | Rotation stiffness in Y direction | kN.m/rad | kips.ft/rad |
 | Krz | Rotation stiffness in Z direction | kN.m/rad | kips.ft/rad |
 
+>The length must be defined by the **orientation tool**.
+
 **X-AXIS DIRECTION** :
 
 You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
