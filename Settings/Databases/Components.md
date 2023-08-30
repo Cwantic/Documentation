@@ -87,14 +87,13 @@ Click the **+** button to add a new flange of a certain type :
 - Socket welding
 - Blind
 
-
-| Property | Unit Metric | Unit USA | 
-| -------- | ---- | ---- | 
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
 | Length | m | ft |
-| Mass | ton | kips | 
-| Thickness factor | - | - | 
-| Diameter of the flange| mm | in | 
-| Thickness of the flange | mm | in | 
+| Mass | ton | kips |
+| Thickness factor | - | - |
+| Diameter of the flange| mm | in |
+| Thickness of the flange | mm | in |
 
     The wall thickness is increased by the thickness factor by equally increasing the outer diameter and decreasing the inner diameter, keeping the mean diameter the same as that of connected pipe. The thickness value is reduced if the wall thickness is too great. Default = 3.
 

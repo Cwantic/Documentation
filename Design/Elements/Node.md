@@ -153,3 +153,17 @@ You can later modify or remove this object by selecting this node and click on *
 
 You can **Undo** this command.
 
+---
+## 6. Modify a node
+
+Change the **Selection mode** to POINT and select a node :
+
+![Image](../../Images/Node4.jpg)
+
+Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
+
+You can change the node properties.
+
+Click on the **Modify** button to change the selected node.
+
+You can **Undo** this command.

@@ -149,7 +149,6 @@ You can change the **flexibility factor** of the reducer. If blanck, default val
 
 You can change the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
-
 **SECTION AND MATERIAL** :
 
 You can change the **specification** and **section/material** of the two extremities of the reducer.
