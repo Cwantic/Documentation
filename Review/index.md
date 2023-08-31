@@ -220,7 +220,7 @@ Click on the **Local coordinates** button :
 | Zy | m | ft |
 | Zz | m | ft |
 
-Click [here](https://documentation.metapiping.com/Design/Elements/Node.html) for more information about creation of local coordinates on node.
+Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#4-creation-of-a-local-coordinate-system) for more information about creation of local coordinates on node.
 
 The **INTERACTIVITY** is the same as explained on §5.
 
@@ -252,7 +252,7 @@ Click on the **SIF** button :
 
 If Body = Yes, Node At and Node Af correspond to the nodes of the element
 
-Click [here](https://documentation.metapiping.com/Design/Modification.html) for more information about creation of Stress Intensification Factors on nodes and elements.
+Click [here](https://documentation.metapiping.com/Design/Modification.html#5-node-sif) for more information about creation of Stress Intensification Factors on nodes and elements.
 
 Each **piping code** has its own factors.
 
@@ -283,6 +283,6 @@ Click on the **Stress On/Off** button :
 | To | Element's Node2 name |
 | Stress off | Yes or empty |
 
-Click [here](https://documentation.metapiping.com/Design/Modification.html) for more information about Stress On/Off definition.
+Click [here](https://documentation.metapiping.com/Design/Modification.html#7-stress-on/off) for more information about Stress On/Off definition.
 
 >The data are not editable
