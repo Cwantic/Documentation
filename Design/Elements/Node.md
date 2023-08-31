@@ -141,11 +141,29 @@ You can later modify or remove this object by selecting this node and click on *
 
 You can **Undo** this command.
 
+Another example with an off-axis piping :
+
+![Image](../../Images/Node5.jpg)
+
+The default global axis are :
+
+![Image](../../Images/Node6.jpg)
+
+To define the **Local X-axis** tangent to the pipe, change the vectors like this :
+
+![Image](../../Images/Node8.jpg)
+
+![Image](../../Images/Node7.jpg)
+
 ## 5. Creation of a lumped mass
 
 You can define a **lumped mass** on selected node (6) :
 
 ![Image](../../Images/Node2.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| Mass | ton | kips |
 
 Click on the **Create** button to add a new lumped mass to the node.
 
