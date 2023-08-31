@@ -198,7 +198,7 @@ Click on the **Lumped masses** button :
 | Mass | ton | kips |
 | Description | - | - |
 
-Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#creation-of-a-lumped-mass) for more information about creation of lumped mass on node.
+Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#5.-creation-of-a-lumped-mass) for more information about creation of lumped mass on node.
 
 The **INTERACTIVITY** is the same as explained on §5.
 
