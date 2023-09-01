@@ -25,18 +25,7 @@ You can now select objects of appropriate type.
 
     The selection is done by pressing the left mouse button above the desired object
 
-![Image](../Images/MouseLeft.jpg)
-
->The tab Smart is for future version
-### 1.1 Multiselection
-
-- Hold on **CTRL key** of keyboard to add multiple objects in the selection list.
-
-- Hold on **SHIFT key** of keyboard to add multiple objects in the selection list that connect each others. Select for example the element at one extremity of a line and select then the element of the opposite extremity with **SHIFT key** : all elements between the 2 selected objects will be selected.
-
-### 1.2 Clear selection
-
-- Just click in the 3D view where no objects are present without **CTRL key** pressed will clear the selection.
+Click [here](https://documentation.metapiping.com/Design/Selection.html) to have more information about the selection.
 
 ## 2. Remove elements
 

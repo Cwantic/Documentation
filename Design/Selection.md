@@ -47,6 +47,10 @@ Click on the **Tee** button to select a **tee**.
 
 The node containing the tee is highlighted and its **Name** appears in magenta.
 
+**CLEAR SELECTION** :
+
+Clicking in the 3D view where no objects are present without **CTRL key** pressed will clear the selection.
+  
 **CANCEL SELECTION** :
 
 Just press **ESC** on keyboard to hide the **selection tool**.

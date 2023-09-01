@@ -18,6 +18,8 @@ After selecting a study and pressing the **Edit** button, new tabs appear in the
 
 The **Design** screen consists of a ribbon menu (1), a 3D visualization engine (2) and a data panel on the right (3).
 
+>The **Data Panel** can be opened/closed by the shortcut **F2**
+
 ## 1. Ribbon menu
 
 ![Image](../Images/Design2.jpg)
@@ -147,6 +149,8 @@ An interactive **cube** with predefined views is shown in the bottom right corne
 ---
 
 ## 3. Data panel
+
+>The **Data Panel** can be opened/closed by the shortcut **F2**
 
 ### 3.1 PIPESTRESS editor
 
