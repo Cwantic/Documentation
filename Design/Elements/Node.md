@@ -30,7 +30,7 @@ If the selection is **EMPTY**, click on the **Add node** button to create a new 
 ![Image](../../Images/Node1.jpg)
 
 {: .warning }
->ATTENTION, the currecnt specification is important (Ex : 6" Sch 40) for the default node connection.
+>ATTENTION, the current specification is important (Ex : 6" Sch 40) for the default node connection.
 
 Fill the **GLOBAL** X, Y, Z coordinates and a name (1).
 
