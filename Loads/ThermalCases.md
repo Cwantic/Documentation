@@ -24,7 +24,7 @@ When editing, the definition window shows the **General** tab :
 
 ![Image](../Images/Load11.jpg)
 
-Enter an **Case number** and a **Title**.
+Enter a **Case number** and a **Title**.
 
 ## 2. Default transient
 

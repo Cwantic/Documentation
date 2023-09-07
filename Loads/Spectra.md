@@ -22,7 +22,7 @@ When editing, the definition window shows the **General** tab :
 
 ![Image](../Images/Load4.jpg)
 
-Enter an **Event number**, a **Name** and a **Title**.
+Enter a **Event number**, a **Name** and a **Title**.
 
 The primary and secondary floor response cases with the same **EVENT/LEVEL** will use this spectrum to describe the dynamic support movement load.
 
@@ -106,3 +106,13 @@ Click [here](https://documentation.metapiping.com/Settings/Databases/Spectra.htm
 Select a level on the right list to see the spectrum graph :
 
 ![Image](../Images/Load7.jpg)
+
+## 4. Restraints
+
+You can now select **restraints** and affect the **Level** property (set the level number) :
+
+![Image](../Images/Restraint1.jpg)
+
+You can also check the property on **Review** mode (type Restraints):
+
+![Image](../Images/Restraint10.jpg)
