@@ -7,7 +7,8 @@ parent: Loads
 
 # Spectra
 
-    This load consists of the definition of series of SPECTRUM that describe the support movement loading for each EVENT/LEVEL for primary and secondary floor response cases.
+    This load consists of the definition of series of SPECTRUM that describe the support movement loading
+    for each EVENT/LEVEL for primary and secondary floor response cases.
 
 
 When selecting **Spectra** load type, all existing loads are listed in the combobox :
