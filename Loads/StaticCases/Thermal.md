@@ -2,7 +2,7 @@
 layout: default
 title: Thermal expansion
 nav_order: 10
-parent: StaticCases
+parent: Static cases
 grand_parent: Loads
 ---
 

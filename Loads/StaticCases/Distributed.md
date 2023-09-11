@@ -2,7 +2,7 @@
 layout: default
 title: Occasional - Distributed
 nav_order: 7
-parent: StaticCases
+parent: Static cases
 grand_parent: Loads
 ---
 

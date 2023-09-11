@@ -2,7 +2,7 @@
 layout: default
 title: Occasional - SAM
 nav_order: 9
-parent: StaticCases
+parent: Static cases
 grand_parent: Loads
 ---
 

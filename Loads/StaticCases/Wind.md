@@ -2,7 +2,7 @@
 layout: default
 title: Occasional - Wind
 nav_order: 5
-parent: StaticCases
+parent: Static cases
 grand_parent: Loads
 ---
 

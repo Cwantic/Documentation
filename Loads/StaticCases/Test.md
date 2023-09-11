@@ -2,7 +2,7 @@
 layout: default
 title: Sustained - Test
 nav_order: 2
-parent: StaticCases
+parent: Static cases
 grand_parent: Loads
 ---
 
