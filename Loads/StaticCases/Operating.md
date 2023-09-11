@@ -109,6 +109,15 @@ If you check this option, you will see this **button** :
 
 ![Image](../../Images/Static11.jpg)
 
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| FX | kN | kips |
+| FY | kN | kips |
+| FZ | kN | kips |
+| MX | kN.m | kips.ft |
+| MY | kN.m | kips.ft |
+| MZ | kN.m | kips.ft |
+
 You can **undo** this command.
 
 Click on the **Remove** button to delete the force/moment on selected nodes.
