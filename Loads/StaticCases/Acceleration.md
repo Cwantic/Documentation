@@ -2,7 +2,7 @@
 layout: default
 title: Occasional - Acceleration
 nav_order: 8
-parent: StaticCases
+parent: Static cases
 grand_parent: Loads
 ---
 
