@@ -34,11 +34,11 @@ It is possible to define specific loads :
 
 1. Content densities
 
-Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.html#2-1-content-densities) for more information about content densities.
+Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.html#2_1-content-densities) for more information about content densities.
 
 2. Distributed loads
 
-Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.html##2-2-distributed-loads) for more information about distributed loads.
+Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.html#22-distributed-loads) for more information about distributed loads.
 
 3. Nodal forces and moments
 
