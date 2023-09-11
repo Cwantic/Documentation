@@ -38,8 +38,8 @@ Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.ht
 
 2. Distributed loads
 
-Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.html#2-2-distributed-loads) for more information about distributed loads.
+Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.html##2-2-distributed-loads) for more information about distributed loads.
 
 3. Nodal forces and moments
 
-Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.html#2-3-nodal-forces-and-moments) for more information about nodal forces and moments.
+Click [here](https://documentation.metapiping.com/Loads/StaticCases/Operating.html##2.3-nodal-forces-and-moments) for more information about nodal forces and moments.
