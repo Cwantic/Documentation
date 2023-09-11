@@ -7,3 +7,5 @@ grand_parent: Loads
 ---
 
 # Occasional - Wind
+
+Documentation will come soon…

@@ -7,3 +7,5 @@ grand_parent: Loads
 ---
 
 # Thermal expansion
+
+Documentation will come soon…
