@@ -56,7 +56,7 @@ The main properties of the selected transient (or the default one of the thermal
 
 Select the graph type (1) :
 
-- Evolution of the **temperatureof the fluid** during time
+- Evolution of the **temperature of the fluid** during time
 - Evolution of the **absolute pressure of the fluid** during time
 - Evolution of the **flow rate of the fluid** during time
 - Evolution of the **state of the fluid** during time

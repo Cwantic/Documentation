@@ -16,7 +16,7 @@ parent: Loads
 {: .warning }
 >Attention, to obtain the complete solution for multilevel problems, it is necessary to calculate the primary and secondary parts of the solution separately and then to combine them.
 
-MetaPiping will calculate the bounds for the primary part of the solution for displacements, rotations, forces, moments and stresses due to the dynamic support movement loading.
+MetaPiping will calculate the bounds for the **PRIMARY** part of the solution u(t) for displacements, rotations, forces, moments and stresses due to the dynamic support movement loading.
 
 When selecting **Primary floor response cases** load type, all existing loads are listed in the combobox :
 
@@ -26,7 +26,7 @@ The loads appear with the **Case number** + **Title**.
 
 ## 1. General
 
-When editing, the definition window shows the **General** tab :
+When editing, the definition window shows this screen :
 
 ![Image](../Images/Load19.jpg)
 
@@ -124,3 +124,6 @@ Level 1 for the main line.
 
 Level 2 for the secondary line.
 
+## 4. Secondary floor response cases
+
+Click [here](https://documentation.metapiping.com/Loads/SecondaryCases.html) for more information about the secondary floor response cases.
