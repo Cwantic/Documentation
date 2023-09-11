@@ -6,3 +6,5 @@ parent: Loads
 ---
 
 # Time history cases
+
+Documentation will come soon…
