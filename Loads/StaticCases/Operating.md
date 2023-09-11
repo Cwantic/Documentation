@@ -31,6 +31,8 @@ It is possible to define specific loads :
 
 ### 2.1 Content densities
 
+![Image](../../Images/Static13.jpg)
+
 You can now define the fluid density in all elements of the model.
 
 You can also define the **DEFAULT** fluid density so that you only have to define the elements that doesn't *follow* the default density.
@@ -52,6 +54,8 @@ You can **undo** this command.
 Click on the **Remove** button to delete the density on selected elements.
 
 ### 2.2 Distributed loads
+
+![Image](../../Images/Static14.jpg)
 
 You can now define distributed loads on elements of the model.
 
@@ -88,6 +92,8 @@ You can also change the size of the drawed forces by clicking on these buttons :
 ![Image](../../Images/Static9.jpg)
 
 ### 2.3 Nodal forces and moments
+
+![Image](../../Images/Static15.jpg)
 
 You can define nodal forces and moments on nodes of the model.
 
