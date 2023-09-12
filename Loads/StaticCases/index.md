@@ -18,6 +18,7 @@ When selecting **Static cases** load type, all existing loads are listed in the 
 
 The loads appear with the **Case number** + **Title**.
 
+![Image](../../Images/Load32.jpg)
 ## 1. General
 
 When editing, the definition window shows the **General** tab :
