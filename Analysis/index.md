@@ -35,7 +35,7 @@ A right panel can be opened by clicking on the top button (1). It presents the s
 
 ![Image](../Images/Analysis5.jpg)
 
->Shortcut = F2
+>Shortcut to open the data panel = F2.
 
 ## 3. Results
 
@@ -160,6 +160,10 @@ The **Data panel** shows the forces and moments (reactions) for each node.
 | MZ | Z component of the reaction moment | N.m | lb.ft |
 | F | Absolute reaction force | N | lb |
 | M | Absolute reaction moment | N.m | lb.ft |
+
+The **forces** are represented by a simple **arrow**.
+
+The **moments** are represented by a double **arrow**.
 
 >The **Selection mode** is automatically set to RESTRAINT.
 
