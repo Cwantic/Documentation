@@ -21,7 +21,9 @@ A right panel can be opened by clicking on the top button. It presents the selec
 
 ![Image](../Images/Review3.jpg)
 
->Click on the same button to hide the panel.
+>Click on the same button to hide the panel. Shortcut = F2.
+
+>TIP : you can copy the data by CTRL+C and paste on other softwares.
 
 ## 3. Select tool
 
@@ -43,7 +45,6 @@ MetaPiping let you measure the **distance** between 2 nodes :
 4. Click on the **Measure** button
 
 A window shows the projected distance in global X, Y, Z and the distance between the 2 nodes.
-
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
