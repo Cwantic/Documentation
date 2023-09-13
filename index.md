@@ -1,11 +1,10 @@
 ---
 layout: default
-title: MetaPiping 2023.1
+title: MetaPiping 2023.2
 nav_order: 1
 ---
 
 # Welcome to MetaPiping User Manual
-
 
 The new modeling and analysis software for NUCLEAR and INDUSTRIAL piping systems.
 
