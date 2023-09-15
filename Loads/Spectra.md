@@ -109,9 +109,9 @@ Select a level on the right list to see the spectrum graph :
 
 ## 4. Restraints
 
-You can now select **restraints** and affect the **Level** property (set the level number) :
+You can now select **restraints** or create one on a selected node and affect the **Level** property (set the level number) :
 
-![Image](../Images/Restraint1.jpg)
+![Image](../Images/Restraint2.jpg)
 
 You can also check the property on **Review** mode (type Restraints):
 
