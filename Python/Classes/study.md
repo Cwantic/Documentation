@@ -22,8 +22,8 @@ The **study** object gives access to several methods and can be used only in [Pr
 | createMetal() | metal | Create an empty MetaL object |
 | getMetal() | metal | Access to current MetaL object of the study |
 | getSolution() | solution | Access to current Solution object of the study |
-| getMaterialLibraryModel() | materialLibraryModel | Access to a material library by its name (without .materials) |
-| createMaterialLibraryModel() | materialLibraryModel | Create a material library by a name (without .materials) |
+| getMaterialLibraryModel() | MaterialLibraryModel | Access to a material library by its name (without .materials) |
+| createMaterialLibraryModel() | MaterialLibraryModel | Create a material library by a name (without .materials) |
 | showInformation() | - | Add a string into the description of a strudy |
 
 See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for more information.
@@ -91,6 +91,7 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 ### 2.4 getMetal()
 
 Imagine user wants to check if the 3D model exists (result as a text in Outputs[0]).
+
 ```python
 # Python script
 metal = study.getMetal()
@@ -118,3 +119,32 @@ else:
 ```
 
 See [solution](https://documentation.metapiping.com/Python/Classes/solution.html) for more information.
+
+### 2.6 getMaterialLibraryModel()
+
+Return a MaterialLibraryModel based on a name (without extension).
+
+Return **None** if the library doesn't exists.
+
+See [libraries](https://documentation.metapiping.com/Python/Classes/libraries.html) for more information about materialLibraryModel with an example.
+
+### 2.7 createMaterialLibraryModel()
+
+You can create your own library of material based on a name (without extension).
+
+Return a new empty MaterialLibraryModel or **None** if already exists.
+
+See [libraries](https://documentation.metapiping.com/Python/Classes/libraries.html) for more information about materialLibraryModel with an example.
+
+### 2.8 showInformation()
+
+This method is only accessible in script that shows informations about the MetaL and the results of the current study in **Explorer**.
+
+
+```python
+metal = study.getMetal()
+if metal != None:
+    study.showInformation('Model exists !', '') 
+```
+
+[See an example here](https://documentation.metapiping.com/Python/Samples/info.html) : Show informations about a study.

@@ -14,7 +14,7 @@ Create a script that will (after pressing a **button** in the ribbon) replace a 
 
 ![Image](../../Images/illustration256x165.png)
 
->This feature does not exists in MetaPiping 2023.0 so it is usefull that user can create his own COMMANDS based on the MetaL internal format and the existing documented commands.
+>This feature does not exists in MetaPiping 2023.2 so it is usefull that user can create his own COMMANDS based on the MetaL internal format and the existing documented commands.
 
 >Since the user will have to create a COMMAND, the application will manage the undo/redo operations by itself !
 
@@ -90,7 +90,7 @@ import wx
 import os
 
 class Frame(wx.Frame):
-    def __init__(self, parent, id, title, app):
+    def __init__(self, parent, id, title, app, defaultsize, defaultRadius):
         wx.Frame.__init__(self, parent, id, title, size=(300, 310))
         self.app = app
         
@@ -103,13 +103,13 @@ class Frame(wx.Frame):
         text = wx.StaticText(panel, -1, "L =", pos = (10, 183))
         text.SetSize(text.GetBestSize())
         
-        self.edit = wx.TextCtrl(panel, -1, "1", size=(100, -1), pos = (50, 180))
+        self.edit = wx.TextCtrl(panel, -1, str(defaultsize), size=(100, -1), pos = (50, 180))
         self.edit.SetInsertionPoint(0)
         
         text2 = wx.StaticText(panel, -1, "R =", pos = (10, 213))
         text2.SetSize(text2.GetBestSize())
         
-        self.edit2 = wx.TextCtrl(panel, -1, "0.1", size=(100, -1), pos = (50, 210))
+        self.edit2 = wx.TextCtrl(panel, -1, str(defaultRadius), size=(100, -1), pos = (50, 210))
         self.edit2.SetInsertionPoint(0)
         
         btn = wx.Button(panel, -1, "Run", size=(100, 20), pos = (100, 240))
@@ -124,11 +124,11 @@ class Frame(wx.Frame):
 
 
 class App(wx.App):
-    def __init__(self):
+    def __init__(self, defaultsize, defaultRadius):
         wx.App.__init__(self)
         self.Lvalue = ""
         self.Rvalue = ""
-        self.frame = Frame(None, wx.ID_ANY, "Loop definition", self)
+        self.frame = Frame(None, wx.ID_ANY, "Loop definition", self, defaultsize, defaultRadius)
         self.SetTopWindow(self.frame)
         self.frame.Show(True)
         
@@ -143,11 +143,17 @@ class App(wx.App):
         
     def GetLValue(self):
         return self.Lvalue
-
 ```
 
 Save it !
 
+This will create a window with an illustration and 2 edits, one for the length and one for the radius.
+
+You can set the **default values** in the parameters of the App.
+
+GetLValue() gives the user length.
+
+GetRValue() gives the user radius.
 ## 5. Script properties
 
 In this kind of script, user has to define the **button** :
@@ -165,16 +171,20 @@ Select the file.
 Copy/paste this code in the Editor :
 
 ```python
+############################
+# CWANTIC LOOP GUI EXAMPLE #
+############################
+
 from window import App
 from trigonometry import cross, normalize
-from Cwantic.MetaPiping.Core import CurrentPipingValues, CurrentTeeValues
+from Cwantic.MetaPiping.Core import CurrentPipingValues, RemoveElementCommand, AddNodeCommand, DrawPipingCommand, InsertBendCommand
    
 # Inspect selection
 n = len(design.selectedList)
 res = "Select a pipe !"
 
 if n==1:
-    # Check the type of selected
+    # Check the type of selected element
     if design.isType(design.selectedList[0], "Pipe"):
         pipe = design.selectedList[0]
         p1 = pipe.Node1.Coor
@@ -183,23 +193,23 @@ if n==1:
         # Get the current model
         model = design.getMetal()
         
-        # Get the scene vertical vector
+        # Get the scene vertical vector (+Z or +Y)
         verticalvec = design.getVerticalVector()
         
-        # Get the piping values (section, material,...) of the selected pipe
-        currentPipingValues = CurrentPipingValues.CreateCurrentPipingValuesFromPiping(model, pipe)
+        # Get the current piping values (section, material, radius,...)
+        currentPipingValues = design.getCurrentPipingValues()
         
-        # Create empty Tee values (not important for the loop but mandatory for the pipe command)
-        currentTeeValues = CurrentTeeValues()
+        # Memorize current radius
+        currentRadius = currentPipingValues.MKS_BendRadius
         
         # Get the pipe direction vector
         vec1 = (pipe.DL.X, pipe.DL.Y, pipe.DL.Z)
         
-        # Compute the cross product to determine the loope direction
+        # Compute the cross product to determine the loop direction
         dir = cross(vec1, verticalvec)
         dir = normalize(dir)
 
-        # Create a new USER command
+        # Create a new USER command : cmd
         cmd = design.createCommand("AddLoop")
         
         # 1 : Remove the selected pipe
@@ -210,83 +220,95 @@ if n==1:
         
         # 1.2 : Add sub command to user command cmd
         valid = cmd.addSubCommand("RemoveElementCommand", params)
-        
+
         if valid:
-            # 2 : Create new pipe perpendicular to selected pipe from node1
-            
-            # Remark : the bends are automatically made by the "AddPipeCommand"
-            
-            # 2.0 : Launch window to get loop's size and bend radius
-            app = App()
+            # 2.0 : Launch window to get loop's size and bend radius. Default size = 1.0, default radius = currentRadius
+            app = App(1.0, currentRadius)
             app.MainLoop()
             
+            # retrieve the size and radius from the app
             size = float(app.GetLValue())
-            currentPipingValues.BendRadius = float(app.GetRValue())
-            currentPipingValues.ReducerLength = 0.0
+            # Set the new Radius for next commands
+            currentPipingValues.MKS_BendRadius = float(app.GetRValue())
+                        
+            # TIP : Create 2 new nodes (N3 and N4) with "AddNodeCommand"
+            node1Cmd = AddNodeCommand(model, p1.X + size*dir[0], p1.Y + size*dir[1], p1.Z + size*dir[2], "", False, currentPipingValues)
+            N3 = node1Cmd.Node
             
-            # 2.1 : Create params for command "AddPipeCommand" (see Help)
+            node2Cmd = AddNodeCommand(model, p2.X + size*dir[0], p2.Y + size*dir[1], p2.Z + size*dir[2], "", False, currentPipingValues)
+            N4 = node2Cmd.Node
+            # Create new pipe perpendicular to selected pipe from node1
+
+            # 2.1 : Create params for command "DrawPipingCommand" (see Help)
             params = []
-            params.append(p1.X)
-            params.append(p1.Y)
-            params.append(p1.Z)
-            params.append(p1.X + size*dir[0])
-            params.append(p1.Y + size*dir[1])
-            params.append(p1.Z + size*dir[2])
+            params.append(pipe.Node1)
+            params.append(N3)
+            params.append(size*dir[0])
+            params.append(size*dir[1])
+            params.append(size*dir[2])
             params.append(0.0)
             params.append(0.0)
             params.append(0.0)
-            params.append(currentTeeValues)
             params.append(currentPipingValues)
             
             # 2.2 : Add sub command
-            valid = cmd.addSubCommand("AddPipeCommand", params)
-        
+            valid = cmd.addSubCommand("DrawPipingCommand", params)
+
             if valid:
                 # 3 : Create new pipe parallel to selected pipe
              
-                # 3.1 : Create params for command "AddPipeCommand" (see Help)
+                # 3.1 : Create params for command "DrawPipingCommand" (see Help)
                 params = []
-                params.append(p1.X + size*dir[0])
-                params.append(p1.Y + size*dir[1])
-                params.append(p1.Z + size*dir[2])
-                params.append(p2.X + size*dir[0])
-                params.append(p2.Y + size*dir[1])
-                params.append(p2.Z + size*dir[2])
+                params.append(N3)
+                params.append(N4)
+                params.append(vec1[0])
+                params.append(vec1[1])
+                params.append(vec1[2])
                 params.append(0.0)
                 params.append(0.0)
                 params.append(0.0)
-                params.append(currentTeeValues)
                 params.append(currentPipingValues)
 
                 # 3.2 : Add sub command
-                valid = cmd.addSubCommand("AddPipeCommand", params)
-                
+                valid = cmd.addSubCommand("DrawPipingCommand", params)
+
                 if valid:
                     # 4 : Create new pipe to close the loop
                     
-                    # 4.1 : Create params for command "AddPipeCommand" (see Help)
+                    # 4.1 : Create params for command "DrawPipingCommand" (see Help)
                     params = []
-                    params.append(p2.X + size*dir[0])
-                    params.append(p2.Y + size*dir[1])
-                    params.append(p2.Z + size*dir[2])
-                    params.append(p2.X)
-                    params.append(p2.Y)
-                    params.append(p2.Z)
+                    params.append(N4)
+                    params.append(pipe.Node2)
+                    params.append(-size*dir[0])
+                    params.append(-size*dir[1])
+                    params.append(-size*dir[2])
                     params.append(0.0)
                     params.append(0.0)
                     params.append(0.0)
-                    params.append(currentTeeValues)
                     params.append(currentPipingValues)
                 
                     # 4.2 : Add sub command
-                    valid = cmd.addSubCommand("AddPipeCommand", params)
-                    
+                    valid = cmd.addSubCommand("DrawPipingCommand", params)
+                
+                    if valid:
+                        # 5 : Insert a bend at the last node
+
+                        # 5.1 Create params for command "InsertBendCommand"
+                        params = []
+                        params.append(pipe.Node2)
+                        params.append(currentPipingValues)
+                        
+                        # 5.2 : Add sub command
+                        valid = cmd.addSubCommand("InsertBendCommand", params)
+               
         # Execute command
         if valid:
             design.executeCommand(cmd)
             res = ""
         else:
             res = "Incorrect params"
+        # Restore the radius
+        currentPipingValues.MKS_BendRadius = currentRadius
     else:
         res = "The selected element is not a pipe"
     

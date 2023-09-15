@@ -26,7 +26,9 @@ This object gives you access to the objects in selection, some current propertie
 | addText() | - | Add a text on left panel |
 | addSeparator() | - | Add a line separator on left panel |
 | result | - | Set a message as output (empty = no message) |
-
+| getCurrentLayer() | Layer | Return the current layer |
+| getCurrentJointType() | JointType | Return the current joint type |
+| getCurrentPipingValues() | CurrentPipingValues | Return the current piping values (section, material, diameter, radius...) |
 
 ## 2. selectedList
 

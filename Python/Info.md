@@ -41,4 +41,4 @@ The main usefull functions are ***getMetal()***, ***getSolution()*** and  ***sho
 
 ## 2. Example
 
-[See an example here](https://documentation.metapiping.com/Python/Samples/info.html) : Show informations about a study
+[See an example here](https://documentation.metapiping.com/Python/Samples/info.html) : Show informations about a study.

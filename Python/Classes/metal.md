@@ -53,4 +53,4 @@ The class **metal** also provides lists of the objects contained in the piping m
 | Layers | List of **Layer** |
 | Specifications | List of the specification names (string) |
 
-
+Other properties can be explained on demand...

@@ -142,62 +142,60 @@ See an example of creation of a [CurrentTeeValues](https://documentation.metapip
 
 The **CurrentPipingValues** object contains all properties needed for piping element as layer, material, section, bend radius...
 
-The easiest way to create a **CurrentPipingValues** object is to create one from an existing piping element (pipe, bend, reducer...), for example from a selected element.
+The easiest way to create a **CurrentPipingValues** object is to get the **current one** from design:
 
 ```python
 # Python script
 from Cwantic.MetaPiping.Core import CurrentPipingValues
 
-...
-
-piping = design.selectedList[0]
-model = design.getMetal()
-
-currentPipingValues = CurrentPipingValues.CreateCurrentPipingValuesFromPiping(model, piping)
+currentPipingValues = design.getCurrentPipingValues()
 ```
+
+More properties can be explained on demand...
 
 ---
 ## 5. Commands
 
 
-### 5.1 AddPipeCommand
+### 5.1 DrawPipingCommand
 
 | Param | Type | Description |
 | ---- | ----------- | ----------- |
-| X1 | Length  | X value of start point |
-| Y1 | Length  | Y value of start point |
-| Z1 | Length  | Z value of start point |
-| X2 | Length  | X value of end point |
-| Y2 | Length  | Y value of end point |
-| Z2 | Length  | Z value of end point |
-| localX | Length  | X value of local axis |
-| localY | Length  | Y value of local axis |
-| localZ | Length  | Z value of local axis |
-| teeValues | CurrentTeeValues  | Current tee properties (see §4.1) |
-| pipingValues | CurrentPipingValues  | Current piping properties (see §4.2) |
+| Node1 | Node  | First extremity of the pipe - cannot be None |
+| Node2 | Node  | Second extremity of the pipe - can be None |
+| DX | Float  | Distance along X axis of end point from Node1 |
+| DY | Float  | Distance along Y axis of end point from Node1 |
+| DZ | Float  | Distance along Z axis of end point from Node1 |
+| LocalX | Float  | X value of local axis |
+| LocalY | Float  | Y value of local axis |
+| LocalZ | Float  | Z value of local axis |
+| PipingValues | CurrentPipingValues  | Current piping properties (see §4.2) |
 
-Rem : localX, localY, localZ can be set to (0, 0, 0)
+Rem : LocalX, LocalY, LocalZ can be set to (0, 0, 0)
 
-See [Units](https://documentation.metapiping.com/Design/units.html) for explanation of Length unit.
-
-Imagine a customCommand cmd, a point p1 (Point3D), a size of pipe (float), a direction (Vector3D), a currentTeeValues and a currentPipingValues, here is how to create a pipe :
+Imagine a customCommand cmd, a first node N1, a second node N2, a size of pipe (float), a direction (Vector3D), a currentPipingValues, here is how to create a pipe  :
 
 ```python
 # Python script
 params = []
-params.append(p1.X)
-params.append(p1.Y)
-params.append(p1.Z)
-params.append(p1.X + size*dir[0])
-params.append(p1.Y + size*dir[1])
-params.append(p1.Z + size*dir[2])
+params.append(N1)
+params.append(N2)
+params.append(size*dir[0])
+params.append(size*dir[1])
+params.append(size*dir[2])
 params.append(0.0)
 params.append(0.0)
 params.append(0.0)
-params.append(currentTeeValues)
 params.append(currentPipingValues)
 
-valid = cmd.addSubCommand("AddPipeCommand", params)
+valid = cmd.addSubCommand("DrawPipingCommand", params)
+```
+
+You can also write the command in this way :
+
+```python
+# Python script
+valid = cmd.addSubCommand("DrawPipingCommand", [N1, N2, size*dir[0], size*dir[1], size*dir[2], 0.0, 0.0, 0.0, currentPipingValues])
 ```
 
 5.2 RemoveElementCommand
@@ -218,6 +216,17 @@ params.append(design.selectedList)
 valid = cmd.addSubCommand("RemoveElementCommand", params)
 ```
 
+You can also write the command in this way :
+
+```python
+# Python script
+valid = cmd.addSubCommand("RemoveElementCommand", [design.selectedList])
+```
+
 5.3 Other commands
 
 Other commands can be explained on demand...
+
+5.4 Example
+
+Click [here](https://documentation.metapiping.com/Python/Samples/lyre.html) for a complete example using custom commands : Create a loop.
