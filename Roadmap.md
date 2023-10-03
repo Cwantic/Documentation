@@ -25,7 +25,7 @@ has_children: false
 ### *Main features*
 
 * MetaStructure : advanced structural/pipe supports/assemblies/anchor plates calculation - fully integrated to MetaPiping
-* EDF composite & PEHD code
+* EDF composite & HDPE code
 * Underground/buried piping code
 * CODETI & ASME B31.3 for industrial piping
 * Requests from the user community
