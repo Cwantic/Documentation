@@ -7,7 +7,8 @@ parent: Loads
 
 # Spectra
 
-    This case consists of the definition of series of SPECTRA that describe the support movement loading for primary and secondary floor response cases.
+    This case consists of the definition of series of SPECTRA that describe the support movement loading
+    for primary and secondary floor response cases.
 
 When selecting **Spectra**, all existing spectra are listed in the combobox :
 

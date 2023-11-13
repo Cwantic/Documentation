@@ -7,7 +7,9 @@ parent: Loads
 
 # Thermal cases (Class 1 only)
 
-    This case consists of the definition of TRANSIENTS that describes the evolution of the fluid temperature (*) during time inside the pipes. Additional stresses will result from the temperature gradients.
+    This case consists of the definition of TRANSIENTS that describes the evolution of the fluid
+    temperature (*) during time inside the pipes. Additional stresses will result from the 
+    temperature gradients.
     (*) also absolute pressure, flow rate, state or film coefficient.
 
 When selecting **Thermal cases**, all existing thermal cases are listed in the combobox :

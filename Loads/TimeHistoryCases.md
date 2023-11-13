@@ -7,7 +7,9 @@ parent: Loads
 
 # Time history cases
 
-    This case consists of dynamic forces and moments applied to some nodes of the model. The solution is obtained using the modal superposition method. The time histories are entered in an external THF file connected to the study beforehand.
+    This case consists of dynamic forces and moments applied to some nodes of the model. The solution
+    is obtained using the modal superposition method. Time histories are entered in an external THF
+    file connected to the study beforehand.
 
 When selecting **Time history cases**, all existing time history cases are listed in the combobox :
 

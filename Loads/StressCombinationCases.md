@@ -7,7 +7,9 @@ parent: Loads
 
 # Stress combination cases
 
-    This load consists of combining the results of load cases, dynamic cases or previously calculated combination cases to form a new case and of calculating additive stresses which are based on the resultant moments of the constituent cases.
+    This case consists of combining the results of load cases, dynamic cases or previously calculated
+    combination cases to form a new case and of calculating additive stresses which are based on the
+    resultant moments of the constituent cases.
 
 {: .warning }
 > ATTENTION, this case may be used for all piping codes except Class 1 and ASME HDPE Code.

@@ -11,7 +11,9 @@ MetaPiping comes with its built-in solver based on the finite element program Co
 
 ## 1. Code_Aster
 
-    Code_Aster offers a full range of multiphysical analysis and modeling methods that go well beyond the standard functions of a thermomechanical calculation code: from seismic analysis to porous media via acoustics, fatigue, stochastic dynamics, etc.
+    Code_Aster offers a full range of multiphysical analysis and modeling methods that go well beyond the 
+    standard functions of a thermomechanical calculation code: from seismic analysis to porous media via 
+    acoustics, fatigue, stochastic dynamics, etc.
 
 The following features are currently implemented in Code_Aster based solver :
 

@@ -7,9 +7,11 @@ parent: Loads
 
 # Load sets (Class 1 only)
 
-    A load set is a specific combination of load cases assumed to act simultaneously on a piping system at a given instant.
-    Pairs of load sets are employed in pipe stress analysis to determine physical changes in the system from one load set instant to another.
-    Typical load set parameters, which may occur in various combinations, are : pressure, temperature, moment and thermal transient effects.
+    A load set is a specific combination of load cases assumed to act simultaneously on a
+    piping system at a given instant. Pairs of load sets are employed in pipe stress analysis
+    to determine physical changes in the system from one load set instant to another.
+    Typical load set parameters, which may occur in various combinations, are : pressure,
+    temperature, moment and thermal transient effects.
 
 When selecting **Load sets**, all existing load sets are listed in the combobox :
 

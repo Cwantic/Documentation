@@ -7,8 +7,11 @@ parent: Loads
 
 # Primary floor response cases
 
-    This load describes the floor response spectra for each support level. This analysis is used to obtain bound solutions for simple multilevel cases (including single level cases) for which the dynamic loading is entirely due to movements at the support points.
-    The "levels" are groups of supports which are moving in parallel and are entered using the level number field on supports.
+    This load describes the floor response spectra for each support level. This analysis is used to
+    obtain bound solutions for simple multilevel cases (including single level cases) for which the
+    dynamic loading is entirely due to movements at the support points.
+    The "levels" are groups of supports which are moving in parallel and are entered using the level
+    number field on supports.
 
 {: .warning }
 >Attention, to obtain the complete solution for multilevel problems, it is necessary to calculate the primary and secondary parts of the solution separately and then to combine them.

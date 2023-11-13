@@ -7,7 +7,8 @@ parent: Loads
 
 # Combination cases
 
-    This case consists of combining the results of load cases, dynamic cases or previously calculated combination cases to form a new case.
+    This case consists of combining the results of load cases, dynamic cases or previously calculated
+    combination cases to form a new case.
 
 When selecting **Combination cases**, all existing combinations are listed in the combobox :
 
