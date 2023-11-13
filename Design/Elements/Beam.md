@@ -64,7 +64,7 @@ Based on **type**, you have to define different section properties.
 | Moment of Inertia About Y' Axis : Iy | mm^4 | in^4 |
 | Torsional Constant : It  | mm^4 | in^4 |
 
-    To know the UNIT of a property, just let the mouse over the property name. 
+    To know the UNIT of a property, just move the mouse over the property name. 
 
 - All other types :
 

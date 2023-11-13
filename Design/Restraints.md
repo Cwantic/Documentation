@@ -7,7 +7,7 @@ parent: Design
 
 # Restraints
 
-MetaPiping let you create several type of restraint on nodes :
+MetaPiping lets you create several types of restraints on nodes :
 
 - Anchors
 - Multiple restraints
@@ -19,7 +19,7 @@ MetaPiping let you create several type of restraint on nodes :
 
 ## 1. Database
 
-You can create **Catalogs** of restraints in database :
+You can create **Catalogs** of restraints in the database :
 
 ![Image](../Images/Support1.jpg)
 
@@ -44,17 +44,17 @@ Select the type **Anchor** :
 | KΘy | Rotational Spring Constant acting in Y direction | kN.m/rad | Kips.ft/rad |
 | KΘz | Rotational Spring Constant acting in Z direction | kN.m/rad | Kips.ft/rad |  
 
-    To know the UNIT of the value, just let the mouse over the cell. 
+    To know the UNIT of the value, just move the mouse over the cell. 
 
-You can change the coordinate system that define the directions X,Y,Z :
+You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
 - Local to preceding element
 - Local to following element
 
-The **Level** ident is used to identify spectra for multilevel floor response spectrum analysis.
+The **Level** is used to identify the spectrum applied to this anchor for multilevel floor response spectrum analysis.
 
-You can later modify or remove this object by selecting this restraint and click on **Modify/Remove** buttons.
+You can later modify or remove this anchor by selecting it and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
@@ -77,15 +77,15 @@ Select the type **Multiple restraint** :
 | Ry | Checked if there is a fixed rigid rotational restraint about Y axis |
 | Rz | Checked if there is a fixed rigid rotational restraint about Z axis |
 
-You can change the coordinate system that define the directions X,Y,Z :
+You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
 - Local to preceding element
 - Local to following element
 
-The **Level** ident is used to identify spectra for multilevel floor response spectrum analysis.
+The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
-You can later modify or remove this object by selecting this restraint and click on **Modify/Remove** buttons.
+You can later modify or remove this restraint by selecting it and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
@@ -108,7 +108,7 @@ Select the type **Rotational restraint** :
 
 >if Sp is blanck = rigid, which is modeled by using a value of 1.13 x 10^9 kN.m/rad or 8.33 x 10^8 Kips.ft/rad.
  
-    To know the UNIT of the value, just let the mouse over the cell. 
+    To know the UNIT of the value, just move the mouse over the cell. 
 
 The **Database** button on upper right corner gives an access to the libraries :
 
@@ -116,15 +116,15 @@ The **Database** button on upper right corner gives an access to the libraries :
 
 Select a library on the left treeview, then select a row that represents a predefined restraint. Some values are just informative. Click **OK**. The properties are copied to the restraint screen.
 
-You can change the coordinate system that define the directions X,Y,Z :
+You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
 - Local to preceding element
 - Local to following element
 
-The **Level** ident is used to identify spectra for multilevel floor response spectrum analysis.
+The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
-You can later modify or remove this object by selecting this restraint and click on **Modify/Remove** buttons.
+You can later modify or remove this restraint by selecting it and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
@@ -148,19 +148,19 @@ Select the type **Restraint** :
 >if Sp is blanck = rigid, which is modeled by using a value of 8.75 x 10^5
  N/mm or 5 x 10^6 lb/in.
 
-    To know the UNIT of the value, just let the mouse over the cell. 
+    To know the UNIT of the value, just move the mouse over the cell. 
 
 The **Database** button on upper right corner gives an access to the libraries.
 
-You can change the coordinate system that define the directions X,Y,Z :
+You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
 - Local to preceding element
 - Local to following element (**in yellow in the picture**)
 
-The **Level** ident is used to identify spectra for multilevel floor response spectrum analysis.
+The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
-You can later modify or remove this object by selecting this restraint and click on **Modify/Remove** buttons.
+You can later modify or remove this restraint by selecting it and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
@@ -184,19 +184,19 @@ Select the type **Snubber** :
 >if Sp is blanck = rigid, which is modeled by using a value of 2.625 x 10^5
  N/mm or 1.5 x 10^6 lb/in.
 
-    To know the UNIT of the value, just let the mouse over the cell. 
+    To know the UNIT of the value, just move the mouse over the cell. 
 
 The **Database** button on upper right corner gives an access to the libraries.
 
-You can change the coordinate system that define the directions X,Y,Z :
+You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
 - Local to preceding element (**in yellow in the picture**)
 - Local to following element
 
-The **Level** ident is used to identify spectra for multilevel floor response spectrum analysis.
+The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
-You can later modify or remove this object by selecting this restraint and click on **Modify/Remove** buttons.
+You can later modify or remove this restraint by selecting it and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
@@ -221,19 +221,19 @@ Select the type **Variable support spring hanger** :
 >if Sp is blanck = rigid, which is modeled by using a value of 8.75 x 10^5
  N/mm or 5 x 10^6 lb/in.
 
-    To know the UNIT of the value, just let the mouse over the cell. 
+    To know the UNIT of the value, just move the mouse over the cell. 
 
 The **Database** button on upper right corner gives an access to the libraries.
 
-You can change the coordinate system that define the directions X,Y,Z :
+You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
 - Local to preceding element
 - Local to following element
 
-The **Level** ident is used to identify spectra for multilevel floor response spectrum analysis.
+The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
-You can later modify or remove this object by selecting this restraint and click on **Modify/Remove** buttons.
+You can later modify or remove this rstraint by selecting it and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
@@ -254,18 +254,18 @@ Select the type **Constant support hanger** :
 | Dz | Z direction of the restraint  | - | - |
 | Force | Pre-compression/pre-tension force | kN | Kips |
 
-    To know the UNIT of the value, just let the mouse over the cell. 
+    To know the UNIT of the value, just move the mouse over the cell. 
 
 The **Database** button on upper right corner gives an access to the libraries.
 
-You can change the coordinate system that define the directions X,Y,Z :
+You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
 - Local to preceding element
 - Local to following element
 
-The **Level** ident is used to identify spectra for multilevel floor response spectrum analysis.
+The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
-You can later modify or remove this object by selecting this restraint and click on **Modify/Remove** buttons.
+You can later modify or remove this restraint by selecting it and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.

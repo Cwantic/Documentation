@@ -15,7 +15,7 @@ After designing the whole model, set the loading and review the data, click on t
 
 ### 1.1 Solver
 
-**Code Aster** is the main SOLVER of MetaPiping. The selection of the solver is done on the **Study** screen :
+**Code Aster** is the main SOLVER of MetaPiping. The selection of the solver is done in the **Study** screen :
 
 ![Image](../Images/Analysis1.jpg)
 
@@ -23,11 +23,10 @@ Click [here](https://documentation.metapiping.com/Explorer/Study.html) to have m
 
 ### 1.2 PIPESTRESS solver
 
-For the users of EditPipe, it is also possible to connect the PIPESTRESS solver.
+For Editpipe users, it is also possible to connect to PIPESTRESS solver.
 
 Click [here](https://documentation.metapiping.com/Settings/General.html#5-pipestress) to have more information about PIPESTRESS settings.
 
-Click [here](https://documentation.metapiping.com/Analysis/Solver.html#3-major-differences) to see the differences between all proposed solvers.
 
 ## 2. Data panel
 
@@ -43,7 +42,7 @@ Click on the **RUN** button :
 
 ![Image](../Images/Analysis3.jpg)
 
-After several seconds, the results of the analysis are shown. This panel will appear :
+After a few seconds, the results of the analysis are shown. This panel will appear :
 
 ![Image](../Images/Analysis4.jpg)
 
@@ -60,13 +59,17 @@ The combobox shows all calculated load cases :
 
 ![Image](../Images/Analysis7.jpg)
 
-The loading can be defined [here](https://documentation.metapiping.com/Loads/index.html).
+The loadings can be defined [here](https://documentation.metapiping.com/Loads/index.html).
 
 The **Modes** are generared if the **Extract modes** is checked in the **Model options** screen :
 
 ![Image](../Images/Analysis6.jpg)
 
 Click [here](https://documentation.metapiping.com/Design/Specification/Options.html) to have more information about the model options.
+
+
+A special load case "Fatigue" is added at the bottom of the combobox for Class 1 piping codes (Code Aster solver only). It allows to visualize the results of the detailed fatigue analysis : elastic shakedown (Eq. 10), usage factor, thermal ratchet, etc.
+
 
 ### 3.2 Displacements
 
@@ -84,13 +87,13 @@ The **Data panel** shows the global displacements for each node.
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
 | Node name | Text or number | - | - |
-| DX | X global displacement | m | ft |
-| DY | Y global displacement  | m | ft |
-| DZ | Z global displacement  | m | ft |
+| DX | X global displacement | mm | in |
+| DY | Y global displacement  | mm | in |
+| DZ | Z global displacement  | mm | in |
 | RX | X global rotation | Rad | Rad |
 | RY | Y global rotation  | Rad | Rad |
 | RZ | Z global rotation  | Rad | Rad |
-| D | global absolute displacement | m | ft |
+| D | global absolute displacement | mm | in |
 | R | global absolute rotation | Rad | Rad |
 
 >The **Selection mode** is automatically set to POINT.
@@ -105,7 +108,7 @@ You can amplify the displacement by changing the factor cursor.
 
 ![Image](../Images/Analysis9.jpg)
 
->TIP : you can copy the data by CTRL+C and paste on other softwares.
+>TIP : you can copy the data by CTRL+C and paste in other softwares.
 
 ### 3.3 Forces and moments
 
@@ -177,11 +180,9 @@ The **moments** are represented by a double **arrow**.
 
 ![Image](../Images/Analysis12.jpg)
 
-The type of results are **code dependent**
+The results are **code dependent**. The third colum shows the stress ratio, defined as the calculated stress divided by the allowable stress.
 
-    Documentation will come soon…
-
-You can also visualize the max stress :
+The stresses are shown at each extremity of the elements. The maximum stresses of both extremities may be displayed instead by checking "Show max element stress" :
 
 ![Image](../Images/Analysis14.jpg)
 

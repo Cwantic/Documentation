@@ -15,14 +15,14 @@ Click on **Organize** button to access the explorer panel.
 
 You can organize your projects in the left panel.
 
-Right click on **Projects** let you :
+Right click on **Projects** lets you :
 
 ![Image](../Images/Explorer2.jpg)
 
 - Add a new project
 - Add a new folder
 
-Select a **folder** (Ex : Group A). Right click on it let you :
+Select a **folder** (Ex : Group A). Right click on it lets you :
 
 ![Image](../Images/Explorer3.jpg)
 
@@ -30,7 +30,7 @@ Select a **folder** (Ex : Group A). Right click on it let you :
 - Add a new sub-folder
 - Delete the current folder
 
-Select a **project** (Ex : Demo). Right click on it let you :
+Select a **project** (Ex : Demo). Right click on it lets you :
 
 ![Image](../Images/Explorer4.jpg)
 
@@ -52,13 +52,13 @@ You can have general information about one study by selecting a thumbnail :
 
 ![Image](../Images/Explorer8.jpg)
 
-To edit a project or a study, just **double click** on a thumbnail of any study (1).
+To edit a project or a study, just **double click** on the thumbnail of any study (1).
 
 To edit a specific study, **click** on button (2).
 
 ## 3. Python script
 
-A **Python script** can be created to explore the current **MetaL** and **results** of the study and present your own informations.
+A **Python script** can be created to explore the current **MetaL** and **results** of the study and show your own information.
 
 ![Image](../Images/Explorer7.jpg)
 

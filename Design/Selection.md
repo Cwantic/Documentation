@@ -7,7 +7,7 @@ parent: Design
 
 # Selection
 
-MetaPiping let you select one or multiple objects of the same type.
+MetaPiping lets you select one or multiple objects of the same type.
 
 Click on the **Select** button to open the **Selection tool** :
 
@@ -77,7 +77,7 @@ For **Element** and **Restraint**, it is possible to make a rectangular selectio
 2. Move the mouse without releasing the left mouse button
 3. Release the left mouse button
 
-Every objects that intersect the **rectangle** will be selected (in magenta).
+Every object that intersects the **rectangle** will be selected (in magenta).
 
 **MULTIPLE SELECTION** :
 
@@ -97,4 +97,4 @@ You can make continuous selection by pressing the **SHIFT** key on keyboard and 
 
 ![Image](../Images/Selection8.jpg)
 
-Every objects between the 2 elements will be selected (in magenta).
+Every object between the 2 elements will be selected (in magenta).
