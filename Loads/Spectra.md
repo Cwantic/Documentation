@@ -7,24 +7,24 @@ parent: Loads
 
 # Spectra
 
-    This load consists of the definition of series of SPECTRUM that describe the support movement loading
-    for each EVENT/LEVEL for primary and secondary floor response cases.
+    This case consists of the definition of series of SPECTRA that describe the support movement loading
+    for primary and secondary floor response cases.
 
-When selecting **Spectra** load type, all existing loads are listed in the combobox :
+When selecting **Spectra**, all existing spectra are listed in the combobox :
 
 ![Image](../Images/Load3.jpg)
 
-The loads appear with the **Event number** + **Title**.
+The spectra appear with their **Event number** + **Title**.
+
+When editing, the definition window shows up :
 
 ## 1. General
 
-When editing, the definition window shows the **General** tab :
-
 ![Image](../Images/Load4.jpg)
 
-Enter a **Event number**, a **Name** and a **Title**.
+Enter an **Event number**, a **Name** and a **Title**.
 
-The primary and secondary floor response cases with the same **EVENT/LEVEL** will use this spectrum to describe the dynamic support movement load.
+The primary and secondary floor response cases with the same **EVENT** will use the spectra defined herein.
 
 <ins>X axis</ins> :
 
@@ -47,7 +47,7 @@ This method is used for peak broadening. 0 or blank = no shift.
 
 <ins>Percent damping</ins> :
 
-Documentation will come soon…
+The damping is used to determine the intermodal correlation factors for the double sum, Rosenblueth and Der Kiureghian methods.
 
 <ins>Duration</ins> :
 
@@ -57,7 +57,7 @@ Duration of earthquake (in seconds).
 
 ## 2. Level definition
 
-In this tab, you can create/remove **LEVELS** for the same level **EVENT** :
+In this tab, you can create/remove **LEVELS** for the same **EVENT** :
 
 ![Image](../Images/Load5.jpg)
 
@@ -67,17 +67,17 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 <ins>DX, DY, DZ</ins> :
 
-Global X, Y, Z displacements (mm, in). Informative.
+Maximum expected X, Y, Z displacements (mm, in).
 
 <ins>Phase</ins> :
 
-Documentation will come soon…
+The response for levels with the same phase number > 0 are assumed to be in phase and will be added algebraically.
 
 <ins>Spectrum in direction X, Y, Z</ins> :
 
 Enter **acceleration** for each **frequency/period**.
 
->Attention, the frequency/period must be entered in ascending order
+>Attention, the frequency/period must be entered in ascending order.
 
 The possible cases are :
 
@@ -89,7 +89,7 @@ The possible cases are :
 
 <ins>F1 and F2</ins> :
 
-Documentation will come soon…
+Low frequency f1 and high frequency f2 for Gupta and Lindley-Yow methods.
 
 ### 2.1 Database
 

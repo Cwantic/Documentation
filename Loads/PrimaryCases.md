@@ -10,23 +10,23 @@ parent: Loads
     This load describes the floor response spectra for each support level. This analysis is used to
     obtain bound solutions for simple multilevel cases (including single level cases) for which the
     dynamic loading is entirely due to movements at the support points.
-    The "levels" are groups of support points which are moving in parallel and are entered using the
-    level number field on support.
+    The "levels" are groups of supports which are moving in parallel and are entered using the level
+    number field on supports.
 
 {: .warning }
 >Attention, to obtain the complete solution for multilevel problems, it is necessary to calculate the primary and secondary parts of the solution separately and then to combine them.
 
 MetaPiping will calculate the bounds for the **PRIMARY** part of the solution u(t) for displacements, rotations, forces, moments and stresses due to the dynamic support movement loading.
 
-When selecting **Primary floor response cases** load type, all existing loads are listed in the combobox :
+When selecting **Primary floor response cases**, all existing primary floor response cases are listed in the combobox :
 
 ![Image](../Images/Load18.jpg)
 
-The loads appear with the **Case number** + **Title**.
+The cases appear with their **Case number** + **Title**.
 
 ## 1. General
 
-When editing, the definition window shows this screen :
+When editing, the definition window shows up :
 
 ![Image](../Images/Load19.jpg)
 
@@ -40,20 +40,11 @@ See §2.
 
 <ins>Level</ins> :
 
-Documentation will come soon…
+This field is intended for nuclear piping codes only. The possible values are : A (normal conditions), B (upset), C (emergency), D (faulted) and T (test). 
 
 <ins>Equation</ins> :
 
-- 1- None
-- 2- Eq. 9 (design)
-- 3- Eq. 9 B (occasional)
-- 4- Eq. 9 C (occasional)
-- 5- Eq. 9 D (occasional)
-- 6- Test
-- 7- Eq. 12
-- 8- Eq. 10 (partial)
-
-Documentation will come soon…
+The equations are code-dependent.
 
 <ins>Method</ins> :
 
@@ -83,8 +74,6 @@ For order :
 - 1- Interlevel / Interspatial / Intermodal
 - 2- Intermodal / Interlevel / Interspatial
 
-Documentation will come soon…
-
 <ins>Rigid correction</ins> :
 
 - 0- SRSS
@@ -94,13 +83,11 @@ Documentation will come soon…
 - B- Gupta
 - C- Lindley-Yow
 
-Documentation will come soon…
-
 <ins>X, Y, Z multipliers</ins> :
 
 This factor multiplies the X, Y, Z component of the loading.
 
- If this field is zero or blank, then all X, Y or Z loading components will be zero for this loading.
+ If a factor is zero or blank, then the corresponding loading component will be zero.
 
 ## 2. Spectra definition
 
@@ -116,7 +103,7 @@ Click [here](https://documentation.metapiping.com/Loads/Spectra.html) for more i
 
 ## 3. Restraint defintion
 
-In this example, all restraints have a **LEVEL** affected :
+In this example, all restraints are assigned a **LEVEL** :
 
 ![Image](../Images/Load17.jpg)
 

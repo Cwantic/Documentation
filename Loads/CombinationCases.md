@@ -7,18 +7,18 @@ parent: Loads
 
 # Combination cases
 
-    This load consists of combining the results of load cases, dynamic cases or previously calculated
+    This case consists of combining the results of load cases, dynamic cases or previously calculated
     combination cases to form a new case.
 
-When selecting **Combination cases** load type, all existing loads are listed in the combobox :
+When selecting **Combination cases**, all existing combinations are listed in the combobox :
 
 ![Image](../Images/Load24.jpg)
 
-The loads appear with the **Case number** + **Title**.
+The cases appear with their **Case number** + **Title**.
 
 ## 1. General
 
-When editing, the definition window shows this screen :
+When editing, the definition window shows up :
 
 ![Image](../Images/Load25.jpg)
 
@@ -26,30 +26,17 @@ Enter a **Case number** and a **Title**.
 
 <ins>Ref. case</ins> :
 
-Operating pressures (and allowable stresses) of the reference case will be used for this case. The calculation of allowable stresses depend of the current **calculation code**.
+Operating pressures (and allowable stresses) of the reference case will be used for this case. The calculation of the allowable stresses depends on the current **calculation code**.
 
 Click [here](https://documentation.metapiping.com/Analysis/Codes.html) for more information about all possible codes.
 
-Documentation will come soon…
-
 <ins>Level</ins> :
 
-Documentation will come soon…
+This field is intended for nuclear piping codes only. The possible values are : A (normal conditions), B (upset), C (emergency), D (faulted) and T (test). 
 
 <ins>Equation</ins> :
 
-(Code-dependent !)
-
-- 1- None
-- 2- Eq. 9 (design)
-- 3- Eq. 9 B (occasional)
-- 4- Eq. 9 C (occasional)
-- 5- Eq. 9 D (occasional)
-- 6- Test
-- 7- Eq. 12
-- 8- Eq. 10 (partial)
-
-Documentation will come soon…
+The equations are code-dependent.
 
 <ins>Method</ins> :
 
@@ -64,23 +51,24 @@ Documentation will come soon…
 - 9- Max resultant moment range
 - S- Max thermal stress range
 
-Documentation will come soon…
 
 <ins>Dynamic load flag</ins> :
 
-Documentation will come soon…
+- For ASME Class 1 : the flag is a number from 1 to 9 that identifies the dynamic moments to be used in Equation 13
+- For RCC-M Class 1 : the flag with number 1 identifies the operational earthquake
 
 <ins>Number of cycles</ins> :
 
-Documentation will come soon…
+- For ASME Class 1 : number of sub-cycles predicted for each occurrence of the dynamic event (default = 1)
+- For RCC-M Class 1 : number of occurences of the seismic event if the analysis type is 0, or number of seismic sub-cycles if the analysis type is 1
 
 <ins>Analysis type</ins> :
 
-Documentation will come soon…
+- For RCC-M Class 1 only : enter 0 (or blank) for the total earthquake moments and 1 for the primary (inertial) earthquake moments
 
 ## 2. Combined cases
 
-Enter the **number** of the case and a cooresponding **factor** (1) :
+Enter the **number** of the constituent cases and the corresponding **factor** (1) :
 
 ![Image](../Images/Load26.jpg)
 

@@ -7,20 +7,20 @@ parent: Loads
 
 # Thermal cases (Class 1 only)
 
-    This load consists of the definition of TRANSIENTS that describes the evolution of the fluid's 
-    temperature (*) during time in the pipe wall. New stresses will result of this gradients.
-    All thermal transients are assumed to begin simultaneously.
+    This case consists of the definition of TRANSIENTS that describes the evolution of the fluid
+    temperature (*) during time inside the pipes. Additional stresses will result from the 
+    temperature gradients.
     (*) also absolute pressure, flow rate, state or film coefficient.
 
-When selecting **Thermal cases** load type, all existing loads are listed in the combobox :
+When selecting **Thermal cases**, all existing thermal cases are listed in the combobox :
 
 ![Image](../Images/Load9.jpg)
 
-The loads appear with the **Case number** + **Title**.
+The cases appear with their **Case number** + **Title**.
+
+When editing, the definition window shows up :
 
 ## 1. General
-
-When editing, the definition window shows the **General** tab :
 
 ![Image](../Images/Load11.jpg)
 
@@ -28,7 +28,7 @@ Enter a **Case number** and a **Title**.
 
 ## 2. Default transient
 
-By default for this thermal case, all elements of the model will use the same **default transient** :
+If defined, all elements of the model will use the same **default transient** :
 
 ![Image](../Images/Load12.jpg)
 
@@ -69,14 +69,14 @@ Other properties (not editable) :
 
 | Property | Unit Metric | Unit USA | Remark |
 | -------- | ---- | ---- | -- |
-| Max temperature variation | °C | °F | If blanck, MetaPiping use the default value |
+| Max temperature variation | °C | °F | If blank, MetaPiping use the default value |
 | Outside temperature | °C | °F | Temperature outside pipe |
 | Outside film coefficient | kJ/hr/m²/°C | btu/hr/ft²/°F | External heat exchange coefficient |
-| Pipe conductivity | kJ/hr/m/°C | btu/hr/ft/°F | If blanck, MetaPiping use the material property |
-| Pipe diffusivity | mm²/s | ft²/hr | If blanck, MetaPiping use the material property |
-| Pipe room expansion coefficient | 10^-6.mm/mm/°C | 10^-6.in/in/°F | Pipe thermal expansion coefficient at 21°C. If blanck, MetaPiping use the material property |
+| Pipe conductivity | kJ/hr/m/°C | btu/hr/ft/°F | If blank, MetaPiping uses the value entered in the material definition |
+| Pipe diffusivity | mm²/s | ft²/hr | If blank, MetaPiping uses the value entered in the material definition |
+| Pipe room expansion coefficient | 10^-6.mm/mm/°C | 10^-6.in/in/°F | Pipe thermal expansion coefficient at 21°C. If blank, MetaPiping uses the value entered in the material definition |
 
-    To know the UNIT of a property, just let the mouse over the cells. 
+    To know the UNIT of a property, just move the mouse over the cells. 
 
 Click on the **Apply** button to define the **current transient** to selected elements.
 
@@ -93,7 +93,7 @@ To define a **Transient**, first select the type (1) :
 
 ### 5.1 Definition
 
-Enter the values for the graphes (2).
+Enter the values of the graphes (2). The first time step must be 0.
 
 Click on the **+** button to add a row. Click on the **-** button to remove a row.
 
@@ -118,7 +118,7 @@ For each row, define the properties :
 | Temperature | °C | °F | |
 | Film coefficient | kJ/hr/m²/°C | btu/hr/ft²/°F | |
 
->Tip : for 0 values, MetaPiping will make linear interpolations
+>Tip : for blank values, MetaPiping will make linear interpolations.
 
 ### 5.2 Properties
 
@@ -129,14 +129,14 @@ Enter other properties :
 
 | Property | Unit Metric | Unit USA | Remark |
 | -------- | ---- | ---- | -- |
-| Max temperature variation | °C | °F | If blanck, MetaPiping use the default value |
+| Max temperature variation | °C | °F | If blank, MetaPiping use the default value |
 | Outside temperature | °C | °F | Temperature outside pipe |
 | Outside film coefficient | kJ/hr/m²/°C | btu/hr/ft²/°F | External heat exchange coefficient |
-| Pipe conductivity | kJ/hr/m/°C | btu/hr/ft/°F | If blanck, MetaPiping use the material property |
-| Pipe diffusivity | mm²/s | ft²/hr | If blanck, MetaPiping use the material property |
-| Pipe room expansion coefficient | 10^-6.mm/mm/°C | 10^-6.in/in/°F | Pipe thermal expansion coefficient at 21°C. If blanck, MetaPiping use the material property |
+| Pipe conductivity | kJ/hr/m/°C | btu/hr/ft/°F | If blank, MetaPiping uses the material property |
+| Pipe diffusivity | mm²/s | ft²/hr | If blank, MetaPiping uses the material property |
+| Pipe room expansion coefficient | 10^-6.mm/mm/°C | 10^-6.in/in/°F | Pipe thermal expansion coefficient at 21°C. If blank, MetaPiping use the material property |
 
-    To know the UNIT of a property, just let the mouse over the cells. 
+    To know the UNIT of a property, just move the mouse over the cells.
 
 ### 5.3 Curve type
 

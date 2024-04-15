@@ -16,7 +16,7 @@ Click on **Select** button to open the selection window :
 ![Image](../Images/Selection.jpg)
 
 - Click on **Point** to select nodes
-- Click on **Element** to select piping element (pipe, bend, reducer, valve...)
+- Click on **Element** to select piping elements (pipe, bend, reducer, valve, etc.)
 - Click on **Restraint** to select restraints
 - Click **Tee** to select nodes where a tee has been assigned
 - Press **ESC** on keyboard to hide the selection window
@@ -43,7 +43,7 @@ Select one pipe and click to the **Cut element** button :
 
 The length of the pipe is shown on the right.
 
-By default, a distance from the first node of the pipe is calculated, this is the half length of the selected pipe (middle point).
+By default, a distance from the first node of the pipe is calculated, which is the half length of the selected pipe (middle point).
 
 You can change the value. Click on **Cut** to execute the command.
 
@@ -66,65 +66,65 @@ You can **Undo** this command.
 
 ## 5. Node SIF
 
-MetaPiping let you define **Stress Intensification Factors** on nodes.
+MetaPiping lets you define **Stress Intensification Factors** and **Stress Indices** on nodes.
 
 Each **piping code** has its own factors.
 
 | Code | SIFS | 
 | -------- | ----------- | 
-| ASME Class 1 | B1, C1, K1, B2, C2, K2, C3, CP, K3 |
+| ASME Class 1 | B1, C1, K1, B2, C2, K2, C3, C3', K3 |
 | ASME Class 2 | i, B1, B2, B2', C2 |
 | B31.1 | i |
 | B31.1 B31.J | ii, io, it, ia, Ii, Io, It, Ia |
 | EN 13480 | io, ii |
 | RCCM Class 2 | i |
 
-A factor is unitless.
+These factors are unitless.
 
-Select a node and click to the **Node SIF** button.
+Select a node and click on the **Node SIF** button.
 
-- You can change one factor (or more) of the extremity of the first element of the node (in RCCM Class 2 code) :
+- You can change one (or more) factor(s) at the extremity of the first element connected to the node, e.g. in RCC-M Class 2 code :
 
 ![Image](../Images/Modification3.jpg)
 
-- You can change one (or more) factor of the **extremity** of the second element of the node :
+- You can change one (or more) factor(s) at the **extremity** of the second element connected to the node :
 
 ![Image](../Images/Modification4.jpg)
 
-- You can change one (or more) factor of all elements :
+- You can change one (or more) factor(s) of all elements :
 
 ![Image](../Images/Modification5.jpg)
 
-Click on **Create** button to add SIF informations on the model.
+Click on **Create** button to apply the SIFs to the model.
 
-You can later modify or remove SIF factors by selecting the node and click on **Modify/Remove** buttons.
+You can later modify or remove the SIFs by selecting the node and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
 ## 6. Body SIF
 
-MetaPiping let you define **Stress Intensification Factors** on elements.
+MetaPiping lets you define **Stress Intensification Factors** and **Stress Indices** on elements.
 
-Select an element and click to the **Body SIF** button :
+Select an element and click on the **Body SIF** button :
 
 ![Image](../Images/Modification6.jpg)
 
-Click on **Create** button to add SIF informations on the model.
+Click on **Create** button to apply the SIFs to the model.
 
-You can later modify or remove SIF factors by selecting the element and click on **Modify/Remove** buttons.
+You can later modify or remove the SIFs by selecting the element and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
 ## 7. Stress On/Off
 
-MetaPiping let you deactivate the stress report of a portion of the piping system.
+MetaPiping lets you deactivate the stress report of a portion of the piping system.
 
-Select multiple elements and click to the **Stress On/Off** button :
+Select multiple elements and click on the **Stress On/Off** button :
 
 ![Image](../Images/Modification7.jpg)
 
 Click on the checkbox and the **Modify** button to deactivate the stress reporting of these elements.
 
-You can later modify this property by selecting the elements and activate or deactivate the value.
+You can later modify this property by selecting the elements and activating or deactivating the checkbox.
 
 You can **Undo** this command.

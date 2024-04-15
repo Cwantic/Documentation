@@ -7,7 +7,7 @@ has_children: true
 
 # Loads
 
-The **LOADS** ribbbon tab let you create static, dynamic, transient thermic and combined loads.
+The **LOADS** ribbbon tab let you create static, dynamic, thermal transient and combined load cases.
 
 ## 1. Ribbon menu
 
@@ -15,7 +15,7 @@ The **LOADS** ribbbon tab let you create static, dynamic, transient thermic and 
 
 ### 1.1 File
 
-During the **load** definition, every command is automatically saved in a temporary file (conception.~metaL).
+During the **load case** definition, every command is automatically saved in a temporary file (conception.~metaL).
 
 You can decide to save the last modifications or cancel it and return to the study screen.
 
@@ -26,7 +26,7 @@ A floppy disk on the left side of the ribbon indicates the sate of the file on d
 ![Image](../Images/Design6.jpg) means that something has changed and the MetaL need to be saved.
 
 {: .warning }
->If the application crashes, MetaPiping will prompt to reopen the last modifications
+>If the application crashes, MetaPiping will prompt to reopen the last modifications.
 
 ### 1.2 Undo/Redo
 
@@ -38,7 +38,7 @@ You can *navigate* through this list by pressing the **Undo/Redo** buttons.
 
 ## 2. Load cases
 
-Click on the **LOAD** button to have access to the **load types** :
+Click on the **LOAD** button to have access to the **load case types** :
 
 ![Image](../Images/Load2.jpg)
 
@@ -52,7 +52,7 @@ Click on the **LOAD** button to have access to the **load types** :
 - Stress combination cases : Click [here](https://documentation.metapiping.com/Loads/StressCombinationCases.html) to have more information about stress combination cases
 - Load sets : Click [here](https://documentation.metapiping.com/Loads/LoadSets.html) to have more information about load sets
 
-After selection, the choice becomes the **current load type**.
+After selection, the choice becomes the **current load case type**.
 
 ### 2.1 Edition
 
@@ -60,7 +60,7 @@ For all cases, you can **create**, **modify** or **remove** a selected case :
 
 ![Image](../Images/Load8.jpg)
 
-- **New** : open an empty window of **current load type** : press OK to create the load
-- **Edit** : open a window of **current load type** with the selected case :  press OK to modify the load
+- **New** : open an empty window of **current load case type** : press OK to create the load
+- **Edit** : open a window of **current load case type** with the selected case :  press OK to modify the load case
 - **Delete** : remove the selected case
-- **Selection** : list of all cases of the **current load type**
+- **Selection** : list of all cases of the **current load case type**

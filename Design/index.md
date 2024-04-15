@@ -18,7 +18,7 @@ After selecting a study and pressing the **Edit** button, new tabs appear in the
 
 The **Design** screen consists of a ribbon menu (1), a 3D visualization engine (2) and a data panel on the right (3).
 
->The **Data Panel** can be opened/closed by the shortcut **F2**
+>The **Data Panel** can be opened/closed with the shortcut **F2**
 
 ## 1. Ribbon menu
 
@@ -78,7 +78,7 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ![Image](../Images/Design10.jpg) shows/hides the node point
 
-![Image](../Images/Design11.jpg) copy the 3D visualization to the clipboard
+![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
 
 ![Image](../Images/Design12.jpg) show the piping in shading mode
 
@@ -95,7 +95,7 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 Click [here](https://documentation.metapiping.com/Design/Modification.html) to have more information about all modification tools.
 ### 1.8 Python scripts
 
-MetaPiping let you create your own **tools**.
+MetaPiping lets you create your own **tools**.
 
 If a tool is missing, user can create his own **command** that can interact with the user and modify the selected elements or the whole model.
 
@@ -107,7 +107,7 @@ Click [here](https://documentation.metapiping.com/Python/design.html) to have mo
 
 ## 2. 3D Visualization
 
-MetaPiping is equipped with a powerful 3d engine :
+MetaPiping is equipped with a powerful 3D engine :
 
 ![Image](../Images/Design19.jpg)
 
@@ -150,23 +150,23 @@ An interactive **cube** with predefined views is shown in the bottom right corne
 
 ## 3. Data panel
 
->The **Data Panel** can be opened/closed by the shortcut **F2**
+>The **Data Panel** can be opened/closed with the shortcut **F2**
 
 ### 3.1 PIPESTRESS editor
 
-The **Plugin** PIPESTRESS converts automatically every commands of MetaPiping into HIGH FIDELITY **FRE** file format.
+The **Plugin** PIPESTRESS converts automatically every command of MetaPiping into HIGH FIDELITY **FRE** file format.
 
 ![Image](../Images/Pipestress2.jpg)
 
-- Double click on a **card** shows a window with all parameters :
+- Double click on a **card** shows a window with all fields :
 
 ![Image](../Images/Pipestress1.jpg)
 
 - Select a row and click **F9** on keyboard will select the object in the 3D view.
 
-- Select a row and click **F1** on keyboard will open the help of PIPESTRESS (if defined in the settings).
+- Select a row and click **F1** on keyboard will open PIPESTRESS help (if defined in the settings).
 
-click [here](https://documentation.metapiping.com/Settings/General.html) to have more information about the settings.
+Click [here](https://documentation.metapiping.com/Settings/General.html) to have more information about the settings.
 
 - You can also write/change the file by yourself in this editor. Press the **Refresh** button on top to update the model with the content of the editor.
 
@@ -177,7 +177,7 @@ click [here](https://documentation.metapiping.com/Settings/General.html) to have
 
 ### 3.2 Layers
 
-MetaPiping let you simplify your visualization by using **Layer** concept :
+MetaPiping let you simplify your visualization by using the **Layer** concept :
 
 ![Image](../Images/Layer1.jpg)
 

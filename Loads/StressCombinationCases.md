@@ -7,24 +7,24 @@ parent: Loads
 
 # Stress combination cases
 
-    This load consists of combining the results of load cases, dynamic cases or previously calculated
+    This case consists of combining the results of load cases, dynamic cases or previously calculated
     combination cases to form a new case and of calculating additive stresses which are based on the
     resultant moments of the constituent cases.
 
 {: .warning }
-> ATTENTION, this case can be used for all piping codes except Class 1 and ASME HDPE Code.
+> ATTENTION, this case may be used for all piping codes except Class 1 and ASME HDPE Code.
 
 Click [here](https://documentation.metapiping.com/Analysis/Codes.html) for more information about the piping codes.
 
-When selecting **Stress combination cases** load type, all existing loads are listed in the combobox :
+When selecting **Stress combination cases**, all existing stress combinations are listed in the combobox :
 
 ![Image](../Images/Load27.jpg)
 
-The loads appear with the **Case number** + **Title**.
+The loads appear with their **Case number** + **Title**.
 
 ## 1. General
 
-When editing, the definition window shows this screen :
+When editing, the definition window shows up :
 
 ![Image](../Images/Load28.jpg)
 
@@ -32,19 +32,17 @@ Enter a **Case number** and a **Title**.
 
 <ins>Ref. case</ins> :
 
-Operating pressures (and allowable stresses) of the reference case will be used for this case. The calculation of allowable stresses depend of the current **calculation code**.
+Operating pressures (and allowable stresses) of the reference case will be used for this case. The calculation of allowable stresses depends on the current **calculation code**.
 
 Click [here](https://documentation.metapiping.com/Analysis/Codes.html) for more information about all possible codes.
 
-Documentation will come soon…
-
 <ins>Level</ins> :
 
-Documentation will come soon…
+This field is intended for nuclear piping codes only. The possible values are : A (normal conditions), B (upset), C (emergency), D (faulted) and T (test). 
 
 <ins>Equation</ins> :
 
-(Code-dependent !)
+The equations are code-dependent.
 
 <ins>Method</ins> :
 
@@ -60,15 +58,13 @@ Documentation will come soon…
 - 9- Max resultant moment range
 - S- Max thermal stress range
 
-Documentation will come soon…
+<ins>Allowable multiplier f</ins> :
 
-<ins>Allowable multiplier</ins> :
-
-Documentation will come soon…
+If this field is not blank and different from 0, then the allowable stress for this case will be f * Sh.
 
 ## 2. Combined cases
 
-Enter the **number** of the case and a cooresponding **factor**.
+Enter the **number** of the constituent cases and the corresponding **factor**.
 
     MA = Sustained load case
     MB = Occasional load case

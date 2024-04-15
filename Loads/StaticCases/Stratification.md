@@ -1,47 +1,21 @@
 ---
 layout: default
-title: Thermal expansion
-nav_order: 10
+title: Stratification
+nav_order: 5
 parent: Static cases
 grand_parent: Loads
 ---
 
-# Thermal expansion
-
-Suggested equation :
-
-    7. Equation 12
-
-## 1. Options
-
-![Image](../../Images/Static44.jpg)
-
-In options, you can :
-
-1. Set the number of occurences of this load
-2. Take the operating conditions from another static case
-3. Include the **Bourdon effect**
-4. Use **cold modulus**
-
-This case automatically includes the "Thermal expansion" and "Secondary case" options.
-
-## 2. Applied loads
-
-![Image](../../Images/Static45.jpg)
-
-It is possible to define specific loads :
-
-### 2.1 Stratifications
+# Stratification
 
 ![Image](../../Images/Static46.jpg)
 
-    Thermal stratification occurs when there is a non-constant, time independent temperature
-    distribution in the pipe wall. Typically, this situation occurs where there is stagnation
-    or circulation of fluids in layers in the pipe.
-
 You can define stratifications on several elements of the model.
 
-If you check this option, you will see this **button** :
+
+    Thermal stratification occurs when there is a non-constant, time independent temperature distribution in the pipe wall. Typically, this situation occurs where there is stagnation or circulation of fluids in layers in the pipe.
+
+If you check this option, you will see this **button** in the ribbon :
 
 ![Image](../../Images/Static47.jpg)
 
@@ -63,7 +37,7 @@ If you check this option, you will see this **button** :
 
 <ins>Properties</ins> :
 
-Depending on the selected method, the properties can be :
+Depending on the selected method, the properties are :
 
 **Horiz. Linear** :
 
@@ -117,7 +91,3 @@ You can **undo** this command.
 Click on the **Remove** button to delete the load on selected restraints.
 
 You can **undo** this command.
-
-### 2.2 Support movements
-
-Click [here](https://documentation.metapiping.com/Loads/StaticCases/SAM.html#22-support-movements) for more information about support movements.
