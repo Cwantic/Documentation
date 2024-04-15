@@ -19,22 +19,30 @@ Right click on **Projects** lets you :
 
 ![Image](../Images/Explorer2.jpg)
 
-- Add a new project
+- Add a new piping project (if MetaPiping active on your licence)
+- Add a new structure project (if MetaStructure active on your licence)
+- Import a project (file with extension *.prockage)
 - Add a new folder
 
 Select a **folder** (Ex : Group A). Right click on it lets you :
 
 ![Image](../Images/Explorer3.jpg)
 
-- Add a new project
+- Add a new piping project (if MetaPiping active on your licence)
+- Add a new structure project (if MetaStructure active on your licence)
+- Import a project (file with extension *.prockage)
 - Add a new sub-folder
-- Delete the current folder
+- Delete the current folder with all projects
 
 Select a **project** (Ex : Demo). Right click on it lets you :
 
 ![Image](../Images/Explorer4.jpg)
 
 - Delete the current project
+- Export the project (file with extension *.prockage)
+
+{: .warning }
+>The EXPORT project command (from source computer) will copy all studies but also all external files, the used python scripts... and will paste it (or install scripts if not exist on target computer) during IMPORT command.
 
 ## 2. Project preview
 

@@ -45,8 +45,9 @@ Click **Edit** (6) to start an empty design.
 
 Click [here](https://documentation.metapiping.com/Design/index.html) to have more information about the design.
 
-## 3. Bricks
+## 3. Piping bricks
 
+![Image](../Images/Study1A.jpg)
 ### 3.1 File
 
 This create a brick that let you import a file of any extension.
@@ -59,7 +60,22 @@ Click on the button to open a search file dialog.
 
 Use the connector to send the file to another brick as an input.
 
-### 3.2 PCF
+### 3.2 Study link
+
+This create a brick that virtually replicate existing studies inside a new one. This is usefull to create new nodes based on existing ones.
+
+![Image](../Images/Study10.jpg)
+
+{: .warning }
+>You can connect multiple studies. All must be drawn with the same referential XYZ.
+
+{: .warning }
+>In design, you can hide the linked studies.
+
+{: .warning }
+>In design, you cannot modify elements of linked studies.
+
+### 3.3 PCF
 
 The **plugin** PCF let you import *.pcf files.
 
@@ -69,7 +85,7 @@ Open a file and connect it to the **MetaL** connector of the **Study brick**.
 
 This will convert the PCF to the MetaL file format.
 
-### 3.3 PIPSYS
+### 3.4 PIPSYS
 
 The **plugin** PIPSYS let you import files with several extensions.
 
@@ -79,7 +95,7 @@ Open a file and connect it to the **MetaL** connector of the **Study brick**.
 
 This will convert the PIPSYS to the MetaL file format.
 
-### 3.4 PIPESTRESS
+### 3.5 PIPESTRESS
 
 The **plugin** PIPESTRESS let you import *.fre (and *.thf files).
 
@@ -105,15 +121,17 @@ The **plugin** PIPESTRESS let you also configure all bricks by just importing a 
 
 ![Image](../Images/Study8.jpg)
 
-### 3.5 Python
+### 3.6 Python
 
 You can create your own **brick** thanks to the Python scripts.
 
 ![Image](../Images/PythonStudy2.jpg)
 
+*Example of a brick connected to the MetaL and another one connected to the solution.*
+
 Click [here](https://documentation.metapiping.com/Python/index.html) to have more information about the script creation.
 
-### 3.6 Comment
+### 3.7 Comment
 
 This create a brick with text and color capabilities.
 
@@ -121,3 +139,53 @@ Usefull to show the state of progress of the study to other users. A conventionn
 
 ![Image](../Images/Study9.jpg)
 
+## 4. Structure bricks
+
+![Image](../Images/Study1B.jpg)
+### 4.1 File
+
+This create a brick that let you import a file of any extension.
+
+![Image](../Images/Study3.jpg)
+
+This is usefull only for Python script that need a file as input (Ex : Excel file or Text file).
+
+Click on the button to open a search file dialog.
+
+Use the connector to send the file to another brick as an input.
+
+### 4.2 Study link
+
+This create a brick that virtually replicate existing studies inside a new one. This is usefull to create new nodes based on existing ones.
+
+![Image](../Images/Study10.jpg)
+
+{: .warning }
+>You can connect multiple studies. All must be drawn with the same referential XYZ.
+
+{: .warning }
+>In design, you can hide the linked studies.
+
+{: .warning }
+>In design, you cannot modify elements of linked studies.
+
+### 4.3 BEAMSTRESS
+
+This create a brick that let you import *.bst files that are converted to MetaL file.
+
+![Image](../Images/Study11.jpg)
+
+{: .warning }
+>ATTENTION, only recent bst files are allowed. If the file is too old, we recommand to open the file in a recent BEAMSTRESS and resave the model.
+
+### 4.4 Python
+
+You can create your own **brick** thanks to the Python scripts.
+
+Click [here](https://documentation.metapiping.com/Python/index.html) to have more information about the script creation.
+
+### 4.5 Comment
+
+This create a brick with text and color capabilities.
+
+Usefull to show the state of progress of the study to other users. A conventionnal color code can be established.

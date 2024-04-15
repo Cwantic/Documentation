@@ -7,9 +7,17 @@ parent: Explorer
 
 # Project
 
-A MetaPiping project is a container of **studies**.
+A project is a container of **studies**.
+
+If you create a new **piping project**, the first study will be a piping study :
 
 ![Image](../Images/Project1.jpg)
+
+If you create a new **structure project**, the first study will be a structure study :
+
+![Image](../Images/Project2.jpg)
+
+---
 
 The **project** screen consists of 4 zones :
 
@@ -17,6 +25,7 @@ The **project** screen consists of 4 zones :
 2. The **Container** of studies
 3. The current study **Diagram** - see [study](https://documentation.metapiping.com/Explorer/Study.html) to have more information
 4. The **Bricks** to manage the current study - see [study](https://documentation.metapiping.com/Explorer/Study.html) to have more information
+
 
 
 ## 1. Tools
@@ -28,7 +37,10 @@ Select a study in the **container** (2).
 This study become the **current study** shown in the main panel (3).
 ### 1.2 Add
 
-Click on **Add study** to create an empty study that will be added to the **container** (2).
+Click on **Add new piping study** to create an empty piping study that will be added to the **container** (2).
+
+Click on **Add new structure study** to create an empty structure study that will be added to the **container** (2).
+
 
 This new study become the **current study** shown in the main panel (3).
 
