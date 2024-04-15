@@ -225,7 +225,7 @@ valid = cmd.addSubCommand("RemoveElementCommand", [design.selectedList])
 
 5.3 Other commands
 
-Other commands can be explained on demand...
+>Other commands can be explained on demand...
 
 5.4 Example
 
