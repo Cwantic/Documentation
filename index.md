@@ -6,7 +6,7 @@ nav_order: 1
 
 # Welcome to MetaPiping User Manual
 
-The new modeling and analysis software for NUCLEAR and INDUSTRIAL piping systems.
+The new modeling and analysis software for NUCLEAR and INDUSTRIAL piping systems and its supports.
 
 ![Logo](Images/Piping.jpg)
 

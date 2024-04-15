@@ -11,7 +11,7 @@ MetaPiping offers to user the possibility to manipulate datas produced by the so
 
 These manipulations can be done via **Python** scripts, a simple and well documented language, with a great free mathematical, scientific and computer library, appreciated by engineers.
 
-A script contains one or more *.py files in a **python virtual environment**. 
+A script contains one or more *.py files and can use a **python virtual environment**. 
 
 **Main.py** is mantadory and represents the main access of the script.
 
@@ -53,7 +53,7 @@ The screen is made up of different parts :
 1. The list of all scripts (of all type)
 2. The files (and directories) used in the script - select a file shows it in the editor (6)
 3. The properties of the script (Type, Name, Input, Output...)
-4. The **requirements.txt** of the virtual environment of the script
+4. The **requirements.txt** of the eventual virtual environment of the script
 5. The chatGPT help - [See chatGPT page for more information](https://documentation.metapiping.com/Python/chatGPT.html) 
 6. The Python **Editor** - or image viewer if you select an image in the file explorer (2)
 

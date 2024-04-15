@@ -19,7 +19,7 @@ Select a script via the dropdown list :
 
 ![Image](../Images/PythonStudy2.jpg)
 
-You can create scripts that are independant of the current study, you can **inject** data to the internal model (MetaL - point 1), you can **extract** data from the internal model (MetaL - point 2), or you can **extract** data from the solution (Solution - point 3).
+You can create scripts that are independant of the current study, you can **inject** data to the internal model, you can **extract** data from the internal model, or you can **extract** data from the solution.
 
 Let's see how to create this kind of script.
 
@@ -31,11 +31,13 @@ From the Home/Python, click on button 1 (Add project script) :
 
 ![Image](../Images/PythonMenu.jpg)
 
-Give it a name and wait several seconds the ***Python Virtual Environment*** is generating...
+Give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generating...
 
 A new *main.py* will be created in the file explorer and *Inputs* and *Outputs* nodes in the Project script. Requirements.txt and the Editor are empty :
 
 ![Image](../Images/PythonStudy3.jpg)
+
+>Requirements.txt is hidden if you answer **NO** to the question about ***Python Virtual Environment***
 
 Buttons with three points indicates the presence of a dropdown list :
 
@@ -58,6 +60,7 @@ In Project script :
     - Add SOLUTION input        : Add an access to the solution
     - Add TEXT output           : Add an output text in the script brick
     - Add FILENAME output       : Add an output filename that can be edit by the user by double clic
+    - Add CONSOLE output        : Add an output text list in the script brick
     - Save                      : Save the script definition
     - Remove                    : Remove the selected item
 ```

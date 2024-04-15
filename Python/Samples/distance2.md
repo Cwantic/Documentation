@@ -12,8 +12,6 @@ grand_parent: Python
 
 Create a script that will (after pressing a **button** in the ribbon) show in left frame the distance between 2 selected nodes.
 
->This feature does not exists in MetaPiping 2023.0 so it is usefull that user can create his own REVIEW tools.
-
 ## 2. Script definition
 
 From the Home/Python, click on **button 3** (Add 3D script) :

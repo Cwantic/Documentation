@@ -14,7 +14,7 @@ The **Design** mode is the part of the application dedicated to :
 - Review : review everything before launching the calculations
 - Analysis : analyze the piping
 
->MetaPiping 2023.0 gives an access to **Design** and **Review**.
+>MetaPiping 2024 gives an access to **Design** and **Review**.
 
 The other parts will come soon...
 
@@ -37,7 +37,7 @@ From the Home/Python, click on button 3 (Add 3D script) :
 
 ![Image](../Images/PythonMenu.jpg)
 
-Give it a name and wait several seconds the ***Python Virtual Environment*** is generating...
+Give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generating...
 
 The whole screen and the dropdown lists are the same as the
 [study](https://documentation.metapiping.com/Python/Study.html) scripts.
@@ -54,9 +54,7 @@ This 32x32 button will appear on the possible locations :
 - Review    : In Review ribbon
 - Analysis  : In Analysis ribbon
 
-Example of the **Design** ribbon :
-
-![Image](../Images/PythonDesign2.jpg)
+The Target can be **Piping** or **Structure**.
 
 A new *main.py* will be created in the file explorer and requirements.txt and the Editor will be empty.
 
