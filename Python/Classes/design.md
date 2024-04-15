@@ -23,12 +23,15 @@ This object gives you access to the objects in selection, some current propertie
 | executeCommand() | - | Execute a CustomCommand passed in parameter (see § 6) |
 | getVerticalVector() | array of 3 double | Return the current vertical vector (Y or Z) |
 | getMetal() | metal | Access to current MetaL object of the study |
+| getMetalWithSelection() | metal | Access to the owner MetaL of the selected element or node |
 | addText() | - | Add a text on left panel |
 | addSeparator() | - | Add a line separator on left panel |
 | result | - | Set a message as output (empty = no message) |
 | getCurrentLayer() | Layer | Return the current layer |
 | getCurrentJointType() | JointType | Return the current joint type |
 | getCurrentPipingValues() | CurrentPipingValues | Return the current piping values (section, material, diameter, radius...) |
+| getScriptDirectory() | string | Return the current script directory |
+| createVariableWindow() | createVariableWindow | Return an empty window |
 
 ## 2. selectedList
 
@@ -190,3 +193,77 @@ design.result = res
 ```
 
 ---
+
+## 12. getScriptDirectory()
+
+Returns the current script directory.
+
+```python
+# Python script
+scriptdirectory = design.getScriptDirectory()
+```
+
+---
+
+## 13. createVariableWindow()
+
+createVariableWindow() returns an empty window that will show user's variables.
+
+```python
+# Python script
+window = design.createVariableWindow()
+```
+
+### 13.1 Window components
+
+| Method | Params  | Description |
+| ------ | ------  | ----------- |
+| AddComment | string | Add a comment (text)|
+| AddValue | string, string, double | Add a numeric variable (variable name, text, default value) |
+| AddImage | string | Add an image (local filename) |
+| AddList | string, string, [string], int | Add a variable list of texts (variable name, text, array of texts, default index) |
+| AddCheck | string, string, bool| Add a variable checkbox (variable name, text, default value) |
+| ShowModal | bool | Show the window and return true if click on OK button |
+| GetValue | string | Return a **numerical** value (variable name) |
+
+```python
+# Python script
+directory = design.getScriptDirectory()
+
+window = design.createVariableWindow()
+window.AddComment("Fill the variables")
+window.AddValue("L", "L =", 10)
+window.AddList("CHOICE", "Choice =", ["Choice A", "Choice B", "Choice C"], 1)
+window.AddCheck("ACTIVE", "Active ?", True)
+window.AddImage(os.path.join(directory, "image.jpg"))
+if window.ShowModal():
+    val1 = window.GetValue("L")
+    CHOICE_ID = window.GetValue("CHOICE")
+    # CHOICE_ID = 0, 1 or 2
+    val2 = 0
+    if CHOICEID == 1:
+        val2 = 0.5
+    else:
+        if CHOICE == 2:
+            val2 = 3
+    ACTIVE_ID = window.GetValue("ACTIVE")
+    # ACTIVE_ID = 0 (False) or 1 (True)
+    val3 = ACTIVE_ID == 1
+```
+
+In this example, we have 3 variables (L, CHOICE, ACTIVE), 1 comment and 1 image. We suppose image.jpg existing in the script directory next to main.py.
+
+
+L will show the default value of 10
+
+CHOICE will show the default value of "Choice B" (index 1)
+
+ACTIVE will be checked by default
+
+After window show :
+
+val1 will receive the user value for L
+
+val2 will receive the user value for CHOICE transformed to a real value (0, 0.5 or 3)
+
+val3 will receive the user value for ACTIVE transformed to bool
