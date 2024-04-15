@@ -10,24 +10,27 @@ has_children: false
 >CWANTIC has a very ambitious roadmap in order to deliver qualified professional solutions, written in the state of the art, using the latest computer technologies and open to Python developers.
 
 ---
-## MetaPiping 2023.2 (Current release)
+## MetaPiping 2024 (Current release)
 
-[See the main features](https://documentation.metapiping.com/WhatsNew/2023_2.html)
+[See the main features](https://documentation.metapiping.com/WhatsNew/2024.html)
 
 ---
 
-## MetaPiping 2024
+## MetaPiping 2024.1
 
 ### *Expected date*
 
-* March 2024
+* Augustus 2024
 
 ### *Main features*
 
-* MetaStructure : advanced structural/pipe supports/assemblies/anchor plates calculation - fully integrated to MetaPiping
+* Report generator
+* MetaStructure : advanced analysis of anchor plates by shell finite element
+* Flange post-processor
+* Load combinator
+* Time history file generator
 * EDF composite & HDPE code
-* Underground/buried piping code
-* CODETI & ASME B31.3 for industrial piping
+* ASME B31.3 for industrial piping
 * Requests from the user community
   
 ---
