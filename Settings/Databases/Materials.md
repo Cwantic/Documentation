@@ -10,13 +10,24 @@ grand_parent: Settings
 
 In this section, libraries of materials can be created. 
 
-A library is a **JSON** file with a name, units, a reference temperature and a list of materials.
+A library is a **JSON** file with a name, a target, units, a reference temperature and a list of materials.
 
-Click the **+** button to add a new library or click the **-** button to remove an **unused** library (not defined in a specification).
+Target can be :
+  
+* Piping
+* Structure
+* Bolting
+* Welding
+
+Click the **+ Folder** button to add a new folder, click the **+ File** to add a new library or click the **-** button to remove the selected folder or an **unused** library (not defined in a specification).
+
+You can also import materials from BEAMSTRESS.
+
+You can also drag a file/folder on another folder.
 
 ![Image](../../Images/Material1.jpg)
 
-Example : "My Material Library"
+*Example : "ASME II Part D 2008"*
 
     To know the UNIT of a property, just let the mouse over the property name. 
     For example : °C for the Ref. temperature

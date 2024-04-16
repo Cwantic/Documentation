@@ -29,6 +29,8 @@ The **-** button is used both for removing folders and libraries.
 
 A folder can be a type of component or a specific provider.
 
+You can also drag a file/folder on another folder.
+
 ## 2. Library
 
 A library can be managed as you want.

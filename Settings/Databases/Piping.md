@@ -12,11 +12,13 @@ In this section, libraries of piping elements can be created.
 
 A library is a **JSON** file with a name, units and a list of pipe sizes, bend, reducer, welding tee and flange definitions.
 
-Click the **+** button to add a new library or click the **-** button to remove an **unused** library (not defined in a specification).
+Click the **+ Folder** button to add a new folder, click the **+ File** to add a new library or click the **-** button to remove a folder or an **unused** library (not defined in a specification).
+
+You can also drag a file/folder on another folder.
 
 ![Image](../../Images/Piping1.jpg)
 
-Example : "My Piping Library"
+*Example : "My Piping Library"*
 
 ## 1. Pipe sizes
 
@@ -24,7 +26,7 @@ To add new pipe sizes, click on **+** button and give it a name (Ex : 4") :
 
 ![Image](../../Images/Piping2.jpg)
 
-Each size exists in different schedules. click on **+** button to add schedules :
+Each size exists in different schedules. Click on **+** button to add schedules :
 
 | Property | Unit Metric | Unit USA | 
 | -------- | ---- | ---- | 

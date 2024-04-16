@@ -22,6 +22,8 @@ The **-** button is used both for removing folders and spectra.
 
 A folder can be a site, a phase, a location or a floor for several spectrum files.
 
+You can also drag a file/folder on another folder.
+
 ## 2. Spectrum
 
 A spectrum defines the **curves** frequency/acceleration for different directions. And that for several dampings.
@@ -40,7 +42,7 @@ The **type** that defines the curves can be :
 
 Based on this type, 1, 2 or 3 tables must be filled.
 
-Click the **+** button (next to Dampings) to add a damping value (%) :
+Click the **+** button (next to Dampings) to add a damping value (%) and a label :
 
 ![Image](../../Images/Spectra2.jpg)
 
@@ -55,3 +57,7 @@ Fill the tables by adding rows for the pair frequency/acceleration.
 >ATTENTION, the frequencies must be filled in ascending order
 
     Each table can have its own number of rows
+
+You can also verify the tables of a damping by clicking on the last button next to Value % :
+
+![Image](../../Images/Spectra3.jpg)

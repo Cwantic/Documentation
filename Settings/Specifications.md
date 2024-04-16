@@ -7,6 +7,8 @@ parent: Settings
 
 # Specifications
 
+>The specification screen is only available if MetaPiping is active on your licence.
+
 ![Image](../Images/Spec1.jpg)
 
 MetaPiping let you create **specifications** = predefined choice of piping elements and properties dedicated to a particular project.

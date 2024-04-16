@@ -47,9 +47,17 @@ Example: 4"1/8 for a diameter
 
 For the users of PIPISTRESS that have installed the plugin, they can specify the path of the SOLVER (*PIPESTRESS64W.exe*) and the HELP file (*PIPESTRESS.chm*).
 
+You can also specify:
+- Max field length
+- Rotation units
+- Inline of the restraints, DLCS and INDI
+
 ## 6. Project
 
 You can specify the path of your favorite text editor in case of text report editing.
 
 If blanck, MetaPiping uses Windows NotePad.
 
+## 7. Structure
+
+You can specify the maximum distance (in meter) between a pipe node and a structure node during the **Node link** operation. MetaStructure will search structure nodes that are distant less than this value from the selected piping node.
