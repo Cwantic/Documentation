@@ -7,7 +7,7 @@ has_children: true
 
 # Piping
 
-After selecting a study and pressing the **Edit** button, new tabs appear in the ribbon menu on top of the application :
+After selecting a **piping study** and pressing the **Edit** button, new tabs appear in the ribbon menu on top of the application :
 
 - Piping
 - Load - click [here](https://documentation.metapiping.com/Loads/index.html) to have more information about loading
@@ -58,6 +58,7 @@ You have an access to a window that defines the piping sections and materials fo
 You have an access to the model options (code, edition, calculation options...).
 
 Click [here](https://documentation.metapiping.com/Design/Specification/index.html) to have more information about the **Data** button and the **Model options** button.
+
 ### 1.4 Elements
 
 ![Image](../Images/Design8.jpg)
@@ -95,6 +96,7 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 ### 1.7 Modification tools
 
 Click [here](https://documentation.metapiping.com/Design/Modification.html) to have more information about all modification tools.
+
 ### 1.8 Python scripts
 
 MetaPiping lets you create your own **tools**.
@@ -196,3 +198,5 @@ To modify the layer of objects, select elements and/or restraints (4) and click 
 If you decide to remove a layer, click on **-** button (2) next to the layer name. All elements and restraints of this layer will be assigned to the default **Layer 0**.
 
 You can now show/hide elements and restraints by activating/deactivating the visibility buttons.
+
+>All layer manipulation supports Undo/Redo mechanism.
