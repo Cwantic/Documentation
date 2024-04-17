@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Design
+title: Piping
 nav_order: 5
 has_children: true
 ---
 
-# Design
+# Piping
 
 After selecting a study and pressing the **Edit** button, new tabs appear in the ribbon menu on top of the application :
 
-- Design
+- Piping
 - Load - click [here](https://documentation.metapiping.com/Loads/index.html) to have more information about loading
 - Review - click [here](https://documentation.metapiping.com/Review/index.html) to have more information about review tools
 - Analysis - click [here](https://documentation.metapiping.com/Analysis/index.html) to have more information about analysis
 
 ![Image](../Images/Design1.jpg)
 
-The **Design** screen consists of a ribbon menu (1), a 3D visualization engine (2) and a data panel on the right (3).
+The **Piping** screen consists of a ribbon menu (1), a 3D visualization engine (2) and a data panel on the right (3).
 
 >The **Data Panel** can be opened/closed with the shortcut **F2**
 
@@ -89,6 +89,8 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 ![Image](../Images/Design15.jpg) shows/hides the shadows
 
 ![Image](../Images/Design16.jpg) shows/hides the silhouette drawing
+
+![Image](../Images/Design30.jpg) shows/hides the linked study models
 
 ### 1.7 Modification tools
 
@@ -168,7 +170,7 @@ The **Plugin** PIPESTRESS converts automatically every command of MetaPiping int
 
 Click [here](https://documentation.metapiping.com/Settings/General.html) to have more information about the settings.
 
-- You can also write/change the file by yourself in this editor. Press the **Refresh** button on top to update the model with the content of the editor.
+- You can also write/change the file by yourself in this editor. Press the **Refresh** button (or F6) on top to update the model with the content of the editor.
 
 {: .warning }
 > Attention, this action is irreversible
