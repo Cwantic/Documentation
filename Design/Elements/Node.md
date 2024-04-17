@@ -3,7 +3,7 @@ layout: default
 title: Node
 nav_order: 1
 parent: Elements
-grand_parent: Design
+grand_parent: Piping
 ---
 
 # Create nodes

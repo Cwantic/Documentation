@@ -3,7 +3,7 @@ layout: default
 title: Tee
 nav_order: 5
 parent: Elements
-grand_parent: Design
+grand_parent: Piping
 ---
 
 # Create tees

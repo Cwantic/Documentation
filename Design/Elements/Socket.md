@@ -3,7 +3,7 @@ layout: default
 title: Socket
 nav_order: 11
 parent: Elements
-grand_parent: Design
+grand_parent: Piping
 ---
 
 # Create sockets

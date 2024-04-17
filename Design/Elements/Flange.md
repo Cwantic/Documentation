@@ -3,7 +3,7 @@ layout: default
 title: Flange
 nav_order: 6
 parent: Elements
-grand_parent: Design
+grand_parent: Piping
 ---
 
 # Create flanges

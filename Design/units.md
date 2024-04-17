@@ -2,7 +2,7 @@
 layout: default
 title: Units
 nav_order: 1
-parent: Design
+parent: Piping
 ---
 
 # Units

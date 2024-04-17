@@ -3,7 +3,7 @@ layout: default
 title: Orientation
 nav_order: 14
 parent: Elements
-grand_parent: Design
+grand_parent: Piping
 ---
 
 # Orientation

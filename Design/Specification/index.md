@@ -3,7 +3,7 @@ layout: default
 title: Specification
 nav_order: 2
 has_children: true
-parent: Design
+parent: Piping
 ---
 
 # Specification

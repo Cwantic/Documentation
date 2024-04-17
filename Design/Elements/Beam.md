@@ -3,7 +3,7 @@ layout: default
 title: Beam
 nav_order: 13
 parent: Elements
-grand_parent: Design
+grand_parent: Piping
 ---
 
 # Create beams

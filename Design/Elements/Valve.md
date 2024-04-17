@@ -3,7 +3,7 @@ layout: default
 title: Valve
 nav_order: 7
 parent: Elements
-grand_parent: Design
+grand_parent: Piping
 ---
 
 # Create valves
