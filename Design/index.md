@@ -90,7 +90,7 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ![Image](../Images/Design16.jpg) shows/hides the silhouette drawing
 
-![Image](../Images/Design30.jpg) shows/hides the linked study models
+![Image](../Images/Design30.jpg) shows/hides the linked study models 
 
 ### 1.7 Modification tools
 
