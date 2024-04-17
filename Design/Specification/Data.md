@@ -64,6 +64,8 @@ Click on the **Database** button, select a **Library** and a **Material**. The t
 
 ![Image](../../Images/Design24.jpg)
 
+>Only library with **Target** = Piping will be shown !
+
 Click [here](https://documentation.metapiping.com/Settings/Databases/Materials.html) for more information about creation of library of materials.
 
 ### 1.2 Piping definition

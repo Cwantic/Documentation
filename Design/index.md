@@ -7,7 +7,11 @@ has_children: true
 
 # Piping
 
-After selecting a **piping study** and pressing the **Edit** button, new tabs appear in the ribbon menu on top of the application :
+After creating a new **piping study** and pressing the **Edit** button, a window appear to define the calculation code :
+
+![Image](../Images/Piping9.jpg)
+
+Set the **Code** and **Edition** and press **OK** : new tabs appear in the ribbon menu on top of the application :
 
 - Piping
 - Load - click [here](https://documentation.metapiping.com/Loads/index.html) to have more information about loading

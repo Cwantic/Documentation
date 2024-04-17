@@ -7,7 +7,11 @@ has_children: true
 
 # Structure
 
-After selecting a **structure study** and pressing the **Edit** button, new tabs appear in the ribbon menu on top of the application :
+After creating a new **structure study** and pressing the **Edit** button, a window appear to define the calculation code :
+
+![Image](../Images/Structure22.jpg)
+
+Set the **Code** and **Edition** and press **OK** : new tabs appear in the ribbon menu on top of the application :
 
 - Structure
 - Load - click [here](https://documentation.metapiping.com/Loads/index.html) to have more information about loading
@@ -63,7 +67,7 @@ Click [here](https://documentation.metapiping.com/Structure/Specification/index.
 
 ![Image](../Images/Structure4.jpg)
 
-Click [here](https://documentation.metapiping.com/Structure/Elements/index.html) to have more information about piping element creation and link between piping nodes and structure nodes.
+Click [here](https://documentation.metapiping.com/Structure/Elements/index.html) to have more information about element creation and link between piping nodes and structure nodes.
 
 ### 1.5 View options
 
