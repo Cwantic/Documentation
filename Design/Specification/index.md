@@ -23,4 +23,4 @@ The goal of a specification is to supervise the engineer's work by predefining a
 
 Click [here](https://documentation.metapiping.com/Settings/Specifications.html) for more information about creation of specification.
 
-The possible sections must be defined ine the **Data** window. You can there create all materials and all piping sections or, selecting predefined **specifications**.
+The possible sections must be defined in the **Data** window. You can there create all materials and all piping sections or, selecting predefined **specifications**.
