@@ -41,7 +41,7 @@ After installation, the default directory will be:
 
     C:\ProgramData\Cwantic\MetaPiping\Datas
 
-You can add supplement directories by clicking the **+** button and remove others by clicking **-** button.
+You can add supplement directories by clicking the **+** button and remove others by clicking **-** button. You may not remove the first row (the default directory after installation).
 
 There must be at least one data directory.
 

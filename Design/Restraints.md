@@ -269,3 +269,59 @@ The **Level** is used to identify the spectrum applied to this restraint for mul
 You can later modify or remove this restraint by selecting it and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
+
+## 9. Non-linear restraint
+
+Select a **Node** and click on **Add restraint** button :
+
+![Image](../Images/Restraint8.jpg)
+
+Select the type **Non-linear restraint** :
+
+![Image](../Images/Restraint11.jpg)
+
+| Property | Description | Unit Metric | Unit USA |
+| -------- | ----------- | ---- | ---- |
+| Dx | X direction of the restraint | - | - |
+| Dy | Y direction of the restraint  | - | - |
+| Dz | Z direction of the restraint  | - | - |
+| Sp | Translational Spring Constant | kN/mm | Kips/in |
+
+>if Sp is blanck = rigid, which is modeled by using a value of 8.75 x 10^5
+ N/mm or 5 x 10^6 lb/in.
+
+    To know the UNIT of the value, just move the mouse over the cell. 
+
+| Property | Description | Unit Metric | Unit USA |
+| -------- | ----------- | ---- | ---- |
+| Negative gap | Must be ≤ 0 | mm | in |
+| K1m | Spring Constant | kN/mm | Kips/in |
+| K2m | Spring Constant | kN/mm | Kips/in |
+| Positive gap | Must be >= 0 | mm | in |
+| K1p | Spring Constant | kN/mm | Kips/in |
+| K2p | Spring Constant | kN/mm | Kips/in |
+| FLm | Negative Dynamic Limit Load (<= 0, default = infinite) | kN | Kips |
+| FLp | Positive Dynamic Limit Load (>= 0, default = infinite) | kN | Kips |
+| Coef. of friction | Coulomb coefficient of friction between the pipe and the support (>0) | - | - |
+
+![Image](../Images/Restraint12.jpg)
+
+For **gapped restraint**, set Sp = 0 (modal analysis) and K2m = K2p = 0
+
+![Image](../Images/Restraint13.jpg)
+
+You can change the coordinate system that defines the directions X,Y,Z :
+
+- Global (default)
+- Local to preceding element
+- Local to following element
+
+The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
+
+You can later modify or remove this restraint by selecting it and clicking on **Modify/Remove** buttons.
+
+You can **Undo** this command.
+
+Example :
+
+![Image](../Images/Restraint14.jpg)
