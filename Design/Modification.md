@@ -267,7 +267,7 @@ Select multiple elements, uncheck **Use default** cell and set the temperature a
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
 | Temperature | °C | °F |
-| Pressure | N/m² | lb/ft² |
+| Pressure | N/mm² | lb/in² |
 
 Click to Modify to validate.
 

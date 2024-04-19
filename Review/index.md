@@ -39,19 +39,21 @@ MetaPiping let you measure the **distance** between 2 nodes :
 
 ![Image](../Images/Review8.jpg)
 
-1. Select the **POINT** selection mode
+1. Select the **Measure** tool
 2. Select the first node
-3. Select the second node
-4. Click on the **Measure** button
+3. Select the second node with CTRL pressed
+4. The distances appear on the left panel
 
-A window shows the projected distance in global X, Y, Z and the distance between the 2 nodes.
+You can continue to select other nodes (with CTRL pressed), only the 2 last ones will be taken in account.
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
 | DX | Distance on global X | m | ft |
 | DY | Distance on global Y | m | ft |
 | DZ | Distance on global Z | m | ft |
-| D | Distance between the 2 nodes | m | ft |
+| Distance | Distance between the 2 nodes | m | ft |
+
+>The **Selection mode** is automatically set to POINT when clicking the **Measure** button.
 
 ## 5. Node coordinates
 
@@ -121,8 +123,23 @@ The piping elements are colorized in there corresponding section's color.
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
 | Section color | - | - |
+| Name | - | - |
 | Diameter | mm | in |
 | Thickness | mm | in |
+| Linear mass | kg/m | lb/ft |
+| Inside diameter | mm | in |
+| Operating density | - | - |
+| Test density | - | - |
+| Insulation thickness | mm | in |
+| Corrosion | mm | in |
+| Erosion | mm | in |
+| Mill tolerance | mm | in |
+| Quality factor | - | - |
+| Ovalization ratio | - | - |
+| Liner thickness | mm | in |
+| Topcoat thikness | mm | in |
+| Special thickness | mm | in |
+| Bend thickness | mm | in |
 | Description | - | - |
 
 >The data are not editable
@@ -134,6 +151,17 @@ Click on the **Materials** button :
 ![Image](../Images/Review12.jpg)
 
 The piping elements are colorized in there corresponding material's color.
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| Material color | - | - |
+| Name | - | - |
+| Ref temperature | °C | °F |
+| Max temperature | °C | °F |
+| Thermal expansion option | - | - |
+| Density | kg/m³ | lb/ft³ |
+| Poisson | - | - |
+| Description | - | - |
 
 >The data are not editable
 
@@ -163,6 +191,7 @@ Click on the **Tees** button :
 | R2 | Branch-to-run fillet radius | mm | in |
 | RX | Transition radius | mm | in |
 | Angle | Angle collector/branch | ° | ° |
+| L1 | Branch length | mm | in |
 
 The **INTERACTIVITY** is the same as explained on §5.
 
@@ -284,6 +313,56 @@ Click on the **Stress On/Off** button :
 | To | Element's Node2 name |
 | Stress off | Yes or empty |
 
-Click [here](https://documentation.metapiping.com/Design/Modification.html#7-stress-on/off) for more information about Stress On/Off definition.
+Click [here](https://documentation.metapiping.com/Design/Modification.html#95-stress-onoff) for more information about Stress On/Off definition.
+
+>The data are not editable
+
+## 17. Soils
+
+Click on the **Soils** button :
+
+![Image](../Images/Review21.jpg)
+
+Click [here](https://documentation.metapiping.com/Design/Modification.html#94-soil) for more information about soil definition.
+
+>The data are not editable
+
+## 18. Piping codes
+
+Click on the **Piping codes** button :
+
+![Image](../Images/Review22.jpg)
+
+Click [here](https://documentation.metapiping.com/Design/Modification.html#93-piping-code) for more information about piping code definition.
+
+>The data are not editable
+
+## 19. Installation temperatures
+
+Click on the **Installation temperatures** button :
+
+![Image](../Images/Review23.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| Color | - | - |
+| Installation temperature | °C | °F |
+
+Click [here](https://documentation.metapiping.com/Design/Modification.html#91-installation-temperature) for more information about installation temperature definition.
+
+>The data are not editable
+
+## 20. Design conditions
+
+Click on the **Design conditions** button :
+
+![Image](../Images/Review24.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| Color | - | - |
+| Design conditions (Temperature // Pressure) | °C  //  N/mm² | °F // lb/in² |
+
+Click [here](https://documentation.metapiping.com/Design/Modification.html#92-design-conditions) for more information about design condition definition.
 
 >The data are not editable
