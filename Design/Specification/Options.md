@@ -48,4 +48,5 @@ This tab let you define the **calculation code** and its **Edition**, the direct
 - **Extract modes** : check this option to extract the mode shapes
 - **Cut-off freq.** : only the mode shapes below to the cut-off frequency are extracted 
 - **Auto. mesh freq.** : if different from 0, additional mass points will be generated to ensure that the mode shapes up to this frequency are accurate. This frequency should be equal or larger than the cut-off frequency
-- **Ref. case** : if the **Hot modulus** option is checked, the Young modulus Eh used for the modal extraction is evaluated at the temperature of the reference case 
+- **Ref. case** : if the **Hot modulus** option is checked, the Young modulus Eh used for the modal extraction is evaluated at the temperature of the reference case
+- **Consistent masses** : 
