@@ -8,7 +8,7 @@ grand_parent: Piping
 
 # Create nodes
 
-There is 2 possibilities of creation :
+There are 3 possibilities of creation :
 
 - Creation of the **FIRST** node
 - Creation of a **GLOBAL** node
