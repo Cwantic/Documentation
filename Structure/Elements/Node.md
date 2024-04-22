@@ -62,7 +62,7 @@ If a node is selected, you can create a new node relative to it in **Global dire
 
 You can **Undo** this command.
 
-Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
+Click [here](https://documentation.metapiping.com/Structure/Selection.html) for more information about the selection tool.
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
