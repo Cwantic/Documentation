@@ -3,8 +3,8 @@ layout: default
 title: Beam
 nav_order: 1
 has_children: true
-parent: Beam
-grand_parent: Elements
+parent: Elements
+grand_parent: Structure
 ---
 
 # Draw structure
