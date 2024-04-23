@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Draw structure
+title: Beam
 nav_order: 1
-parent: Elements
-grand_parent: Structure
+has_children: true
+parent: Beam
+grand_parent: Elements
 ---
 
 # Draw structure
@@ -14,11 +15,11 @@ Select a current **section**.
 
 Click on the **Draw structure** button :
 
-![Image](../../Images/Structure9.jpg)
+![Image](../../../Images/Structure9.jpg)
 
 As we start the modelisation, we need to create a **First node** :
 
-![Image](../../Images/Node9.jpg)
+![Image](../../../Images/Node9.jpg)
 
 Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html) for more information about the **First node** creation.
 
@@ -26,7 +27,7 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html) 
 
 After the first node has been created, you can draw your first beam :
 
-![Image](../../Images/Beam12.jpg)
+![Image](../../../Images/Beam12.jpg)
 
 The current **section** is the selected one in the upper **specification** ribbon.
 
@@ -54,7 +55,7 @@ When you click on the **Draw structure** button without selection, the left pane
 
     Select a node
 
-![Image](../../Images/Beam13.jpg)
+![Image](../../../Images/Beam13.jpg)
 
 The **selection mode** is automatically set to **POINT**. You can so directly select a node.
 
@@ -62,17 +63,17 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 You can start a new beam on an intermediate point on the beam under mouse :
 
-![Image](../../Images/Beam14.jpg)
+![Image](../../../Images/Beam14.jpg)
 
 Once the distance from the first node of the beam is correct, **CLICK** on the left mouse button.
 
 MetaStructure will automatically cut the beam and start a new beam from this new node :
 
-![Image](../../Images/Beam16.jpg)
+![Image](../../../Images/Beam16.jpg)
 
 If you want to start from an extremity, be carreful to have the extremity node in **MAGENTA** :
 
-![Image](../../Images/Beam15.jpg)
+![Image](../../../Images/Beam15.jpg)
 
 ### 2.2 End of beam
 
@@ -80,7 +81,7 @@ You can trace a beam in different way :
 
 * With the **orientation tool** :
 
-![Image](../../Images/Beam17.jpg)
+![Image](../../../Images/Beam17.jpg)
 
 Choose a direction and write the **Length** with the numpad of the keyboard and press **Enter** to create the beam.
 
@@ -88,13 +89,13 @@ Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.ht
 
 * That end on an **existing node** :
 
-![Image](../../Images/Beam18.jpg)
+![Image](../../../Images/Beam18.jpg)
 
 The node must be in **MAGENTA** color. The distance is automatically set in the cell. Just press **Enter** to create the beam.
 
 * That end on a projection X/Y/Z of a **Reference node** (in green) :
 
-![Image](../../Images/Beam20.jpg)
+![Image](../../../Images/Beam20.jpg)
 
 To define a **Reference point**, just move the mouse near an existing node -> it comes green.
 
@@ -102,7 +103,7 @@ The distance is automatically set in the cell. Just press **Enter** to create th
 
 * That end on an **intermediate node** :
 
-![Image](../../Images/Beam19.jpg)
+![Image](../../../Images/Beam19.jpg)
 
 The distance is automatically set in the cell. Just press **Enter** to create the beam.
 
@@ -110,7 +111,7 @@ MetaStructure will automatically cut the beam
 
 * That end **perpendicular** to another beam :
 
-![Image](../../Images/Beam21.jpg)
+![Image](../../../Images/Beam21.jpg)
 
 The distance is automatically set in the cell. Just press **Enter** to create the beam.
 
@@ -134,10 +135,10 @@ The default local-X direction for a beam is :
 
 During modelisation, you can set the values or press **-->** or **<--** to rotate the section by 90° :
 
-![Image](../../Images/Beam22.jpg)
+![Image](../../../Images/Beam22.jpg)
 
 The section is directly drawn as a preview.
 
 When selecting a beam, you can **Show/Hide** the local X-axis direction and modify it :
 
-![Image](../../Images/Beam23.jpg)
+![Image](../../../Images/Beam23.jpg)
