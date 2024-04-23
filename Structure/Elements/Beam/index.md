@@ -120,6 +120,12 @@ MetaStructure will automatically cut the beam
 
 ## 3. Graphical ending
 
+MetaStructure lets you define a graphical ending of every beams:
+
+![Image](../../../Images/End11.jpg)
+
+Click [here](https://documentation.metapiping.com/Structure/Elements/Beam/Ending.html) for more information about the graphical endings.
+
 ## 4. Joints
 
 
