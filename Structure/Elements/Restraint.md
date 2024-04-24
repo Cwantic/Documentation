@@ -47,7 +47,7 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html) 
 
 The **Level** is used to identify the spectrum applied to this anchor for multilevel floor response spectrum analysis.
 
-Set the coorinate system to **Local to adjacent element** and click the **Create** button to create an anchor :
+Set the coordinate system to **Local to adjacent element** and click the **Create** button to create an anchor :
 
 ![Image](../../Images/Restraint17.jpg)
 
@@ -74,7 +74,7 @@ Press **OK** to validate the anchor plate and press **Create** to validate the r
 
 ![Image](../../Images/Restraint20.jpg)
 
-The resulting anchor plate is rotated to correspond to actual beam's X-axis !
+The resulting anchor plate is rotated to correspond to actual beam's X-axis ! The plate is perfectly represented with its thickness and bolts. The grouting is represented under the plate with its thickness. The concrete is represented with its dimensions and dashed lines and crosses on virtual edges.
 
 ## 2.1 Plate definition
 
@@ -251,7 +251,3 @@ Click on the **Modify** button :
 ![Image](../../Images/Restraint42.jpg)
 
 Click [here](https://documentation.metapiping.com/Structure/Elements/Beam/Ending.html) for more information about the graphical endings.
-
----
-
-Click [here](https://documentation.metapiping.com/Structure/Elements/Beam/index.html) to return to **beam** page.
