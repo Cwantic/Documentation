@@ -43,7 +43,6 @@ The **Offset** add (or subtract if negative value) an offset distance to the end
 
 ![Image](../../../Images/End10.jpg)
 
-
 ### 1.1 None ending
 
 Ending plane = perpendicular plane to the current beam through the node :
@@ -98,3 +97,4 @@ The **offset** corresponds to the distance from the first face encoutered to the
 
 ![Image](../../../Images/End8.jpg)
 
+Click [here](https://documentation.metapiping.com/Structure/Elements/Beam/index.html) to return to **beam** page.

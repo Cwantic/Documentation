@@ -128,9 +128,31 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/Beam/Ending
 
 ## 4. Joints
 
+MetaStructure proposes several **assemblies** for each extremity of a beam :
+
+![Image](../../../Images/Joint10.jpg)
+
+*Example of a bolting plate*
+
+Click [here](https://documentation.metapiping.com/Structure/Elements/Beam/Joint.html) for more information about assemblies.
 
 ## 5. Bucklings
 
+The **bucklings** values are factors that multiply the real length of the beam to have the buckling lengths :
+
+![Image](../../../Images/Buckling1.jpg)
+
+| Property | Description | Default |
+| -------- | ----------- | --- |
+| Buckling X | buckling factor in the **High** inertia plane | 1 |
+| Buckling Y | buckling factor in the **weak** inertia plane | 1 |
+| Buckling Z | the **lateral-torsional** buckling factor | 1 |
+
+The **Lateral-Torsional Buckling** model (LTB) must be defined for the calculation of the elastic critical moment according to Eurocode 3.
+
+This critical moment depends on the coefficients C1 and C2 :
+
+![Image](../../../Images/Buckling2.jpg)
 
 ## 6. Local X-axis direction
 
@@ -138,6 +160,8 @@ The default local-X direction for a beam is :
 
 * (0, 1, 0) for vertical beams
 * (0, 0, 1) for non vertical beams
+
+X-axis is always the **strong** axis, Y-axis the **weak** axis and Z-axis the axis of the beam from Node1 to Node2.
 
 During modelisation, you can set the values or press **-->** or **<--** to rotate the section by 90° :
 
@@ -148,3 +172,5 @@ The section is directly drawn as a preview.
 When selecting a beam, you can **Show/Hide** the local X-axis direction and modify it :
 
 ![Image](../../../Images/Beam23.jpg)
+
+Changing the local X-axis direction will **turn** the section around its Z-axis.
