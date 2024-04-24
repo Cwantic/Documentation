@@ -97,4 +97,6 @@ The **offset** corresponds to the distance from the first face encoutered to the
 
 ![Image](../../../Images/End8.jpg)
 
+---
+
 Click [here](https://documentation.metapiping.com/Structure/Elements/Beam/index.html) to return to **beam** page.

@@ -204,4 +204,6 @@ The definition of a **joint** (fixed, detailed, bolted or welded) can be copied 
 {: .warning }
 >Don't forget to click to the **Modify** button to validate the duplication and see the result in 3D !
 
+---
+
 Click [here](https://documentation.metapiping.com/Structure/Elements/Beam/index.html) to return to **beam** page.

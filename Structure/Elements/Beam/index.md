@@ -144,7 +144,7 @@ The **bucklings** values are factors that multiply the real length of the beam t
 
 | Property | Description | Default |
 | -------- | ----------- | --- |
-| Buckling X | buckling factor in the **High** inertia plane | 1 |
+| Buckling X | buckling factor in the **strong** inertia plane | 1 |
 | Buckling Y | buckling factor in the **weak** inertia plane | 1 |
 | Buckling Z | the **lateral-torsional** buckling factor | 1 |
 
