@@ -16,8 +16,6 @@ grand_parent: Structure
 
 When you click on the **Add rigid** button without selection, the left panel shows a message :
 
-    Select 1 node
-
 ![Image](../../Images/Rigid7.jpg)
 
 The **selection mode** is automatically set to **POINT**. You can so directly select a node.
@@ -36,13 +34,13 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 >The length must be defined by the **orientation tool**.
 
+Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.html) for more information about the orientation tool.
+
 Set the default material of the rigid.
 
 You can define the **Local X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
 You can then define the second point of the rigid thanks to the **Orientation tool**.
-
-Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.html) for more information about the orientation tool.
 
 Create the rigid (represented by a black line) :
 
@@ -56,6 +54,6 @@ You can **undo** this command.
 
 ![Image](../../Images/Rigid9.jpg)
 
-*Select a rigid, change some properties and click on the **Modify** button or delete the rigid by clicking the **Remove** button.*
+*Select a rigid, change some properties and click on the **Modify** button or delete it by clicking the **Remove** button.*
 
 You can **undo** this command.

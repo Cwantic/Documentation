@@ -8,7 +8,7 @@ grand_parent: Structure
 
 # Model options
 
- ## 1. General
+## 1. General
 
 ![Image](../../Images/Options4.jpg)
 
