@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Codes
-nav_order: 4
+title: Structure
+nav_order: 2
 parent: Analysis
 ---
 
-# Codes 
+# Structure analysis
 
     Documentation will come soon...

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Solvers
-nav_order: 2
+nav_order: 3
 parent: Analysis
 ---
 
@@ -9,7 +9,7 @@ parent: Analysis
 
 MetaPiping comes with its built-in solver based on the finite element program Code_Aster from EDF. It can also connect to previously installed PIPESTRESS program.
 
-## 1. Code_Aster
+## 1. Code_Aster (piping & structure)
 
     Code_Aster offers a full range of multiphysical analysis and modeling methods that go well beyond the 
     standard functions of a thermomechanical calculation code: from seismic analysis to porous media via 
@@ -34,7 +34,7 @@ Supported codes :
 - ANSI/ASME B31.1 Editions 1998, 2004, 2007, 2010, 2012, 2014, 2016, 2018, 2020 (with B31J SIFs)
 
 
-## 2. PIPESTRESS
+## 2. PIPESTRESS (piping)
 
 >ONLY FOR USERS WITH A VALID PIPESTRESS LICENCE
 

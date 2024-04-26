@@ -43,7 +43,7 @@ You can change the coordinate system that defines the directions X,Y,Z :
 - Local to adjacent element coordinate system
 - Local to the node coordinate system (if exists on node)
 
-Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html) for more information about new coordinate system on node.
+Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html#4-creation-of-a-local-coordinate-system) for more information about new coordinate system on node.
 
 The **Level** is used to identify the spectrum applied to this anchor for multilevel floor response spectrum analysis.
 
