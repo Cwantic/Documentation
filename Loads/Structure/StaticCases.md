@@ -8,8 +8,8 @@ grand_parent: Loads
 
 # Static cases
 
-    Static cases consist of internal and/or external static loadings on the piping system. MetaStructure will 
-    calculate corresponding displacements, rotations, forces, moments and stresses.
+    Static cases consist of internal and/or external static loadings on the piping system. 
+    MetaStructure will calculate corresponding displacements, rotations, forces, moments and stresses.
 
 All existing static cases are listed in the combobox with their **Case number** + **Title** :
 

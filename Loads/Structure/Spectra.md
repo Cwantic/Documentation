@@ -64,7 +64,7 @@ In this tab, you can create/remove **LEVELS** for the same **EVENT** :
 
 The **LEVEL** number relates the spectra to the supports.
 
-Click [here](https://documentation.metapiping.com/Design/Restraints.html) to have more information about supports.
+Click [here](https://documentation.metapiping.com/Structure/Elements/Restraint.html) to have more information about supports.
 
 <ins>DX, DY, DZ</ins> :
 
