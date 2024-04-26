@@ -8,7 +8,8 @@ grand_parent: Loads
 
 # Static cases
 
-    Static cases consist of internal and/or external static loadings on the piping system. MetaStructure will calculate corresponding displacements, rotations, forces, moments and stresses.
+    Static cases consist of internal and/or external static loadings on the piping system. MetaStructure will 
+    calculate corresponding displacements, rotations, forces, moments and stresses.
 
 All existing static cases are listed in the combobox with their **Case number** + **Title** :
 
@@ -40,7 +41,8 @@ If checked, the fasteners will be verified.
 ![Image](../../Images/SLoad3.jpg)
 
 - **Take oper. conditions from ref. case** : select the load case which temperature will be used for Young modulus. If no reference case is selected and no operating conditions are defined for the load case, room temperature is used.
-- **Include weight** : if checked, the weight is considered in the calculation. - - **Include thermal expansion** : if checked, thermal expansion is considered in the calculation
+- **Include weight** : if checked, the weight is considered in the calculation.
+- **Include thermal expansion** : if checked, thermal expansion is considered in the calculation
 - **Pseudo-static cases** : to be checked for dynamic cases that are calculated as static cases (e.g. earthquake calculated with a pseudo-static acceleration)
 
 ## 3. Applied loads

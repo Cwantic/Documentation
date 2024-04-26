@@ -14,6 +14,8 @@ Click on the **LOAD** button to have access to the **load case types** :
 
 After selection, the choice becomes the **current load case type**.
 
+>**External cases** is visible only if there is at least one linked study and one or more links between piping nodes and structure nodes.
+
 ## 1. Edition
 
 For all cases, you can **create**, **modify** or **remove** a selected case :
