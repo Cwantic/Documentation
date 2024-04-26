@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Structure
-nav_order: 11
-has_children: true
-parent: Loads
+nav_order: 2
+parent: Review
 ---
 
-# Structure loads
+# Structure review
 
     Documentation will come soon...

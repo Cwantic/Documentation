@@ -35,32 +35,3 @@ A floppy disk on the left side of the ribbon indicates the sate of the file on d
 Every command in MetaPiping is stored in a **command list**.
 
 You can *navigate* through this list by pressing the **Undo/Redo** buttons.
-
-## 2. Load cases
-
-Click on the **LOAD** button to have access to the **load case types** :
-
-![Image](../Images/Load2.jpg)
-
-- Static cases : Click [here](https://documentation.metapiping.com/Loads/StaticCases/index.html) to have more information about all possible static cases
-- Thermal case : Click [here](https://documentation.metapiping.com/Loads/ThermalCases.html) to have more information about thermal cases
-- Spectra : Click [here](https://documentation.metapiping.com/Loads/Spectra.html) to have more information about spectra
-- Primary floor response cases : Click [here](https://documentation.metapiping.com/Loads/PrimaryCases.html) to have more information about primary floor response cases
-- Secondary floor response cases : Click [here](https://documentation.metapiping.com/Loads/SecondaryCases.html) to have more information about secondary floor response cases
-- Time history cases : Click [here](https://documentation.metapiping.com/Loads/TimeHistoryCases.html) to have more information about time history cases
-- Combination cases : Click [here](https://documentation.metapiping.com/Loads/CombinationCases.html) to have more information about combination cases
-- Stress combination cases : Click [here](https://documentation.metapiping.com/Loads/StressCombinationCases.html) to have more information about stress combination cases
-- Load sets : Click [here](https://documentation.metapiping.com/Loads/LoadSets.html) to have more information about load sets
-
-After selection, the choice becomes the **current load case type**.
-
-### 2.1 Edition
-
-For all cases, you can **create**, **modify** or **remove** a selected case :
-
-![Image](../Images/Load8.jpg)
-
-- **New** : open an empty window of **current load case type** : press OK to create the load
-- **Edit** : open a window of **current load case type** with the selected case :  press OK to modify the load case
-- **Delete** : remove the selected case
-- **Selection** : list of all cases of the **current load case type**
