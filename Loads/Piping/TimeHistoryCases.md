@@ -14,13 +14,13 @@ grand_parent: Loads
 
 When selecting **Time history cases**, all existing time history cases are listed in the combobox :
 
-![Image](../Images/Load33.jpg)
+![Image](../../Images/Load33.jpg)
 
 The cases appear with their **Case number** + **Title**.
 
 When editing, the definition window shows up :
 
-![Image](../Images/Load34.jpg)
+![Image](../../Images/Load34.jpg)
 
 Enter a **Case number** and a **Title**.
 

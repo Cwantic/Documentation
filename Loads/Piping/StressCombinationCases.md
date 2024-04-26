@@ -19,7 +19,7 @@ Click [here](https://documentation.metapiping.com/Analysis/Codes.html) for more 
 
 When selecting **Stress combination cases**, all existing stress combinations are listed in the combobox :
 
-![Image](../Images/Load27.jpg)
+![Image](../../Images/Load27.jpg)
 
 The loads appear with their **Case number** + **Title**.
 
@@ -27,7 +27,7 @@ The loads appear with their **Case number** + **Title**.
 
 When editing, the definition window shows up :
 
-![Image](../Images/Load28.jpg)
+![Image](../../Images/Load28.jpg)
 
 Enter a **Case number** and a **Title**.
 
@@ -71,7 +71,7 @@ Enter the **number** of the constituent cases and the corresponding **factor**.
     MB = Occasional load case
     MC = Thermal load case
 
-![Image](../Images/Load29.jpg)
+![Image](../../Images/Load29.jpg)
 
 On right side, as a reminder, the list of all cases. You can filter them by selecting the type :
 

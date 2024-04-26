@@ -15,7 +15,7 @@ grand_parent: Loads
 
 When selecting **Thermal cases**, all existing thermal cases are listed in the combobox :
 
-![Image](../Images/Load9.jpg)
+![Image](../../Images/Load9.jpg)
 
 The cases appear with their **Case number** + **Title**.
 
@@ -23,7 +23,7 @@ When editing, the definition window shows up :
 
 ## 1. General
 
-![Image](../Images/Load11.jpg)
+![Image](../../Images/Load11.jpg)
 
 Enter a **Case number** and a **Title**.
 
@@ -31,7 +31,7 @@ Enter a **Case number** and a **Title**.
 
 If defined, all elements of the model will use the same **default transient** :
 
-![Image](../Images/Load12.jpg)
+![Image](../../Images/Load12.jpg)
 
 See §5. for more information about edition of a **transient**.
 
@@ -39,7 +39,7 @@ See §5. for more information about edition of a **transient**.
 
 Click on the **Transient** button (1) to define transient to elements :
 
-![Image](../Images/Load10.jpg)
+![Image](../../Images/Load10.jpg)
 
 A right panel can be opened by clicking on the top button (2). It presents the elements with the same transient (1 color for each transient).
 
@@ -53,7 +53,7 @@ Click [here](https://documentation.metapiping.com/Design/Selection.html) for mor
 
 The main properties of the selected transient (or the default one of the thermal case) are shown on the left panel :
 
-![Image](../Images/Load15.jpg)
+![Image](../../Images/Load15.jpg)
 
 Select the graph type (1) :
 
@@ -90,7 +90,7 @@ To define a **Transient**, first select the type (1) :
 - Water transient
 - Fluid film coefficient
 
-![Image](../Images/Load13.jpg)
+![Image](../../Images/Load13.jpg)
 
 ### 5.1 Definition
 
@@ -125,7 +125,7 @@ For each row, define the properties :
 
 Enter other properties :
 
-![Image](../Images/Load14.jpg)
+![Image](../../Images/Load14.jpg)
 
 
 | Property | Unit Metric | Unit USA | Remark |
@@ -143,4 +143,4 @@ Enter other properties :
 
 Select the **curve type** in the list (3) :
 
-![Image](../Images/Load16.jpg)
+![Image](../../Images/Load16.jpg)

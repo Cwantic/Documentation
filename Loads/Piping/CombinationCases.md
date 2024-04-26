@@ -13,7 +13,7 @@ grand_parent: Loads
 
 When selecting **Combination cases**, all existing combinations are listed in the combobox :
 
-![Image](../Images/Load24.jpg)
+![Image](../../Images/Load24.jpg)
 
 The cases appear with their **Case number** + **Title**.
 
@@ -21,7 +21,7 @@ The cases appear with their **Case number** + **Title**.
 
 When editing, the definition window shows up :
 
-![Image](../Images/Load25.jpg)
+![Image](../../Images/Load25.jpg)
 
 Enter a **Case number** and a **Title**.
 
@@ -71,7 +71,7 @@ The equations are code-dependent.
 
 Enter the **number** of the constituent cases and the corresponding **factor** (1) :
 
-![Image](../Images/Load26.jpg)
+![Image](../../Images/Load26.jpg)
 
 On right side, as a reminder, the list of all cases (2). You can filter them by selecting the type :
 

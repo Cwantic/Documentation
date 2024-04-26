@@ -16,7 +16,7 @@ grand_parent: Loads
 
 When selecting **Load sets**, all existing load sets are listed in the combobox :
 
-![Image](../Images/Load30.jpg)
+![Image](../../Images/Load30.jpg)
 
 The load sets appear with their **Title**. There is no **Case number** for that kind of case.
 
@@ -24,7 +24,7 @@ The load sets appear with their **Title**. There is no **Case number** for that 
 
 When editing, the definition window shows up :
 
-![Image](../Images/Load31.jpg)
+![Image](../../Images/Load31.jpg)
 
 Enter a **Title**.
 

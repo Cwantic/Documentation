@@ -21,7 +21,7 @@ MetaPiping will calculate the bounds for the **PRIMARY** part of the solution u(
 
 When selecting **Primary floor response cases**, all existing primary floor response cases are listed in the combobox :
 
-![Image](../Images/Load18.jpg)
+![Image](../../Images/Load18.jpg)
 
 The cases appear with their **Case number** + **Title**.
 
@@ -29,7 +29,7 @@ The cases appear with their **Case number** + **Title**.
 
 When editing, the definition window shows up :
 
-![Image](../Images/Load19.jpg)
+![Image](../../Images/Load19.jpg)
 
 Enter a **Case number** and a **Title**.
 
@@ -94,19 +94,19 @@ This factor multiplies the X, Y, Z component of the loading.
 
 In this example, we use this **Spectra loading** :
 
-![Image](../Images/Load20.jpg)
+![Image](../../Images/Load20.jpg)
 
 It contains 2 **LEVELS** with corresponding spectra :
 
-![Image](../Images/Load21.jpg)
+![Image](../../Images/Load21.jpg)
 
-Click [here](https://documentation.metapiping.com/Loads/Spectra.html) for more information about the spectra definition.
+Click [here](https://documentation.metapiping.com/Loads/Piping/Spectra.html) for more information about the spectra definition.
 
 ## 3. Restraint defintion
 
 In this example, all restraints are assigned a **LEVEL** :
 
-![Image](../Images/Load17.jpg)
+![Image](../../Images/Load17.jpg)
 
 Level 1 for the main line.
 
@@ -114,4 +114,4 @@ Level 2 for the secondary line.
 
 ## 4. Secondary floor response cases
 
-Click [here](https://documentation.metapiping.com/Loads/SecondaryCases.html) for more information about the secondary floor response cases.
+Click [here](https://documentation.metapiping.com/Loads/Piping/SecondaryCases.html) for more information about the secondary floor response cases.

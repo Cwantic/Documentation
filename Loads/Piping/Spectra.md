@@ -13,7 +13,7 @@ grand_parent: Loads
 
 When selecting **Spectra**, all existing spectra are listed in the combobox :
 
-![Image](../Images/Load3.jpg)
+![Image](../../Images/Load3.jpg)
 
 The spectra appear with their **Event number** + **Title**.
 
@@ -21,7 +21,7 @@ When editing, the definition window shows up :
 
 ## 1. General
 
-![Image](../Images/Load4.jpg)
+![Image](../../Images/Load4.jpg)
 
 Enter an **Event number**, a **Name** and a **Title**.
 
@@ -60,7 +60,7 @@ Duration of earthquake (in seconds).
 
 In this tab, you can create/remove **LEVELS** for the same **EVENT** :
 
-![Image](../Images/Load5.jpg)
+![Image](../../Images/Load5.jpg)
 
 The **LEVEL** number relates the spectra to the supports.
 
@@ -96,7 +96,7 @@ Low frequency f1 and high frequency f2 for Gupta and Lindley-Yow methods.
 
 The **Database** button on upper right corner gives an access to the spectra libraries :
 
-![Image](../Images/Load6.jpg)
+![Image](../../Images/Load6.jpg)
 
 Select a library on the left treeview, then select a row that represents a particular damping for a predefined spectrum. Some values are just informative. Click **OK**. The properties are copied to the spectrum screen.
 
@@ -106,14 +106,14 @@ Click [here](https://documentation.metapiping.com/Settings/Databases/Spectra.htm
 
 Select a level on the right list to see the spectrum graph :
 
-![Image](../Images/Load7.jpg)
+![Image](../../Images/Load7.jpg)
 
 ## 4. Restraints
 
 You can now select **restraints** or create one on a selected node and affect the **Level** property (set the level number) :
 
-![Image](../Images/Restraint2.jpg)
+![Image](../../Images/Restraint2.jpg)
 
 You can also check the property on **Review** mode (type Restraints):
 
-![Image](../Images/Restraint10.jpg)
+![Image](../../Images/Restraint10.jpg)
