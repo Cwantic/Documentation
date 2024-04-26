@@ -8,8 +8,7 @@ grand_parent: Loads
 
 # Static cases
 
-    Static cases consist of internal and/or external static loadings on the piping system. MetaPiping 
-    will calculate corresponding displacements, rotations, forces, moments and stresses.
+    Static cases consist of internal and/or external static loadings on the piping system. MetaPiping will calculate corresponding displacements, rotations, forces, moments and stresses.
 
 All existing static cases are listed in the combobox with their **Case number** + **Title** :
 
@@ -41,7 +40,6 @@ Enter a **Case number** and a **Title**.
 - User defined
 
 Depending on the chosen category, some options are pre-selected in tab **Options** and the loads that may be applied are listed in tab **Applied loads**.
-
 
 <ins>Level</ins> :
 
@@ -125,7 +123,7 @@ If you check this option, you will see this **button** in the ribbon:
 
 You can **undo** this command.
 
-Click on the **Remove** button to delete the wind load on selected elements.
+Click on the **Remove** button to delete the operating condition load on selected elements.
 
 ---
 
@@ -184,8 +182,6 @@ If you check this option, you will see this **button** in the ribbon :
 You can **undo** this command.
 
 Click on the **Remove** button to delete the load on selected elements.
-
-You can **undo** this command.
 
 You can also change the size of the drawn accelerations by clicking on these buttons :
 
