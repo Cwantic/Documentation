@@ -2,7 +2,8 @@
 layout: default
 title: Load sets
 nav_order: 9
-parent: Loads
+parent: Piping
+grand_parent: Loads
 ---
 
 # Load sets (Class 1 only)

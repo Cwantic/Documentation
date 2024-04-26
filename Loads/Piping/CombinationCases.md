@@ -2,7 +2,8 @@
 layout: default
 title: Combination cases
 nav_order: 7
-parent: Loads
+parent: Piping
+grand_parent: Loads
 ---
 
 # Combination cases

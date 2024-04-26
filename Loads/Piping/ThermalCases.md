@@ -2,7 +2,8 @@
 layout: default
 title: Thermal cases
 nav_order: 2
-parent: Loads
+parent: Piping
+grand_parent: Loads
 ---
 
 # Thermal cases (Class 1 only)

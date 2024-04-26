@@ -2,7 +2,8 @@
 layout: default
 title: Secondary floor response cases
 nav_order: 5
-parent: Loads
+parent: Piping
+grand_parent: Loads
 ---
 
 # Secondary floor response cases

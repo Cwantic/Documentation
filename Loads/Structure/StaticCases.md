@@ -18,3 +18,6 @@ All existing static cases are listed in the combobox with their **Case number** 
 When editing or creating a static case, the definition window shows up. There are three tabs : General, Options and Applied loads.
 
 ## 1. General
+
+    Documentation will come soon...
+

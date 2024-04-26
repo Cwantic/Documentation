@@ -2,7 +2,8 @@
 layout: default
 title: Primary floor response cases
 nav_order: 4
-parent: Loads
+parent: Piping
+grand_parent: Loads
 ---
 
 # Primary floor response cases

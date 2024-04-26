@@ -2,7 +2,8 @@
 layout: default
 title: Stress combination cases
 nav_order: 8
-parent: Loads
+parent: Piping
+grand_parent: Loads
 ---
 
 # Stress combination cases
