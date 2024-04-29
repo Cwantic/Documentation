@@ -169,7 +169,7 @@ Click on the **Restraints** button :
 
 ![Image](../Images/Review13.jpg)
 
-The **Data panel** shows the **Restraint type** and the **Level** for each node.
+The **Data panel** shows the **Restraint type** and the **Level** for each restraint.
 
 The **INTERACTIVITY** is the same as explained on §5.
 
