@@ -29,7 +29,7 @@ This object gives you access to the objects in selection, some current propertie
 | result | - | Set a message as output (empty = no message) |
 | getCurrentLayer() | Layer | Return the current layer |
 | getCurrentJointType() | JointType | Return the current joint type |
-| getCurrentPipingValues() | CurrentPipingValues | Return the current piping values (section, material, diameter, radius...) |
+| getCurrentSpecValues() | CurrentPipingValues | Return the current piping/structure values (section, material, diameter, radius...) |
 | getScriptDirectory() | string | Return the current script directory |
 | createVariableWindow() | createVariableWindow | Return an empty window |
 

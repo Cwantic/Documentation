@@ -14,9 +14,9 @@ After creating a new **structure study** and pressing the **Edit** button, a win
 Set the **Code** and **Edition** and press **OK** : new tabs appear in the ribbon menu on top of the application :
 
 - Structure
-- Load - click [here](https://documentation.metapiping.com/Loads/index.html) to have more information about loading
-- Review - click [here](https://documentation.metapiping.com/Review/index.html) to have more information about review tools
-- Analysis - click [here](https://documentation.metapiping.com/Analysis/index.html) to have more information about analysis
+- Load - click [here](https://documentation.metapiping.com/Loads/Structure/index.html) to have more information about loading
+- Review - click [here](https://documentation.metapiping.com/Review/Structure.html) to have more information about review tools
+- Analysis - click [here](https://documentation.metapiping.com/Analysis/Structure.html) to have more information about analysis
 
 ![Image](../Images/Structure1.jpg)
 

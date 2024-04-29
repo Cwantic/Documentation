@@ -261,3 +261,25 @@ Click on the **Node links** button :
 >The data are not editable
 
 Click [here](https://documentation.metapiping.com/Structure/Elements/Link.html) for more informations about **links**.
+
+### 13. View options
+
+![Image](../Images/Structure5.jpg)
+
+![Image](../Images/Design9.jpg) shows/hides the node name
+
+![Image](../Images/Design10.jpg) shows/hides the node point
+
+![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
+
+![Image](../Images/Design12.jpg) show the structure in shading mode
+
+![Image](../Images/Design13.jpg) show the structure in hidden lines mode
+
+![Image](../Images/Design14.jpg) show the structure in wireframe mode
+
+![Image](../Images/Design15.jpg) shows/hides the shadows
+
+![Image](../Images/Design16.jpg) shows/hides the silhouette drawing
+
+![Image](../Images/Design30.jpg) shows/hides the linked study models 

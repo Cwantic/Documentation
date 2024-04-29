@@ -80,4 +80,4 @@ User can **Right click** a *.fre file in Windows explorer and ask to open it wit
 
 A project will be created with a study and a complete connection of the internal MetaL to this file + solver PIPESTRESS.
 
-Click [here](https://documentation.metapiping.com/Explorer/Study.html) to have more information about PIPESTRESS **bricks**.
+Click [here](https://documentation.metapiping.com/Explorer/Study.html#35-pipestress) to have more information about PIPESTRESS **bricks**.

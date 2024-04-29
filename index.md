@@ -10,4 +10,6 @@ The new modeling and analysis software for NUCLEAR and INDUSTRIAL piping systems
 
 ![Logo](Images/Piping.jpg)
 
+![Logo](Images/BigStructure.jpg)
+
 Navigate the menu on the left or use the top search bar.

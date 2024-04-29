@@ -176,8 +176,8 @@ Copy/paste this code in the Editor :
 ############################
 
 from window import App
-from trigonometry import cross, normalize
-from Cwantic.MetaPiping.Core import CurrentPipingValues, RemoveElementCommand, AddNodeCommand, DrawPipingCommand, InsertBendCommand
+from System.Windows.Media.Media3D import Vector3D
+from Cwantic.MetaPiping.Core import RemoveElementCommand, AddNodeCommand, DrawPipingCommand, InsertBendCommand
    
 # Inspect selection
 n = len(design.selectedList)
@@ -197,17 +197,17 @@ if n==1:
         verticalvec = design.getVerticalVector()
         
         # Get the current piping values (section, material, radius,...)
-        currentPipingValues = design.getCurrentPipingValues()
+        currentValues = design.getCurrentSpecValues()
         
         # Memorize current radius
-        currentRadius = currentPipingValues.MKS_BendRadius
+        currentRadius = currentValues.MKS_BendRadius
         
         # Get the pipe direction vector
-        vec1 = (pipe.DL.X, pipe.DL.Y, pipe.DL.Z)
+        vec1 = Vector3D(pipe.DL.X, pipe.DL.Y, pipe.DL.Z)
         
         # Compute the cross product to determine the loop direction
-        dir = cross(vec1, verticalvec)
-        dir = normalize(dir)
+        dir = Vector3D.CrossProduct(vec1, verticalvec)
+        dir.Normalize()
 
         # Create a new USER command : cmd
         cmd = design.createCommand("AddLoop")
@@ -229,13 +229,13 @@ if n==1:
             # retrieve the size and radius from the app
             size = float(app.GetLValue())
             # Set the new Radius for next commands
-            currentPipingValues.MKS_BendRadius = float(app.GetRValue())
+            currentValues.MKS_BendRadius = float(app.GetRValue())
                         
             # TIP : Create 2 new nodes (N3 and N4) with "AddNodeCommand"
-            node1Cmd = AddNodeCommand(model, p1.X + size*dir[0], p1.Y + size*dir[1], p1.Z + size*dir[2], "", False, currentPipingValues)
+            node1Cmd = AddNodeCommand(model, p1.X + size*dir.X, p1.Y + size*dir.Y, p1.Z + size*dir.Z, "", False, currentValues)
             N3 = node1Cmd.Node
             
-            node2Cmd = AddNodeCommand(model, p2.X + size*dir[0], p2.Y + size*dir[1], p2.Z + size*dir[2], "", False, currentPipingValues)
+            node2Cmd = AddNodeCommand(model, p2.X + size*dir.X, p2.Y + size*dir.Y, p2.Z + size*dir.Z, "", False, currentValues)
             N4 = node2Cmd.Node
             # Create new pipe perpendicular to selected pipe from node1
 
@@ -243,13 +243,13 @@ if n==1:
             params = []
             params.append(pipe.Node1)
             params.append(N3)
-            params.append(size*dir[0])
-            params.append(size*dir[1])
-            params.append(size*dir[2])
+            params.append(size*dir.X)
+            params.append(size*dir.Y)
+            params.append(size*dir.Z)
             params.append(0.0)
             params.append(0.0)
             params.append(0.0)
-            params.append(currentPipingValues)
+            params.append(currentValues)
             
             # 2.2 : Add sub command
             valid = cmd.addSubCommand("DrawPipingCommand", params)
@@ -261,13 +261,13 @@ if n==1:
                 params = []
                 params.append(N3)
                 params.append(N4)
-                params.append(vec1[0])
-                params.append(vec1[1])
-                params.append(vec1[2])
+                params.append(vec1.X)
+                params.append(vec1.Y)
+                params.append(vec1.Z)
                 params.append(0.0)
                 params.append(0.0)
                 params.append(0.0)
-                params.append(currentPipingValues)
+                params.append(currentValues)
 
                 # 3.2 : Add sub command
                 valid = cmd.addSubCommand("DrawPipingCommand", params)
@@ -279,13 +279,13 @@ if n==1:
                     params = []
                     params.append(N4)
                     params.append(pipe.Node2)
-                    params.append(-size*dir[0])
-                    params.append(-size*dir[1])
-                    params.append(-size*dir[2])
+                    params.append(-size*dir.X)
+                    params.append(-size*dir.Y)
+                    params.append(-size*dir.Z)
                     params.append(0.0)
                     params.append(0.0)
                     params.append(0.0)
-                    params.append(currentPipingValues)
+                    params.append(currentValues)
                 
                     # 4.2 : Add sub command
                     valid = cmd.addSubCommand("DrawPipingCommand", params)
@@ -296,7 +296,7 @@ if n==1:
                         # 5.1 Create params for command "InsertBendCommand"
                         params = []
                         params.append(pipe.Node2)
-                        params.append(currentPipingValues)
+                        params.append(currentValues)
                         
                         # 5.2 : Add sub command
                         valid = cmd.addSubCommand("InsertBendCommand", params)
@@ -308,7 +308,7 @@ if n==1:
         else:
             res = "Incorrect params"
         # Restore the radius
-        currentPipingValues.MKS_BendRadius = currentRadius
+        currentValues.MKS_BendRadius = currentRadius
     else:
         res = "The selected element is not a pipe"
     

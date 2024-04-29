@@ -219,17 +219,11 @@ if n==1:
                     cmd.addSubCommand("AddBeamCommand", [node1, node2, node2.Coor.X-node1.Coor.X, node2.Coor.Y-node1.Coor.Y, node2.Coor.Z-node1.Coor.Z, MassModel.HalfAtBoth, 0.0, verticalvec.X, verticalvec.Y, verticalvec.Z, currentValues, -1])
 
                     currentValues = initializeCurrentValues(currentValues)
-                    #currentValues.BeamExtremity2 = BeamExtremity.Back
-                    #currentValues.BeamIndexExtremity2 = 1
-                    #cmd.addSubCommand("AddBeamCommand", [node2, node3, node3.Coor.X-node2.Coor.X, node3.Coor.Y-node2.Coor.Y, node3.Coor.Z-node2.Coor.Z, MassModel.HalfAtBoth, 0.0, verticalvec.X, verticalvec.Y, verticalvec.Z, currentValues, -1])
                     beamCmd = AddBeamCommand(model, node2, node3, node3.Coor.X-node2.Coor.X, node3.Coor.Y-node2.Coor.Y, node3.Coor.Z-node2.Coor.Z, MassModel.HalfAtBoth, 0.0, verticalvec.X, verticalvec.Y, verticalvec.Z, currentValues, -1)
                     beam1 =  beamCmd.Beam 
                     cmd.addSubCommand("AddBeamCommand", [beam1])
                     
                     currentValues = initializeCurrentValues(currentValues)
-                    #currentValues.BeamExtremity1 = BeamExtremity.Front
-                    #currentValues.BeamIndexExtremity1 = 1
-                    #cmd.addSubCommand("AddBeamCommand", [node3, node4, node4.Coor.X-node3.Coor.X, node4.Coor.Y-node3.Coor.Y, node4.Coor.Z-node3.Coor.Z, MassModel.HalfAtBoth, 0.0, horizontalvec.X, horizontalvec.Y, horizontalvec.Z, currentValues, -1])
                     beamCmd2 = AddBeamCommand(model, node3, node4, node4.Coor.X-node3.Coor.X, node4.Coor.Y-node3.Coor.Y, node4.Coor.Z-node3.Coor.Z, MassModel.HalfAtBoth, 0.0, horizontalvec.X, horizontalvec.Y, horizontalvec.Z, currentValues, -1)
                     beam2 =  beamCmd2.Beam
                     cmd.addSubCommand("AddBeamCommand", [beam2])
