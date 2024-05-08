@@ -18,6 +18,6 @@ The internal format of the whole model in Design mode is the **metaL** object (a
 
 After calculation, the **solution** object contains all the results.
 
-The instructions that MetaPiping understand during model construction are the **command** objects.
+The instructions that MetaPiping understands during model construction are the **command** objects.
 
->Not all classes are explained in this documentation. The description of other classes can be given on demand...
+>Not all classes are explained in this documentation. The description of other classes can be given upon request...

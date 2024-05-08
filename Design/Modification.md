@@ -18,10 +18,10 @@ Click on **Select** button to open the selection window :
 - Click on **Point** to select nodes
 - Click on **Element** to select piping elements (pipe, bend, reducer, valve, etc.)
 - Click on **Restraint** to select restraints
-- Click **Tee** to select nodes where a tee has been assigned
+- Click on **Tee** to select nodes where a tee has been assigned
 - Press **ESC** on keyboard to hide the selection window
 
-You can now select objects of appropriate type.
+You can now select objects of corresponding type.
 
     The selection is done by pressing the left mouse button above the desired object
 
@@ -29,7 +29,7 @@ Click [here](https://documentation.metapiping.com/Design/Selection.html) to have
 
 ## 2. Remove elements
 
-Select elements and click the **Remove elements** button to delete these elements.
+Select elements and click on the **Remove elements** button to delete these elements.
 
 You can **Undo** this command.
 
@@ -72,7 +72,7 @@ The tool is available only for pipes, beams and bends. For bends, length and dis
 
 ## 4. Merge elements
 
-Select a **Node** between 2 similar colinear pipes and click the **Merge** button.
+Select a **Node** between 2 similar colinear pipes and click on the **Merge** button.
 
 The 2 pipes must have the same **Material** and the same **Section**.
 
@@ -152,14 +152,14 @@ Set the offset to apply to the nodes :
 | DY | m | ft |
 | DZ | m | ft |
 
-Valid the command by clicking the **Move** button :
+Validate the command by clicking on the **Move** button :
 
 ![Image](../Images/Modification13.jpg)
 
 You can **Undo** this command.
 
 {: .warning }
->ATTENTION, sometime this modification can create unwanted results, essentially due to bend definition no more compatible. You have to remove elements and rebuild the connection.
+>ATTENTION, sometimes this modification can create unwanted results, essentially due to bend definition no more compatible. You have to remove elements and rebuild the connection.
 
 ![Image](../Images/Modification14.jpg)
 
@@ -196,7 +196,7 @@ Select an element and set the new length :
 | -------- | ---- | ---- |
 | Length | m | ft |
 
-The **Shift** option offset all next elements.
+The **Shift** option offsets all following elements.
 
 If **Shift** option is unchecked, MetaPiping will try to change the length of the selected element and modify the length of the next element. 
 
@@ -208,7 +208,7 @@ You can **Undo** this command.
 
 ### 8.2 Change direction
 
-Select an element and set the new direction (DX, DY, DZ) :
+Select an element and set the new length vector (DX, DY, DZ) :
 
 ![Image](../Images/Modification21.jpg)
 
@@ -219,7 +219,7 @@ Select an element and set the new direction (DX, DY, DZ) :
 | DZ | m | ft |
 
 {: .warning }
->ATTENTION, the direction (DX, DY, DZ) are calculated from intersection point to intersection point. On the last picture, the arrow start from the intersection point on the bend and end at the last point of the pipe.
+>ATTENTION, the vector (DX, DY, DZ) is calculated from intersection point to intersection point. On the last picture, the arrow starts from the intersection point on the bend and ends at the last point of the pipe.
 
 Let's try this change of direction :
 
@@ -227,7 +227,7 @@ Let's try this change of direction :
 
 ![Image](../Images/Modification23.jpg)
 
-The **Shift** option offset all next elements.
+The **Shift** option offsets all following elements.
 
 {: .warning }
 >ATTENTION, sometime this modification can create unwanted results, essentially due to bend definition no more compatible. You have to remove elements and rebuild the connection.
@@ -240,7 +240,7 @@ You can **Undo** this command.
 
 ### 9.1 Installation temperature
 
-MetaPiping lets you define installation temperature of elements in the case of different from default one :
+MetaPiping lets you define installation temperature of elements when different from default one :
 
 ![Image](../Images/Modification24.jpg)
 
@@ -250,7 +250,7 @@ Select multiple elements, uncheck **Use default** cell and set the new temperatu
 | -------- | ---- | ---- |
 | Temperature | °C | °F |
 
-Click to Modify to validate.
+Click on Modify to validate.
 
 You can see the elements with this property by a colored map and the legend in the right tab.
 
@@ -267,9 +267,9 @@ Select multiple elements, uncheck **Use default** cell and set the temperature a
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
 | Temperature | °C | °F |
-| Pressure | N/mm² | lb/in² |
+| Pressure | N/mm² | psi |
 
-Click to Modify to validate.
+Click on Modify to validate.
 
 You can see the elements with this property by a colored map and the legend in the right tab.
 
@@ -277,13 +277,13 @@ You can **Undo** this command.
 
 ### 9.3 Piping code
 
-MetaPiping lets you define the piping code of elements in the case of different from default one :
+MetaPiping lets you define the piping code of elements when different from default one :
 
 ![Image](../Images/Modification26.jpg)
 
 Select multiple elements, uncheck **Use default** cell and set the new code and edition.
 
-Click to Modify to validate.
+Click on Modify to validate.
 
 You can see the elements with this property by a colored map and the legend in the right tab.
 
@@ -307,22 +307,22 @@ Give it a name and fill the soil properties :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
-| LK | Influence Length | m | in |
-| LF | Slippage Length | m | in |
-| NK | Number of Transverse Springs along the Influence Length | - | - |
-| NF | Number of Axial Springs along the Slippage Length | - | - |
-| KH | Horizontal Modulus of Subgrade Reaction | N/mm² | ksi |
-| KU | Vertical Upwards Modulus of Subgrade Reaction | N/mm² | ksi |
-| KD | Vertical Downwards Modulus of Subgrade Reaction | N/mm² | ksi |
-| FF | Maximum Unit Friction Force at the Pipe/Soil Interface | kN/m | kips/ft |
-| GH | Pipe Displacement at Maximum Horizontal Resistance | mm | in |
-| GU | Pipe Displacement at Maximum Upwards Resistance | mm | in |
-| GD | Pipe Displacement at Maximum Downwards Resistance | mm | in |
-| GF | Axial Pipe Displacement at Maximum Friction Force | mm | in |
-| DM | Maximum pipe Length | m | ft |
-| DB | Maximum bend Length | m | ft |
+| LK | Influence length | m | in |
+| LF | Slippage length | m | in |
+| NK | Number of transverse springs along the influence length | - | - |
+| NF | Number of axial springs along the slippage length | - | - |
+| KH | Horizontal modulus of subgrade reaction | N/mm² | ksi |
+| KU | Vertical upwards modulus of subgrade reaction | N/mm² | ksi |
+| KD | Vertical downwards modulus of subgrade reaction | N/mm² | ksi |
+| FF | Maximum unit friction force at the pipe/soil interface | kN/m | kips/ft |
+| GH | Pipe displacement at maximum horizontal resistance | mm | in |
+| GU | Pipe displacement at maximum upwards resistance | mm | in |
+| GD | Pipe displacement at maximum downwards resistance | mm | in |
+| GF | Axial pipe displacement at maximum friction force | mm | in |
+| DM | Maximum pipe length | m | ft |
+| DB | Maximum bend length | m | ft |
 
-Click to Modify to validate.
+Click on Modify to validate.
 
 You can see the elements with this property by a colored map and the legend in the right tab.
 

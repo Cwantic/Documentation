@@ -36,7 +36,7 @@ The main units are given here below.
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
 | Displacement |  mm | in |
-| Rotation| rad | rad |
+| Rotation| mrad | mrad |
 | Force | N | lbf |
 | Moment | N.m | lbf.ft |
 | Stress | MPa | ksi |

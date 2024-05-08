@@ -41,9 +41,9 @@ Fill the **GLOBAL** X, Y, Z coordinates and a name.
 | Z | Z global coordinate  | m | ft |
 | Name | Text or number | - | - |
 
-    To know the UNIT of the value, just let the mouse over the cell. 
+    To know the UNIT of the value, just let the mouse over the cell.
 
-If **Name** is blanck, the new node will receive an automatic name based on the **Node settings**.
+If **Name** is blank, the new node will receive an automatic name based on the **Node settings**.
 
 Click [here](https://documentation.metapiping.com/Settings/General.html) for more information about node naming.
 
@@ -71,7 +71,7 @@ Click [here](https://documentation.metapiping.com/Structure/Selection.html) for 
 | DZ | Relative distance from the selected node in Z global direction  | m | ft |
 | Name | Text or number | - | - |
 
-If **Name** is blanck, the new node will receive an automatic name based on the **Node settings**.
+If **Name** is blank, the new node will receive an automatic name based on the **Node settings**.
 
 Click [here](https://documentation.metapiping.com/Settings/General.html) for more information about node naming.
 
@@ -91,14 +91,6 @@ You can define a new **local coordinate system** on selected node (4).
 Just define the new **X** axis vector (Xx, Xy, Xz) in global coordinates and the new **Z** axis vector (Zx, Zy, Zz).
 The **Y** axis will be automatically defined.
 
-| Property | Unit Metric | Unit USA |
-| -------- | ---- | ---- |
-| Xx |  m | ft |
-| Xy |  m | ft |
-| Xz |  m | ft |
-| Zx |  m | ft |
-| Zy |  m | ft |
-| Zz |  m | ft |
 
 By default, the local coordinate system is equal to the global coordinate system.
 

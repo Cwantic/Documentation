@@ -9,18 +9,18 @@ parent: Explorer
 
 A study consists of a **Diagram** of bricks and connections.
 
-It is a folder that contains at least a 3D model and the results of calculation.
+It is a folder that contains at least a 3D model and the calculation results.
 
 ![Image](../Images/Study1.jpg)
 
 The **study** screen consists of :
 
 1. The **Bricks**
-2. The main panel that show the **Study Diagram**
+2. The main panel that shows the **Study Diagram**
 3. The **Solver brick**
 4. A **Connector**
 5. A **Connector**
-6. The **Edit** button to design the 3D model
+6. The **Edit** button to open the 3D model
 
 An empty study contains at least one **Study brick** and one **Solver brick**.
 ## 1. Connections
@@ -29,7 +29,7 @@ Connect the connectors 4 and 5 to define the current **Solver**.
 
     Press left mouse button above connector 4 -> move the mouse to connector 5 -> release the left button
 
-    To remove the connection : select the connection and press the DELETE button of the keyboard.
+    To remove the connection : select the connection and press DELETE on the keyboard.
 
 Select **Aster** for example :
 
@@ -41,7 +41,7 @@ Click [here](https://documentation.metapiping.com/Analysis/Solver.html) to have 
 
 ## 2. Empty model
 
-Click **Edit** (6) to start an empty design.
+Click **Edit** (6) to start a new design.
 
 Click [here](https://documentation.metapiping.com/Design/index.html) to have more information about the design.
 
@@ -50,11 +50,11 @@ Click [here](https://documentation.metapiping.com/Design/index.html) to have mor
 ![Image](../Images/Study1A.jpg)
 ### 3.1 File
 
-This create a brick that let you import a file of any extension.
+This create a brick that lets you import a file of any extension.
 
 ![Image](../Images/Study3.jpg)
 
-This is usefull only for Python script that need a file as input (Ex : Excel file or Text file).
+This is useful only for Python scripts that need a file as input (Ex : Excel file or Text file).
 
 Click on the button to open a search file dialog.
 
@@ -62,12 +62,12 @@ Use the connector to send the file to another brick as an input.
 
 ### 3.2 Study link
 
-This create a brick that virtually replicate existing studies inside a new one. This is usefull to create new nodes based on existing ones.
+This create a brick that virtually replicates existing studies inside another one. This is useful to create new nodes based on those of the linked studies.
 
 ![Image](../Images/Study10.jpg)
 
 {: .warning }
->You can connect multiple studies. All must be drawn with the same referential XYZ.
+>You can connect multiple studies. All must be defined in the same coordinate system XYZ.
 
 {: .warning }
 >In design, you can hide the linked studies.
@@ -77,7 +77,7 @@ This create a brick that virtually replicate existing studies inside a new one. 
 
 ### 3.3 PCF
 
-The **plugin** PCF let you import *.pcf files.
+The **plugin** PCF lets you import *.pcf files.
 
 ![Image](../Images/Study4.jpg)
 
@@ -87,7 +87,7 @@ This will convert the PCF to the MetaL file format.
 
 ### 3.4 PIPSYS
 
-The **plugin** PIPSYS let you import files with several extensions.
+The **plugin** PIPSYS lets you import files with several extensions.
 
 ![Image](../Images/Study5.jpg)
 
@@ -97,9 +97,9 @@ This will convert the PIPSYS to the MetaL file format.
 
 ### 3.5 PIPESTRESS
 
-The **plugin** PIPESTRESS let you import *.fre (and *.thf files).
+The **plugin** PIPESTRESS lets you import *.fre (and *.thf files).
 
-The Time History File is not mandatory and depend on the correspondinf FRE file.
+The Time History File is not mandatory and depends on the corresponding FRE file.
 
 ![Image](../Images/Study6.jpg)
 
@@ -107,7 +107,7 @@ Open a file and connect it to the **MetaL** connector of the **Study brick**.
 
 This will convert the FRE to the MetaL file format.
 
-The **plugin** PIPESTRESS let you also import POSTR files for postprocessing.
+The **plugin** PIPESTRESS also lets you import POSTR files for postprocessing.
 
 ![Image](../Images/Study7.jpg)
 
@@ -117,7 +117,7 @@ It will produce a text file (in the result cell) that can be edited by **double 
 
 You can specify your favorite text editor in the settings.
 
-The **plugin** PIPESTRESS let you also configure all bricks by just importing a *.fre file. It checks if a *.thf file is needed, set the Solver to PIPESTRESS and make all connections automatically.
+The **plugin** PIPESTRESS also lets you configure all bricks by just importing a *.fre file. It checks if a *.thf file is needed, sets the Solver to PIPESTRESS and makes all connections automatically.
 
 ![Image](../Images/Study8.jpg)
 
@@ -133,9 +133,9 @@ Click [here](https://documentation.metapiping.com/Python/index.html) to have mor
 
 ### 3.7 Comment
 
-This create a brick with text and color capabilities.
+This creates a brick with text and color capabilities.
 
-Usefull to show the state of progress of the study to other users. A conventionnal color code can be established.
+Useful to show the state of progress of the study to other users. A conventionnal color code can be established.
 
 ![Image](../Images/Study9.jpg)
 
@@ -144,11 +144,11 @@ Usefull to show the state of progress of the study to other users. A conventionn
 ![Image](../Images/Study1B.jpg)
 ### 4.1 File
 
-This create a brick that let you import a file of any extension.
+This create a brick that lets you import a file of any extension.
 
 ![Image](../Images/Study3.jpg)
 
-This is usefull only for Python script that need a file as input (Ex : Excel file or Text file).
+This is useful only for Python scripts that need a file as input (Ex : Excel file or Text file).
 
 Click on the button to open a search file dialog.
 
@@ -156,12 +156,12 @@ Use the connector to send the file to another brick as an input.
 
 ### 4.2 Study link
 
-This create a brick that virtually replicate existing studies inside a new one. This is usefull to create new nodes based on existing ones.
+This creates a brick that virtually replicates existing studies inside another one. This is useful to create new nodes based on those of linked studies.
 
 ![Image](../Images/Study10.jpg)
 
 {: .warning }
->You can connect multiple studies. All must be drawn with the same referential XYZ.
+>You can connect multiple studies. All must be defined in the same coordinate system XYZ.
 
 {: .warning }
 >In design, you can hide the linked studies.
@@ -171,12 +171,12 @@ This create a brick that virtually replicate existing studies inside a new one. 
 
 ### 4.3 BEAMSTRESS
 
-This create a brick that let you import *.bst files that are converted to MetaL file.
+This creates a brick that lets you import *.bst files that are converted to MetaL file.
 
 ![Image](../Images/Study11.jpg)
 
 {: .warning }
->ATTENTION, only recent bst files are allowed. If the file is too old, we recommand to open the file in a recent BEAMSTRESS and resave the model.
+>ATTENTION, only version 2.0.0 or higher bst files can be imported. If the file version is too old, we recommand to open it with a recent BEAMSTRESS and save the model again.
 
 ### 4.4 Python
 
@@ -186,6 +186,6 @@ Click [here](https://documentation.metapiping.com/Python/index.html) to have mor
 
 ### 4.5 Comment
 
-This create a brick with text and color capabilities.
+This creates a brick with text and color capabilities.
 
-Usefull to show the state of progress of the study to other users. A conventionnal color code can be established.
+Useful to show the state of progress of the study to other users. A conventionnal color code can be established.

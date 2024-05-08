@@ -8,15 +8,15 @@ grand_parent: Piping
 
 # Orientation
 
-This tool is common to all element.
+This tool is common to all elements.
 
-The goal is to help user to set the second extremity point, based on the first selected one.
+The goal is to help user to set the second extremity node, based on the first selected one.
 
 ---
 
 ## 1. Relative coordinates
 
-This mode is usefull when you want to draw an element with the second point **relative** to the first one in the **global axis** directions :
+This mode is useful when you want to draw an element with the second node **relative** to the first one in the **global axis** directions :
 
 ![Image](../../Images/Orientation5.jpg)
 
@@ -40,7 +40,7 @@ You can **Undo** this command.
 
 ## 2. Polar coordinates
 
-This mode is usefull when you want to draw an element with the second point relative to the first one by a **distance** and **2 angles** :
+This mode is useful when you want to draw an element with the second point relative to the first one by a **distance** and **2 angles** :
 
 ![Image](../../Images/Orientation7.jpg)
 
@@ -64,7 +64,7 @@ You can **Undo** this command.
 
 ![Image](../../Images/Orientation2.jpg)
 
-This mode is usefull when you want to draw an element with a **standard direction** (+X, -X, +Y, -Y, +Z, -Z) and a **distance** from the first point :
+This mode is useful when you want to draw an element with a **standard direction** (+X, -X, +Y, -Y, +Z, -Z) and a **distance** from the first node :
 
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
@@ -101,11 +101,11 @@ Now that the direction is established, as in §3, write the distance on the **ke
 
 ![Image](../../Images/PavéNumérique2.png)
 
-And valid :
+And validate :
 
 ![Image](../../Images/PavéNumérique3.png)
 
-The second point will be at "Distance" from the first point in the direction of the selected angle.
+The second node will be at "Distance" from the first node in the direction of the selected angle.
 
 ### 3.1 Vertical plane
 
@@ -119,11 +119,11 @@ Now the direction is established, as in §3., write the distance on the **keyboa
 
 ![Image](../../Images/PavéNumérique2.png)
 
-And valid :
+And validate :
 
 ![Image](../../Images/PavéNumérique3.png)
 
-The second point will be at "Distance" from the first point in the direction of the selected angle.
+The second node will be at "Distance" from the first node in the direction of the selected angle.
 
 You can **Undo** this command.
 
@@ -154,7 +154,7 @@ You can **Undo** this command.
 ![Image](../../Images/Orientation10.jpg)
 
 1. Snap to a point (become the new REFERENCE POINT in GREEN)
-2. Move mouse verticaly from the first point and wait that the **dashed lines** appear.
+2. Move mouse vertically from the first point and wait that the **dashed lines** appear.
 3. The blue line indicates that the **Z** coordinate is similar to the coordinate of the REFERENCE point. Same for the **dashed lines**.
 4. The distance is automatically filled in the cell.
 5. Press ENTER to create the element :

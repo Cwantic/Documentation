@@ -7,5 +7,5 @@ has_children: true
 
 # Review
 
-The **REVIEW** ribbbon tab let you verify all data of the model.
+The **REVIEW** ribbon tab lets you verify all data of the model.
 

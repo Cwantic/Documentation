@@ -12,10 +12,10 @@ MetaStructure proposes several **assemblies** for each extremity of a beam :
 
 | Type | Description |
 | -------- | ----------- |
-| Fixed | Rigid assembly (transmission of moments) |
+| Fixed | Rigid joint (transmission of moments) |
 | Detailed | User can specify the 3 translation stiffnesses and 3 rotation stiffnesses |
-| Bolted | User can define a bolting plate |
-| Welded | User can define a welding assembly |
+| Bolted | User can define a bolted joint |
+| Welded | User can define a welded joint |
 
 ## 1. Definition
 
@@ -51,7 +51,7 @@ This is the simplest joint where user can define the stiffnesses :
 
 ![Image](../../../Images/Joint3.jpg)
 
-Press the **Edit** button and block the transmission of the moment (stiffness = 0) around X and Y axis :
+Press the **Edit** button and disable the transmission of the moments (stiffness = 0) around X and Y axis :
 
 ![Image](../../../Images/Joint4.jpg)
 
@@ -60,11 +60,11 @@ To see the local axis, press the **Show/Hide** button of **Local X-axis directio
 ![Image](../../../Images/Joint2.jpg)
 
 {: .warning }
->Z-axis is always the axis of the beam in MetaStructure and X-axis is the **strong** inertia plane.
+>Z-axis is always the axis of the beam in MetaStructure and X-axis is the **weak** axis.
 
 ### 1.3 Bolted joint
 
-The assembly of a beam on another beam can be defined by a bolting plate :
+The assembly of a beam to another beam can be defined by a bolted plate :
 
 ![Image](../../../Images/Joint6.jpg)
 
@@ -72,7 +72,7 @@ Press the **Edit** button and set the plate properties :
 
 ![Image](../../../Images/Joint7.jpg)
 
-Press **OK** to validate the bolting plate and press **Modify** to validate the beam :
+Press **OK** to validate the bolted plate and press **Modify** to validate the beam :
 
 ![Image](../../../Images/Joint10.jpg)
 
@@ -87,7 +87,7 @@ Press **OK** to validate the bolting plate and press **Modify** to validate the 
 | Kry | Rotation stiffness Y | kN.m/rad | kips.ft/rad |
 | Krz | Rotation stiffness Z | kN.m/rad | kips.ft/rad |
 
-See §1.2 for more informations.
+See §1.2 for more information.
 
 **Plate** :
 
@@ -95,7 +95,7 @@ See §1.2 for more informations.
 
 ![Image](../../../Images/Joint11.jpg)
 
-The plate receive the dimensions of the beam when creating.
+The plate receives the dimensions of the beam when created.
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -175,7 +175,7 @@ Press **OK** to validate the welding and press **Modify** to validate the beam :
 | Kry | Rotation stiffness Y | kN.m/rad | kips.ft/rad |
 | Krz | Rotation stiffness Z | kN.m/rad | kips.ft/rad |
 
-See §1.2 for more informations.
+See §1.2 for more information.
 
 **Weld** :
 

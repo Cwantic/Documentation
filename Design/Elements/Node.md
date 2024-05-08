@@ -16,7 +16,7 @@ There are 3 possibilities of creation :
 
 ## 1. First node
 
-The first node panel is called when a first **element** wants a starting point. Example for a pipe :
+The first node panel is called when a first **element** needs a starting point. Example for a pipe :
 
 ![Image](../../Images/Pipe1.jpg)
 
@@ -43,7 +43,7 @@ Fill the **GLOBAL** X, Y, Z coordinates and a name (1).
 
     To know the UNIT of the value, just let the mouse over the cell. 
 
-If **Name** is blanck, the new node will receive an automatic name based on the **Node settings**.
+If **Name** is blank, the new node will receive an automatic name based on the **Node settings**.
 
 Click [here](https://documentation.metapiping.com/Settings/General.html) for more information about node naming.
 
@@ -91,7 +91,7 @@ Click [here](https://documentation.metapiping.com/Design/Selection.html) for mor
 | DZ | Relative distance from the selected node in Z global direction  | m | ft |
 | Name | Text or number | - | - |
 
-If **Name** is blanck, the new node will receive an automatic name based on the **Node settings**.
+If **Name** is blank, the new node will receive an automatic name based on the **Node settings**.
 
 Click [here](https://documentation.metapiping.com/Settings/General.html) for more information about node naming.
 
@@ -120,16 +120,7 @@ You can define a new **local coordinate system** on selected node (5) :
 ![Image](../../Images/Node2.jpg)
 
 Just define the new **X** axis vector (Xx, Xy, Xz) in global coordinates and the new **Z** axis vector (Zx, Zy, Zz).
-The **Y** axis will be automatically defined.
-
-| Property | Unit Metric | Unit USA |
-| -------- | ---- | ---- |
-| Xx |  m | ft |
-| Xy |  m | ft |
-| Xz |  m | ft |
-| Zx |  m | ft |
-| Zy |  m | ft |
-| Zz |  m | ft |
+The **Y** axis will be automatically defined by the right-hand rule.
 
 Example :
 

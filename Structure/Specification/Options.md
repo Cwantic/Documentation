@@ -21,7 +21,7 @@ If you need to verify anchors, you must also define the **Anchor code** and **Ed
 ![Image](../../Images/Options5.jpg)
 
 - **Def. room T°** : default room temperature (used to calculate thermal expansion)
-- **Ratio steel to concrete** : default ratio (used during anchor verification)
+- **Ratio steel to concrete** : ratio of steel to concrete modulus of elasticity (used during anchor verification)
 
     To know the UNIT of a property, just let the mouse over the cell.
     For example : °C for the room temperature.
@@ -33,5 +33,5 @@ If you need to verify anchors, you must also define the **Anchor code** and **Ed
 - **Extract modes** : check this option to extract the mode shapes
 - **Cut-off freq.** : only the mode shapes below to the cut-off frequency are extracted 
 - **Auto. mesh freq.** : if different from 0, additional mass points will be generated to ensure that the mode shapes up to this frequency are accurate. This frequency should be equal or larger than the cut-off frequency
-- **Ref. case** : if the **Hot modulus** option is checked, the Young modulus Eh used for the modal extraction is evaluated at the temperature of the reference case 
-- **Consistent masses** : false by default
+- **Ref. case** : the Young modulus Eh used for the modal extraction is evaluated at the temperature of the reference case. Room temperature is used if not defined 
+- **Consistent masses** : if checked, consistent mass matrix is used

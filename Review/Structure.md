@@ -21,7 +21,7 @@ A right panel can be opened by clicking on the top button. It presents the selec
 
 >Click on the same button to hide the panel. Shortcut = F2.
 
->TIP : you can copy the data by CTRL+C and paste on other softwares.
+>TIP : you can copy the data by CTRL+C and paste on other software.
 
 ## 3. Select tool
 
@@ -33,7 +33,7 @@ Click [here](https://documentation.metapiping.com/Structure/Selection.html) for 
 
 ## 4. Measure tool
 
-MetaStructure let you measure the **distance** between 2 nodes :
+MetaStructure lets you measure the **distance** between 2 nodes :
 
 ![Image](../Images/SReview5.jpg)
 
@@ -121,7 +121,7 @@ Click on the **Sections** button :
 
 ![Image](../Images/SReview13.jpg)
 
-The beam elements are colorized in there corresponding section's color.
+The beam elements are colorized in the color of their corresponding section.
 
 ![Image](../Images/SReview14.jpg)
 
@@ -138,8 +138,8 @@ The beam elements are colorized in there corresponding section's color.
 | Iy | Bending inertia Y | cm^4 | in^4 |
 | It | Torsional inertia | cm^4 | in^4 |
 | A | Area | cm² | in² |
-| Ax | Reduced area X | cm² | in² |
-| Ay | Reduced area Y | cm² | in² |
+| Ax | Shear area X | cm² | in² |
+| Ay | Shear area Y | cm² | in² |
 
 >The data are not editable
 
@@ -153,7 +153,7 @@ Click on the **Materials** button :
 
 ![Image](../Images/SReview16.jpg)
 
-The elements are colorized in there corresponding material's color.
+The elements are colorized in the color of their corresponding material.
 
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
@@ -208,7 +208,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 ![Image](../Images/SReview22.jpg)
 
-It is usefull to define a new coordinate system especially if we need to orient an **Anchor plate** on a node.
+It is useful to define a new coordinate system especially if we need to orient an **Anchor plate** on a node.
 
 ![Image](../Images/SReview21.jpg)
 
@@ -219,14 +219,14 @@ Click on the **Local coordinates** button :
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
 | Node name | - | - |
-| Xx | m | ft |
-| Xy | m | ft |
-| Xz | m | ft |
-| Zx | m | ft |
-| Zy | m | ft |
-| Zz | m | ft |
+| Xx | - | - |
+| Xy | - | - |
+| Xz | - | - |
+| Zx | - | - |
+| Zy | - | - |
+| Zz | - | - |
 
-Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html#4-creation-of-a-local-coordinate-system) for more informations about creation a new coordinate system on node.
+Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html#4-creation-of-a-local-coordinate-system) for more information about creation a new coordinate system on node.
 
 The **INTERACTIVITY** is the same as explained on §5.
 
@@ -236,7 +236,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 ![Image](../Images/SReview25.jpg)
 
-This tool create a Link between one piping node and multiple structure nodes.
+This tool creates a Link between one piping node and multiple structure nodes.
 
     This link is necessary for load definition (External load) and during analysis.
 
@@ -260,25 +260,25 @@ Click on the **Node links** button :
 
 >The data are not editable
 
-Click [here](https://documentation.metapiping.com/Structure/Elements/Link.html) for more informations about **links**.
+Click [here](https://documentation.metapiping.com/Structure/Elements/Link.html) for more information about **links**.
 
 ### 13. View options
 
 ![Image](../Images/Structure5.jpg)
 
-![Image](../Images/Design9.jpg) shows/hides the node name
+![Image](../Images/Design9.jpg) show/hide the node name
 
-![Image](../Images/Design10.jpg) shows/hides the node point
+![Image](../Images/Design10.jpg) show/hide the node point
 
 ![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
 
-![Image](../Images/Design12.jpg) show the structure in shading mode
+![Image](../Images/Design12.jpg) show the structure in shaded mode
 
 ![Image](../Images/Design13.jpg) show the structure in hidden lines mode
 
 ![Image](../Images/Design14.jpg) show the structure in wireframe mode
 
-![Image](../Images/Design15.jpg) shows/hides the shadows
+![Image](../Images/Design15.jpg) show/hide the shadows
 
 ![Image](../Images/Design16.jpg) shows/hides the silhouette drawing
 

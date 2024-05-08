@@ -10,7 +10,7 @@ parent: Structure
 
 ![Image](../../Images/Structure3.jpg)
 
-The specification tool let you define the current beam section and material.
+The specification tool lets you define the current beam section and material.
 
 You can define one or more **specification** by clicking the **Data** button.
 

@@ -8,12 +8,12 @@ grand_parent: Piping
 
 # Data
 
-The **Data** window let you create all materials and all piping sections of the model.
+The **Data** window lets you create all materials and all piping sections of the model.
 
-It let you also select one or more predefined **specifications**.
+It also lets you select one or more predefined **specifications**.
 ## 1. New project
 
-When starting a new modelisation, the **Data** window opens :
+When starting a new model, the **Data** window opens :
 
 ![Image](../../Images/Design17.jpg)
 
@@ -21,7 +21,7 @@ When starting a new modelisation, the **Data** window opens :
 
 Let's define a new material.
 
-Click on the **+** button and give a name to the new material (Ex : My material).
+Click on the **+** button and enter the description of the new material (Ex : My material).
 
 ![Image](../../Images/Design22.jpg)
 
@@ -49,7 +49,7 @@ Click the **+** button (next to Properties) to add a new row of properties for a
 | CO | Class 1 Thermal Conductivity | kJ/hr/m/°C | btu/hr/ft/°F |
 | DI | Class 1 Thermal Diffusivity | mm²/s | ft²/hr |
 
-See [Units](https://documentation.metapiping.com/Design/units.html) for more informations.
+See [Units](https://documentation.metapiping.com/Design/units.html) for more information.
 
 {: .warning }
 >ATTENTION, temperatures must be entered in ascending order!
@@ -64,7 +64,7 @@ Click on the **Database** button, select a **Library** and a **Material**. The t
 
 ![Image](../../Images/Design24.jpg)
 
->Only library with **Target** = Piping will be shown !
+>Only libraries with **Target** = Piping will be shown !
 
 Click [here](https://documentation.metapiping.com/Settings/Databases/Materials.html) for more information about creation of library of materials.
 
@@ -89,12 +89,12 @@ Each size exists in different schedules. click on **+** button to add schedules 
 ![Image](../../Images/Piping2.jpg)
 
 {: .warning }
->ATTENTION, the name of the pipe size is very important (Ex : 4"). It will be used as a **reference** for all other piping elements. The american notation is used even in metric definition.
+>ATTENTION, the name of the pipe size is very important (Ex : 4"). It will be used as a **reference** for all other piping elements.
 
 {: .warning }
 >ATTENTION, the sizes must be defined in an **ascending** order.
 
-To add **bend** properties for each pipe sizes, click on **+** button and select a pipe size :
+To add **bend** properties for each pipe size, click on **+** button and select a pipe size :
 
 ![Image](../../Images/Piping3.jpg)
 
@@ -109,7 +109,7 @@ Standard radius and mass can be entered :
 {: .warning }
 >ATTENTION, for a better readability, we recommend to enter the sizes in **ascending** order. 
 
-To add **reducer** properties for each pipe sizes, click on **+** button and select a pipe size :
+To add **reducer** properties for each pipe size, click on **+** button and select a pipe size :
 
 ![Image](../../Images/Piping4.jpg)
 
@@ -161,7 +161,7 @@ Based on this property, define the **mismatch** or the **fillet length** [mm or 
 Select then the **Long weld type** of the pipe between :
 - None
 - Butt weld flush
-- Butt weld as welde
+- Butt weld as welded
 
 Based on this property, define the **Long weld mismatch** [mm or in].
 

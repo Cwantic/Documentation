@@ -47,15 +47,15 @@ Based on the type, some other properties must be filled :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | -- |
-| L1 | Branch length | m | ft |
+| L1 | Branch reinforcement length | mm | in |
 | R2 | Branch-to-run fillet radius | mm | in |
-| TN | Branch connections and piping lateral connections CONSTANT thickness | mm | in |
-| Y | Branch connections and piping lateral connections VARIABLE thickness | mm | in |
+| TN | Branch connections and lateral connections CONSTANT thickness | mm | in |
+| Y | Branch connections and lateral connections VARIABLE thickness | mm | in |
 | Thickness type | Variable or constant | - | - |
 | RE | Pad or saddle outer radius for reinforced fabricated tees  | mm | in |
 | RX | Transition radius | mm | in |
 | PD | Pad thickness for reinforced fabricated tees | mm | in |
-| Collector length | Half length of the collector of welding tees | m | ft |
+| Collector length | Half length of the header of welding tees | m | ft |
 | Branch length | Branch length of welding tees | m | ft |
 
 >MetaPiping automatically shows the necessary properties for each type.

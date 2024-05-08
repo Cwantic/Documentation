@@ -27,9 +27,9 @@ grand_parent: Python
 
 ## 2. RegularMaterial
 
-**RegularMaterial** inherits from **Material**. Every **RegularMaterial** object has the properties of **Regular**. 
+**RegularMaterial** inherits from **Material**. Every **RegularMaterial** object has the properties of **Material**. 
 
-**RegularMaterial** represents regular materials which properties are indpendent of time.
+**RegularMaterial** represents regular materials which properties are independent of time.
 
 
 ### 2.1 Properties

@@ -11,7 +11,7 @@ A study is a workflow of **bricks** and **connections** - [See Study page for mo
 
 User can create its own **bricks** via Python scripts.
 
-Click on **Python** in application's ribbon in the current study :
+Click on **Python** in application ribbon in the current study :
 
 ![Image](../Images/PythonStudy1.jpg)
 
@@ -19,7 +19,7 @@ Select a script via the dropdown list :
 
 ![Image](../Images/PythonStudy2.jpg)
 
-You can create scripts that are independant of the current study, you can **inject** data to the internal model, you can **extract** data from the internal model, or you can **extract** data from the solution.
+You can create scripts that are independent of the current study, you can **inject** data to the internal model, you can **extract** data from the internal model, or you can **extract** data from the solution.
 
 Let's see how to create this kind of script.
 
@@ -107,24 +107,24 @@ study.
 
 ---
 
-## 2. Independant script
+## 2. Independent script
 
-This kind of script don't need to have access to the files of the current study/project/metaL/solution but only some interaction with the user.
+This kind of script doesn't need to have access to the files of the current study/project/metaL/solution but only some interaction with the user.
 
 It can for example ask some data from the user via INPUT **EDIT** and give answers after treatment via OUTPUTS **TEXT**.
 
-[See an example of independant script](https://documentation.metapiping.com/Python/Samples/datetimefile.html) : Date, time and file
+[See an example of independent script](https://documentation.metapiping.com/Python/Samples/datetimefile.html) : Date, time and file
 
-[See another example of independant script](https://documentation.metapiping.com/Python/Samples/sendemail.html) : Send an email
+[See another example of independent script](https://documentation.metapiping.com/Python/Samples/sendemail.html) : Send an email
 
 ---
 ## 3. MetaL injection
 
-Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own **CONVERTERS** from other file format or from company's internal datas.
+Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own **CONVERTERS** from other file formats or from company's internal data.
 
 Cwantic has created **PLUGINS**, with the same principle, that converts **PIPESTRESS**, **PIPSYS** and **PCF** file format to MetaL file format.
 
-User can for example inject **LOADIND TEMPLATES** in current project based on his own datas.
+User can for example inject **LOADIND TEMPLATES** in current project based on his own data.
 
 [See an example of a CONVERTER from Excel file to MetaL](https://documentation.metapiping.com/Python/Samples/converter.html) : Converter
 

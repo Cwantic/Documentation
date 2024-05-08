@@ -17,7 +17,7 @@ MetaPiping 2024 is intalled with Python version :
 
 >Python 3.7
 
-The directory of Python's sources is :
+The directory of Python sources is :
 
 >C:\ProgramData\Cwantic\MetaPiping\Settings\Pythons
 
@@ -27,13 +27,13 @@ This directory cannot be changed.
 
 ## 2. Scripts
 
-The user's scripts are by default set in the directory :
+The user's scripts are by default located in the directory :
 
 >C:\ProgramData\Cwantic\MetaPiping\Datas\Scripts
 
 ![Image](../Images/PythonDataFolder.jpg)
 
-This **Datas** directory contains all user's datas like :
+This **Datas** directory contains all user's data like :
 
 - Databases
 - Python Scripts

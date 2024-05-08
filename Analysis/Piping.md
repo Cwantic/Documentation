@@ -42,7 +42,7 @@ The combobox shows all calculated load cases :
 
 The loadings can be defined [here](https://documentation.metapiping.com/Loads/index.html).
 
-The **Modes** are generared if the **Extract modes** is checked in the **Model options** screen :
+The **Modes** are generated if the **Extract modes** is checked in the **Model options** screen :
 
 ![Image](../Images/Analysis6.jpg)
 
@@ -84,16 +84,16 @@ You can amplify the displacement by changing the factor cursor.
 
 1. Click on a **Column header** to sort the results in ascending or descending order
 2. Select a row
-4. The node is  highlighted
+4. The node is highlighted
 
 ![Image](../Images/Analysis9.jpg)
 
->TIP : you can copy the data by CTRL+C and paste in other softwares.
+>TIP : you can copy the data by CTRL+C and paste in other software.
 
 ### 2.3 Forces and moments
 
 1. Select the **Force** button
-2. Click on a colum of the **Data panel** to sort the data
+2. Click on a column of the **Data panel** to sort the data
 3. Select a row
 4. The corresponding element is highlighted
 
@@ -154,13 +154,13 @@ The **moments** are represented by a double **arrow**.
 
 1. Select the **Stress** button
 2. Select the result type
-3. Click on a colum of the **Data panel** to sort the desired data
+3. Click on a column of the **Data panel** to sort the desired data
 4. Select a row
 5. The corresponding element is highlighted
 
 ![Image](../Images/Analysis12.jpg)
 
-The results are **code dependent**. The third colum shows the stress ratio, defined as the calculated stress divided by the allowable stress.
+The results are **code dependent**. The third column shows the stress ratio, defined as the calculated stress divided by the allowable stress.
 
 The stresses are shown at each extremity of the elements. The maximum stresses of both extremities may be displayed instead by checking "Show max element stress" :
 

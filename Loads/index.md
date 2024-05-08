@@ -7,7 +7,7 @@ has_children: true
 
 # Loads
 
-The **LOADS** ribbbon tab let you create static, dynamic, thermal transient and combined load cases.
+The **LOADS** ribbon tab lets you create static, dynamic, thermal transient and combined load cases.
 
 ## 1. Ribbon menu
 
@@ -19,7 +19,7 @@ During the **load case** definition, every command is automatically saved in a t
 
 You can decide to save the last modifications or cancel it and return to the study screen.
 
-A floppy disk on the left side of the ribbon indicates the sate of the file on disk :
+A floppy disk on the left side of the ribbon indicates the state of the file on disk :
 
 ![Image](../Images/Design5.jpg) means that everything has been saved.
 

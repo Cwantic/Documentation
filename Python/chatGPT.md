@@ -44,7 +44,7 @@ Cwantic chooses **Python** language to create these scripts. But Why **Python** 
 
 ![Image](../Images/chatGPT1.jpg)
 
-1. Write your question in english our in your native language
+1. Write your question in English our in your native language
 2. Submit
 3. ChatGPT will answer
 

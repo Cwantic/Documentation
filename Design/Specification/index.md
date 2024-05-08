@@ -10,7 +10,7 @@ parent: Piping
 
 ![Image](../../Images/Design4.jpg)
 
-The specification tool let you define :
+The specification tool lets you define :
 
 - the current "specification"
 - the current section

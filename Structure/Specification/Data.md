@@ -8,11 +8,11 @@ grand_parent: Structure
 
 # Data
 
-The **Data** window let you create all materials and all sections of the model.
+The **Data** window lets you create all materials and all sections of the model.
 
 ## 1. New project
 
-When starting a new modelisation, the **Data** window opens :
+When starting a new model, the **Data** window opens :
 
 ![Image](../../Images/Data1.jpg)
 
@@ -20,7 +20,7 @@ When starting a new modelisation, the **Data** window opens :
 
 Let's define a new material.
 
-We recommand to select a material from **database** :
+We recommend to select a material from **database** :
 
 ![Image](../../Images/Data2.jpg)
 
@@ -46,7 +46,7 @@ The **IPE 140** appears in the list with an image and all properties.
 
 ![Image](../../Images/Data6.jpg)
 
-You can remove this section by clicking the **-** button.
+You can remove this section by clicking on the **-** button.
 
 Click [here](https://documentation.metapiping.com/Settings/Databases/Sections.html) for more information about creation of beam sections.
 
@@ -56,13 +56,13 @@ Finally, you can define the **Specification sections** of the model by defining 
 
 ![Image](../../Images/Data7.jpg)
 
-Click to **+** button, select the section, define a description (optional) and a color :
+Click on **+** button, select the section, define a description (optional) and a color :
 
 ![Image](../../Images/Data8.jpg)
 
-You can remove this specification by clicking the **-** button.
+You can remove this specification by clicking on the **-** button.
 
-Click **OK** to validate the window.
+Click on **OK** to validate the window.
 
 You can now select this specification in the ribbon menu :
 

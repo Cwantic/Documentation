@@ -14,7 +14,7 @@ Select a **specification** (default = Out of spec) and a current **section**.
 
 Click on the **Draw piping** button.
 
-As we start the modelisation, we need to create a **First node** :
+As we start the modeling, we need to create a **First node** :
 
 ![Image](../../Images/Pipe1.jpg)
 

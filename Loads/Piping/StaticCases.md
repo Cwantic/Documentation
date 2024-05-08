@@ -65,7 +65,7 @@ The equations to be verified are code-dependent. For example, here are the equat
 ![Image](../../Images/Static56.jpg)
 
 - **Set number of occurences** : enter the number of cycles (thermal expansion cases only)
-- **Take oper. conditions from ref. case** : select the load case which pressure and temperature will be used for Young modulus, Bourdon effect and bend stiffening. If no reference case is selected and no operating conditions are defined for the load case, room temperature is used and no pressure is considered
+- **Take oper. conditions from ref. case** : select the load case which pressure and temperature will be used for thermal expansion, Young modulus, Bourdon effect and bend stiffening. If no reference case is selected and no operating conditions are defined for the load case, room temperature is used and no pressure is considered
 - **Include weight** : if checked, the weight is considered in the calculation. Four options are available: operating weight, test weight, empty weight and design weight. Design weight is equivalent to operating weight, except that spring hangers are pinned. Design weight can be useful for determining the installation force to be exerted on the spring hangers
 - **Include thermal expansion** : if checked, thermal expansion is considered in the calculation
 - **Include Bourdon effect** : if checked, expansion due to internal pressure is considered in the calculation

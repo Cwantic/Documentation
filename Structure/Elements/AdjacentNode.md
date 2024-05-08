@@ -10,9 +10,9 @@ grand_parent: Structure
 
 ![Image](../../Images/Structure14.jpg)
 
-This tool is usefull to construct *structure* nodes around *piping* nodes.
+This tool is useful to construct *structure* nodes around *piping* nodes.
 
-Imagine a small piping system with a **restraint** on a node :
+Imagine a small piping system with a **restraint** at a node :
 
 ![Image](../../Images/Adjacent1.jpg)
 
@@ -50,7 +50,7 @@ MetaStructure proposes to create up to 4 nodes perpendicular to the pipe directi
 
 Checkboxes let you select the desired nodes.
 
-The left panel shows the pipe ray at the selected node and for the 4 directions, the distance of the new nodes.
+The left panel shows the pipe radius at the selected node and for the 4 directions, the distance of the new nodes.
 
 The default value (0.07 in this example) corresponds to half the height of the current beam (IPE 140) :
 
@@ -70,6 +70,6 @@ The **structure** node 1 is created :
 
 >The piping nodes are numbered in blue
 
-When you later draw beams on this new node, you will see that the profile is perfectly adjacent to the pipe :
+When you later draw beams at this new node, you will see that the profile is perfectly adjacent to the pipe :
 
 ![Image](../../Images/Adjacent9.jpg)

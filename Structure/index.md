@@ -34,7 +34,7 @@ During the design of the model, every command is automatically saved in a tempor
 
 You can decide to save the last modifications or cancel it and return to the study screen.
 
-A floppy disk on the left side of the ribbon indicates the sate of the file on disk :
+A floppy disk on the left side of the ribbon indicates the state of the file on disk :
 
 ![Image](../Images/Design5.jpg) means that everything has been saved.
 
@@ -73,23 +73,23 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/index.html)
 
 ![Image](../Images/Structure5.jpg)
 
-![Image](../Images/Design9.jpg) shows/hides the node name
+![Image](../Images/Design9.jpg) show/hide the node name
 
-![Image](../Images/Design10.jpg) shows/hides the node point
+![Image](../Images/Design10.jpg) show/hide the node point
 
 ![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
 
-![Image](../Images/Design12.jpg) show the structure in shading mode
+![Image](../Images/Design12.jpg) show the structure in shaded mode
 
 ![Image](../Images/Design13.jpg) show the structure in hidden lines mode
 
 ![Image](../Images/Design14.jpg) show the structure in wireframe mode
 
-![Image](../Images/Design15.jpg) shows/hides the shadows
+![Image](../Images/Design15.jpg) show/hide the shadows
 
-![Image](../Images/Design16.jpg) shows/hides the silhouette drawing
+![Image](../Images/Design16.jpg) show/hide the silhouette drawing
 
-![Image](../Images/Design30.jpg) shows/hides the linked study models 
+![Image](../Images/Design30.jpg) show/hide the linked study models 
 
 ### 1.6 Modification tools
 
@@ -123,7 +123,7 @@ You navigate inside the view with the **middle button** of the mouse pressed :
 
 ![Image](../Images/MouseWheelMove.jpg)
 
-hold down the **CTRL key** during navigation to translate the view.
+Hold down the **CTRL key** during navigation to translate the view.
 
 You zoom in by scrolling the mouse wheel up :
 
@@ -160,7 +160,7 @@ An interactive **cube** with predefined views is shown in the bottom right corne
 
 ### 3.1 Layers
 
-MetaStructure let you simplify your visualization by using the **Layer** concept :
+MetaStructure lets you simplify your visualization by using the **Layer** concept :
 
 ![Image](../Images/Structure7.jpg)
 
@@ -180,4 +180,4 @@ You can now show/hide elements and restraints by activating/deactivating the vis
 
 ![Image](../Images/Structure8.jpg)
 
->All layer manipulation supports Undo/Redo mechanism.
+>All layer manipulations support Undo/Redo mechanism.

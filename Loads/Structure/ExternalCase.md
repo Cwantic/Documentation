@@ -8,7 +8,7 @@ grand_parent: Loads
 
 # External cases
 
-External loads can be applied on the model via **links** between piping nodes and structure nodes.
+External loads can be applied to the model via **links** between piping nodes and structure nodes.
 
 One or more **piping** studies must be linked to the current **structure** study.
 
@@ -18,7 +18,7 @@ One or more **link** must be created between piping nodes and structure nodes.
 
 Click [here](https://documentation.metapiping.com/Structure/Elements/Link.html) for more information about link.
 
-When selecting **External cases**, all existing cases are listed in the combobox :
+When selecting **External cases**, all existing external cases are listed in the combobox :
 
 ![Image](../../Images/SLoad16.jpg)
 

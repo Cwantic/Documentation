@@ -7,7 +7,7 @@ has_children: true
 
 # Analysis
 
-After designing the whole model, set the loading and review the data, click on the **ANALYSIS** button to launch a complete verification of the piping system.
+After designing the whole model, setting the loading and reviewing the data, click on the **ANALYSIS** button to launch a complete verification of the piping system.
 
 ## 1. Ribbon menu
 

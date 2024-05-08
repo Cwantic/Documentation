@@ -43,7 +43,7 @@ You can define the **Local X-axis** vector by defining Xx, Xy, Xz in global coor
 | Kry | Rotation stiffness in Y direction | kN.m/rad | kips.ft/rad |
 | Krz | Rotation stiffness in Z direction | kN.m/rad | kips.ft/rad |
 
-Blanck values means maximum values (blocked).
+Blank values mean that the corresponding degrees of freedom are blocked.
 
 You can then define the second point of the spring thanks to the **Orientation tool**.
 

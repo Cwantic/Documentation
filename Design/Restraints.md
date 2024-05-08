@@ -49,8 +49,7 @@ Select the type **Anchor** :
 You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
-- Local to preceding element
-- Local to following element
+- Local to adjacent element
 
 The **Level** is used to identify the spectrum applied to this anchor for multilevel floor response spectrum analysis.
 
@@ -80,8 +79,7 @@ Select the type **Multiple restraint** :
 You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
-- Local to preceding element
-- Local to following element
+- Local to adjacent element
 
 The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
@@ -106,7 +104,7 @@ Select the type **Rotational restraint** :
 | Rz | Z direction of the restraint  | - | - |
 | Sp | Rotational Spring Constant | kN.m/rad | Kips.ft/rad |
 
->if Sp is blanck = rigid, which is modeled by using a value of 1.13 x 10^9 kN.m/rad or 8.33 x 10^8 Kips.ft/rad.
+>if Sp is blank = rigid, which is modeled by using a value of 1.13 x 10^9 kN.m/rad or 8.33 x 10^8 Kips.ft/rad.
  
     To know the UNIT of the value, just move the mouse over the cell. 
 
@@ -119,8 +117,7 @@ Select a library on the left treeview, then select a row that represents a prede
 You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
-- Local to preceding element
-- Local to following element
+- Local to adjacent element
 
 The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
@@ -145,7 +142,7 @@ Select the type **Restraint** :
 | Dz | Z direction of the restraint  | - | - |
 | Sp | Translational Spring Constant | kN/mm | Kips/in |
 
->if Sp is blanck = rigid, which is modeled by using a value of 8.75 x 10^5
+>if Sp is blank = rigid, which is modeled by using a value of 8.75 x 10^5
  N/mm or 5 x 10^6 lb/in.
 
     To know the UNIT of the value, just move the mouse over the cell. 
@@ -155,8 +152,7 @@ The **Database** button on upper right corner gives an access to the libraries.
 You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
-- Local to preceding element
-- Local to following element (**in yellow in the picture**)
+- Local to adjacent element (**in yellow in the picture**)
 
 The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
@@ -181,7 +177,7 @@ Select the type **Snubber** :
 | Dz | Z direction of the restraint  | - | - |
 | Sp | Translational Spring Constant | kN/mm | Kips/in |
 
->if Sp is blanck = rigid, which is modeled by using a value of 2.625 x 10^5
+>if Sp is blank = rigid, which is modeled by using a value of 2.625 x 10^5
  N/mm or 1.5 x 10^6 lb/in.
 
     To know the UNIT of the value, just move the mouse over the cell. 
@@ -191,8 +187,7 @@ The **Database** button on upper right corner gives an access to the libraries.
 You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
-- Local to preceding element (**in yellow in the picture**)
-- Local to following element
+- Local to adjacent element (**in yellow in the picture**)
 
 The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
@@ -218,7 +213,7 @@ Select the type **Variable support spring hanger** :
 | Sp | Spring Constant | kN/mm | Kips/in |
 | Force | Pre-compression/pre-tension force | kN | Kips |
 
->if Sp is blanck = rigid, which is modeled by using a value of 8.75 x 10^5
+>if Sp is blank = rigid, which is modeled by using a value of 8.75 x 10^5
  N/mm or 5 x 10^6 lb/in.
 
     To know the UNIT of the value, just move the mouse over the cell. 
@@ -228,8 +223,7 @@ The **Database** button on upper right corner gives an access to the libraries.
 You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
-- Local to preceding element
-- Local to following element
+- Local to adjacent element
 
 The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
@@ -261,8 +255,7 @@ The **Database** button on upper right corner gives an access to the libraries.
 You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
-- Local to preceding element
-- Local to following element
+- Local to adjacent element
 
 The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 
@@ -287,7 +280,7 @@ Select the type **Non-linear restraint** :
 | Dz | Z direction of the restraint  | - | - |
 | Sp | Translational Spring Constant | kN/mm | Kips/in |
 
->if Sp is blanck = rigid, which is modeled by using a value of 8.75 x 10^5
+>if Sp is blank = rigid, which is modeled by using a value of 8.75 x 10^5
  N/mm or 5 x 10^6 lb/in.
 
     To know the UNIT of the value, just move the mouse over the cell. 
@@ -295,26 +288,22 @@ Select the type **Non-linear restraint** :
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
 | Negative gap | Must be ≤ 0 | mm | in |
-| K1m | Spring Constant | kN/mm | Kips/in |
-| K2m | Spring Constant | kN/mm | Kips/in |
-| Positive gap | Must be >= 0 | mm | in |
-| K1p | Spring Constant | kN/mm | Kips/in |
-| K2p | Spring Constant | kN/mm | Kips/in |
-| FLm | Negative Dynamic Limit Load (<= 0, default = infinite) | kN | Kips |
-| FLp | Positive Dynamic Limit Load (>= 0, default = infinite) | kN | Kips |
-| Coef. of friction | Coulomb coefficient of friction between the pipe and the support (>0) | - | - |
+| K1m | First spring constant in the negative direction | kN/mm | Kips/in |
+| K2m | Second spring constant in the negative direction | kN/mm | Kips/in |
+| Positive gap | Must be ≥ 0 | mm | in |
+| K1p | First spring constant in the positive direction | kN/mm | Kips/in |
+| K2p | Second spring constant in the positive direction | kN/mm | Kips/in |
+| FLm | Reaction at stiffness transition from K1m to K2m (≤ 0, infinite if blank or 0) | kN | Kips |
+| FLp | Reaction at stiffness transition from K1p to K2p (≥ 0, infinite if blank or 0) | kN | Kips |
+| Coef. of friction | Coulomb coefficient of friction between the pipe and the support (≥ 0) | - | - |
 
 ![Image](../Images/Restraint12.jpg)
 
-For **gapped restraint**, set Sp = 0 (modal analysis) and K2m = K2p = 0
-
-![Image](../Images/Restraint13.jpg)
 
 You can change the coordinate system that defines the directions X,Y,Z :
 
 - Global (default)
-- Local to preceding element
-- Local to following element
+- Local to adjacent element
 
 The **Level** is used to identify the spectrum applied to this restraint for multilevel floor response spectrum analysis.
 

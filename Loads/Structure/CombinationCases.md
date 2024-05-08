@@ -27,6 +27,7 @@ Enter a **Case number** and a **Title**.
 
 <ins>Ref. case</ins> :
 
+The allowable stress is evaluated at the temperature of the refence case (room temperature if not specified).
 
 
 <ins>Level</ins> :

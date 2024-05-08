@@ -26,7 +26,7 @@ The goal is to facilitate the **exchange** of complex scripts to several compute
 ### 2.2 Import
 
 1. Click on **button5**
-2. Select a *.pyckage file that doesn't already exists on your script list
+2. Select a *.pyckage file that doesn't already exist on your script list
 3. Open it
 
 The **Python Virtual Environment** will automatically be installed.

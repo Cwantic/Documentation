@@ -8,7 +8,7 @@ grand_parent: Python
 
 # design
 
-The **design** object gives access to several methods and can be used only in [Design script](https://documentation.metapiping.com/Python/Design.html) during the 3D modelisation.
+The **design** object gives access to several methods and can be used only in [Design script](https://documentation.metapiping.com/Python/Design.html) during the 3D modeling.
 
 This object gives you access to the objects in selection, some current properties, the whole metal model. It gives you the opportunity to create your own [commands](https://documentation.metapiping.com/Python/Classes/commands.html) and to show information on the left panel.
 
@@ -16,7 +16,7 @@ This object gives you access to the objects in selection, some current propertie
 
 | Name | Return | Description |
 | --- | ----------- | ----------- |
-| selectedList | array of objects | Get the objects actually in selection (see § 2) |
+| selectedList | array of objects | Get the objects currently in selection (see § 2) |
 | getType() | string | Get the type of an object in parameter (see § 3) |
 | isType() | bool | Return True if param1 (object) is from type param2 (string) (see § 4) |
 | createCommand() | CustomCommand | Return an empty command with a name (param1) (see § 5) |
@@ -72,7 +72,7 @@ if design.isType(design.selectedList[0], "Node"):
     # ...
 ```
 
-Unlike getType(), isType() do not refer to the assembly of the class type.
+Unlike getType(), isType() does not refer to the assembly of the class type.
 
 ---
 ## 5. createCommand()
@@ -140,7 +140,7 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 ---
 ## 9. addText()
 
-In review mode, it can be usefull to shows some information about the model or about the selected objects.
+In review mode, it can be useful to shows some information about the model or about the selected objects.
 
 These informations can be shown in a standard way using the same controls as MetaPiping.
 
@@ -182,7 +182,7 @@ design.addText("Distance = " + str(round(distance, 3)) + " m", False, 255, 255, 
 ---
 ## 11. result
 
-If result is not an empty string, a message will appears at the end of exuction of the script.
+If result is not an empty string, a message will appears at the end of execution of the script.
 
 ```python
 # Python script

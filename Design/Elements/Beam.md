@@ -57,12 +57,12 @@ Based on **type**, you have to define different section properties.
 
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
-| Cross Sectional Area | mm² | in² |
-| Reciprocal of X' shear shape factor | - | - |
-| Reciprocal of Y' shear shape factor | - | - |
-| Moment of Inertia About X' Axis : Ix | mm^4 | in^4 |
-| Moment of Inertia About Y' Axis : Iy | mm^4 | in^4 |
-| Torsional Constant : It  | mm^4 | in^4 |
+| Cross sectional area | mm² | in² |
+| Shear area along X' axis| mm² | in² |
+| Shear area along Y' axis| mm² | in² |
+| Moment of inertia about X' axis : Ix | mm^4 | in^4 |
+| Moment of inertia about Y' axis : Iy | mm^4 | in^4 |
+| Torsional inertia : It  | mm^4 | in^4 |
 
     To know the UNIT of a property, just move the mouse over the property name. 
 

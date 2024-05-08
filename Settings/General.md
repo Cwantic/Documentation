@@ -13,7 +13,7 @@ Define all options proposed by all **PLUGINS**.
 
 ## 1. Code Aster
 
-Code Aster is the main **SOLVER** of MetaPiping. It is developped and maintained by EDF (https://code-aster.org).
+Code Aster is the main **SOLVER** of MetaPiping. It is developed and maintained by EDF (https://code-aster.org).
 
 The Windows version is installed by MetaPiping but you can install the Linux version manually and specify the location on your computer.
 
@@ -21,7 +21,7 @@ In this case, you have to select **LINUX** in the option combobox.
 
 ## 2. Explorer
 
-The project explorer let you **calculate** a python script that explores the project/results and show informations.
+The project explorer lets you **calculate** a python script that explores the project/results and show information.
 
 All projects share the same script that you can specify in this option.
 
@@ -29,7 +29,7 @@ All projects share the same script that you can specify in this option.
 
 ## 3. Metal
 
-**MetaL** is the name of the 3D modelisation inside MetaPiping and also the file extension of the saved file.
+**MetaL** is the name of the 3D model inside MetaPiping and also the file extension of the saved file.
 
 You can specify here 2 values (integers):
 * The name of the very first node
@@ -39,13 +39,13 @@ In the example, the nodes will start with name "10" then "20", "30", "40"...
 
 ## 4. MetaPiping
 
-The application let the user work with american unities. In this case, it is also possible to specify to work with **imperial** notation.
+The application lets the user work with English units. In this case, it is also possible to specify to work with **imperial** notation.
 
 Example: 4"1/8 for a diameter
 
-## 5. Pipestress
+## 5. PIPESTRESS
 
-For the users of PIPISTRESS that have installed the plugin, they can specify the path of the SOLVER (*PIPESTRESS64W.exe*) and the HELP file (*PIPESTRESS.chm*).
+For the users of PIPESTRESS that have installed the plugin, they can specify the path of the SOLVER (*PIPESTRESSW.exe* or *PIPESTRESS64W.exe*) and the HELP file (*PIPESTRESS.chm*).
 
 You can also specify:
 - Max field length
@@ -54,9 +54,9 @@ You can also specify:
 
 ## 6. Project
 
-You can specify the path of your favorite text editor in case of text report editing.
+You can specify the path of your favorite text editor for text report editing.
 
-If blanck, MetaPiping uses Windows NotePad.
+If blank, MetaPiping uses Windows NotePad.
 
 ## 7. Structure
 

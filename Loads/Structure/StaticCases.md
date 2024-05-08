@@ -40,7 +40,7 @@ If checked, the fasteners will be verified.
 
 ![Image](../../Images/SLoad3.jpg)
 
-- **Take oper. conditions from ref. case** : select the load case which temperature will be used for Young modulus. If no reference case is selected and no operating conditions are defined for the load case, room temperature is used.
+- **Take oper. conditions from ref. case** : select the load case which temperature will be used for thermal expansion and Young modulus. If no reference case is selected and no operating conditions are defined for the load case, room temperature is used.
 - **Include weight** : if checked, the weight is considered in the calculation.
 - **Include thermal expansion** : if checked, thermal expansion is considered in the calculation
 - **Pseudo-static cases** : to be checked for dynamic cases that are calculated as static cases (e.g. earthquake calculated with a pseudo-static acceleration)
@@ -59,7 +59,7 @@ Select the loads that will be applied to the load case. For some loads like temp
 
 You can define operating conditions on elements of the model.
 
-The temperature is used only if **Include thermal expansion** is checked.
+The temperature is used for Young modulus, allowable stress and also for thermal expansion if **Include thermal expansion** is checked.
 
 You can define **DEFAULT** operating conditions that will be applied on all elements of the model.
 
@@ -157,7 +157,7 @@ You can **undo** this command.
 
 Click on the **Remove** button to delete the load on selected elements.
 
-You can also change the size of the drawed forces by clicking on these buttons :
+You can also change the size of the drawn forces by clicking on these buttons :
 
 ![Image](../../Images/Static9.jpg)
 

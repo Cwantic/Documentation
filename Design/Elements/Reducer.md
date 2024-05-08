@@ -44,14 +44,14 @@ Define the properties of the new reducer :
 | Length |  m | ft |  |
 | Angle | ° | ° |  |
 | Flexibility | - | - |  |
-| Min(r1,r2)  | mm | in | Minimum radius r1,r2 : Class 1 and Classes 2 & 3 Revision A94 for C2 of equations X and Z |
-| Min(L1,L2)  | m | ft | Minimum tangent L1, L2 : for Class 1 only |
+| Min(r1,r2)  | mm | in | Minimum radius r1,r2 : B31J, Class 1 and Classes 2 & 3 Revision A94 for C2 of equations X and Z |
+| Min(L1,L2)  | m | ft | Minimum tangent L1, L2 : for B31J and Class 1 only |
 
 The Length and Angle come from the **current specification** :
 
 ![Image](../../Images/Reducer4.jpg)
 
-You can change the **flexibility factor** of the reducer. If blanck, default value = 1.
+You can change the **flexibility factor** of the reducer. If blank, default value = 1.
 
 **X-AXIS DIRECTION** :
 
@@ -77,7 +77,7 @@ You can then define the second point of the reducer thanks to the **Orientation 
 
 Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.html) for more information about the orientation tool.
 
-By default, The **Distance + angle** tool is activated with the default **length** and in **concentric** mode :
+By default, the **Distance + angle** tool is activated with the default **length** and in **concentric** mode :
 
 ![Image](../../Images/Reducer5.jpg)
 
@@ -101,7 +101,7 @@ You can **undo** this command.
 
 **ECCENTRIC REDUCER** :
 
-Uncheck the **Concentric** checkbox and define at wich side of the pipe you want to be tangent (thanks to the **Angle** property) :
+Uncheck the **Concentric** checkbox and define at which side of the pipe you want to be tangent (thanks to the **Angle** property) :
 
 ![Image](../../Images/Reducer8.jpg)
 
@@ -140,10 +140,10 @@ You can change the properties of the selected reducer (except the length) :
 | Length |  m | ft |  |
 | Angle | ° | ° |  |
 | Flexibility | - | - |  |
-| Min(r1,r2)  | mm | in | Minimum radius r1,r2 : Class 1 and Classes 2 & 3 Revision A94 for C2 of equations X and Z |
-| Min(L1,L2)  | m | ft | Minimum tangent L1, L2 : for Class 1 only |
+| Min(r1,r2)  | mm | in | Minimum radius r1,r2 : B31J, Class 1 and Classes 2 & 3 Revision A94 for C2 of equations X and Z |
+| Min(L1,L2)  | m | ft | Minimum tangent L1, L2 : for B31J, Class 1 only |
 
-You can change the **flexibility factor** of the reducer. If blanck, default value = 1.
+You can change the **flexibility factor** of the reducer. If blank, default value = 1.
 
 **X-AXIS DIRECTION** :
 

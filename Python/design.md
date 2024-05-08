@@ -10,8 +10,8 @@ parent: Python
 The **Design** mode is the part of the application dedicated to :
 
 - Design : model the piping, configure the settings
-- Loads : create several type of loads
-- Review : review everything before launching the calculations
+- Loads : create several types of loads
+- Review : review everything before launching the calculation
 - Analysis : analyze the piping
 
 >MetaPiping 2024 gives an access to **Design** and **Review**.
@@ -22,7 +22,7 @@ The other parts will come soon...
 
 ## 1. Goal
 
-The goal of this kind of script is to create functions that doesn't exists in the application.
+The goal of this kind of script is to create functions that doesn't exist in the application.
 
 
 User can create his own **commands** to "interact" with the model and especially with the **selection** object.
@@ -33,7 +33,7 @@ He can add buttons on ribbons with a name, a description, an image and of course
 
 ## 2. Script definition
 
-From the Home/Python, click on button 3 (Add 3D script) :
+From Home/Python, click on button 3 (Add 3D script) :
 
 ![Image](../Images/PythonMenu.jpg)
 

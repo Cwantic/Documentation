@@ -15,7 +15,7 @@ This script do not use ***Python Virtual Environment*** and is so very fast.
 
 ## 1. Script definition
 
-From the Home/Python, click on button 6 (Add simple script) :
+From Home/Python, click on button 6 (Add simple script) :
 
 ![Image](../Images/PythonMenu.jpg)
 

@@ -12,7 +12,7 @@ grand_parent: Piping
 
 ![Image](../../Images/Options1.jpg)
 
-This tab let you define the **calculation code** and its **Edition**, the direction of the **gravity**, the input and output **Units**, the **Plant** name and the **Engineer** name.
+This tab lets you define the **calculation code** and its **Edition**, the direction of the **gravity**, the input and output **Units**, the **Plant** name and the **Engineer** name.
 
 {: .warning }
 > ATTENTION, when starting a new project, be sure to select a specification that will be compatible with the Units, Code and Edition of the project and do not change these three properties during design.
@@ -38,7 +38,7 @@ This tab let you define the **calculation code** and its **Edition**, the direct
 - **Branch forces at surface** : check this option to use the forces and moments at run surface instead of intersection point for tees (if permitted by the piping code)
 - **3.Sm average value (Class 1)** : check this option to use the average value of 3Sm between two load sets instead of the minimum value
 - **Alternative Ke factor (Class 1)** : if checked, the penalty factor Ke.therm is used for austenitic stainless steels and Ni-Cr-Fe alloys (RCC-M code only)
-- **Optimize residual moments (Class 1)** : contact CWANTIC for further explanations and theoretical backgroud
+- **Optimize residual moments (Class 1)** : contact CWANTIC for further explanations and theoretical background
 - **True transient range (Class 1)** : by default, the range of the thermal gradient stress for a load set pair (LS1, LS2) is calculated assuming that the sign of the thermal stress is positive for heat-up transients and negative for cool-down transients. If this option is checked, the true range of the thermal gradient stress is calculated
 
 ## 3. Modal extraction
@@ -49,4 +49,4 @@ This tab let you define the **calculation code** and its **Edition**, the direct
 - **Cut-off freq.** : only the mode shapes below to the cut-off frequency are extracted 
 - **Auto. mesh freq.** : if different from 0, additional mass points will be generated to ensure that the mode shapes up to this frequency are accurate. This frequency should be equal or larger than the cut-off frequency
 - **Ref. case** : if the **Hot modulus** option is checked, the Young modulus Eh used for the modal extraction is evaluated at the temperature of the reference case
-- **Consistent masses** : 
+- **Consistent masses** : if checked, a consistent mass matrix is used

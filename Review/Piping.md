@@ -21,7 +21,7 @@ A right panel can be opened by clicking on the top button. It presents the selec
 
 >Click on the same button to hide the panel. Shortcut = F2.
 
->TIP : you can copy the data by CTRL+C and paste on other softwares.
+>TIP : you can copy the data by CTRL+C and paste in other software.
 
 ## 3. Select tool
 
@@ -33,7 +33,7 @@ Click [here](https://documentation.metapiping.com/Design/Selection.html) for mor
 
 ## 4. Measure tool
 
-MetaPiping let you measure the **distance** between 2 nodes :
+MetaPiping lets you measure the **distance** between 2 nodes :
 
 ![Image](../Images/Review8.jpg)
 
@@ -74,11 +74,11 @@ The **Data panel** shows the global coordinates X, Y, Z for each node.
 
 **INTERACTIVITY** :
 
-1. Select a node on the model (1) will highlight the corresponding row on the data list (2) :
+1. Select a node in the model (1) will highlight the corresponding row in the data list (2) :
 
 ![Image](../Images/Review5.jpg)
 
-2. Select a row on the data list (1) will highlight the corresponding node on the model (2) :
+2. Select a row in the data list (1) will highlight the corresponding node in the model (2) :
 
 ![Image](../Images/Review6.jpg)
 
@@ -101,8 +101,8 @@ Click on the **Elements** button :
 | Length | m | ft |
 | Diameter | mm | in |
 | Thickness | mm | in |
-| Operating density | kg/m³ | lb/ft³ |
-| Test density | kg/m³ | lb/ft³ |
+| Operating density | - | - |
+| Test density | - | - |
 
 The **INTERACTIVITY** is the same as explained on §5.
 
@@ -114,7 +114,7 @@ Click on the **Sections** button :
 
 ![Image](../Images/Review10.jpg)
 
-The piping elements are colorized in there corresponding section's color.
+The piping elements are colorized in the color of their corresponding section.
 
 ![Image](../Images/Review11.jpg)
 
@@ -148,7 +148,7 @@ Click on the **Materials** button :
 
 ![Image](../Images/Review12.jpg)
 
-The piping elements are colorized in there corresponding material's color.
+The piping elements are colorized in the color of their corresponding material.
 
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
@@ -183,13 +183,13 @@ Click on the **Tees** button :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | -- |
-| TN | Branch connections and piping lateral connections CONSTANT thickness | mm | in |
+| TN | Branch connections and lateral connections reinforcement thickness | mm | in |
 | RP | Branch Outer Radius | mm | in |
 | PD | Pad thickness for reinforced fabricated tees | mm | in |
 | R2 | Branch-to-run fillet radius | mm | in |
 | RX | Transition radius | mm | in |
-| Angle | Angle collector/branch | ° | ° |
-| L1 | Branch length | mm | in |
+| Angle | Angle header/branch | ° | ° |
+| L1 | Branch reinforcement length | mm | in |
 
 The **INTERACTIVITY** is the same as explained on §5.
 
@@ -207,7 +207,7 @@ Click on the **End conditions** button :
 | Node name | - | - |
 | Joint type | - | - |
 | Mismatch | mm | in |
-| Fillet | mm | in |
+| Fillet length | mm | in |
 | TMax | mm | in |
 
 The **INTERACTIVITY** is the same as explained on §5.
@@ -241,12 +241,12 @@ Click on the **Local coordinates** button :
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
 | Node name | - | - |
-| Xx | m | ft |
-| Xy | m | ft |
-| Xz | m | ft |
-| Zx | m | ft |
-| Zy | m | ft |
-| Zz | m | ft |
+| Xx | - | - |
+| Xy | - | - |
+| Xz | - | - |
+| Zx | - | - |
+| Zy | - | - |
+| Zz | - | - |
 
 Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#4-creation-of-a-local-coordinate-system) for more information about creation of local coordinates on node.
 
@@ -266,7 +266,7 @@ Click [here](https://documentation.metapiping.com/Settings/Specifications.html) 
 
 ## 15. SIF
 
-MetaPiping let you define **Stress Intensification Factors** on nodes and elements.
+MetaPiping lets you define **Stress Intensification Factors** on nodes and elements.
 
 Click on the **SIF** button :
 
@@ -276,7 +276,7 @@ Click on the **SIF** button :
 | -------- | --- |
 | At Node name | The node where the SIF are defined |
 | Af Node name | Empty if SIF on all elements (extremities) - otherwise only on the element (extremity) defined by the Af node |
-| Body | Yes if SIF on element - Empty if SIF on node|
+| Body | Yes if SIF on element - Empty if SIF on node |
 
 If Body = Yes, Node At and Node Af correspond to the nodes of the element
 
@@ -307,8 +307,8 @@ Click on the **Stress On/Off** button :
 | -------- | --- |
 | Color | Red = stress reporting off - Green = stress reporting on |
 | Element type | - |
-| From | Element's Node1 name |
-| To | Element's Node2 name |
+| From | Element Node1 name |
+| To | Element Node2 name |
 | Stress off | Yes or empty |
 
 Click [here](https://documentation.metapiping.com/Design/Modification.html#95-stress-onoff) for more information about Stress On/Off definition.

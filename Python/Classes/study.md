@@ -38,7 +38,7 @@ See [libraries](https://documentation.metapiping.com/Python/Classes/libraries.ht
 
 ### 2.1 Inputs/Outputs
 
-Imagine a **brick** (script) composed by an EDIT control (user can write something) and a TEXT control (text link from another brick).
+Imagine a **brick** (script) composed of an EDIT control (user can write something) and a TEXT control (text link from another brick).
 
 We want that when clicking on **Run** button, the script returns as result the combination of the EDIT and the TEXT :
 
@@ -124,7 +124,7 @@ See [solution](https://documentation.metapiping.com/Python/Classes/solution.html
 
 Return a MaterialLibraryModel based on a name (without extension).
 
-Return **None** if the library doesn't exists.
+Return **None** if the library doesn't exist.
 
 See [libraries](https://documentation.metapiping.com/Python/Classes/libraries.html) for more information about materialLibraryModel with an example.
 
@@ -138,7 +138,7 @@ See [libraries](https://documentation.metapiping.com/Python/Classes/libraries.ht
 
 ### 2.8 showInformation()
 
-This method is only accessible in script that shows informations about the MetaL and the results of the current study in **Explorer**.
+This method is only accessible in scripts that show informations about the MetaL and the results of the current study in **Explorer**.
 
 
 ```python

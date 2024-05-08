@@ -20,7 +20,7 @@ Click on **Select** button to open the selection window :
 - Click on **Restraint** to select restraints
 - Press **ESC** on keyboard to hide the selection window
 
-You can now select objects of appropriate type.
+You can now select objects of the corresponding type.
 
     The selection is done by pressing the left mouse button above the desired object
 
@@ -110,7 +110,7 @@ Set the offset to apply to the selected nodes :
 | DY | m | ft |
 | DZ | m | ft |
 
-Valid the command by clicking the **Move** button :
+Validate the command by clicking the **Move** button :
 
 ![Image](../Images/Move4.jpg)
 

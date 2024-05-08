@@ -57,7 +57,7 @@ You can later modify or remove this anchor by selecting it and clicking on **Mod
 
 # 2. Anchor plate
 
-Set the coorinate system to **Local to adjacent element** and check the **Anchor plate** cell :
+Set the coordinate system to **Local to adjacent element** and check the **Anchor plate** cell :
 
 ![Image](../../Images/Restraint18.jpg)
 
@@ -74,7 +74,7 @@ Press **OK** to validate the anchor plate and press **Create** to validate the r
 
 ![Image](../../Images/Restraint20.jpg)
 
-The resulting anchor plate is rotated to correspond to actual beam's X-axis ! The plate is perfectly represented with its thickness and bolts. The grouting is represented under the plate with its thickness. The concrete is represented with its dimensions and dashed lines and crosses on virtual edges.
+The resulting anchor plate is rotated to correspond to the actual X-axis of the beam ! The plate is perfectly represented with its thickness and bolts. The grouting is represented under the plate with its thickness. The concrete is represented with its dimensions and dashed lines and crosses on virtual edges.
 
 ## 2.1 Plate definition
 
@@ -123,7 +123,7 @@ Click [here](https://documentation.metapiping.com/Settings/Databases/Fasteners.h
 
 ## 2.3 Anchor definition
 
-Define the anchor distribution :
+Define the fastener arrangement :
 
 ![Image](../../Images/Restraint27.jpg)
 
@@ -133,14 +133,14 @@ Define the anchor distribution :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
-| Space | Distance between 2 holes | mm | in |
-| Eccentricity | Offset between plate and anchor distribution | mm | in |
+| Space | Distance between 2 fasteners | mm | in |
+| Eccentricity | Offset between center of plate and center of fasteners | mm | in |
 
-The **Regular** checkbox means that the positions are subject to regulatory checks even with small deviations.
+The **Regular** checkbox means that the fasteners are considered to be placed in a regular grid (even if there are small deviations), and are thus subject to regulatory checks.
 
-The **Internal fasteners** checkbox add internal holes in the grid distribution.
+The **Internal fasteners** checkbox adds internal fasteners inside the grid.
 
-You have also the possibility to edit the position of every hole and affect a reasonable offset in the case of quasi-regular configurations, subject to regulatory verifications :
+You have also the possibility to edit the position of every fastener and assign a reasonable offset in the case of quasi-regular configurations, subject to regulatory verifications :
 
 ![Image](../../Images/Restraint29.jpg)
 
@@ -159,9 +159,9 @@ Define the distance between the plate and the free border of the concrete :
 
 ![Image](../../Images/Restraint30.jpg)
 
-Blanck value means that the plate is at an infinite distance from the free border of the concrete.
+Blank value means that the plate is at an infinite distance from the free border of the concrete.
 
-When a free edge is present, the anchors are checked with additional failure modes: failure by splitting (traction) and edge failure (shear).
+When a free edge is present, the fasteners are checked with additional failure modes : failure by splitting (tension) and edge failure (shear).
 
 The **Virtual edges** checkboxes let you take account of the interaction between neighboring plates if they are too close to each other. 
 
@@ -196,11 +196,11 @@ Choose between C20, C25, C30, C35, C40, C45, C50, C55, C60 classes, cracked or n
 
 Grouting: enter the thickness and strength of the mortar if leveling is planned. To model an anchor with spacing but no mortar, it suffices to define the thickness of the mortar equal to the spacing and the resistance equal to 0.
 
-The **Shear lug** checkbox means that all the shear forces are assumed to be taken up by the lug. Only the bending moments and the normal force acting on the plate are considered for the calculation of the anchors. 
+The **Shear lug** checkbox means that all the shear forces are assumed to be taken up by the lug. Only the bending moments and the normal force acting on the plate are considered for the calculation of the fasteners. 
 
 The **Washer nut** checkbox means that the bending moment in the anchor induced by shear can be reduced if a washer and a nut are directly attached to the concrete surface (in case of non-null grouting thickness).
 
-The **Cannot rotate** checkbox means that the end of the anchor is assumed to be free to rotate.
+The **Cannot rotate** checkbox means that the anchor plate is assumed to be free to rotate.
 
 ## 2.7 Anchor plate duplication
 
@@ -225,7 +225,7 @@ The definition of an **anchor plate** can be copied and pasted to another restra
 
 ## 2.8 User defined local coordinate system
 
-It is also possible to create an anchor plate that follow user defined local coordinate system.
+It is also possible to create an anchor plate that follows user defined local coordinate system.
 
 **Example :**
 

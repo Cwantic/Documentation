@@ -26,7 +26,7 @@ The **solution** object gives access to all analysis results and can be accessed
 
 
     ATTENTION : the metal given by the solution (getMetal) is different from the metal given by the study ! 
-    The 'solution metal' has been transformed by the current piping code.
+    The 'solution metal' has been transformed depending on the current piping code.
 
 See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for more information.
 
@@ -45,7 +45,7 @@ if solution != None:
 
 Once the solution exists, you can retrieve the displacement and rotation on each [node](https://documentation.metapiping.com/Python/Classes/node.html) for a certain load case number (int).
 
-getDisplacements() returns a list of (Item1, Item2). Item1 represents the displacement (Vector3D) and Item2 the rotation (Vector3D) of a node. This list is ordered like the metal's nodes one.
+getDisplacements() returns a list of (Item1, Item2). Item1 represents the displacement (Vector3D) and Item2 the rotation (Vector3D) of a node. This list is ordered like the metal node list.
 
 ```python
 # Python script    
@@ -70,7 +70,7 @@ The displacement/rotation values are given in the [output units](https://documen
 
 Once the solution exists, you can retrieve the acceleration on each [node](https://documentation.metapiping.com/Python/Classes/node.html) for a certain load case number (int).
 
-getAccelerations() returns a list of Vector3D. This list is ordered like the metal's nodes one.
+getAccelerations() returns a list of Vector3D. This list is ordered like the metal node list.
 
 ```python
 # Python script    
@@ -111,7 +111,7 @@ The force/moment values are given in the [output units](https://documentation.me
 
 Once the solution exists, you can retrieve the forces on each [element](https://documentation.metapiping.com/Python/Classes/element.html) for a certain load case number (int).
 
-getForces() returns a list of (Item1, Item2). One couple for the extremity 1 and one couple for the extremity 2. Item1 represents the force (Vector3D) and Item2 the moment (Vector3D) on an extremity of an element. This list is ordered like the metal's elements but with twice the size.
+getForces() returns a list of (Item1, Item2). One couple for the extremity 1 and one couple for the extremity 2. Item1 represents the force (Vector3D) and Item2 the moment (Vector3D) on an extremity of an element. This list is ordered like the metal element list but with twice the size.
 
 ```python
 # Python script    
@@ -134,7 +134,7 @@ The force/moment values are given in the [output units](https://documentation.me
 
 Once the solution exists, you can retrieve the displacement and rotation on each [node](https://documentation.metapiping.com/Python/Classes/node.html) for a certain mode number (int).
 
-getModeShape() returns a list of (Item1, Item2). Item1 represents the displacement (Vector3D) and Item2 the rotation (Vector3D) of a node. This list is ordered like the metal's nodes one.
+getModeShape() returns a list of (Item1, Item2). Item1 represents the displacement (Vector3D) and Item2 the rotation (Vector3D) of a node. This list is ordered like the metal node list.
 
 ```python
 # Python script    
@@ -165,7 +165,7 @@ Example of result for RCCM class2, equation 2 : { "Ratio", "Eq. 6", "Sallow", "S
 
 Once the solution exists, you can retrieve the stresses on each [element](https://documentation.metapiping.com/Python/Classes/element.html) for a certain load case number (int) and a certain stress index (int) from getStressIDList (see § 8).
 
-getStresses() returns a list of Double. Two Double by element, one for the extremity 1 and one for the extremity 2. This list is ordered like the metal's elements but with twice the size.
+getStresses() returns a list of Double. Two Double by element, one for the extremity 1 and one for the extremity 2. This list is ordered like the metal element list but with twice the size.
 
 ```python
 # Python script    
@@ -186,7 +186,7 @@ The stress value is given in the [output units](https://documentation.metapiping
 
 Once the solution exists, you can retrieve the MAX stress ratio for the whole piping and for all load cases.
 
-getMaxStressRatio() returns a Double. You can specify as parameter a Boolean to include Thermal or not.
+getMaxStressRatio() returns a Double. You can specify as parameter a Boolean to include Thermal expansion cases or not.
 
 ```python
 # Python script    

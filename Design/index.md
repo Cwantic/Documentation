@@ -7,7 +7,7 @@ has_children: true
 
 # Piping
 
-After creating a new **piping study** and pressing the **Edit** button, a window appear to define the calculation code :
+After creating a new **piping study** and pressing the **Edit** button, a window appears to define the calculation code :
 
 ![Image](../Images/Piping9.jpg)
 
@@ -34,11 +34,11 @@ During the design of the model, every command is automatically saved in a tempor
 
 You can decide to save the last modifications or cancel it and return to the study screen.
 
-A floppy disk on the left side of the ribbon indicates the sate of the file on disk :
+A floppy disk on the left side of the ribbon indicates the state of the file on disk :
 
 ![Image](../Images/Design5.jpg) means that everything has been saved.
 
-![Image](../Images/Design6.jpg) means that something has changed and the MetaL need to be saved.
+![Image](../Images/Design6.jpg) means that something has changed and the MetaL needs to be saved.
 
 {: .warning }
 >If the application crashes, MetaPiping will prompt to reopen the last modifications
@@ -55,7 +55,7 @@ You can *navigate* through this list by pressing the **Undo/Redo** buttons.
 
 ![Image](../Images/Design4.jpg)
 
-This group of controls let you define the current **Section/Material** for the next elements. 
+This group of controls lets you define the current **Section/Material** for the next elements.
 
 You have an access to a window that defines the piping sections and materials for the current model.
 
@@ -79,23 +79,23 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ### 1.6 View options
 
-![Image](../Images/Design9.jpg) shows/hides the node name
+![Image](../Images/Design9.jpg) show/hide the node name
 
-![Image](../Images/Design10.jpg) shows/hides the node point
+![Image](../Images/Design10.jpg) show/hide the node point
 
 ![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
 
-![Image](../Images/Design12.jpg) show the piping in shading mode
+![Image](../Images/Design12.jpg) show the piping in shaded mode
 
 ![Image](../Images/Design13.jpg) show the piping in hidden lines mode
 
 ![Image](../Images/Design14.jpg) show the piping in wireframe mode
 
-![Image](../Images/Design15.jpg) shows/hides the shadows
+![Image](../Images/Design15.jpg) show/hide the shadows
 
-![Image](../Images/Design16.jpg) shows/hides the silhouette drawing
+![Image](../Images/Design16.jpg) show/hide the silhouette drawing
 
-![Image](../Images/Design30.jpg) shows/hides the linked study models 
+![Image](../Images/Design30.jpg) show/hide the linked study models 
 
 ### 1.7 Modification tools
 
@@ -170,9 +170,9 @@ The **Plugin** PIPESTRESS converts automatically every command of MetaPiping int
 
 ![Image](../Images/Pipestress1.jpg)
 
-- Select a row and click **F9** on keyboard will select the object in the 3D view.
+- Select a line and click **F9** on keyboard will select the object in the 3D view.
 
-- Select a row and click **F1** on keyboard will open PIPESTRESS help (if defined in the settings).
+- Select a line and click **F1** on keyboard will open PIPESTRESS help (if defined in the settings).
 
 Click [here](https://documentation.metapiping.com/Settings/General.html) to have more information about the settings.
 
@@ -203,4 +203,4 @@ If you decide to remove a layer, click on **-** button (2) next to the layer nam
 
 You can now show/hide elements and restraints by activating/deactivating the visibility buttons.
 
->All layer manipulation supports Undo/Redo mechanism.
+>All layer manipulations support Undo/Redo mechanism.

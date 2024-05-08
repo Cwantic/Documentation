@@ -8,7 +8,7 @@ grand_parent: Settings
 
 # Piping
 
-In this section, libraries of piping elements can be created. 
+In this section, piping libraries can be created. 
 
 A library is a **JSON** file with a name, units and a list of pipe sizes, bend, reducer, welding tee and flange definitions.
 
@@ -39,14 +39,14 @@ Each size exists in different schedules. Click on **+** button to add schedules 
     For example : mm for the Outside diameter
 
 {: .warning }
->ATTENTION, the name of the pipe size is very important (Ex : 4"). It will be used as a **reference** for all other piping elements. The american notation is used even in metric definition.
+>ATTENTION, the name of the pipe size is very important (Ex : 4"). It will be used as a **reference** for all other piping elements.
 
 {: .warning }
 >ATTENTION, the sizes must be defined in an **ascending** order.
 
 ## 2. Bends
 
-To add **bend** properties for each pipe sizes, click on **+** button and select a pipe size :
+To add **bend** properties for each pipe size, click on **+** button and select a pipe size :
 
 ![Image](../../Images/Piping3.jpg)
 
@@ -63,7 +63,7 @@ Standard radius and mass can be entered :
 
 ## 3. Reducers
 
-To add **reducer** properties for each pipe sizes, click on **+** button and select a pipe size :
+To add **reducer** properties for each pipe size, click on **+** button and select a pipe size :
 
 ![Image](../../Images/Piping4.jpg)
 
@@ -81,11 +81,11 @@ Length and mass can be entered :
 
 ## 4. Welding tees
 
-Welding tee is a special case of tee with a collector and a branch.
+Welding tee is a special fitting with a header and a branch.
 
 The section of the branch must be equal or smaller than the section of the header pipe.
 
-To add **welding tee** properties for each pipe sizes, click on **+** button and select a pipe size :
+To add **welding tee** properties for each pipe size, click on **+** button and select a pipe size :
 
 ![Image](../../Images/Piping6.jpg)
 
@@ -96,7 +96,7 @@ To add **welding tee** properties for each pipe sizes, click on **+** button and
 | -------- | ---- | ---- | 
 | Length | m | ft | 
 
-The length corresponds to half the length of the collector (L1 in the picture) :
+The length corresponds to half the length of the header (L1 in the picture) :
 
 ![Image](../../Images/Piping5.jpg)
 

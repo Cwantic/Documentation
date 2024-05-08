@@ -7,11 +7,11 @@ parent: Settings
 
 # Specifications
 
->The specification screen is only available if MetaPiping is active on your licence.
+>The specification screen is only available if MetaPiping is active on your license.
 
 ![Image](../Images/Spec1.jpg)
 
-MetaPiping let you create **specifications** = predefined choice of piping elements and properties dedicated to a particular project.
+MetaPiping lets you create **specifications** = predefined choice of piping elements and properties dedicated to a particular project.
 
 It brings together a variety of information :
 
@@ -22,7 +22,7 @@ It brings together a variety of information :
 Click the **+** button to add a new specification or click the **-** button to remove an **unused** one.
 
 {: .warning }
->ATTENTION, do not remove specification used in one or more projects otherwise the opening will be compromised.
+>ATTENTION, do not remove specification used in one or more projects otherwise the projects may not open properly.
 
 ## 1. Header
 
@@ -88,7 +88,7 @@ Other properties :
 
 ## 2.2 Bends
 
-MetaPiping automatically fills the table with the corresponding informations :
+MetaPiping automatically fills the table with the corresponding information :
 
 ![Image](../Images/Spec5.jpg)
 
@@ -98,13 +98,12 @@ MetaPiping automatically fills the table with the corresponding informations :
 | Small radius | m | ft |
 | Mass | ton | kips | 
 
-Just informative.
 
     To know the UNIT of a property, just let the mouse over the property name.
 
 ## 2.3 Reducers
 
-MetaPiping automatically fills the table with the corresponding informations :
+MetaPiping automatically fills the table with the corresponding information :
 
 ![Image](../Images/Spec6.jpg)
 
@@ -143,21 +142,21 @@ Based on the type, some other properties must be filled :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | -- |
-| L1 | Branch length | m | ft |
+| L1 | Length of reinforcement | mm | in |
 | R2 | Branch-to-run fillet radius | mm | in |
-| TN | Branch connections and piping lateral connections CONSTANT thickness | mm | in |
-| Y | Branch connections and piping lateral connections VARIABLE thickness | mm | in |
+| TN | Branch connections and lateral connections CONSTANT thickness | mm | in |
+| Y | Branch connections and lateral connections VARIABLE thickness | mm | in |
 | Thickness type | Variable or constant | - | - |
 | RE | Pad or saddle outer radius for reinforced fabricated tees  | mm | in |
 | RX | Transition radius | mm | in |
 | PD | Pad thickness for reinforced fabricated tees | mm | in |
-| Collector length | Half length of the collector of welding tees | m | ft |
+| Collector length | Half length of the header of welding tees | m | ft |
 | Branch length | Branch length of welding tees | m | ft |
 | Mass | Mass of the tee | ton | kips |
 
 ## 2.5 Flanges
 
-MetaPiping automatically fills the table with the corresponding informations :
+MetaPiping automatically fills the table with the corresponding information :
 
 ![Image](../Images/Spec8.jpg)
 

@@ -26,7 +26,7 @@ Select a piping node with a restraint and beam nodes around :
 
 ![Image](../../Images/Link2.jpg)
 
-MetaStructure is looking for all beam nodes around the selected pipe node at a distance smaller than a default one (0.5 m in this example) and perpendicular to the pipe direction.
+MetaStructure looks for all beam nodes around the selected pipe node at a distance smaller than a default one (0.5 m in this example) and perpendicular to the pipe direction.
 
 Click [here](https://documentation.metapiping.com/Settings/General.html#7-structure) for more information about the settings.
 
@@ -36,7 +36,7 @@ In this example, MetaStructure detects only one connected node :
 
     Node 1 = 1
 
-You can unchecked some connected nodes or change the node name.
+You can uncheck some connected nodes or change the node name.
 
 Finally, you can set a static and dynamic friction factor.
 

@@ -113,8 +113,8 @@ PROPERTIES :
 | PD | float | Pad Thickness for Reinforced Fabricated Tees  | Diameter | 0 |
 | R2 | float | Branch-to-run Fillet Radius | Diameter | 0 |
 | RX | float | Transition Radius | Diameter | 0 |
-| Angle | float | Angle between collector and branch | Degree | 0 |
-| CollectorSize | float | Length of collector | Length | 0.3 |
+| Angle | float | Angle between run and branch | Degree | 0 |
+| CollectorSize | float | Length of run | Length | 0.3 |
 | BranchSize | float | Length of branch | Length | 0.3 |
 
 See [Units](https://documentation.metapiping.com/Design/units.html) for explanation of Length and Diameter units.
@@ -166,9 +166,9 @@ More properties can be explained on demand...
 | DX | Float  | Distance along X axis of end point from Node1 |
 | DY | Float  | Distance along Y axis of end point from Node1 |
 | DZ | Float  | Distance along Z axis of end point from Node1 |
-| LocalX | Float  | X value of local axis |
-| LocalY | Float  | Y value of local axis |
-| LocalZ | Float  | Z value of local axis |
+| LocalX | Float  | X component of local X axis |
+| LocalY | Float  | Y component of local X axis |
+| LocalZ | Float  | Z component of local X axis |
 | PipingValues | CurrentPipingValues  | Current piping properties (see §4.2) |
 
 Rem : LocalX, LocalY, LocalZ can be set to (0, 0, 0)

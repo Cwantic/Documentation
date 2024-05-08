@@ -18,18 +18,18 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 ## 1. Create first bend
 
-Select an isolated node and click to the **Add bend** button :
+Select an isolated node and click on the **Add bend** button :
 
 ![Image](../../Images/Bend2.jpg)
 
-MetaPiping ask you to define the **start direction** with 2 angles :
+MetaPiping asks you to define the **start direction** with 2 angles :
 
 - Azimuth = Horizontal angle in °
 - Elevation = Vertical angle in °
 
 The default direction is the global **X axis**.
 
-But with the default **Amplitude** of 90°, the elbow will have a final direction of the global **Y axis**.
+But with the default **Amplitude** of 90°, the elbow will have the global **Y axis** as final direction.
 
 The properties are explained in §2.
 
@@ -53,7 +53,7 @@ In this example, the values correspond to **current specification** preset.
 
 ![Image](../../Images/Bend4.jpg)
 
-MetaPiping set the **Long radius** by default but you can change it (Small radius or user defined radius)
+MetaPiping sets the **Long radius** by default but you can change it (Small radius or user defined radius)
 
 | Property | Unit Metric | Unit USA |
 | -------- |  ---- | ---- |
@@ -110,7 +110,7 @@ User can define the flexibility factor of the bend.
 
 This flexibility factor will be used for all load cases.
 
-Default = 0 or blanck = default special k Factor in the code.
+Default = 0 or blank = default special k Factor in the code.
 
 
 **ENDS FLANGED** :

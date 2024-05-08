@@ -18,7 +18,7 @@ After selection, the choice becomes the **current load case type**.
 
 ## 1. Edition
 
-For all cases, you can **create**, **modify** or **remove** a selected case :
+For all case types, you can **create**, **modify** or **remove** a selected case :
 
 ![Image](../../Images/Load8.jpg)
 
