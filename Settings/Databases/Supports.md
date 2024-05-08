@@ -114,7 +114,7 @@ Click the **+** button (next to the description) to add a new support :
 
 | Property | Unit Metric | Unit USA | Note |
 | -------- | ---- | ---- | --- |
-| Max displacement | m | ft | informative |
+| Max displacement | mm | in | informative |
 | Hanger size | mm | in | informative |
 | Can size | mm | in | informative |
 | Mass | ton | kips | informative |

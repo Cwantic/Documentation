@@ -28,7 +28,11 @@ You can also drag a file/folder on another folder.
 
 A spectrum defines the **curves** frequency/acceleration for different directions. And that for several dampings.
 
-    The displacement max is informative and can be filled with free units.
+An *informative* dispacement max can be entered :
+
+| Properties | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| Dx, Dy, Dz | mm | in |
 
 The **type** that defines the curves can be :
 
