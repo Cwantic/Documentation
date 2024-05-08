@@ -69,19 +69,19 @@ if mat.MaterialType == MaterialType.CarbonSteel:
 
 ## 1.3 MaterialProperties
 
-| Property | Description | Metric Unit |
-| -------- | ----------- | ----------- |
-| TE | Temperature | °C |
-| EH | Modulus of Elasticity | kN/mm² |
-| EX | Thermal Expansion | 10-6mm/mm/°C |
-| SH | Non-Class 1 Allowable Stress | N/mm² |
-| SY | Yield Stress | N/mm² |
-| SU | Ultimate Tensile Stress | N/mm² |
-| SM | Class 1 Allowable Stress | N/mm² |
-| CR | Creep | - |
-| GH | Shear Modulus | 10³N/mm² |
-| CO | Thermal conductivity | W/mK |
-| DI | Thermal diffusivity | mm²/s |
+| Property | Description | Unit Metric | Unit USA |
+| -------- | ----------- | ---- | ---- |
+| TE | Temperature | °C | °F |
+| EH | Modulus of Elasticity | kN/mm² | 10^6.psi |
+| EX | Thermal Expansion | 10^-6.mm/mm/°C | 10^-6.in/in/°F |
+| SH | Non-Class 1 Allowable Stress | N/mm² | ksi |
+| SY | Yield Stress | N/mm² | ksi |
+| SU | Ultimate Tensile Stress | N/mm² | ksi |
+| SM | Class 1 Allowable Stress | N/mm² | ksi |
+| CR | Creep | N/mm² | ksi |
+| GH | Shear Modulus | kN/mm² | 10^6.psi |
+| CO | Class 1 Thermal Conductivity | kJ/hr/m/°C | btu/hr/ft/°F |
+| DI | Class 1 Thermal Diffusivity | mm²/s | ft²/hr |
 
 ## 1.4 Example
 
