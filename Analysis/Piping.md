@@ -31,8 +31,6 @@ Select a case and the type of results :
 - Forces and moments
 - Reactions
 - Stresses
-- Anchor plates (structure only)
-- Joints (structure only)
 
 ### 2.1 Load cases
 
