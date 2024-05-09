@@ -158,8 +158,12 @@ This critical moment depends on the coefficients C1 and C2 :
 
 The default local-X direction for a beam is :
 
-* (0, 1, 0) for vertical beams
-* (0, 0, 1) for non vertical beams
+| X-axis | Global vertical axis | Default |
+| -------- | ----------- | --- |
+| Vertical beams | Z | (0, 1, 0) |
+| Non vertical beams | Z | (0, 0, 1) |
+| Vertical beams | Y | (0, 0, 1) |
+| Non vertical beams | Y | (0, 1, 0) |
 
 X-axis is always the **weak** axis, Y-axis the **strong** axis and Z-axis the axis of the beam from Node1 to Node2.
 

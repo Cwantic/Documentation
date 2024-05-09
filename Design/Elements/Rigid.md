@@ -34,6 +34,12 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 >The length must be defined by the **orientation tool**.
 
+**MATERIAL** :
+
+Select the material of the rigid.
+
+Click [here](https://documentation.metapiping.com/Design/Specification/Data.html#11-material-definition) for more information about the materials definition.
+
 **X-AXIS DIRECTION** :
 
 You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
@@ -59,6 +65,10 @@ Click [here](https://documentation.metapiping.com/Design/Selection.html) for mor
 You can change the properties of the selected rigid (except the length).
 
 ![Image](../../Images/Rigid4.jpg)
+
+**MATERIAL** :
+
+Change the material of the rigid.
 
 **X-AXIS DIRECTION** :
 

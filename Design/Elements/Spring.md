@@ -24,7 +24,7 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 ![Image](../../Images/Spring2.jpg)
 
-**SPRING PROPERTIES** (3) :
+**SPRING PROPERTIES** :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | --- | ---- | ---- |
@@ -37,6 +37,12 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 | Krz | Rotation stiffness in Z direction | kN.m/rad | kips.ft/rad |
 
 >The length must be defined by the **orientation tool**.
+
+**MATERIAL** :
+
+Select the material of the spring.
+
+Click [here](https://documentation.metapiping.com/Design/Specification/Data.html#11-material-definition) for more information about the materials definition.
 
 **X-AXIS DIRECTION** :
 

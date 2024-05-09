@@ -73,7 +73,7 @@ The equations to be verified are code-dependent. For example, here are the equat
 - **Secondary case** : to be checked for displacement-type cases like thermal expansion. Depending on the piping code (e.g. RCC-M Class 2), the moments may be multiplied by Ec/Eh when the **Hot modulus** is used
 - **Pseudo-static cases** : to be checked for dynamic cases that are calculated as static cases (e.g. earthquake calculated with a pseudo-static acceleration)
 - **Disable spring hangers** : for some cases like settlement and cold springing, it is common practice to readjust the spring hangers to their design parameters. This is equivalent to disabling the spring hangers
-
+- **Non linear** : if checked, non linear restraint is considered in the calculation
 
 ## 3. Applied loads
 
