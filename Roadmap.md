@@ -20,7 +20,7 @@ has_children: false
 
 ### *Expected date*
 
-* Augustus 2024
+* September 2024
 
 ### *Main features*
 
