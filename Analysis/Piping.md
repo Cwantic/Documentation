@@ -38,13 +38,13 @@ The combobox shows all calculated load cases :
 
 ![Image](../Images/Analysis7.jpg)
 
-The loadings can be defined [here](https://documentation.metapiping.com/Loads/index.html).
+The loadings can be defined [here](https://documentation.metapiping.com/Loads/Piping/).
 
 The **Modes** are generated if the **Extract modes** is checked in the **Model options** screen :
 
 ![Image](../Images/Analysis6.jpg)
 
-Click [here](https://documentation.metapiping.com/Design/Specification/Options.html) to have more information about the model options.
+Click [here](https://documentation.metapiping.com/Design/Specification/Options.html#3-modal-extraction) to have more information about the model options.
 
 
 A special load case "Fatigue" is added at the bottom of the combobox for Class 1 piping codes (Code Aster solver only). It allows to visualize the results of the detailed fatigue analysis : elastic shakedown (Eq. 10), usage factor, thermal ratchet, etc.

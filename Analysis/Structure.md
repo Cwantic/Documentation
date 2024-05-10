@@ -40,14 +40,13 @@ The combobox shows all calculated load cases :
 
 ![Image](../Images/Analysis17.jpg)
 
-The loadings can be defined [here](https://documentation.metapiping.com/Loads/index.html).
+The loadings can be defined [here](https://documentation.metapiping.com/Loads/Structure/).
 
 The **Modes** are generated if the **Extract modes** is checked in the **Model options** screen :
 
 ![Image](../Images/Analysis6.jpg)
 
-Click [here](https://documentation.metapiping.com/Design/Specification/Options.html) to have more information about the model options.
-
+Click [here](https://documentation.metapiping.com/Structure/Specification/Options.html#3-modal-extraction) to have more information about the model options.
 
 ### 2.2 Displacements
 
