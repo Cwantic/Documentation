@@ -56,7 +56,7 @@ You can choose from which node to start and the distance.
 | Length | m | ft |
 | Distance | m | ft |
 
-If the pipe has a bend before, next or both, you can check the cell *Use intersection point* to calculate the ditance between these points instead of the extremities of the pipe.
+If the pipe has a bend before, next or both, you can check the cell *Use intersection point* to calculate the distance between these points instead of the extremities of the pipe.
 
 Click on **Cut** to execute the command.
 
