@@ -44,6 +44,9 @@ Select a **project** (Ex : Demo). Right click on it lets you :
 {: .warning }
 >The EXPORT project command (from source computer) will copy all studies but also all external files, the used python scripts... and will paste it (or install scripts if not exist on target computer) during IMPORT command.
 
+{: .warning }
+>The EXPORT/IMPORT project will not work for **distant studies** (those created by opening a **FRE** file directly from windows explorer) !
+
 ## 2. Project preview
 
 A **project** is a container of **studies**.
