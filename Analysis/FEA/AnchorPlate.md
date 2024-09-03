@@ -106,11 +106,11 @@ Type of results :
 | Displacements | mm | in | Use **Factor** to amplify the deformation |
 | Stresses | N/mm² | ksi | |
 | Strains | % | % | |
-| Compressions | N/mm² | ksi | Only on plate |
+| Compressions | N/mm² | ksi | |
 | Iso-displacements | mm | in | Use **Factor** to amplify the deformation |
 | Iso-stresses | N/mm² | ksi | |
 | Iso-Strains | % | % | |
-| Iso-Compressions | N/mm² | ksi | Only on plate |
+| Iso-Compressions | N/mm² | ksi | |
 
 Example of the deformation of the plate (with factor = 128) :
 
@@ -124,7 +124,9 @@ Change for example the type to **Stresses** :
 
 The **Static equilibrium** is also evaluated (value near 0 reaches the perfect equilibrium).
 
-    Static Equilibrium refers to the physical state in which a system is at rest and the net force acting on it is null. It is a state in which all the forces acting on an object are balanced out and the object is not found to be in motion to the relative plane.
+    Static Equilibrium refers to the physical state in which a system is at rest and the net force acting 
+    on it is null. It is a state in which all the forces acting on an object are balanced out and the 
+    object is not found to be in motion to the relative plane.
 
 The **Fastener ratio max** indicates the max value of all ratios of all fasteners of the plate (must be < 1).
 
