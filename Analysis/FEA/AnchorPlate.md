@@ -163,6 +163,127 @@ You can **edit** the final report by clicking on the **pencil** button (requires
 
 ![Image](../../Images/FEA18.jpg)
 
+Click [here](https://documentation.metapiping.com/Settings/Reporting.html) to have more information about the reporting mechanism.
+
+### 5.1 Keywords
+
+The keyword is useful to make a correspondence between the **template** and the **table** document but with specific decorators :
+
+    $$keyword$$ for the template
+    [keyword] for the table
+
+
+| Keyword | Description | Remark |
+| -------- | ---- | ---- |
+| STUDY NAME | The name of the current study | No table |
+| ANALYSIS NAME | The name of the current analysis | No table |
+| PICTURE | Take a picture (§5.2) | No table |
+| MESH RESULTS | The list of all mesh results | table [MESH RESULTS] |
+| CONFIGURATION NAME | The name of the current configuration | No table |
+| HEIGHT | The height of the current assembly | No table |
+| MESH SIZE | The meshing size | No table |
+| IDNODE | The name of the current node | No table |
+| LOADCASE | The current load case | No table |
+| STATIC EQUILIBRIUM | The static equilibrium value | No table |
+| DISPLACEMENT MAX | The displacement max | No table |
+| STRESS MAX | The stress max | No table |
+| STRAIN MAX | The strain max | No table |
+| FASTENER RATIO MAX | The max ratio on all fasteners | No table |
+
+### 5.2 Picture
+
+It is possible to include pictures in the report with use of the keyword **PICTURE**.
+
+When the software encounters this keyword, it simply makes a screenshot of the 3D engine.
+
+It is possible to change the kind of visualization via a **JSON structure** just after the keyword separated by a semicolon character :
+
+    $$PICTURE;{...}$$
+
+JSON parameters :
+
+| Parameter | Description | Default value |
+| -------- | ---- | ---- |
+| Groups | An array of visible group name | Empty list = all groups will be visible |
+| View | Orientation of the camera | 35 (= FrontFaceTopLeft - see below) |
+| ResultType | Result category | 0 (= Group - see below) |
+| Factor | Amplification factor of the displacements | 1 |
+| Dim | 1 = show dimensions | 1 |
+
+View values :
+
+        Front                   = 0
+        Right                   = 1
+        Rear                    = 2
+        Left                    = 3
+        Top                     = 4
+        Bottom                  = 5
+        Isometric               = 6
+        Dimetric                = 7
+        Trimetric               = 8
+        FrontFaceBottom         = 9
+        FrontFaceRight          = 10
+        FrontFaceTop            = 11
+        FrontFaceLeft           = 12
+        RightFaceBottom         = 13
+        RightFaceRight          = 14
+        RightFaceTop            = 15
+        RightFaceLeft           = 16
+        BackFaceBottom          = 17
+        BackFaceRight           = 18
+        BackFaceTop             = 19
+        BackFaceLeft            = 20
+        LeftFaceBottom          = 21
+        LeftFaceRight           = 22
+        LeftFaceTop             = 23
+        LeftFaceLeft            = 24
+        BottomFaceBottom        = 25
+        BottomFaceRight         = 26
+        BottomFaceTop           = 27
+        BottomFaceLeft          = 28
+        TopFaceBottom           = 29
+        TopFaceRight            = 30
+        TopFaceTop              = 31
+        TopFaceLeft             = 32
+        FrontFaceBottomLeft     = 33
+        FrontFaceBottomRight    = 34
+        FrontFaceTopLeft        = 35
+        FrontFaceTopRight       = 36
+        BackFaceBottomLeft      = 37
+        BackFaceBottomRight     = 38
+        BackFaceTopLeft         = 39
+        BackFaceTopRight        = 40
+
+Result type values :
+
+        Group = 0
+        Displacement = 1
+        Stress = 2
+        Strain = 3
+        Compression = 4
+        IsoDisplacement = 5
+        IsoStress = 6
+        IsoStrain = 7
+        IsoCompression = 8
+
+Example :
+
+```python
+    $$PICTURE;{“ResultType”:8,”Groups”:[“PLATE”],”View”:4,”Dim”:0}$$
+```
+
+>ResultType = 8 for an "Iso-compression" view
+
+>Groups = ["PLATE"] will show only the group plate
+
+>View = 4 for a top view
+
+>Dim = 0 will hide the dimensions
+
+Result :
+
+![Image](../../Images/FEA21.jpg)
+
 ## 6. Conclusion
 
 The analysis is terminated.
