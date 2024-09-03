@@ -268,7 +268,7 @@ Result type values :
 
 Example :
 
-```python
+```
     $$PICTURE;{“ResultType”:8,”Groups”:[“PLATE”],”View”:4,”Dim”:0}$$
 ```
 

@@ -224,19 +224,19 @@ Result type values :
 
 Examples:
 
-```python
+```
     $$PICTURE$$
 ```
 
-```python
+```
     $$PICTURE;{“View”:35}$$
 ```
 
-```python
+```
     $$PICTURE;{”Type”:20,”ReviewType“:10,“View”:35}$$
 ```
 
-```python
+```
     $$PICTURE;{”Type”:30,”ResultType“:0,”Layers”:[“0”],”LoadCase”:100,“View”:35,”Factor”:8}$$
 ```
 
@@ -266,11 +266,11 @@ Result type values :
 
 Examples:
 
-```python
+```
     $$PICTURE$$
 ```
 
-```python
+```
     $$PICTURE;{“ResultType”:2,”Groups”:[“PLATE”],”View”:4,”Dim”:0}$$
 ```
 
