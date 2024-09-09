@@ -34,9 +34,12 @@ Properties :
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
 | Name | The name of the bolt | - | - |
-| Diameter | Outside diameter | mm | in |
-| Pitch | Distance between threads | mm | in |
+| Diameter Db | Outside diameter | mm | in |
+| Pitch Pc | Distance between threads | mm | in |
 | Resistant area | Tensile stress area | mm² | in² |
+| Pitch diameter Dp | Middle diameter | mm | in |
+| Bolt nut diameter | Nut diameter | mm | in |
+| Thread half angle Be | Half angle | ° | ° |
 
 ## 3. Bolting plate
 

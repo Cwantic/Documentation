@@ -16,6 +16,7 @@ MetaPiping lets you create several types of restraints on nodes :
 - Snubbers
 - Variable spring hangers
 - Constant spring hangers
+- Non-linear restraints
 
 ## 1. Database
 
@@ -37,6 +38,7 @@ Select the type **Anchor** :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
+| Label | Label of the restraint | - | - |
 | Kx | Spring Constant acting in X direction | kN/mm | Kips/in |
 | Ky | Spring Constant acting in Y direction | kN/mm | Kips/in |
 | Kz | Spring Constant acting in Z direction | kN/mm | Kips/in |
@@ -45,6 +47,8 @@ Select the type **Anchor** :
 | KΘz | Rotational Spring Constant acting in Z direction | kN.m/rad | Kips.ft/rad |  
 
     To know the UNIT of the value, just move the mouse over the cell. 
+
+>The labels are shown with the node names view button.
 
 You can change the coordinate system that defines the directions X,Y,Z :
 
@@ -69,12 +73,15 @@ Select the type **Multiple restraint** :
 
 | Property | Description | 
 | -------- | ----------- | 
+| Label | Label of the restraint |
 | Dx | Checked if there is a fixed rigid restraint acting in X direction |
 | Dy | Checked if there is a fixed rigid restraint acting in Y direction |
 | Dz | Checked if there is a fixed rigid restraint acting in Z direction |
 | Rx | Checked if there is a fixed rigid rotational restraint about X axis |
 | Ry | Checked if there is a fixed rigid rotational restraint about Y axis |
 | Rz | Checked if there is a fixed rigid rotational restraint about Z axis |
+
+>The labels are shown with the node names view button.
 
 You can change the coordinate system that defines the directions X,Y,Z :
 
@@ -99,6 +106,7 @@ Select the type **Rotational restraint** :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
+| Label | Label of the restraint | - | - |
 | Rx | X direction of the restraint | - | - |
 | Ry | Y direction of the restraint  | - | - |
 | Rz | Z direction of the restraint  | - | - |
@@ -107,6 +115,8 @@ Select the type **Rotational restraint** :
 >if Sp is blank = rigid, which is modeled by using a value of 1.13 x 10^9 kN.m/rad or 8.33 x 10^8 Kips.ft/rad.
  
     To know the UNIT of the value, just move the mouse over the cell. 
+
+>The labels are shown with the node names view button.
 
 The **Database** button on upper right corner gives an access to the libraries :
 
@@ -137,6 +147,7 @@ Select the type **Restraint** :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
+| Label | Label of the restraint | - | - |
 | Dx | X direction of the restraint | - | - |
 | Dy | Y direction of the restraint  | - | - |
 | Dz | Z direction of the restraint  | - | - |
@@ -146,6 +157,8 @@ Select the type **Restraint** :
  N/mm or 5 x 10^6 lb/in.
 
     To know the UNIT of the value, just move the mouse over the cell. 
+
+>The labels are shown with the node names view button.
 
 The **Database** button on upper right corner gives an access to the libraries.
 
@@ -172,6 +185,7 @@ Select the type **Snubber** :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
+| Label | Label of the restraint | - | - |
 | Dx | X direction of the restraint | - | - |
 | Dy | Y direction of the restraint  | - | - |
 | Dz | Z direction of the restraint  | - | - |
@@ -181,6 +195,8 @@ Select the type **Snubber** :
  N/mm or 1.5 x 10^6 lb/in.
 
     To know the UNIT of the value, just move the mouse over the cell. 
+
+>The labels are shown with the node names view button.
 
 The **Database** button on upper right corner gives an access to the libraries.
 
@@ -207,6 +223,7 @@ Select the type **Variable support spring hanger** :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
+| Label | Label of the restraint | - | - |
 | Dx | X direction of the restraint | - | - |
 | Dy | Y direction of the restraint  | - | - |
 | Dz | Z direction of the restraint  | - | - |
@@ -217,6 +234,8 @@ Select the type **Variable support spring hanger** :
  N/mm or 5 x 10^6 lb/in.
 
     To know the UNIT of the value, just move the mouse over the cell. 
+
+>The labels are shown with the node names view button.
 
 The **Database** button on upper right corner gives an access to the libraries.
 
@@ -243,12 +262,15 @@ Select the type **Constant support hanger** :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
+| Label | Label of the restraint | - | - |
 | Dx | X direction of the restraint | - | - |
 | Dy | Y direction of the restraint  | - | - |
 | Dz | Z direction of the restraint  | - | - |
 | Force | Pre-compression/pre-tension force | kN | Kips |
 
     To know the UNIT of the value, just move the mouse over the cell. 
+
+>The labels are shown with the node names view button.
 
 The **Database** button on upper right corner gives an access to the libraries.
 
@@ -275,6 +297,7 @@ Select the type **Non-linear restraint** :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
+| Label | Label of the restraint | - | - |
 | Dx | X direction of the restraint | - | - |
 | Dy | Y direction of the restraint  | - | - |
 | Dz | Z direction of the restraint  | - | - |
@@ -284,6 +307,8 @@ Select the type **Non-linear restraint** :
  N/mm or 5 x 10^6 lb/in.
 
     To know the UNIT of the value, just move the mouse over the cell. 
+
+>The labels are shown with the node names view button.
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
@@ -298,7 +323,6 @@ Select the type **Non-linear restraint** :
 | Coef. of friction | Coulomb coefficient of friction between the pipe and the support (≥ 0) | - | - |
 
 ![Image](../Images/Restraint12.jpg)
-
 
 You can change the coordinate system that defines the directions X,Y,Z :
 

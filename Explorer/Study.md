@@ -48,6 +48,7 @@ Click [here](https://documentation.metapiping.com/Design/index.html) to have mor
 ## 3. Piping bricks
 
 ![Image](../Images/Study1A.jpg)
+
 ### 3.1 File
 
 This create a brick that lets you import a file of any extension.
@@ -59,6 +60,9 @@ This is useful only for Python scripts that need a file as input (Ex : Excel fil
 Click on the button to open a search file dialog.
 
 Use the connector to send the file to another brick as an input.
+
+{: .warning }
+>You can import another **MetaL** file and connect it to the **MetaL** connector of the **Study brick**.
 
 ### 3.2 Study link
 
@@ -139,9 +143,16 @@ Useful to show the state of progress of the study to other users. A conventionna
 
 ![Image](../Images/Study9.jpg)
 
+### 3.8 Post-processing : supports + flanges
+
+![Image](../Images/PostProc1.jpg)
+
+Documentation will come soon...
+
 ## 4. Structure bricks
 
 ![Image](../Images/Study1B.jpg)
+
 ### 4.1 File
 
 This create a brick that lets you import a file of any extension.

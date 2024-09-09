@@ -93,9 +93,11 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ![Image](../Images/Design15.jpg) show/hide the shadows
 
-![Image](../Images/Design16.jpg) show/hide the silhouette drawing
+![Image](../Images/Design16.jpg) show/hide the origin symbol
 
 ![Image](../Images/Design30.jpg) show/hide the linked study models 
+
+![Image](../Images/Design31.jpg) show/hide the concrete (for MetaStructure only) 
 
 ### 1.7 Modification tools
 

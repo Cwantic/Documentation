@@ -25,6 +25,14 @@ You can now select objects of corresponding type.
 
     The selection is done by pressing the left mouse button above the desired object
 
+You can also select a node by entering the node name and click to the **Point** button.
+
+You can also select an element by entering the two node names separate by "-" and click to the **Element** button.
+
+You can also select a valve by entering its label and click to the **Element** button.
+
+You can also select a restraint by entering the node name or its label and click to the **Restraint** button.
+
 Click [here](https://documentation.metapiping.com/Design/Selection.html) to have more information about the selection.
 
 ## 2. Remove elements
@@ -74,11 +82,11 @@ The tool is available only for pipes, beams and bends. For bends, length and dis
 
 ## 4. Merge elements
 
-Select a **Node** between 2 similar colinear pipes and click on the **Merge** button.
+Select a **Node** between 2 similar colinear pipes or 2 succesive bends with same center and radius, and click on the **Merge** button.
 
-The 2 pipes must have the same **Material** and the same **Section**.
+The 2 pipes/bends must have the same **Material** and the same **Section**.
 
-The 2 pipes will be replaced by one pipe.
+The 2 pipes/bends will be replaced by one pipe/bend.
 
 {: .warning }
 >Attention, the force, restraint, lumped mass or local coordinates defined on the node will be destroyed.
@@ -347,3 +355,7 @@ You can later modify this property by selecting the elements and activating or d
 You can see the elements with this property by a colored map and the legend in the right tab.
 
 You can **Undo** this command.
+
+### 9.6 Section
+
+Documentation will come soon...

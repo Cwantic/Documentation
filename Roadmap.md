@@ -30,7 +30,6 @@ has_children: false
 * Load combinator
 * Time history file generator
 * EDF composite & HDPE code
-* ASME B31.3 for industrial piping
 * Requests from the user community
   
 ---

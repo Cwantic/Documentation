@@ -69,3 +69,5 @@ Properties :
 | WPLy | Plastic module Y | cm^3 | in^3 |
 | WPLx | Plastic module X | cm^3 | in^3 |
 | Iw | Warping inertia | cm^6 | in^6 |
+
+Press the ![Image](../../Images/BeamSection2.jpg) button for an automatic calculation of the ares and inertias.

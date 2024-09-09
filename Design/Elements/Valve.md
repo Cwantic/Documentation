@@ -77,6 +77,10 @@ The tables will be filled automatically :
 
 Click [here](https://documentation.metapiping.com/Settings/Databases/Components.html) for more information about creation of library of components.
 
+**LABEL** :
+
+You can define a label to the valve. The labels are shown with the node names view button.
+
 **X-AXIS DIRECTION** (3) :
 
 You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
@@ -100,6 +104,10 @@ Change the **Selection mode** to ELEMENT and select a valve :
 Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
 
 You can change the properties of the selected valve (except the length).
+
+**LABEL** :
+
+You can modify the label of the valve. The labels are shown with the node names view button.
 
 **SECTION AND MATERIAL** :
 

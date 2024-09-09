@@ -36,7 +36,7 @@ You can also drag a file/folder on another folder.
 
 Click the **+** button (next to Materials) to add a new material or click the **-** button (next to Name) to remove one.
 
-Define the description, the type, the temperature max, the density and the Poisson's ratio.
+Define the description, the type, the thermal expansion option, the temperature max, the density and the Poisson's ratio.
 
 Click the **+** button (next to Properties) to add a new row of properties for a **specific temperature** or click the **-** button (end of row) to remove one.
 
@@ -61,3 +61,27 @@ See [Units](https://documentation.metapiping.com/Design/units.html) for more inf
 
 {: .warning }
 >ATTENTION, temperatures must be entered in ascending order!
+
+**HDPE MATERIALS** :
+
+![Image](../../Images/Material3.jpg)
+
+The HDPE materials have simpler properties :
+
+| Property | Description | Unit Metric | Unit USA |
+| -------- | ----------- | ---- | ---- |
+| Max. temperature | Temperature max | °C | °F |
+| Density | Density | kg/m³ | lb/ft³ |
+| Poisson | Poisson's ratio | - | - |
+| Thermal expansion coef. | Thermal Expansion | 10^-6.mm/mm/°C | 10^-6.in/in/°F |
+| Spec | Spec value (see below) | - | - |
+
+Spec values :
+
+* ISO : EN 15494:2015 with coefficient = 1.25
+* ASTM : ASTM with factor = 0.63
+* ASME:  ASTM with factor = 0.5
+* EDF1 : D305914006648 [E] EDF guide
+* EDF2 : D305921021240 [A] EDF guide
+
+All other properties for the calculation are automatically set.

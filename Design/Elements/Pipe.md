@@ -136,3 +136,11 @@ You can **undo** this command.
 Click on the **Remove** button to delete the selected pipe.
 
 You can **undo** this command.
+
+**COMPOSITE PIPE** :
+
+If the material of the pipe is **Composite**, a special property **Glue** appears :
+
+![Image](../../Images/Pipe10.jpg)
+
+This property indicates that the pipe is glued with the others.

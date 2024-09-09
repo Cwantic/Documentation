@@ -28,6 +28,7 @@ MetaStructure lets you only create anchors :
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
+| Label | Label of the restraint | - | - |
 | Kx | Spring Constant acting in X direction | kN/mm | Kips/in |
 | Ky | Spring Constant acting in Y direction | kN/mm | Kips/in |
 | Kz | Spring Constant acting in Z direction | kN/mm | Kips/in |
@@ -36,6 +37,8 @@ MetaStructure lets you only create anchors :
 | KΘz | Rotational Spring Constant acting in Z direction | kN.m/rad | Kips.ft/rad |  
 
     To know the UNIT of the value, just move the mouse over the cell. 
+
+>The labels are shown with the node names view button.
 
 You can change the coordinate system that defines the directions X,Y,Z :
 
@@ -202,7 +205,11 @@ The **Washer nut** checkbox means that the bending moment in the anchor induced 
 
 The **Cannot rotate** checkbox means that the anchor plate is assumed to be free to rotate.
 
-## 2.7 Anchor plate duplication
+## 2.7 Stiffeners
+
+Documentation will come soon...
+
+## 2.8 Anchor plate duplication
 
 The definition of an **anchor plate** can be copied and pasted to another restraint :
 
@@ -223,7 +230,7 @@ The definition of an **anchor plate** can be copied and pasted to another restra
 
 ![Image](../../Images/Restraint38.jpg)
 
-## 2.8 User defined local coordinate system
+## 2.9 User defined local coordinate system
 
 It is also possible to create an anchor plate that follows user defined local coordinate system.
 

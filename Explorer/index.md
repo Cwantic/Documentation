@@ -33,12 +33,14 @@ Select a **folder** (Ex : Group A). Right click on it lets you :
 - Import a project (file with extension *.prockage)
 - Add a new sub-folder
 - Delete the current folder with all projects
+- Rename the current folder
 
 Select a **project** (Ex : Demo). Right click on it lets you :
 
 ![Image](../Images/Explorer4.jpg)
 
 - Delete the current project
+- Rename the current project
 - Export the project (file with extension *.prockage)
 
 {: .warning }
