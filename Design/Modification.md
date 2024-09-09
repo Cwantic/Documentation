@@ -358,4 +358,14 @@ You can **Undo** this command.
 
 ### 9.6 Section
 
-Documentation will come soon...
+As in review, The **Section** property shows all sections used in the model with a colored map :
+
+![Image](../Images/Modification29.jpg)
+
+MetaPiping let you change the section of multiple elements in one operation.
+
+Select multiple elements, a specification and a section, and click on the **Modify** button :
+
+![Image](../Images/Modification30.jpg)
+
+You can **Undo** this command.

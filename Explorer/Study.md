@@ -139,7 +139,7 @@ Click [here](https://documentation.metapiping.com/Python/index.html) to have mor
 
 This creates a brick with text and color capabilities.
 
-Useful to show the state of progress of the study to other users. A conventionnal color code can be established.
+Useful to show the state of progress of the study to other users. A conventional color code can be established.
 
 ![Image](../Images/Study9.jpg)
 
@@ -187,7 +187,7 @@ This creates a brick that lets you import *.bst files that are converted to Meta
 ![Image](../Images/Study11.jpg)
 
 {: .warning }
->ATTENTION, only version 2.0.0 or higher bst files can be imported. If the file version is too old, we recommand to open it with a recent BEAMSTRESS and save the model again.
+>ATTENTION, only version 2.0.0 or higher *.bst files can be imported. If the file version is too old, we recommand to open it with a recent BEAMSTRESS and save the model again.
 
 ### 4.4 Python
 
@@ -199,4 +199,4 @@ Click [here](https://documentation.metapiping.com/Python/index.html) to have mor
 
 This creates a brick with text and color capabilities.
 
-Useful to show the state of progress of the study to other users. A conventionnal color code can be established.
+Useful to show the state of progress of the study to other users. A conventional color code can be established.

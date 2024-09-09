@@ -48,6 +48,7 @@ Click the **+** button (next to Properties) to add a new row of properties for a
 | GH | Shear Modulus | kN/mm² | 10^6.psi |
 | CO | Class 1 Thermal Conductivity | kJ/hr/m/°C | btu/hr/ft/°F |
 | DI | Class 1 Thermal Diffusivity | mm²/s | ft²/hr |
+| E2 | Modulus of Elasticity 2 | kN/mm² | 10^6.psi |
 
 See [Units](https://documentation.metapiping.com/Design/units.html) for more information.
 

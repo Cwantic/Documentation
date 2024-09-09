@@ -173,6 +173,10 @@ The **Data panel** shows the **Restraint type** and the **Level** for each restr
 
 The **INTERACTIVITY** is the same as explained on §5.
 
+The **label** and modified **Spring Constants** are shown :
+
+![Image](../Images/Review25.jpg)
+
 >The data are not editable
 
 ## 10. Tees

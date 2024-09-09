@@ -36,7 +36,7 @@ Example :
 
 | Keyword | Template keyword | Table keyword |
 | -------- | ---- | ---- |
-| MATERIALS | $$MATERIALS$$ | [MATERIALS] |
+| MATERIALS | `$$`MATERIALS`$$` | [MATERIALS] |
 
 A digit is authorized after a keyword [0..9] to enlarge the possibilities.
 
@@ -44,9 +44,9 @@ Example :
 
 | Keyword | Template keyword | Table keyword |
 | -------- | ---- | ---- |
-| MATERIALS | $$MATERIALS0$$ -> $$MATERIALS9$$ | [MATERIALS0] -> [MATERIALS9] |
+| MATERIALS | `$$`MATERIALS0`$$` -> `$$`MATERIALS9`$$` | [MATERIALS0] -> [MATERIALS9] |
 
-If the software encounters the keyword $$MATERIALS3$$ in the template, it will know that it corresponds to the internal keyword MATERIALS and will try to find the section in the table document with the keyword [MATERIAL3]. If success, it will **insert** the content of the table at the position of the template keyword and fill all materials.
+If the software encounters the keyword `$$`MATERIALS3`$$` in the template, it will know that it corresponds to the internal keyword MATERIALS and will try to find the section in the table document with the keyword [MATERIAL3]. If success, it will **insert** the content of the table at the position of the template keyword and fill all materials.
 
 {: .warning }
 >ATTENTION, the keyword must be written in CAPITAL letters.
@@ -288,7 +288,7 @@ The layout of a keyword content is :
     [FOOTER]
     [END]
 
-The table's **[KEYWORD]** corresponds to the template's **$$KEYWORD$$**.
+The table's **[KEYWORD]** corresponds to the template's **`$$`KEYWORD`$$`**.
 
 Example for $$NODES$$ :
 

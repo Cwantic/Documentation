@@ -52,6 +52,9 @@ The equations are code-dependent.
 - 9- Max resultant moment range
 - S- Max thermal stress range
 
+<ins>Duration</ins> :
+
+In hours.
 
 <ins>Dynamic load flag</ins> :
 

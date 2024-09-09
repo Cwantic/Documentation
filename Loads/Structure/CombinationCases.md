@@ -55,6 +55,10 @@ This field is intended for nuclear codes only. The possible values are : A (norm
 
 If checked, the fasteners will be verified.
 
+<ins>Duration</ins> :
+
+In hours.
+
 ## 2. Combined cases
 
 Enter the **number** of the constituent cases and the corresponding **factor** (1) :

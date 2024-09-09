@@ -23,6 +23,8 @@ Click on the **Point** button to select **Nodes** or **element extremities**.
 
 The node is highlighted and its **Name** appears in magenta.
 
+You can also select a node by entering the node name (1) and click to the **Point** button.
+
 **ELEMENT** :
 
 Click on the **Element** button to select an **element**.
@@ -31,6 +33,10 @@ Click on the **Element** button to select an **element**.
 
 The element is highlighted in magenta.
 
+You can also select an element by entering the two node names separate by "-" (1) and click to the **Element** button.
+
+You can also select a valve by entering its label (1) and click to the **Element** button.
+
 **RESTRAINT** :
 
 Click on the **Restraint** button to select a **restraint**.
@@ -38,6 +44,8 @@ Click on the **Restraint** button to select a **restraint**.
 ![Image](../Images/Selection4.jpg)
 
 The restraint is highlighted in magenta.
+
+You can also select a restraint by entering the node name or its label (1) and click to the **Restraint** button.
 
 **TEE** :
 

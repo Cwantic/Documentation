@@ -29,3 +29,6 @@ Click the **+** button (next to Curve) to add a new temperature/pressure pair or
 ## 3. Supports/Flanges post-processing
 
 These libraries are only used during **Supports/Flanges post-processing**.
+
+
+Click [here](https://documentation.metapiping.com/Explorer/Study.html#38-post-processing--supports--flanges) for more informations.
