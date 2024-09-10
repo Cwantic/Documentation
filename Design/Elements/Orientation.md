@@ -14,7 +14,27 @@ The goal is to help user to set the second extremity node, based on the first se
 
 ---
 
-## 1. Relative coordinates
+## 1. Absolute coordinates
+
+This mode is useful when you want to draw an element with the second node defined in **absolute global coordinates**  :
+
+![Image](../../Images/Orientation11.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| X | m | ft |
+| Y | m | ft |
+| Z | m | ft |
+
+    To know the UNIT of the value, just let the mouse over the cell. 
+
+Click the **Create element** button to create the element.
+
+You can **Undo** this command.
+
+---
+
+## 2. Relative coordinates
 
 This mode is useful when you want to draw an element with the second node **relative** to the first one in the **global axis** directions :
 
@@ -38,7 +58,7 @@ You can **Undo** this command.
 
 ---
 
-## 2. Polar coordinates
+## 3. Polar coordinates
 
 This mode is useful when you want to draw an element with the second point relative to the first one by a **distance** and **2 angles** :
 
@@ -60,7 +80,7 @@ You can **Undo** this command.
 
 ---
 
-## 3. Distance + direction
+## 4. Distance + direction
 
 ![Image](../../Images/Orientation2.jpg)
 
@@ -89,7 +109,7 @@ Click on **Enter** to execute the creation.
 
 You can **Undo** this command.
 
-### 3.1 Horizontal plane
+### 4.1 Horizontal plane
 
 Click on the second button to display a **horizontal graduated wheel** :
 
@@ -107,7 +127,7 @@ And validate :
 
 The second node will be at "Distance" from the first node in the direction of the selected angle.
 
-### 3.1 Vertical plane
+### 4.2 Vertical plane
 
 Click on the third button to display a **vertical graduated wheel** :
 
@@ -127,7 +147,9 @@ The second node will be at "Distance" from the first node in the direction of th
 
 You can **Undo** this command.
 
-### 3.2 Special cases
+The last button is the **vertical plane** perpendicular to the element.
+
+### 4.3 Special cases
 
 * Tangent direction (in MAGENTA) :
 

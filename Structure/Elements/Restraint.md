@@ -54,6 +54,10 @@ Set the coordinate system to **Local to adjacent element** and click the **Creat
 
 ![Image](../../Images/Restraint17.jpg)
 
+>If one or more **spring constants** are unchecked, the symbol of the anchor is changed from a box to a disk :
+
+![Image](../../Images/Restraint43.jpg)
+
 You can **Undo** this command.
 
 You can later modify or remove this anchor by selecting it and clicking on **Modify/Remove** buttons.
@@ -207,7 +211,75 @@ The **Cannot rotate** checkbox means that the anchor plate is assumed to be free
 
 ## 2.7 Stiffeners
 
-Documentation will come soon...
+Define stiffeners to reinforce the plate :
+
+![Image](../../Images/Stiffener1.jpg)
+
+Types :
+
+* None
+* Web
+* Flange
+* WebFlange
+* Special (only for channel and I)
+* Complete (only for channel and I)
+
+You can define the thickness, heights and the lengths of the stiffeners in both sides.
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| Length, height and thickness | mm | in |
+
+The axis are depending on the defined coordinate system :
+
+- Global (default)
+- Local to adjacent element coordinate system
+- Local to the node coordinate system (if exists on node)
+
+{: .warning }
+>The definition of stiffeners is only useful for **finite element analysis** !
+
+Click [here](https://documentation.metapiping.com/Analysis/FEA/AnchorPlate.html) for more information about *Finite Element Analysis* of anchor plates.
+
+### 2.7.1 Web
+
+The stiffeners are aligned with the web of the profile :
+
+![Image](../../Images/Stiffener2.jpg)
+
+*X,Y axis based on local to adjacent element coordinate system in the picture*
+
+### 2.7.2 Flange
+
+The stiffeners are aligned with the flanges of the profile :
+
+![Image](../../Images/Stiffener3.jpg)
+
+*X,Y axis based on local to adjacent element coordinate system in the picture*
+
+### 2.7.3 Web + Flange
+
+The stiffeners are aligned with the web and the flanges of the profile :
+
+![Image](../../Images/Stiffener4.jpg)
+
+*X,Y axis based on local to adjacent element coordinate system in the picture*
+
+### 2.7.4 Special (only for channel and I profile)
+
+The stiffeners close the profile with a plate :
+
+![Image](../../Images/Stiffener5.jpg)
+
+*X,Y axis based on local to adjacent element coordinate system in the picture*
+
+### 2.7.5 Complete (only for channel and I profile)
+
+A combination of *Special* and *Flange* stiffeners :
+
+![Image](../../Images/Stiffener6.jpg)
+
+*X,Y axis based on local to adjacent element coordinate system in the picture*
 
 ## 2.8 Anchor plate duplication
 

@@ -79,7 +79,7 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ### 1.6 View options
 
-![Image](../Images/Design9.jpg) show/hide the node name
+![Image](../Images/Design9.jpg) show/hide the node name and valve/support label
 
 ![Image](../Images/Design10.jpg) show/hide the node point
 
