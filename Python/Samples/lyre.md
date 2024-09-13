@@ -14,7 +14,7 @@ Create a script that will (after pressing a **button** in the ribbon) replace a 
 
 ![Image](../../Images/illustration256x165.png)
 
->This feature does not exists in MetaPiping 2024 so it is usefull that user can create his own COMMANDS based on the MetaL internal format and the existing documented commands.
+>This feature does not exists in MetaPiping 2024 so it is useful that user can create his own COMMANDS based on the MetaL internal format and the existing documented commands.
 
 >Since the user will have to create a COMMAND, the application will manage the undo/redo operations by itself !
 
@@ -154,6 +154,7 @@ You can set the **default values** in the parameters of the App.
 GetLValue() gives the user length.
 
 GetRValue() gives the user radius.
+
 ## 5. Script properties
 
 In this kind of script, user has to define the **button** :
