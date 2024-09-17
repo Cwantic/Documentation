@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Support
-nav_order: 11
+nav_order: 12
 parent: Samples
 grand_parent: Python
 ---
 
-# Sample 11 : Create a beam support of a piping on a node
+# Sample 12 : Create a beam support of a piping on a node
 
 ## 1. Goal
 
@@ -18,7 +18,7 @@ Create a script that will (after selecting a piping node with a restraint and pr
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 3** (Add 3D script) :
+From the Home/Python, click on **button 2** (Add 3D script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
@@ -256,7 +256,7 @@ if n==1:
                         
                         TSTIFF = model.ANCH_TSTIFF
                         RSTIFF = model.ANCH_RSTIFF
-                        cmd.addSubCommand("CreateAnchorCommand", [Nodes, CoordinateSystem.LocalToConnectedElement, Attached, "", TSTIFF, TSTIFF, TSTIFF, RSTIFF, RSTIFF, RSTIFF, currentValues.Layer])
+                        cmd.addSubCommand("CreateAnchorCommand", [Nodes, CoordinateSystem.LocalToConnectedElement, Attached, "", TSTIFF, TSTIFF, TSTIFF, RSTIFF, RSTIFF, RSTIFF, currentValues.Layer, ""])
                     
                     design.executeCommand(cmd)
                     message = ""

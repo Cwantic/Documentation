@@ -20,6 +20,10 @@ From the Home/Python, click on button 1 (Add project script) :
 
 Give it the name "Convert XLSX to MetaL".
 
+>Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
+
+![Image](../../Images/PythonMenu1.jpg)
+
 ## 3. Script properties
 
 Add 1 TEXT input and 1 TEXT output :
@@ -32,7 +36,7 @@ The output TEXT is the path to **conception.metaL** filename (the internal file 
 
 ## 4. requirements.txt
 
-To be able to read EXCEL file, we need some pip libraries :
+To be able to read EXCEL file, we need some pip libraries (**pandas** & **openpyxl**):
 
 ![Image](../../Images/PythonSample3_3.jpg)
 
@@ -195,7 +199,7 @@ Save it !
 
 ![Image](../../Images/PythonSample3_8.jpg)
 
-And in the Design mode :
+And in the Piping screen :
 
 ![Image](../../Images/PythonSample3_9.jpg)
 

@@ -20,11 +20,17 @@ From the Home/Python, click on button 1 (Add project script) :
 
 Give it the name "Send SUBJECT and DATE by email".
 
+You need to create a virtual environment :
+
+![Image](../../Images/PythonMenu1.jpg)
+
 ## 3. Script properties
 
 Add 1 EDIT input, 1 TEXT input and 1 TEXT output :
 
 ![Image](../../Images/PythonSample2_1.jpg)
+
+Don't forget to save !
 
 The EDIT is for the SUBJECT
 
@@ -35,7 +41,7 @@ The TEXT is for the date with a connection to script "Click at each stage of the
 Copy/paste this code in the Editor :
 
 ```python
-study.Outputs[0] = study.Inputs[0] + " - " + study.Inputs[1] + " must be send by email"
+study.Outputs[0] = study.Inputs[0] + " - " + study.Inputs[1] + " must be sent by email"
 ```
 
 study.Inputs[0] take the text that user write in the EDIT.
@@ -59,6 +65,8 @@ To send an email, we will use **flask_mail** library from pip.
 Add flask_mail in requirements.txt, **save** and **install** it from the three points button.
 
 ![Image](../../Images/PythonSample2_3.jpg)
+
+This may take a few minutes...
 
 This window will appears :
 
@@ -130,7 +138,7 @@ Complete it with your email server data and save it !
 
 Select the file.
 
-Copy/paste this code in the Editor :
+Copy/paste this code in the Editor and change the email *info@cwantic.com* to another destination :
 
 ```python
 from MyEmail import send_email

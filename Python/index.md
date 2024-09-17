@@ -37,12 +37,11 @@ Select **Python** in the application ribbon :
 On the upper left menu, a list of buttons proposes several tools :
 
 1. Create a script for **study** level - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
-2. Remove the selected script
-3. Create a script for **design** level - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
+2. Create a script for **design** level - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
+3. Create a script for **explorer** level - [See Info page for more information](https://documentation.metapiping.com/Python/Info.html) 
 4. Export a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
 5. Import a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
-6. Create a script for **explorer** level - [See Info page for more information](https://documentation.metapiping.com/Python/Info.html) 
-
+6. Remove the selected script
 ---
 ## Screen
 

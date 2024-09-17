@@ -12,7 +12,6 @@ grand_parent: Python
 
 Create a script that will (after pressing **RUN** button) calculate the total mass of a piping based on the **MetaL** file.
 
-
 ## 2. Script definition
 
 From the Home/Python, click on button 1 (Add project script) :
@@ -20,6 +19,10 @@ From the Home/Python, click on button 1 (Add project script) :
 ![Image](../../Images/PythonMenu.jpg)
 
 Give it the name "Total mass of the piping"
+
+>Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
+
+![Image](../../Images/PythonMenu1.jpg)
 
 ## 3. Script properties
 
@@ -30,8 +33,6 @@ Add 1 METAL input and 1 TEXT output :
 The input METAL must receive the MetaL file (the internal file format of MetaPiping) from a connection of the main **study** brick.
 
 The output TEXT shows the result.
-
-Nothing to add to requirements.txt.
 
 ## 4. Main.py
 

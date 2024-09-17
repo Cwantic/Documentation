@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Distance between 2 nodes (framed)
-nav_order: 9
+nav_order: 10
 parent: Samples
 grand_parent: Python
 ---
 
-# Sample 9 : Show the distance between 2 nodes in a frame
+# Sample 10 : Show the distance between 2 nodes in a frame
 
 ## 1. Goal
 
@@ -14,11 +14,15 @@ Create a script that will (after pressing a **button** in the ribbon) show in le
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 3** (Add 3D script) :
+From the Home/Python, click on **button 2** (Add 3D script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
 Give it the name "Show distance between 2 nodes"
+
+>Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
+
+![Image](../../Images/PythonMenu1.jpg)
 
 ## 3. Script files
 

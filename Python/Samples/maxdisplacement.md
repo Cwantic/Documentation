@@ -12,7 +12,6 @@ grand_parent: Python
 
 Create a script that will (after pressing **RUN** button) retrieve the **displacement max** in mm of the whole piping for a particular loadcase number.
 
-
 ## 2. Script definition
 
 From the Home/Python, click on button 1 (Add project script) :
@@ -20,6 +19,10 @@ From the Home/Python, click on button 1 (Add project script) :
 ![Image](../../Images/PythonMenu.jpg)
 
 Give it the name "Max displacement by loadcase number"
+
+>Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
+
+![Image](../../Images/PythonMenu1.jpg)
 
 ## 3. Script properties
 
@@ -32,8 +35,6 @@ The input SOLUTION must receive a connection from the Solution connector of the 
 The input EDIT must receive the static loadcase number.
 
 The output TEXT will show the result.
-
-Nothing to add to requirements.txt.
 
 ## 4. Main.py
 

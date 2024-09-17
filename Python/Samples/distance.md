@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Distance between 2 nodes
-nav_order: 8
+nav_order: 9
 parent: Samples
 grand_parent: Python
 ---
 
-# Sample 8 : Measure the distance between 2 nodes by message
+# Sample 9 : Measure the distance between 2 nodes by message
 
 ## 1. Goal
 
@@ -15,11 +15,15 @@ Create a script that will (after pressing a **button** in the ribbon) show by me
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 3** (Add 3D script) :
+From the Home/Python, click on **button 2** (Add 3D script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
 Give it the name "Distance between 2 nodes by message"
+
+>Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
+
+![Image](../../Images/PythonMenu1.jpg)
 
 ## 3. Script files
 

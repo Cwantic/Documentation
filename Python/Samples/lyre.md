@@ -6,7 +6,9 @@ parent: Samples
 grand_parent: Python
 ---
 
-# Sample 7 : Replace a selected pipe by an expansion loop
+# Sample 7 : Replace a selected pipe by an expansion loop (OBSOLETE)
+
+See sample 8 instead !
 
 ## 1. Goal
 
@@ -20,11 +22,15 @@ Create a script that will (after pressing a **button** in the ribbon) replace a 
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 3** (Add 3D script) :
+From the Home/Python, click on **button 2** (Add 3D script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
 Give it the name "Add loop"
+
+You need to create a virtual environment :
+
+![Image](../../Images/PythonMenu1.jpg)
 
 ## 3. requirements.txt
 

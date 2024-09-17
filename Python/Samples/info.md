@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Study info
-nav_order: 10
+nav_order: 11
 parent: Samples
 grand_parent: Python
 ---
 
-# Sample 10 : Show informations about a study
+# Sample 11 : Show informations about a study
 
 ## 1. Goal
 
@@ -16,7 +16,7 @@ Create a script that will show informations about the MetaL and the results of t
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 6** (Add simple script) :
+From the Home/Python, click on **button 3** (Add simple script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 

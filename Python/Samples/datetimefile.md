@@ -30,13 +30,17 @@ From the Home/Python, click on button 1 (Add project script) :
 
 Give it the name "Click at each stage of the project"
 
+>Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
+
+![Image](../../Images/PythonMenu1.jpg)
+
 ## 3. Script properties
 
 Add 4 TEXT output :
 
 ![Image](../../Images/PythonSample1_2.jpg)
 
-Nothing to add to requirements.txt.
+Don't forget to save !
 
 ## 4. Main.py
 
