@@ -37,8 +37,6 @@ The main usefull functions are ***getMetal()***, ***getSolution()*** and  ***sho
 
 [See the description of the object study](https://documentation.metapiping.com/Python/Classes/study.html)
 
----
-
 ## 2. Example
 
 [See an example here](https://documentation.metapiping.com/Python/Samples/info.html) : Show informations about a study.

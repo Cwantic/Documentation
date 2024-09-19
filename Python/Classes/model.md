@@ -10,7 +10,6 @@ grand_parent: Python
 
 **Model** is the class that describes the whole piping geometry and loadings.
 
-
 ## 1. Properties
 
 | Name | Return | Description |
@@ -38,7 +37,6 @@ grand_parent: Python
 
 The class **Model** also provides lists of the objects contained in the piping model:
 
-
 | Name | Description |
 | ---- | ----------- |
 | Nodes | List of **Node** |
@@ -53,5 +51,3 @@ The class **Model** also provides lists of the objects contained in the piping m
 | RestrainedNodes | List of restrained nodes|
 | Layers | List of **Layer** |
 | Specifications | List of the specification names (string) |
-
-

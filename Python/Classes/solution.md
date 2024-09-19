@@ -24,7 +24,6 @@ The **solution** object gives access to all analysis results and can be accessed
 | getStresses() | list of double | Get the stress value for a load case number and a stress index on each element (see § 9)
 | getMaxStressRatio() | double | Get the max stress ratio for all elements and all load cases. You can specify if the result include the thermal (bool - false by default) (see § 10)
 
-
     ATTENTION : the metal given by the solution (getMetal) is different from the metal given by the study ! 
     The 'solution metal' has been transformed depending on the current piping code.
 
@@ -40,7 +39,7 @@ solution = study.getSolution()
 if solution != None:
     # ...
 ```
----
+
 ## 3. getDisplacements()
 
 Once the solution exists, you can retrieve the displacement and rotation on each [node](https://documentation.metapiping.com/Python/Classes/node.html) for a certain load case number (int).
@@ -65,7 +64,6 @@ length = (displacement.X**2 + displacement.Y**2 + displacement.Z**2) ** 0.5
 
 The displacement/rotation values are given in the [output units](https://documentation.metapiping.com/Design/units.html) specified in the model options.
 
----
 ## 4. getAccelerations()
 
 Once the solution exists, you can retrieve the acceleration on each [node](https://documentation.metapiping.com/Python/Classes/node.html) for a certain load case number (int).
@@ -80,10 +78,8 @@ if len(accelerations) > 0:
         # you can access acceleration.X, acceleration.Y, acceleration.Z
 ```
 
-
 The acceleration values are given in the [output units](https://documentation.metapiping.com/Design/units.html) specified in the model options.
 
----
 ## 5. getReactions()
 
 Once the solution exists, you can retrieve the reaction on each [restrained node](https://documentation.metapiping.com/Python/Classes/node.html) for a certain load case number (int).
@@ -106,7 +102,6 @@ if len(reactions) > 0:
 
 The force/moment values are given in the [output units](https://documentation.metapiping.com/Design/units.html) specified in the model options.
 
----
 ## 6. getForces()
 
 Once the solution exists, you can retrieve the forces on each [element](https://documentation.metapiping.com/Python/Classes/element.html) for a certain load case number (int).
@@ -128,8 +123,6 @@ if len(forces) > 0:
 
 The force/moment values are given in the [output units](https://documentation.metapiping.com/Design/units.html) specified in the model options.
 
-
----
 ## 7. getModeShape()
 
 Once the solution exists, you can retrieve the displacement and rotation on each [node](https://documentation.metapiping.com/Python/Classes/node.html) for a certain mode number (int).
@@ -147,10 +140,8 @@ if len(displacements) > 0:
         # you can access rotation.X, rotation.Y, rotation.Z
 ```
 
-
 The displacement/rotation values are given in the [output units](https://documentation.metapiping.com/Design/units.html) specified in the model options.
 
----
 ## 8. getStressIDList()
 
 Once the solution exists, you can retrieve the stress id list for a certain load case number/ or mode shape.
@@ -159,8 +150,6 @@ getStressIDList() returns a list of String depending on the load case (int) and 
 
 Example of result for RCCM class2, equation 2 : { "Ratio", "Eq. 6", "Sallow", "SPres", "SMomA" }
 
-
----
 ## 9. getStresses()
 
 Once the solution exists, you can retrieve the stresses on each [element](https://documentation.metapiping.com/Python/Classes/element.html) for a certain load case number (int) and a certain stress index (int) from getStressIDList (see § 8).
@@ -180,8 +169,6 @@ if len(stresses) > 0:
 
 The stress value is given in the [output units](https://documentation.metapiping.com/Design/units.html) specified in the model options.
 
-
----
 ## 10. getMaxStressRatio()
 
 Once the solution exists, you can retrieve the MAX stress ratio for the whole piping and for all load cases.
@@ -196,4 +183,3 @@ maxStress = solution.getMaxStressRatio(True)
     A value less than 1 indicates a valid piping model !
 
 The max stress value is unitless.
-

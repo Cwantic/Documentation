@@ -22,7 +22,6 @@ grand_parent: Python
 | Label | string | Label |
 | LayerID | int | Layer number |
 
-
 The type *CoordinateSystem* is an enumeration with the following values:
 
 | Value | Description |
@@ -32,7 +31,6 @@ The type *CoordinateSystem* is an enumeration with the following values:
 | LocalToPrecedingElement |  Local coordinate system of the preceding element |
 | LocalToFollowingElement |  Local coordinate system of the following element |
 | Local | Local coordinate system specified at restrained node |
-
 
 # 2. AxialRestraint
 
@@ -44,7 +42,6 @@ The type *CoordinateSystem* is an enumeration with the following values:
 | --- | ----------- | ----------- |
 | Stiffness | float | Stiffness |
 | Direction | Vector3D | Restrained direction |
-
 
 # 3. LinearRestraint
 
@@ -63,7 +60,6 @@ The type *LinearRestraintType* is an enumeration with the following values:
 | Translational | Translational |
 | Rotational | Rotational|
 | Snubber | Snubber|
-
 
 # 4. SpringHanger
 
@@ -84,7 +80,6 @@ The type *PinnedCase* is an enumeration with the following values:
 | DesignAndTest | Pinned for design weight and test weight analyses|
 | DesignAndEmpty | Pinned for design weight and empty weight analyses|
 
-
 # 5. MultiRestraint
 
 **MultiRestraint** inherits from **Restraint**.
@@ -99,7 +94,6 @@ The type *PinnedCase* is an enumeration with the following values:
 | Krx | float | Stiffness around X: 0 if free, > 0 if rigid |
 | Kry | float | Stiffness around Y: 0 if free, > 0 if rigid |
 | Krz | float | Stiffness around Z: 0 if free, > 0 if rigid |
-
 
 # 6. Anchor
 

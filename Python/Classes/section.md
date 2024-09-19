@@ -26,7 +26,6 @@ grand_parent: Python
 | LinearMass | float | Linear mass|
 | Description | string | Description |
 
-
 ## 2. PipeSection
 
 **PipeSection** inherits from **Section**. Every **PipeSection** object has the properties of **Section**. 
@@ -42,7 +41,6 @@ grand_parent: Python
 | InsulationThickness | float | Insulation thickness |
 | Corrosion | float | Corrosion allowance |
 | Erosion | float | Erosion allowance |
-
 
 ## 3. BeamSection
 
@@ -60,7 +58,6 @@ grand_parent: Python
 | B | float | Width |
 | Tw | float | Web thickness |
 | Tf | float | Flange thickness |
-
 
 The type *BeamSectionType* is an enumeration with the following values:
 

@@ -45,7 +45,6 @@ if n==2:
     # you can access the object i : design.selectedList[i]
 ```
 
----
 ## 3. getType()
 
 Retrieve the Assembly.Class type of an object.
@@ -61,7 +60,6 @@ This will show a message box with the **complete class type** of the first selec
 
 Example : "Cwantic.MetaPiping.Core.Node" for a node. **Cwantic.MetaPiping.Core** is the Assembly and **Node** is the class type.
 
----
 ## 4. isType()
 
 Check if the object (param1) is from class type (param2)
@@ -74,7 +72,6 @@ if design.isType(design.selectedList[0], "Node"):
 
 Unlike getType(), isType() does not refer to the assembly of the class type.
 
----
 ## 5. createCommand()
 
 Return an empty [CustomCommand](https://documentation.metapiping.com/Python/Classes/commands.html) with a given name (param1).
@@ -92,7 +89,6 @@ design.executeCommand(cmd)
 
 See an example of [custom command](https://documentation.metapiping.com/Python/Samples/lyre.html).
 
----
 ## 6. executeCommand() 
 
 Execute the [CustomCommand](https://documentation.metapiping.com/Python/Classes/commands.html) passed in parameter.
@@ -110,7 +106,6 @@ design.executeCommand(cmd)
 
 See an example of [custom command](https://documentation.metapiping.com/Python/Samples/lyre.html).
 
----
 ## 7. getVerticalVector()
 
 Return (0, 0, 1) if Z vertical or (0, 1, 0) if Y vertical
@@ -120,7 +115,6 @@ Return (0, 0, 1) if Z vertical or (0, 1, 0) if Y vertical
 verticalvec = design.getVerticalVector()
 ```
 
----
 ## 8. getMetal()
 
 
@@ -136,8 +130,6 @@ else:
 
 See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for more information.
 
-
----
 ## 9. addText()
 
 In review mode, it can be useful to shows some information about the model or about the selected objects.
@@ -164,7 +156,6 @@ design.addText(" ")
 design.addText("Distance = " + str(round(distance, 3)) + " m", False, 255, 255, 255)
 ```
 
----
 ## 10. addSeparator()
 
 In the same way as the **addText** method, **addSeparator** just add a white horizontal line
@@ -179,7 +170,6 @@ design.addText(" ")
 design.addText("Distance = " + str(round(distance, 3)) + " m", False, 255, 255, 255)
 ```
 
----
 ## 11. result
 
 If result is not an empty string, a message will appears at the end of execution of the script.
@@ -192,8 +182,6 @@ if valid:
 design.result = res
 ```
 
----
-
 ## 12. getScriptDirectory()
 
 Returns the current script directory.
@@ -202,8 +190,6 @@ Returns the current script directory.
 # Python script
 scriptdirectory = design.getScriptDirectory()
 ```
-
----
 
 ## 13. createVariableWindow()
 
@@ -252,7 +238,6 @@ if window.ShowModal():
 ```
 
 In this example, we have 3 variables (L, CHOICE, ACTIVE), 1 comment and 1 image. We suppose image.jpg existing in the script directory next to main.py.
-
 
 L will show the default value of 10
 

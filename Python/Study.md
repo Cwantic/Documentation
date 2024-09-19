@@ -23,8 +23,6 @@ You can create scripts that are independent of the current study, you can **inje
 
 Let's see how to create this kind of script.
 
----
-
 ## 1. Script definition
 
 From the Home/Python, click on button 1 (Add project script) :
@@ -105,8 +103,6 @@ study.
 
 [See the description of the object study](https://documentation.metapiping.com/Python/Classes/study.html)
 
----
-
 ## 2. Independent script
 
 This kind of script doesn't need to have access to the files of the current study/project/metaL/solution but only some interaction with the user.
@@ -117,7 +113,6 @@ It can for example ask some data from the user via INPUT **EDIT** and give answe
 
 [See another example of independent script](https://documentation.metapiping.com/Python/Samples/sendemail.html) : Send an email
 
----
 ## 3. MetaL injection
 
 Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own **CONVERTERS** from other file formats or from company's internal data.
@@ -128,8 +123,6 @@ User can for example inject **LOADIND TEMPLATES** in current project based on hi
 
 [See an example of a CONVERTER from Excel file to MetaL](https://documentation.metapiping.com/Python/Samples/converter.html) : Converter
 
----
-
 ## 4. MetaL extraction
 
 Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own script to retrieve informations of the model. 
@@ -139,8 +132,6 @@ Based on the explained [MetaL](https://documentation.metapiping.com/Python/Class
 
 
 [See another example of MetaL data extraction](https://documentation.metapiping.com/Python/Samples/staticases.html) : Get all static cases of a piping
-
----
 
 ## 5. Solution extraction
 

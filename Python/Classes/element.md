@@ -27,7 +27,6 @@ grand_parent: Python
 | Mass | float | Mass. The meaning depends on *MassModel* |
 | MassModel | MassModel | Mass modeling option |
 
-
 The type *MassModel* is an enumeration with the following values:
 
 | Value | Description |
@@ -39,7 +38,6 @@ The type *MassModel* is an enumeration with the following values:
 | LinearAtEnd | *Mass* is a linear mass. The total mass (*Mass x element length*) is lumped at the end node|
 | Linear | *Mass* is a linear mass|
 | Density | *Mass* is a density (for Beam elements only)|
-
 
 # 2. Piping
 
@@ -69,7 +67,6 @@ The type *LongWeldType* is an enumeration with the following values:
 | ButtWeldFlush | Butt weld, flush|
 | ButtWeldAsWelded | Butt weld, as welded|
 
-
 # 3. Pipe
 
 **Pipe** inherits from **Piping**. It represents straight pipes.
@@ -80,14 +77,12 @@ The type *LongWeldType* is an enumeration with the following values:
 | --- | ----------- | ----------- |
 | NbDivisions | int | Number of subdivisions for analysis |
 
-
 # 4. Branch
 
 **Branch** inherits from **Piping**. It is a fictitious element generated during the analysis that connects the tee center point to the run surface.
 
 ## Properties
 No additional properties.
-
 
 # 5. Bend
 
@@ -108,7 +103,6 @@ No additional properties.
 | NbFlanges | int | Number of attached flanges |
 | UserFlex | float | User-defined flexibility factor |
 
-
 # 6. Reducer
 
 **Reducer** inherits from **Piping**.
@@ -121,7 +115,6 @@ No additional properties.
 | Angle | float | Cone angle (in dgrees) |
 | L12 | float | Minimum tangent L1, L2 (Class 1 and B31J)|
 | R12 | float | Minimum radius r1, r2 (Class 1 and B31J)|
-
 
 # 7. Valve
 
@@ -146,7 +139,6 @@ The type *ValveType* is an enumeration used for graphics. It has the following v
 | FromCenter | Center to valve end|
 | Stem | Center to stem|
 
-
 # 8. Flange
 
 **Flange** inherits from **Piping**.
@@ -158,7 +150,6 @@ The type *ValveType* is an enumeration used for graphics. It has the following v
 | FDiameter | float | Outside diameter |
 | FThickness | float | Thickness|
 
-
 # 9. Socket
 
 **Socket** inherits from **Piping**.
@@ -166,14 +157,12 @@ The type *ValveType* is an enumeration used for graphics. It has the following v
 ## Properties
 No additional properties.
 
-
 # 10. Structural
 
 **Structural** inherits from **Piping**.
 
 ## Properties
 No additional properties.
-
 
 # 11. Structural
 
@@ -189,7 +178,6 @@ No additional properties.
 
 ## Properties
 No additional properties.
-
 
 # 13. Spring
 
@@ -207,7 +195,6 @@ No additional properties.
 | Kry | float | Rotation stiffness around Y'|
 | Krz | float | Rotation stiffness around Z'|
 
-
 # 14. Matrix
 
 **Matrix** inherits from **Element**.
@@ -220,7 +207,6 @@ No additional properties.
 | Stiffness | SquareMatrix | Stiffness matrix|
 
 *SquareMatrix* represents a 6x6 symmetrical matrix.
-
 
 # 15. Bellow
 
@@ -247,7 +233,6 @@ The type *BellowType* is an enumeration with the following values:
 | AngularSingle | Angular in X'Z' plane|
 | AngularAll | Angular in all planes|
 
-
 # 16. Beam
 
 **Beam** inherits from **Element**.
@@ -259,4 +244,3 @@ The type *BellowType* is an enumeration with the following values:
 | Section | BeamSection | Section |
 | E | float | Young modulus|
 | NbDivisions | int | Number of subdivisions|
-

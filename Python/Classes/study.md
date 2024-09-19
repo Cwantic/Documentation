@@ -10,8 +10,6 @@ grand_parent: Python
 
 The **study** object gives access to several methods and can be used only in [Project script](https://documentation.metapiping.com/Python/Study.html).
 
-
-
 ## 1. Properties
 
 | Name | Return | Description |
@@ -33,8 +31,6 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 See [solution](https://documentation.metapiping.com/Python/Classes/solution.html) for more information.
 
 See [libraries](https://documentation.metapiping.com/Python/Classes/libraries.html) for more information about materialLibraryModel.
-
----
 
 ## 2. Examples
 
@@ -71,7 +67,6 @@ Imagine user wants to create an empty model for the current study :
 REM : a model contains default values but must have at least one layer
 
 REM : the model of the study must be named "conception.metaL"
-
 
 ```python
 # Python script
@@ -142,7 +137,6 @@ See [libraries](https://documentation.metapiping.com/Python/Classes/libraries.ht
 
 This method is only accessible in scripts that show informations about the MetaL and the results of the current study in **Explorer**.
 
-
 ```python
 metal = study.getMetal()
 if metal != None:
@@ -159,8 +153,6 @@ Returns the current script directory.
 # Python script
 scriptdirectory = design.getScriptDirectory()
 ```
-
----
 
 ### 2.10 createVariableWindow()
 
@@ -209,7 +201,6 @@ if window.ShowModal():
 ```
 
 In this example, we have 3 variables (L, CHOICE, ACTIVE), 1 comment and 1 image. We suppose image.jpg existing in the script directory next to main.py.
-
 
 L will show the default value of 10
 

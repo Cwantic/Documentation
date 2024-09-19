@@ -9,8 +9,6 @@ parent: Python
 
 The **Python integration** in MetaPiping is automatically made during installation but you have the possibility to manually change some settings.
 
----
-
 ## 1. Python
 
 MetaPiping 2024 is intalled with Python version :
@@ -22,8 +20,6 @@ The directory of Python sources is :
 >C:\ProgramData\Cwantic\MetaPiping\Settings\Pythons
 
 This directory cannot be changed.
-
----
 
 ## 2. Scripts
 

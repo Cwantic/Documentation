@@ -37,7 +37,6 @@ The **metal** object gives access to the geometry and the loads of the whole pip
 
 The class **metal** also provides lists of the objects contained in the piping model:
 
-
 | Name | Description |
 | ---- | ----------- |
 | Nodes | List of **Node** |

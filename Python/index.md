@@ -18,7 +18,6 @@ A script contains one or more *.py files and can use a **python virtual environm
 {: .warning }
 >ATTENTION, the use of libraries takes place on the disk ! To be used with care.
 
----
 ## Script types
 
 The integration can be done at 3 different levels :
@@ -27,7 +26,6 @@ The integration can be done at 3 different levels :
 - Project/study phase - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
 - Design phase - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
 
----
 ## Main menu
 
 Select **Python** in the application ribbon :
@@ -42,7 +40,7 @@ On the upper left menu, a list of buttons proposes several tools :
 4. Export a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
 5. Import a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
 6. Remove the selected script
----
+
 ## Screen
 
 The screen is made up of different parts :

@@ -24,13 +24,11 @@ grand_parent: Python
 | MaxTemperature | float | Max temperature |
 | Description | string | Description |
 
-
 ## 2. RegularMaterial
 
 **RegularMaterial** inherits from **Material**. Every **RegularMaterial** object has the properties of **Material**. 
 
 **RegularMaterial** represents regular materials which properties are independent of time.
-
 
 ### 2.1 Properties
 

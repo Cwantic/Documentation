@@ -18,8 +18,6 @@ The **Design** mode is the part of the application dedicated to :
 
 The other parts will come soon...
 
----
-
 ## 1. Goal
 
 The goal of this kind of script is to create functions that doesn't exist in the application.
@@ -28,8 +26,6 @@ The goal of this kind of script is to create functions that doesn't exist in the
 User can create his own **commands** to "interact" with the model and especially with the **selection** object.
 
 He can add buttons on ribbons with a name, a description, an image and of course a **script** (main.py).
-
----
 
 ## 2. Script definition
 
@@ -67,8 +63,6 @@ design.
 ![Image](../Images/PythonDesign3.jpg)
 
 [See the description of the object design](https://documentation.metapiping.com/Python/Classes/design.html)
-
----
 
 ## 3. Design script
 
