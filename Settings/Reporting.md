@@ -91,10 +91,10 @@ MetaPiping/MetaStructure let you **insert** datas from the current study inside 
 | SECONDARY RESPONSE | MetaPiping/MetaStructure | The list of all secondary cases | |
 | COMBINATION CASES | MetaPiping/MetaStructure | The list of all combination cases | |
 | COMBINED STRESS CASES | MetaPiping | The list of all combined stress cases | |
-| RDISPLACEMENTS | MetaPiping/MetaStructure | The list of all displacement results | |
-| RFORCES | MetaPiping/MetaStructure | The list of all force and moment results | |
-| REACTIONS | MetaPiping/MetaStructure | The list of all reaction results | |
-| STRESSES | MetaPiping/MetaStructure | The list of all stress results | |
+| RDISPLACEMENTS | MetaPiping/MetaStructure | The list of all displacement results | Possible JSON parameters (see §3) |
+| RFORCES | MetaPiping/MetaStructure | The list of all force and moment results | Possible JSON parameters (see §3) |
+| REACTIONS | MetaPiping/MetaStructure | The list of all reaction results | Possible JSON parameters (see §3) |
+| STRESSES | MetaPiping/MetaStructure | The list of all stress results | Possible JSON parameters (see §3) |
 | ANCHOR PLATES | MetaStructure | The list of all anchor plate results | |
 | JOINTS | MetaStructure | The list of all joint results | |
 | ANCHORS RESULTS | Finite element analysis | The list of all fastener results | |
@@ -274,7 +274,68 @@ Examples:
     $$PICTURE;{“ResultType”:2,”Groups”:[“PLATE”],”View”:4,”Dim”:0}$$
 ```
 
-## 3. Table
+## 3. Results params
+
+For **results** keywords, it is possible to filter the output via a **JSON structure** just after the keyword separated by a semicolon character :
+
+    $$RDISPLACEMENTS;{...}$$
+    $$RFORCES;{...}$$
+    $$REACTIONS;{...}$$
+    $$STRESSES;{...}$$
+
+JSON parameters :
+
+| Parameter | Description | Default value |
+| -------- | ---- | ---- |
+| Layers | An array of visible layer name | Empty list = all layers will be visible |
+| Loadcase | A loadcase number | -1 (all loadcases) |
+| StressIndex | A stress index | 0 (for stress results only) |
+
+Examples:
+
+```
+    $$RDISPLACEMENTS$$
+```
+
+This will show a table with all displacements (all layers) for all loadcases.
+
+```
+    $$RDISPLACEMENTS;{”Layers”:[“0”,"1"],”LoadCase”:100}$$
+```
+
+This will show a table with the displacements of nodes from layer "0" and "1" and only for loadcase 100.
+
+You can combine in your report a **picture** and a result **table** :
+
+```
+FORCES & MOMENTS:
+-----------------
+
+1) Loadcase 100 - layer 0
+
+        $$PICTURE;{”Type”:30,”ResultType“:2,”Layers”:[“0”],”LoadCase”:100,“View”:35}$$
+
+$$RFORCES;{”Layers”:[“0”],”LoadCase”:100}$$
+```
+
+This will first show a **PICTURE** (see §2.3.1) :
+
+| Parameter | Description |
+| -------- | ---- |
+| ”Type”:30 | Analysis screen  |
+| ”ResultType“:2 | Forces |
+| ”Layers”:[“0”] | Only elements of layer "0" |
+| ”LoadCase”:100 | Only for loadcase number 100 |
+| “View”:35 | FrontFaceTopLeft view |
+
+...followed by a **table** :
+
+| Parameter | Description |
+| -------- | ---- |
+| ”Layers”:[“0”] | Only results of elements of layer "0"  |
+| ”LoadCase”:100 | Only for loadcase number 100 |
+
+## 4. Table
 
 A **table** is a Word *.docx file with user defined layout and content based on predefined keyword and structure.
 
@@ -300,13 +361,13 @@ Between the **[CONTENT]** section and the **[FOOTER]** section, user can define 
 
 Between the **[FOOTER]** section and the **[END]** section, user can define a conclusion of the table or some remarks.
 
-### 3.1 Properties
+### 4.1 Properties
 
 Depending of the type of the keyword, properties are recoverable.
 
 A property is defined between 2 backslashes \XX\
 
-### 3.1.1 Pipe section
+### 4.1.1 Pipe section
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -327,7 +388,7 @@ A property is defined between 2 backslashes \XX\
 | \EM\ | Special thickness | mm | in |
 | \BT | Bend thickness | mm | in |
 
-### 3.1.2 Beam section
+### 4.1.2 Beam section
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -344,7 +405,7 @@ A property is defined between 2 backslashes \XX\
 | \AX\ | Reduced area X | cm² | in² |
 | \AY\ | Reduced area Y | cm² | in² |
 
-### 3.1.3 Regular material
+### 4.1.3 Regular material
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -367,7 +428,7 @@ A property is defined between 2 backslashes \XX\
 | \DI\ | Class 1 Thermal Diffusivity | mm²/s | ft²/hr |
 | \E2\ | Modulus of Elasticity 2 | kN/mm² | 10^6.psi |
 
-### 3.1.4 Node
+### 4.1.4 Node
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -408,7 +469,7 @@ Joint type values :
         ThrustCollar = 202
         ElectrofusionCoupling = 203
 
-### 3.1.5 Element
+### 4.1.5 Element
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -454,7 +515,7 @@ Lateral Torsional Buckling values :
         CantileverUniform = 6
         CantileverNodal = 7
 
-### 3.1.6 DLCS
+### 4.1.6 DLCS
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -466,7 +527,7 @@ Lateral Torsional Buckling values :
 | \ZY\ | Z-axis direction on Y | - | - |
 | \ZZ\ | Z-axis direction on Z | - | - |
 
-### 3.1.7 Lumped mass
+### 4.1.7 Lumped mass
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -476,7 +537,7 @@ Lateral Torsional Buckling values :
 | \Z\ | Z global coordinate | m | ft |
 | \MA\ | Mass | ton | kips |
 
-### 3.1.8 Restraint
+### 4.1.8 Restraint
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -499,7 +560,7 @@ Coordinate system values :
         L = Local to attached element
         N = Local to node's DLCS
 
-### 3.1.9 Static case : Forces & moments on node
+### 4.1.9 Static case : Forces & moments on node
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -514,7 +575,7 @@ Coordinate system values :
 | \MZ\ | Moment on Z | kN.m | kips.ft |
 | \LO\ | Local | - | - |
 
-### 3.1.10 Static case : Restraints movement
+### 4.1.10 Static case : Restraints movement
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -528,7 +589,7 @@ Coordinate system values :
 | \RY\ | Rotation on Y | rad | rad |
 | \RZ\ | Rotation on Z | rad | rad |
 
-### 3.1.11 Static case : Distributed loads
+### 4.1.11 Static case : Distributed loads
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -541,7 +602,7 @@ Coordinate system values :
 | \Y\ | Load on Y | N/m | lb/ft |
 | \Z\ | Load on Z | N/m | lb/ft |
 
-### 3.1.12 Static case : Wind loads
+### 4.1.12 Static case : Wind loads
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -555,7 +616,7 @@ Coordinate system values :
 | \Y\ | Wind direction on Y | - | - |
 | \Z\ | Wind direction on Z | - | - |
 
-### 3.1.13 Static case : Snow loads
+### 4.1.13 Static case : Snow loads
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -566,7 +627,7 @@ Coordinate system values :
 | \TI\ | Load title | - | - |
 | \PR\ | Pressure | N/m² | lb/ft² |
 
-### 3.1.14 Static case : Operating conditions
+### 4.1.14 Static case : Operating conditions
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -578,7 +639,7 @@ Coordinate system values :
 | \TE\ | Temperature | °C | °F |
 | \PR\ | Pressure | N/m² | lb/ft² |
 
-### 3.1.15 Static case : Densities
+### 4.1.15 Static case : Densities
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -589,7 +650,7 @@ Coordinate system values :
 | \TI\ | Load title | - | - |
 | \RO\ | Density | - | - |
 
-### 3.1.16 Static case : Stratifications
+### 4.1.16 Static case : Stratifications
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -616,7 +677,7 @@ Stratification method values :
         Skewed = 4
         General = 5
 
-### 3.1.17 Static case : Cold springs
+### 4.1.17 Static case : Cold springs
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -626,7 +687,7 @@ Stratification method values :
 | \CA\ | Load number | - | - |
 | \LE\ | Length change | mm | in |
 
-### 3.1.18 Static case : Accelerations
+### 4.1.18 Static case : Accelerations
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -639,7 +700,7 @@ Stratification method values :
 | \GY\ | Fraction of G on Y | - | - |
 | \GZ\ | Fraction of G on Z | - | - |
 
-### 3.1.19 Static case
+### 4.1.19 Static case
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -679,7 +740,7 @@ Equation values :
         Equation 8 (thermal expansion + sustained) = 8
         Equation 9 (settlement) = s
 
-### 3.1.20 Time history event : Dynamic forces & moments on node
+### 4.1.20 Time history event : Dynamic forces & moments on node
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -692,7 +753,7 @@ Equation values :
 | \MY\ | Moment on Y | kN.m | kips.ft |
 | \MZ\ | Moment on Z | kN.m | kips.ft |
 
-### 3.1.21 Time history cases
+### 4.1.21 Time history cases
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -709,7 +770,7 @@ Equation values :
 | \AR\ | Archive rate | - | - |
 | \CF\ | Check fasteners (structure only) | - | - |
 
-### 3.1.22 Class 1 thermal case : Transients
+### 4.1.22 Class 1 thermal case : Transients
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -720,7 +781,7 @@ Equation values :
 | \TI\ | Load title | - | - |
 | \TR\ | Transient name | - | - |
 
-### 3.1.23 Class 1 case : Load sets
+### 4.1.23 Class 1 case : Load sets
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -733,7 +794,7 @@ Equation values :
 | \MO\ | Moment case number | - | - |
 | \DY\ | Dynamic load flag | - | - |
 
-### 3.1.24 Spectrum
+### 4.1.24 Spectrum
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -754,7 +815,7 @@ Interpolation method values :
         Log frequency / Linear acceleration = 3
         Log frequency / Log acceleration = 4
 
-### 3.1.25 Primary floor response cases
+### 4.1.25 Primary floor response cases
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -807,7 +868,7 @@ Rigid correction values :
         Gupta = 4
         Lindley-Yow = 5
 
-### 3.1.26 Secondary floor response cases
+### 4.1.26 Secondary floor response cases
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -828,7 +889,7 @@ Combination method values :
         Absolute = 0
         SRSS = 1
 
-### 3.1.27 Combination cases
+### 4.1.27 Combination cases
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -858,7 +919,7 @@ Combination method values :
         MomentRange = 9
         StressRange = 10
 
-### 3.1.28 Combination stress cases
+### 4.1.28 Combination stress cases
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -873,7 +934,7 @@ Combination method values :
 | \MB\ | factor x occasional load case | - | - |
 | \MC\ | factor x thermal load case | - | - |
 
-### 3.1.29 Results : Displacements
+### 4.1.29 Results : Displacements
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -887,7 +948,7 @@ Combination method values :
 | \RY\ | Y global rotation  | Rad | Rad |
 | \RZ\ | Z global rotation  | Rad | Rad |
 
-### 3.1.30 Results : Forces & moments on element's nodes
+### 4.1.30 Results : Forces & moments on element's nodes
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -902,7 +963,7 @@ Combination method values :
 | \MY\ | Moment on Y | N.m | lb.ft |
 | \MZ\ | Moment on Z | N.m | lb.ft |
 
-### 3.1.31 Results : Reactions on restraint's node
+### 4.1.31 Results : Reactions on restraint's node
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -916,7 +977,7 @@ Combination method values :
 | \MY\ | Moment on Y | N.m | lb.ft |
 | \MZ\ | Moment on Z | N.m | lb.ft |
 
-### 3.1.32 Results : Stresses on elements
+### 4.1.32 Results : Stresses on elements
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -927,7 +988,7 @@ Combination method values :
 | \TI\ | Load title | - | - |
 | \ST\ | Stress max | N/mm² | ksi |
 
-### 3.1.33 Results : Anchor plate max ratios
+### 4.1.33 Results : Anchor plate max ratios
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -936,7 +997,7 @@ Combination method values :
 | \TI\ | Load title | - | - |
 | \RA\ | Ratio max | - | - |
 
-### 3.1.34 Results : Beam joint ratios
+### 4.1.34 Results : Beam joint ratios
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -946,13 +1007,13 @@ Combination method values :
 | \TI\ | Load title | - | - |
 | \RA\ | Ratio max | - | - |
 
-### 3.1.35 Results : Finite element analysis fastener report
+### 4.1.35 Results : Finite element analysis fastener report
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
 | \LINE\ | Report line(i) | - | - |
 
-### 3.1.36 Results : Finite element analysis node
+### 4.1.36 Results : Finite element analysis node
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |

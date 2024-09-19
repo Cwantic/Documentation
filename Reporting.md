@@ -80,4 +80,3 @@ You can quit the study, the template and report are still in the directory.
 
 {: .warning }
 >ATTENTION, if you make any modification in the model, the loads or the analysis, you have to re-generate the report. It will restart from the  template document but the last manual modifications on the final report will be lost.
-
