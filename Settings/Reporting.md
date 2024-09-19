@@ -351,7 +351,7 @@ The layout of a keyword content is :
 
 The table's **[KEYWORD]** corresponds to the template's **`$$`KEYWORD`$$`**.
 
-Example for $$NODES$$ :
+Example for `$$`NODES`$$` :
 
 ![Image](../Images/Reporting2.jpg)
 
