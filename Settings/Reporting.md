@@ -72,7 +72,8 @@ MetaPiping/MetaStructure let you **insert** datas from the current study inside 
 | LUMPED MASSES | MetaPiping/MetaStructure | The list of all lumped masses| |
 | SUPPORTS | MetaPiping/MetaStructure | The list of all restraints | SUPPORT |
 | STATIC CASES | MetaPiping/MetaStructure | The list of all static cases | |
-| FORCES | MetaPiping/MetaStructure | The list of all nodal load forces | |
+| EXTERNAL CASES | MetaStructure | The list of all external cases | from linked studies |
+| FORCES | MetaPiping/MetaStructure | The list of all nodal load forces | also the external forces (linked study) |
 | MOVEMENTS | MetaPiping/MetaStructure | The list of all restraint movements | DISPLACEMENTS |
 | OPERATING CONDITIONS | MetaPiping/MetaStructure | The list of all operating conditions | TEMPERATURE & PRESSURE |
 | DISTRIBUTED FORCES | MetaPiping/MetaStructure | The list of all distributed forces | |
@@ -934,7 +935,16 @@ Combination method values :
 | \MB\ | factor x occasional load case | - | - |
 | \MC\ | factor x thermal load case | - | - |
 
-### 4.1.29 Results : Displacements
+### 4.1.29 External cases
+
+| Property | Description |
+| -------- | ---- |
+| \CA\ | Load number |
+| \TI\ | Load title |
+| \SN\ | External study name |
+| \LC\ | External study load case number |
+
+### 4.1.30 Results : Displacements
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -948,7 +958,7 @@ Combination method values :
 | \RY\ | Y global rotation  | Rad | Rad |
 | \RZ\ | Z global rotation  | Rad | Rad |
 
-### 4.1.30 Results : Forces & moments on element's nodes
+### 4.1.31 Results : Forces & moments on element's nodes
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -963,7 +973,7 @@ Combination method values :
 | \MY\ | Moment on Y | N.m | lb.ft |
 | \MZ\ | Moment on Z | N.m | lb.ft |
 
-### 4.1.31 Results : Reactions on restraint's node
+### 4.1.32 Results : Reactions on restraint's node
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -977,7 +987,7 @@ Combination method values :
 | \MY\ | Moment on Y | N.m | lb.ft |
 | \MZ\ | Moment on Z | N.m | lb.ft |
 
-### 4.1.32 Results : Stresses on elements
+### 4.1.33 Results : Stresses on elements
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -988,7 +998,7 @@ Combination method values :
 | \TI\ | Load title | - | - |
 | \ST\ | Stress max | N/mm² | ksi |
 
-### 4.1.33 Results : Anchor plate max ratios
+### 4.1.34 Results : Anchor plate max ratios
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -997,7 +1007,7 @@ Combination method values :
 | \TI\ | Load title | - | - |
 | \RA\ | Ratio max | - | - |
 
-### 4.1.34 Results : Beam joint ratios
+### 4.1.35 Results : Beam joint ratios
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
@@ -1007,13 +1017,13 @@ Combination method values :
 | \TI\ | Load title | - | - |
 | \RA\ | Ratio max | - | - |
 
-### 4.1.35 Results : Finite element analysis fastener report
+### 4.1.36 Results : Finite element analysis fastener report
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
 | \LINE\ | Report line(i) | - | - |
 
-### 4.1.36 Results : Finite element analysis node
+### 4.1.37 Results : Finite element analysis node
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ---- | ---- | ---- |
