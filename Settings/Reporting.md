@@ -154,10 +154,6 @@ View values :
         Bottom                  = 5
         Isometric               = 6
         Dimetric                = 7
-        Trimetric               = 8
-        FrontFaceBottom         = 9
-        FrontFaceRight          = 10
-        FrontFaceTop            = 11
         FrontFaceLeft           = 12
         RightFaceBottom         = 13
         RightFaceRight          = 14
