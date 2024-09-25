@@ -74,9 +74,9 @@ You can finally edit the resulting **report** :
 ![Image](Images/Reporting12.jpg)
 
 {: .warning }
->ATTENTION, don't forget to save (not save as) your modifications.
+>ATTENTION, don't forget to update the **table of contents** and to save (not save as) your modifications.
 
 You can quit the study, the template and report are still in the directory.
 
 {: .warning }
->ATTENTION, if you make any modification in the model, the loads or the analysis, you have to re-generate the report. It will restart from the  template document but the last manual modifications on the final report will be lost.
+>ATTENTION, if you make any modification in the model, the loads or the analysis, you have to re-generate the report. It will restart from the  template document but the latest manual modifications on the final report will be lost.

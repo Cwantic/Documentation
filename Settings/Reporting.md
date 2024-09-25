@@ -129,7 +129,7 @@ JSON parameters :
 | Parameter | Description | Default value |
 | -------- | ---- | ---- |
 | Layers | An array of visible layer name | Empty list = all layers will be visible |
-| View | Orientation of the camera | 35 (= FrontFaceTopLeft - see below) |
+| View | Orientation of the camera | 39 (= FrontFaceTopLeft - see below) |
 | Mode | Display mode | 0 (= Shaded - see below) |
 | Type | Ribbon type | 0 (= Conception - see below) |
 | ReviewType | Review category | 0 (= Sections - see below) |
