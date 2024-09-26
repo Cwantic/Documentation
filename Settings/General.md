@@ -56,8 +56,14 @@ You can also specify:
 
 You can specify the path of your favorite text editor for text report editing.
 
-If blank, MetaPiping uses Windows NotePad.
+If blank, MetaPiping uses **Windows NotePad**.
 
-## 7. Structure
+## 7. Review
+
+You can define the size in pixel of the point for the **End conditions** screen (default = 10 pixels) :
+
+![Image](../Images/Review15.jpg)
+
+## 8. Structure
 
 You can specify the maximum distance (in meter) between a pipe node and a structure node during the **Node link** operation. MetaStructure will search structure nodes that are distant less than this value from the selected piping node.

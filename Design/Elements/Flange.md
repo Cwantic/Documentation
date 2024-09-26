@@ -51,7 +51,7 @@ Click on the **Database** button, select a **Library** and a **Flange**. The **O
 
 ![Image](../../Images/Flange5.jpg)
 
-The **Nominal pressure** and the **Type** is just informative.
+The **Rating** and the **Type** is just informative.
 
 The tables will be filled automatically :
 

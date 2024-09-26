@@ -39,6 +39,13 @@ It can correspond to a provider of several component (Ex : flanges, bellows and 
 
 A library is referenced to an existing [Piping library](https://documentation.metapiping.com/Settings/Databases/Piping.html) for the size definitions. Units are then imposed.
 
+You can choose the type :
+* All
+* Valves
+* Flanges
+* Bellows
+* Sockets
+
 ### 2.1 Valves
 
 Click the **+** button to add valves for a specific pipe size. Select a size (Ex : 4") :
@@ -51,7 +58,7 @@ Click the **+** button to add a new valve of a certain type :
 
 - Simple
 - With middle point
-- With excentricity
+- With eccentricity
 
 | Property | Unit Metric | Unit USA | 
 | -------- | ---- | ---- | 

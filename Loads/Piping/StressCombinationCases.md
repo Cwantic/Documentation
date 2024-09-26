@@ -63,6 +63,10 @@ The equations are code-dependent.
 
 If this field is not blank and different from 0, then the allowable stress for this case will be f * Sh.
 
+<ins>Duration</ins> :
+
+In hours.
+
 ## 2. Combined cases
 
 Enter the **number** of the constituent cases and the corresponding **factor**.
