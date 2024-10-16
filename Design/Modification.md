@@ -177,13 +177,15 @@ Remove bend :
 
 ![Image](../Images/Modification15.jpg)
 
-Draw a pipe between the 2 nodes (a bend will automatically appear) :
+Select the 2 nodes :
 
-![Image](../Images/Modification16.jpg)
+![Image](../Images/Modification31.jpg)
 
-Select the node and add a bend to finalize the connection :
+Click on the *Add bend* button, set the section and the radius, click on the *Create* button :
 
-![Image](../Images/Modification17.jpg)
+![Image](../Images/Modification32.jpg)
+
+This will extend the 2 adjacent elements and place a bend with the desired radius.
 
 ## 8. Change length/direction
 
@@ -240,7 +242,7 @@ Let's try this change of direction :
 The **Shift** option offsets all following elements.
 
 {: .warning }
->ATTENTION, sometime this modification can create unwanted results, essentially due to bend definition no more compatible. You have to remove elements and rebuild the connection.
+>ATTENTION, sometime this modification can create unwanted results, essentially due to bend definition no more compatible. You have to remove elements and rebuild the connection. See §7 that show an example of how to rebuild a bend.
 
 You can **Undo** this command.
 

@@ -57,6 +57,12 @@ You can change the **flexibility factor** of the reducer. If blank, default valu
 
 You can change the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
+**Label** :
+
+You can define a label to this element. The labels are shown with the node names view button.
+
+![Image](../../Images/Label1.jpg)
+
 **LONG WELD** :
 
 You can change the **Long weld properties** :

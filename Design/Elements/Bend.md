@@ -10,7 +10,7 @@ grand_parent: Piping
 
 When you click on the **Add bend** button without selection, the left panel shows a message :
 
-    Select a node
+    Select a node or 2 nodes to join
 
 ![Image](../../Images/Bend1.jpg)
 
@@ -112,7 +112,6 @@ This flexibility factor will be used for all load cases.
 
 Default = 0 or blank = default special k Factor in the code.
 
-
 **ENDS FLANGED** :
 
 You can choose between :
@@ -149,7 +148,25 @@ In this example, the default values correspond to **current specification** pres
 
 ![Image](../../Images/Pipe2.jpg)
 
-## 3. Modify/Remove a bend
+### 2.4 Label
+
+You can define a label to this element. The labels are shown with the node names view button.
+
+![Image](../../Images/Label1.jpg)
+
+## 3. Create a bend with 2 points
+
+![Image](../../Images/Bend19.jpg)
+
+1. Click the **Add bend** button
+2. Select two **nodes** of coplanar elements
+3. Click the **Create** button after defining the section and the bend properties
+
+![Image](../../Images/Bend20.jpg)
+
+This will extend the 2 adjacent elements and place a bend with the desired radius.
+
+## 4. Modify/Remove a bend
 
 Change the **Selection mode** to ELEMENT and select a bend :
 

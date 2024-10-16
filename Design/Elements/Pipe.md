@@ -113,6 +113,12 @@ You can change the **specification** and **section/material** of the pipe.
 
 You can change the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
+**Label** :
+
+You can define a label to this element. The labels are shown with the node names view button.
+
+![Image](../../Images/Label1.jpg)
+
 **LONG WELD** (3) :
 
 You can change the **Long weld properties** :

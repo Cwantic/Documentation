@@ -61,6 +61,12 @@ Click [here](https://documentation.metapiping.com/Settings/Databases/Components.
 
 You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
+**Label** :
+
+You can define a label to this element. The labels are shown with the node names view button.
+
+![Image](../../Images/Label1.jpg)
+
 ---
 
 Click on the **Create** button to create the flange.

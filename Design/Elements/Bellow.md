@@ -128,6 +128,12 @@ The tables will be filled automatically.
 
 Click [here](https://documentation.metapiping.com/Settings/Databases/Components.html) for more information about creation of library of components.
 
+**Label** :
+
+You can define a label to this element. The labels are shown with the node names view button.
+
+![Image](../../Images/Label1.jpg)
+
 ---
 
 You can then define the second point of the bellow thanks to the **Orientation tool**.

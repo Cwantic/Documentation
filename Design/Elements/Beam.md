@@ -81,6 +81,12 @@ Based on **type**, you have to define different section properties.
 
 You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
+**Label** :
+
+You can define a label to this element. The labels are shown with the node names view button.
+
+![Image](../../Images/Label1.jpg)
+
 ---
 
 You can then define the second point of the beam thanks to the **Orientation tool**.
