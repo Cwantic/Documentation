@@ -59,5 +59,3 @@ Enter the constant time step for integration. If zero, the time step is determin
 
 If zero or one, the solution for each time step is stored in the .rmed result file. In order to save disk space and speed up the calculation, a value larger than one may be entered.
 
-
-

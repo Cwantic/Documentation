@@ -2,7 +2,7 @@
 layout: default
 title: Time history events
 nav_order: 6
-parent: Piping
+parent: Structure
 grand_parent: Loads
 ---
 

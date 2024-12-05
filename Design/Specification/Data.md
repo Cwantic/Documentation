@@ -54,8 +54,9 @@ See [Units](https://documentation.metapiping.com/Design/units.html) for more inf
 
 {: .warning }
 >ATTENTION, temperatures must be entered in ascending order!
----
->Properties of High Density Polyethylene material (HDPE) also depend on load duration. The properties are built-in for 5 different specifications:
+
+
+>Properties of High Density Polyethylene materials (HDPE) also depend on load duration. The properties are built-in for 5 different specifications:
 >- ISO  : EN 15494:2015 with coefficient = 1.25
 >- ASTM : ASTM with factor = 0.63
 >- ASME : ASTM with factor = 0.5 (= values given in Appendix XXVI)
@@ -63,7 +64,7 @@ See [Units](https://documentation.metapiping.com/Design/units.html) for more inf
 >- EDF2 : guide EDF D305921021240 [A]
 >
 >The user has to enter the density, Poisson's ratio' and thermal expansion coefficient, which are supposed to be constant.
----
+
 
 To save time, you can also directly select a material from **database** :
 

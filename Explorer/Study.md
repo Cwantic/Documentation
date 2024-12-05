@@ -145,14 +145,14 @@ Useful to show the state of progress of the study to other users. A conventional
 
 ### 3.8 Post-processing : supports + flanges
 
-![Image](../Images/PostProc1.jpg)
-
 This brick lets you create combinations (or groups) of load cases defined in the piping model and output various results for those combinations :
 - reactions on restraints
 - displacements at nodes
 - internal forces and moments in elements
 
 It also allows to check flanges according to various piping codes.
+
+![Image](../Images/PostProc1.jpg)
 
 Click on **Definition** to open the definition window. 
 
@@ -228,16 +228,15 @@ Enter the elements which internal forces and moments are to be processed.
 
 | Field | Description |
 | -------- | ----------- |
-| Element | Node name |
-| Title | Element name in the form **{start node name} - {end node name}** |
+| Element | Element name in the form **{start node name} - {end node name}** |
 | At end | Forces and moments are output at the end node if checked, at the start node otherwise |
 | Title |  |
 
-The nodes are listed on the right. Instead of typing the node name, you can also double-click on the node in the list.
+The elements are listed on the right. Instead of typing the element name, you can also double-click on the element in the list.
 
 #### 3.8.6 Flanges
 
-Three sets of data may be defined, depending on the selected piping code and method:
+Three sets of data may be defined, depending on the selected piping code and method :
 - Curves of rated pressure as function of temperature
 - Flange, neck pipe and bolt material
 - Flange data
