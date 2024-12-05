@@ -14,7 +14,7 @@ set "fichiers="
 
 :: Lire la liste des fichiers et les ajouter à la variable
 for /f "tokens=*" %%a in (fichiers.txt) do (
-    set "fichiers=!fichiers! %dir%\%%a"
+    set "fichiers=!fichiers! "%%a""
 )
 
 :: Utiliser pdftk pour fusionner les fichiers PDF
