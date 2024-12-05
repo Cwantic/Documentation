@@ -45,16 +45,24 @@ Click the **+** button (next to Properties) to add a new row of properties for a
 | SU | Ultimate Tensile Stress | N/mm² | ksi |
 | SM | Class 1 Allowable Stress | N/mm² | ksi |
 | CR | Creep | N/mm² | ksi |
-| GH | Shear Modulus | kN/mm² | 10^6.psi |
-| CO | Class 1 Thermal Conductivity | kJ/hr/m/°C | btu/hr/ft/°F |
-| DI | Class 1 Thermal Diffusivity | mm²/s | ft²/hr |
-| E2 | Modulus of Elasticity 2 | kN/mm² | 10^6.psi |
+| GH | Shear Modulus (composite only)| kN/mm² | 10^6.psi |
+| E2 | Circumferential Modulus of Elasticity (composite only) | kN/mm² | 10^6.psi |
+| CO | Thermal Conductivity (Class 1)| kJ/hr/m/°C | btu/hr/ft/°F |
+| DI | Thermal Diffusivity (Class 1) | mm²/s | ft²/hr |
 
 See [Units](https://documentation.metapiping.com/Design/units.html) for more information.
 
 {: .warning }
 >ATTENTION, temperatures must be entered in ascending order!
-
+---
+>Properties of High Density Polyethylene material (HDPE) also depend on load duration. The properties are built-in for 5 different specifications:
+>- ISO  : EN 15494:2015 with coefficient = 1.25
+>- ASTM : ASTM with factor = 0.63
+>- ASME : ASTM with factor = 0.5 (= values given in Appendix XXVI)
+>- EDF1 : guide EDF D305914006648 [E]
+>- EDF2 : guide EDF D305921021240 [A]
+>
+>The user has to enter the density, Poisson's ratio' and thermal expansion coefficient, which are supposed to be constant.
 ---
 
 To save time, you can also directly select a material from **database** :
@@ -148,7 +156,9 @@ Click to **+** button and select pipe sizes (Ex : 4") :
 
 For each size, define the **schedule** and the **material**. A **pipe** knows now its section and its material.
 
-Select then the **node connections** of the pipe between :
+Select then the **node connections** of the pipe, which depend on the material :
+
+**Steel**
 - None
 - Butt weld - flush
 - Butt weld - as welded
@@ -157,12 +167,26 @@ Select then the **node connections** of the pipe between :
 - Threaded
 - Brazed
 
-Based on this property, define the **mismatch** or the **fillet length** [mm or in].
+**Composite**
+- None
+- Bell and spigot adhesive bonded
+- Bell and spigot adhesive bonded with laminated fiberglass overlay
+- Bell and spigot gasket with laminated fiberglass overlay
+- Butt and strap
+
+**HDPE**
+- None
+- Concentric fabricated reducer
+- Thrust collar
+- Electrofusion coupling
+
+
+You may define the **mismatch** for butt-weld as welded connections, and the **fillet length**  for fillet weld connections [mm or in].
 
 Select then the **Long weld type** of the pipe between :
 - None
-- Butt weld flush
-- Butt weld as welded
+- Butt weld flush (steel only)
+- Butt weld as welded (steel only)
 
 Based on this property, define the **Long weld mismatch** [mm or in].
 

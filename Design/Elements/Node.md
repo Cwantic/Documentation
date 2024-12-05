@@ -101,17 +101,41 @@ All new node follow the **current specification** node connection properties (2)
 | -------- | ----------- | ---- | ---- |
 | Mismatch | Mismatch for welded joints | mm | in |
 | Fillet length | Length of fillet weld Cx | mm | in |
-| TMax | for Class 1 transition within 1:3 slope envelope | mm | in |
+| TMax | max thickness for Class 1 transition within 1:3 slope envelope, or thrust collar thickness for composite  | mm | in |
 
-The **Joint** can be :
 
+The **Joint** depends on the material :
+
+**Steel**
 - None
 - Butt weld - flush
 - Butt weld - as welded
 - Fillet weld
+- Capped end
 - Full fillet weld
+- Tapered transition - flush
+- Tapered transition - as welded
 - Threaded
 - Brazed
+- One third slope transition - flush
+- One third slope transition - as welded
+- Lap flange
+- Double weld slip-on flange
+- Single weld slip-on flange
+
+**Composite**
+- None
+- Bell and spigot adhesive bonded
+- Bell and spigot adhesive bonded with laminated fiberglass overlay
+- Bell and spigot gasket with laminated fiberglass overlay
+- Butt and strap
+
+**HDPE**
+- None
+- Concentric fabricated reducer
+- Thrust collar
+- Electrofusion coupling
+
 
 ## 4. Creation of a local coordinate system
 

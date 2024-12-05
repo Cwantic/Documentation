@@ -149,4 +149,4 @@ If the material of the pipe is **Composite**, a special property **Glue** appear
 
 ![Image](../../Images/Pipe10.jpg)
 
-This property indicates that the pipe is glued with the others.
+This property indicates that the pipe is a connectivity element.
