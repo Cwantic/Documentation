@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 
+nav_exclude: true
 ---
 
 # Creation de la documentation en PDF
