@@ -1,3 +1,8 @@
+---
+layout: default
+title: 
+---
+
 # Creation de la documentation en PDF
 
 1) Mettre temporairement l'imprimante "**Microsoft Print to PDf**" comme imprimante par défaut.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 
+---
+
 # Transform documentation to application
 
 ## 1. Tools to install
