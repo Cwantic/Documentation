@@ -20,3 +20,24 @@ C:\Users\sebas\Documents\PERSO\MetaPipingDocumentation\bin\Release\Microsoft.Web
 C:\Users\sebas\Documents\PERSO\MetaPipingDocumentation\obj\Release\MetaPipingDocumentation_Content.g.cs
 C:\Users\sebas\Documents\PERSO\MetaPipingDocumentation\obj\Release\MetaPipingDocumentation.csproj.AssemblyReference.cache
 C:\Users\sebas\Documents\PERSO\MetaPipingDocumentation\obj\Release\MetaPipingDocumentation.csproj.CopyComplete
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\bin\Release\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\bin\Release\MetaPipingDocumentation.exe.config
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\bin\Release\MetaPipingDocumentation.exe
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\bin\Release\MetaPipingDocumentation.pdb
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\bin\Release\Microsoft.Web.WebView2.Core.dll
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\bin\Release\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\bin\Release\Microsoft.Web.WebView2.Core.xml
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\bin\Release\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MainWindow.g.cs
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\App.g.cs
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation_Content.g.cs
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation_MarkupCompile.cache
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation_MarkupCompile.lref
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MainWindow.baml
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation.g.resources
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation.Properties.Resources.resources
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation.csproj.GenerateResource.cache
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation.exe
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation.pdb
+C:\Users\sebas\Documents\Git\CWANTIC\Documentation\DocToExe\WPF project\obj\Release\MetaPipingDocumentation.csproj.CopyComplete

@@ -13,6 +13,7 @@ namespace MetaPipingDocumentation
         private string executablePath;
         private string dataPath;
         private string indexPath;
+        public string pageName;
 
         public MainWindow()
         {
@@ -20,32 +21,20 @@ namespace MetaPipingDocumentation
 
             executablePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             dataPath = Path.Combine(executablePath, "Data");
+            dataPath = Path.Combine(dataPath, "documentation.metapiping.com");
+            
             indexPath = Path.Combine(dataPath, "index.html");
-            if (!File.Exists(indexPath))
-            {
-                MessageBox.Show(indexPath + " not found !");
-                Environment.Exit(0);
-            }
-            else
-            {
-                string contentPath = Path.Combine(dataPath, "documentation.metapiping.com");
-                if (!Directory.Exists(contentPath))
-                {
-                    MessageBox.Show(contentPath + " not found !");
-                    Environment.Exit(0);
-                }
-                else
-                    InitializeWebView2();
-            }
-                
+            InitializeWebView2();
         }
 
         private async void InitializeWebView2()
         {
             await WebBrowserControl.EnsureCoreWebView2Async(null);
-
+            
             string localSitePath = "file:///" + indexPath;
+            //WebBrowserControl.CoreWebView2.Navigate(localSitePath);
             WebBrowserControl.Source = new Uri(localSitePath);
+            
         }
 
         private void Window_Closed(object sender, EventArgs e)
@@ -98,9 +87,22 @@ namespace MetaPipingDocumentation
                 }
                 catch (Exception ex)
                 {
-                   
+
                 }
             }
+        }
+
+        public void ProcessMessage(string message)
+        {
+            indexPath = Path.Combine(dataPath, message);
+            if (File.Exists(indexPath))
+            {
+                string localSitePath = "file:///" + indexPath;
+                //WebBrowserControl.CoreWebView2.Navigate(localSitePath);
+                WebBrowserControl.Source = new Uri(localSitePath);
+            }
+            else
+                MessageBox.Show(indexPath + " not found");
         }
     }
 }
