@@ -2,7 +2,7 @@
 layout: default
 title: Joint
 nav_order: 3
-parent: Beam
+parent: Structure beam
 grand_parent: Elements
 ---
 

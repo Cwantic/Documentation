@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Beam
+title: Structure beam
 nav_order: 1
 has_children: true
 parent: Elements

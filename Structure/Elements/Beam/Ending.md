@@ -2,7 +2,7 @@
 layout: default
 title: Graphical ending
 nav_order: 2
-parent: Beam
+parent: Structure beam
 grand_parent: Elements
 ---
 
