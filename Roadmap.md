@@ -17,7 +17,7 @@ has_children: false
 
 ### *Expected date*
 
-* April 2025
+* May 2025
 
 ### *Main features*
 
@@ -26,7 +26,7 @@ has_children: false
 * Code updates
 * Finite element analysis of piping elements
 * Pipe-support coupling (injection of *MetaStructure supports* into MetaPiping to take account of stiffness and mass)
-* (RCC-MRx)
+* RCC-MRx (abatement factor g, type P+S damages with progressive deformation and fatigue)
 * Requests from the user community
 
 >**MetaStructure** :
