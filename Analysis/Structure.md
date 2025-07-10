@@ -255,3 +255,16 @@ The results are **code dependent**. The ratios output in **Data panel** are the 
 
 
 >The **Selection mode** is automatically set to ELEMENT.
+
+## 3. Result files
+
+![Image](../Images/ResultFile2.png)
+
+1. Click on the **File** button on the right controller :
+2. Select a file in the list
+3. Navigate through the pages of the document with the left and right button (or **PgDn** and **PgUp** shortcuts)
+4. Increase or decrease the size of the font
+
+>Tip: you can copy the content of the file
+
+>Tip: If the analysis failed, a warning file will be available to know what happen.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loads
-nav_order: 7
+nav_order: 8
 has_children: true
 ---
 
@@ -35,3 +35,17 @@ A floppy disk on the left side of the ribbon indicates the state of the file on 
 Every command in MetaPiping is stored in a **command list**.
 
 You can *navigate* through this list by pressing the **Undo/Redo** buttons.
+
+## 2. Data controller
+
+All loads can be viewed, created, edited, moved and removed in a single treeview :
+
+![Image](../Images/LoadTree1.png)
+
+1. Select the load treeview tab
+2. Select a load to edit
+3. Add a load of a particular category
+4. Remove a load
+5. Insert a load between two others
+
+>Tip: you can also move a load by draging a load and drop it on another one of the same category.

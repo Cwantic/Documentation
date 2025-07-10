@@ -11,13 +11,19 @@ MetaPiping lets you select one or multiple objects of the same type.
 
 Click on the **Select** button to open the **Selection tool** :
 
-![Image](../Images/Selection1.jpg)
+![Image](../Images/Selection1.png)
+
+Or press directly :
+
+- **F10** for point selection
+- **F11** for element/beam selection
+- **F12** for restraint selection
 
 ## 1. Manual selection
 
 **POINT** :
 
-Click on the **Point** button to select **Nodes** or **element extremities**.
+Click on the **Point** button (or **F10**) to select **Nodes** or **element extremities**.
 
 ![Image](../Images/Selection2.jpg)
 
@@ -27,7 +33,7 @@ You can also select a node by entering the node name (1) and click to the **Poin
 
 **ELEMENT** :
 
-Click on the **Element** button to select an **element**.
+Click on the **Element** button (or **F11**) to select an **element**.
 
 ![Image](../Images/Selection3.jpg)
 
@@ -35,11 +41,11 @@ The element is highlighted in magenta.
 
 You can also select an element by entering the two node names separate by "-" (1) and click to the **Element** button.
 
-You can also select a valve by entering its label (1) and click to the **Element** button.
+You can also select an element by entering its label (1) and click to the **Element** button.
 
 **RESTRAINT** :
 
-Click on the **Restraint** button to select a **restraint**.
+Click on the **Restraint** button (or **F12**) to select a **restraint**.
 
 ![Image](../Images/Selection4.jpg)
 
@@ -63,11 +69,7 @@ Clicking in the 3D view where no objects are present without **CTRL key** presse
 
 Just press **ESC** on keyboard to hide the **selection tool**.
 
-## 2. Smart selection
-
-*Not yet implemented*
-
-## 3. Selection type
+## 2. Selection type
 
 **MOUSE CLICK** :
 

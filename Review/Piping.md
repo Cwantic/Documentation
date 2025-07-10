@@ -27,7 +27,7 @@ A right panel can be opened by clicking on the top button. It presents the selec
 
 Click on the **Select** button to open the **Selection tool** :
 
-![Image](../Images/Review7.jpg)
+![Image](../Images/Review7.png)
 
 Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
 
@@ -35,14 +35,16 @@ Click [here](https://documentation.metapiping.com/Design/Selection.html) for mor
 
 MetaPiping lets you measure the **distance** between 2 nodes :
 
-![Image](../Images/Review8.jpg)
+![Image](../Images/Review8.png)
 
 1. Select the **Measure** tool
 2. Select the first node
-3. Select the second node with CTRL pressed
+3. Select the second node without CTRL pressed
 4. The distances appear on the left panel
 
-You can continue to select other nodes (with CTRL pressed), only the 2 last ones will be taken in account.
+You can continue to select other nodes, only the 2 last ones will be taken in account.
+
+The name and the coordinates of the two nodes will be shown.
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
@@ -103,6 +105,8 @@ Click on the **Elements** button :
 | Thickness | mm | in |
 | Operating density | - | - |
 | Test density | - | - |
+| Bend radius | mm | in |
+| Label | - | - |
 
 The **INTERACTIVITY** is the same as explained on §5.
 
@@ -203,7 +207,9 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 Click on the **End conditions** button :
 
-![Image](../Images/Review15.jpg)
+![Image](../Images/Review15.png)
+
+Small colored squares show the joint type of the nodes. Joint type **None** is not shown for better readability.
 
 | Property |  Unit Metric | Unit USA |
 | -------- |  ---- | -- |
@@ -222,7 +228,9 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 Click on the **Lumped masses** button :
 
-![Image](../Images/Review16.jpg)
+![Image](../Images/Review16.png)
+
+The lump masses on node, the mass of flange, valve, bellow, socket, structural and rigid are shown.
 
 | Property |  Unit Metric | Unit USA |
 | -------- |  ---- | -- |
@@ -264,7 +272,12 @@ Click on the **Specifications** button :
 
 ![Image](../Images/Review18.jpg)
 
+In case of more than one specification (Out of spec), the elements will follow the color of the specification that it respects.
+
+Small colored squares will show the specification of the tees.
+
 >The data are not editable
+
 
 Click [here](https://documentation.metapiping.com/Settings/Specifications.html) for more information about creation of specification.
 

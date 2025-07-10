@@ -11,7 +11,7 @@ The **Python integration** in MetaPiping is automatically made during installati
 
 ## 1. Python
 
-MetaPiping 2024 is intalled with Python version :
+MetaPiping 2025 is intalled with Python version :
 
 >Python 3.7
 

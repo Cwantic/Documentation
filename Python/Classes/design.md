@@ -31,7 +31,7 @@ This object gives you access to the objects in selection, some current propertie
 | getCurrentJointType() | JointType | Return the current joint type |
 | getCurrentSpecValues() | CurrentPipingValues | Return the current piping/structure values (section, material, diameter, radius...) |
 | getScriptDirectory() | string | Return the current script directory |
-| createVariableWindow() | createVariableWindow | Return an empty window |
+| createVariableWindow() | VariableWindow | Return an empty window |
 
 ## 2. selectedList
 
@@ -116,7 +116,6 @@ verticalvec = design.getVerticalVector()
 ```
 
 ## 8. getMetal()
-
 
 Imagine user wants to check if the 3D model exists (result as a text in Outputs[0]).
 ```python

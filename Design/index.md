@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Piping
-nav_order: 5
+nav_order: 6
 has_children: true
 ---
 
@@ -71,7 +71,7 @@ Click [here](https://documentation.metapiping.com/Design/Elements/index.html) to
 
 ---
 
-![Image](../Images/Design3.jpg)
+![Image](../Images/Design3.png)
 
 ### 1.5 Restraints
 
@@ -79,11 +79,17 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ### 1.6 View options
 
-![Image](../Images/Design9.jpg) show/hide the node name and valve/support label
+![Image](../Images/Design9.jpg) show/hide the node names
 
-![Image](../Images/Design10.jpg) show/hide the node point
+![Image](../Images/Design10.jpg) show/hide the node points
 
-![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
+![Image](../Images/ViewLabel.png) show/hide label of elements
+
+![Image](../Images/Design16.jpg) show/hide the origin symbol
+
+![Image](../Images/ViewSupport.png) show/hide the supports
+
+![Image](../Images/ViewMass.png) show/hide the lump masses and element masses
 
 ![Image](../Images/Design12.jpg) show the piping in shaded mode
 
@@ -93,11 +99,13 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ![Image](../Images/Design15.jpg) show/hide the shadows
 
-![Image](../Images/Design16.jpg) show/hide the origin symbol
-
 ![Image](../Images/Design30.jpg) show/hide the linked study models 
 
+![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
+
 ![Image](../Images/Design31.jpg) show/hide the concrete (for MetaStructure only) 
+
+>Tip: if the **Node name** view is active, not all nodes will be shown during navigation to not slow down the application!
 
 ### 1.7 Modification tools
 
@@ -141,6 +149,8 @@ You zoom all by **double click** the mouse wheel button :
 
 ![Image](../Images/MouseWheelDoubleClick.jpg)
 
+>Tip: if the **Node name** view is active, not all nodes will be shown during navigation to not slow down the application! 
+
 ### 2.2 Axis
 
 The **global axis** are shown in the bottom left corner of the screen :
@@ -160,7 +170,11 @@ An interactive **cube** with predefined views is shown in the bottom right corne
 
 ## 3. Data panel
 
->The **Data Panel** can be opened/closed with the shortcut **F2**
+>The **Data Panel** can be opened/closed with the shortcut **F2**.
+
+The data panel can be **windowed** or **docked** by clicking on the lower left button :
+
+![Image](../Images/expand32x32.png)
 
 ### 3.1 PIPESTRESS editor
 

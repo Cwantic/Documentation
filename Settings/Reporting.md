@@ -96,6 +96,7 @@ MetaPiping/MetaStructure let you **insert** datas from the current study inside 
 | RFORCES | MetaPiping/MetaStructure | The list of all force and moment results | Possible JSON parameters (see §3) |
 | REACTIONS | MetaPiping/MetaStructure | The list of all reaction results | Possible JSON parameters (see §3) |
 | STRESSES | MetaPiping/MetaStructure | The list of all stress results | Possible JSON parameters (see §3) |
+| FILE | MetaPiping/MetaStructure | A file content | Mandatory JSON parameters (see §3.1) |
 | ANCHOR PLATES | MetaStructure | The list of all anchor plate results | |
 | JOINTS | MetaStructure | The list of all joint results | |
 | ANCHORS RESULTS | Finite element analysis | The list of all fastener results | |
@@ -207,6 +208,7 @@ Review type values :
         Codes = 50
         RoomTemperatures = 60
         DesignConditions = 70
+        EndConditions = 80
 
 Result type values :
 
@@ -287,6 +289,7 @@ JSON parameters :
 | Layers | An array of visible layer name | Empty list = all layers will be visible |
 | Loadcase | A loadcase number | -1 (all loadcases) |
 | StressIndex | A stress index | 0 (for stress results only) |
+| NMax | Show only the NMax number of the higher results | 0 (all results) |
 
 Examples:
 
@@ -297,7 +300,7 @@ Examples:
 This will show a table with all displacements (all layers) for all loadcases.
 
 ```
-    $$RDISPLACEMENTS;{”Layers”:[“0”,"1"],”LoadCase”:100}$$
+    $$RDISPLACEMENTS;{”Layers”:[“0”,"1"],”LoadCase”:100,”NMax”:5}$$
 ```
 
 This will show a table with the displacements of nodes from layer "0" and "1" and only for loadcase 100.
@@ -331,6 +334,24 @@ This will first show a **PICTURE** (see §2.3.1) :
 | -------- | ---- |
 | ”Layers”:[“0”] | Only results of elements of layer "0"  |
 | ”LoadCase”:100 | Only for loadcase number 100 |
+
+### 3.1 File param
+
+    $$FILE;{...}$$
+
+Mandatory JSON parameter :
+
+| Parameter | Description |
+| -------- | ---- |
+| ext | The file extension without '.' |
+
+The file extension can me any extension existing in the study directory (fre, metaL, sifs, results, modal, fatigue, transients, warnings...).
+
+Examples:
+
+```
+    $$FILE;{"ext":"sifs"}$$
+```
 
 ## 4. Table
 

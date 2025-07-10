@@ -12,7 +12,7 @@ In this section, beam section can be created.
 
 A section is a **JSON** file with a name, a type, units and a list of geometrical properties.
 
-![Image](../../Images/BeamSection1.jpg)
+![Image](../../Images/BeamSection1.png)
 
 ## 1. Organisation
 
@@ -70,4 +70,4 @@ Properties :
 | WPLx | Plastic module X | cm^3 | in^3 |
 | Iw | Warping inertia | cm^6 | in^6 |
 
-Press the ![Image](../../Images/BeamSection2.jpg) button for an automatic calculation of the ares and inertias.
+Press the ![Image](../../Images/BeamSection2.jpg) button for an automatic calculation of all properties (approximative values based on simplified geometry).

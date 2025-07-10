@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Roadmap
-nav_order: 12
+nav_order: 14
 has_children: false
 ---
 
@@ -9,31 +9,34 @@ has_children: false
 
 >CWANTIC has a very ambitious roadmap in order to deliver qualified professional solutions, written in the state of the art, using the latest computer technologies and open to Python developers.
 
-## MetaPiping 2024.1 (Current release)
+## MetaPiping 2025 (Current release)
 
-[See the main features](https://documentation.metapiping.com/WhatsNew/2024_1.html)
+[See the main features](https://documentation.metapiping.com/WhatsNew/2025_0.html)
 
-## MetaPiping 2025
+## MetaPiping 2026
 
 ### *Expected date*
 
-* May 2025
+* December 2025
 
 ### *Main features*
 
 >**MetaPiping** :
 
 * Code updates
-* Finite element analysis of piping elements
 * Pipe-support coupling (injection of *MetaStructure supports* into MetaPiping to take account of stiffness and mass)
-* RCC-MRx (abatement factor g, type P+S damages with progressive deformation and fatigue)
+* Python improvement
+* Supervisor : workflow definition, python scripts and new batch mode capabilities
 * Requests from the user community
 
 >**MetaStructure** :
 
 * New assembly types
-* Cable element for bracing modelling
 * Requests from the user community
+
+>**cwantic_computer** :
+
+* New python library available on pypi that enable user to drive MetaPiping/MetaStructure and the solvers.
 
 ## Disclaimer
 

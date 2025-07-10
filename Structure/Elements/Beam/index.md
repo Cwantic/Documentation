@@ -91,7 +91,7 @@ Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.ht
 
 ![Image](../../../Images/Beam18.jpg)
 
-The node must be in **MAGENTA** color. The distance is automatically set in the cell. Just press **Enter** to create the beam.
+The node must be in **MAGENTA** color. The distance is automatically set in the cell. Just click the node or press **Enter** to create the beam.
 
 * That ends at a projection X/Y/Z of a **Reference node** (in green) :
 
@@ -99,13 +99,13 @@ The node must be in **MAGENTA** color. The distance is automatically set in the 
 
 To define a **Reference point**, just move the mouse near an existing node -> it comes green.
 
-The distance is automatically set in the cell. Just press **Enter** to create the beam.
+The distance is automatically set in the cell. Just click the node or press **Enter** to create the beam.
 
 * That ends at an **intermediate node** :
 
 ![Image](../../../Images/Beam19.jpg)
 
-The distance is automatically set in the cell. Just press **Enter** to create the beam.
+The distance is automatically set in the cell. Just click the node or press **Enter** to create the beam.
 
 MetaStructure will automatically cut the beam
 
@@ -113,10 +113,9 @@ MetaStructure will automatically cut the beam
 
 ![Image](../../../Images/Beam21.jpg)
 
-The distance is automatically set in the cell. Just press **Enter** to create the beam.
+The distance is automatically set in the cell. Just click the node or press **Enter** to create the beam.
 
 MetaStructure will automatically cut the beam.
-
 
 ## 3. Graphical ending
 

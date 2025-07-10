@@ -16,7 +16,7 @@ Click on the **Draw piping** button.
 
 As we start the modeling, we need to create a **First node** :
 
-![Image](../../Images/Pipe1.jpg)
+![Image](../../Images/Pipe1.png)
 
 Click [here](https://documentation.metapiping.com/Design/Elements/Node.html) for more information about the **First node** creation.
 
@@ -24,7 +24,7 @@ Click [here](https://documentation.metapiping.com/Design/Elements/Node.html) for
 
 After the first node has been created, you can draw your first pipe :
 
-![Image](../../Images/Pipe3.jpg)
+![Image](../../Images/Pipe3.png)
 
 The Diameter and Thickness properties come from the **current specification**.
 
@@ -44,7 +44,7 @@ When you click on the **Draw piping** button without selection, the left panel s
 
 The **selection mode** is automatically set to **POINT**. You can so directly select a node :
 
-![Image](../../Images/Pipe5.jpg)
+![Image](../../Images/Pipe5.png)
 
 1. Select the current **section/material** in the specification box.
 2. Select a **node**.
@@ -78,7 +78,7 @@ You can **undo** this command.
 
 If the section of the element on the selected node is different from the **current section** (1), the left panel shows **REDUCER PROPERTIES** (4).
 
-![Image](../../Images/Pipe7.jpg)
+![Image](../../Images/Pipe7.png)
 
 {: .warning }
 >ATTENTION, you are supposed to draw the pipe tangent from the previous one.
@@ -97,29 +97,29 @@ The previous pipe is NOT affected.
 
 You can **undo** this command.
 
+>Remark : you can also draw a pipe from one node to another node. Just by clicking on the target node.
+
 ## 3. Modify/Remove a pipe
 
 Change the **Selection mode** to ELEMENT and select a pipe :
 
-![Image](../../Images/Pipe9.jpg)
+![Image](../../Images/Pipe9.png)
 
 Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
 
-**SECTION AND MATERIAL** (1) :
+**LABEL** (1) :
 
-You can change the **specification** and **section/material** of the pipe.
+You can define a label to this element. The labels are shown with the label view button.
 
 **X-AXIS DIRECTION** (2) :
 
 You can change the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
-**Label** :
+**SECTION AND MATERIAL** (3) :
 
-You can define a label to this element. The labels are shown with the node names view button.
+You can change the **specification** and **section/material** of the pipe.
 
-![Image](../../Images/Label1.jpg)
-
-**LONG WELD** (3) :
+**LONG WELD** (4) :
 
 You can change the **Long weld properties** :
 
@@ -130,10 +130,6 @@ For the type, you can choose between :
 - Butt weld as welded
 
 Based on this property, define the **Long weld mismatch** [mm or in].
-
-In this example, the default values correspond to **current specification** preset :
-
-![Image](../../Images/Pipe2.jpg)
 
 Click on the **Modify** button to change the selected pipe with these new properties.
 

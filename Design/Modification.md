@@ -35,17 +35,19 @@ You can also select a restraint by entering the node name or its label and click
 
 Click [here](https://documentation.metapiping.com/Design/Selection.html) to have more information about the selection.
 
-## 2. Remove elements
+## 2. Remove nodes, elements and restraints
 
-Select elements and click on the **Remove elements** button to delete these elements.
+Select **nodes**, **elements** or **restraints** and click on the **Remove elements** button to delete these elements.
 
 You can **Undo** this command.
 
+>The nodes must be isolated (not an extremity or part of an element)!
+
 ## 3. Cut element
 
-It is possible to cut **pipe** in several parts.
+It is possible to cut **pipe**, **bend** and **beam** and in several parts.
 
-Select one pipe and click to the **Cut element** button :
+Select for example one pipe and click to the **Cut element** button :
 
 ![Image](../Images/Modification2.jpg)
 
@@ -216,7 +218,15 @@ If **Shift** option is unchecked, MetaPiping will try to change the length of th
 
 ![Image](../Images/Modification20.jpg)
 
+>A new length of 0 will remove the element if possible (the element must not be the attached element of a restraint)
+
 You can **Undo** this command.
+
+For eccentric reducer, the change length tool let you change the angle of alignement:
+
+![Image](../Images/ChangeLengthEccentric.png)
+
+Don't forget to shift the next elements to not destroy the pipeline continuity.
 
 ### 8.2 Change direction
 
@@ -248,7 +258,7 @@ You can **Undo** this command.
 
 ## 9. Properties
 
-![Image](../Images/Modification10.jpg)
+![Image](../Images/Modification10.png)
 
 ### 9.1 Installation temperature
 
@@ -360,7 +370,7 @@ You can **Undo** this command.
 
 ### 9.6 Section
 
-As in review, The **Section** property shows all sections used in the model with a colored map :
+As in review, the **Section** property shows all sections used in the model with a colored map :
 
 ![Image](../Images/Modification29.jpg)
 
@@ -371,3 +381,19 @@ Select multiple elements, a specification and a section, and click on the **Modi
 ![Image](../Images/Modification30.jpg)
 
 You can **Undo** this command.
+
+### 9.7 End conditions
+
+The **End conditions** property shows all type of joint between elements with a colored map :
+
+![Image](../Images/EndCondition1.png)
+
+MetaPiping let you change the joint of multiple nodes in one operation.
+
+Select multiple nodes, change the properties, and click on the **Modify** button :
+
+![Image](../Images/EndCondition2.png)
+
+You can **Undo** this command.
+
+>If the types are different between several selected nodes, **Variable** will appear. You have to specify the wanted new type to be able to modify.

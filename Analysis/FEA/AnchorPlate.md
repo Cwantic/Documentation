@@ -8,7 +8,7 @@ parent: Finite Element Analysis
 # Anchor Plate Analysis
 
 MetaStructure proposes a detailed analysis of anchor plate and its fasteners.
-
+ 
 ![Image](../../Images/FEA6.jpg)
 
 Click [here](https://documentation.metapiping.com/Structure/Elements/Restraint.html#2-anchor-plate) for more information about the anchor plate definition.
@@ -146,6 +146,8 @@ A report can be generated based on a template and "*tables*" file.
 * Select a *tables* file (**open** button) (2).
 * Click on the **Report** button to generate the report (3).
 
+> Use the default template Cwantic_FEA_AnchorPlate_template_SI
+
 > The template is copy from the settings to the analysis' directory and can be locally modified before report generation (requires Microsoft Word).
 
 The **select document window** (example for table) :
@@ -189,6 +191,7 @@ The keyword is useful to make a correspondence between the **template** and the 
 | STRESS MAX | The stress max | No table |
 | STRAIN MAX | The strain max | No table |
 | FASTENER RATIO MAX | The max ratio on all fasteners | No table |
+| ANCHORS RESULTS | The fasteners result file | table [ANCHORS RESULTS] |
 
 ### 5.2 Picture
 

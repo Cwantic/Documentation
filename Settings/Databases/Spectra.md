@@ -57,6 +57,8 @@ Fill the tables by adding rows for the pair frequency/acceleration.
 | Frequency | Hz | 
 | Acceleration | G's | 
 
+>It is possible to **insert**  a row between 2 elements!
+
 {: .warning }
 >ATTENTION, the frequencies must be filled in ascending order
 

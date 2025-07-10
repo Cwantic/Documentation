@@ -9,7 +9,7 @@ parent: Python
 
 In the explorer of projects, user can show informations about the model and/or the results of a study via a special python script :
 
-![Image](../Images/Explorer7.jpg)
+![Image](../Images/Explorer7.png)
 
 This script do not use ***Python Virtual Environment*** and is so very fast.
 

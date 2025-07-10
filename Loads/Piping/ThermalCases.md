@@ -121,6 +121,8 @@ For each row, define the properties :
 
 >Tip : for blank values, MetaPiping will make linear interpolations.
 
+>The time step must be ascendant!
+
 ### 5.2 Properties
 
 Enter other properties :

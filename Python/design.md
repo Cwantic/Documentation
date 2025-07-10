@@ -14,7 +14,7 @@ The **Design** mode is the part of the application dedicated to :
 - Review : review everything before launching the calculation
 - Analysis : analyze the piping
 
->MetaPiping 2024 gives an access to **Design** and **Review**.
+>MetaPiping 2025 gives an access to **Design** and **Review**.
 
 The other parts will come soon...
 

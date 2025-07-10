@@ -41,6 +41,9 @@ Click on **Add new piping study** to create an empty piping study that will be a
 
 Click on **Add new structure study** to create an empty structure study that will be added to the **container** (2).
 
+Give a name to the study (that is not already used) :
+
+![Image](../Images/NewStudy.png)
 
 This new study becomes the **current study** shown in the main panel (3).
 

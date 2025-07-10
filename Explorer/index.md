@@ -7,7 +7,7 @@ has_children: true
 
 # Explorer
 
-![Image](../Images/Explorer1.jpg)
+![Image](../Images/Explorer1.png)
 
 Click on **Organize** button to access the explorer panel.
 
@@ -46,16 +46,13 @@ Select a **project** (Ex : Demo). Right click on it lets you :
 {: .warning }
 >The EXPORT project command (from source computer) will copy all studies but also all external files, the used python scripts... and will paste it (or install scripts if not exist on target computer) during IMPORT command.
 
-{: .warning }
->The EXPORT/IMPORT project will not work for **distant studies** (those created by opening a **FRE** file directly from windows explorer) !
-
 ## 2. Project preview
 
 A **project** is a container of **studies**.
 
 When selecting a project, a preview of all studies is shown :
 
-![Image](../Images/Explorer5.jpg)
+![Image](../Images/Explorer5.png)
 
 You can have general information about one study by selecting a thumbnail :
 
@@ -73,7 +70,9 @@ To edit a specific study, **click** on button (2).
 
 A **Python script** can be created to explore the current **MetaL** and **results** of the study and show your own information.
 
-![Image](../Images/Explorer7.jpg)
+![Image](../Images/Explorer7.png)
+
+Click on the lower left button to execute the script.
 
 Click [here](https://documentation.metapiping.com/Python/Info.html) to have more information about python script creation for a project.
 
@@ -84,5 +83,13 @@ Click [here](https://documentation.metapiping.com/Settings/General.html) to see 
 User can **Right click** a *.fre file in Windows explorer and ask to open it with MetaPiping.
 
 A project will be created with a study and a complete connection of the internal MetaL to this file + solver PIPESTRESS.
+
+The model of the *.fre file will be directly shown in 3D.
+
+You can continue to modify the model with the 3D tools or with the incorporate fre editor, make an analysis (with PIPESTRESS if correctly set) and see the results.
+
+When you will exit MetaPiping, the temporary study and project will be removed but the modified fre and the result files will replaced the original ones!
+
+Multiple *.fre opening can be done without exit MetaPiping.
 
 Click [here](https://documentation.metapiping.com/Explorer/Study.html#35-pipestress) to have more information about PIPESTRESS **bricks**.

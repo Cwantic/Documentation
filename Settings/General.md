@@ -7,7 +7,7 @@ parent: Settings
 
 # General
 
-![Image](../Images/General.jpg)
+![Image](../Images/General.png)
 
 Define all options proposed by all **PLUGINS**.
 
@@ -27,7 +27,15 @@ All projects share the same script that you can specify in this option.
 
 [See Info page for more information](https://documentation.metapiping.com/Python/Info.html).
 
-## 3. Metal
+## 3. Help
+
+Default value : https://documentation.metapiping.com
+
+In case you do not have access to the Internet, it is possible to have the help in an application format (*.exe). 
+
+Ask Cwantic for this special installer. In this case, just indicate the path of the help application.
+
+## 4. Metal
 
 **MetaL** is the name of the 3D model inside MetaPiping and also the file extension of the saved file.
 
@@ -37,13 +45,13 @@ You can specify here 2 values (integers):
 
 In the example, the nodes will start with name "10" then "20", "30", "40"...
 
-## 4. MetaPiping
+## 5. MetaPiping
 
 The application lets the user work with English units. In this case, it is also possible to specify to work with **imperial** notation.
 
 Example: 4"1/8 for a diameter
 
-## 5. PIPESTRESS
+## 6. PIPESTRESS
 
 For the users of PIPESTRESS that have installed the plugin, they can specify the path of the SOLVER (*PIPESTRESSW.exe* or *PIPESTRESS64W.exe*) and the HELP file (*PIPESTRESS.chm*).
 
@@ -52,18 +60,18 @@ You can also specify:
 - Rotation units
 - Inline of the restraints, DLCS and INDI
 
-## 6. Project
+## 7. Project
 
 You can specify the path of your favorite text editor for text report editing.
 
 If blank, MetaPiping uses **Windows NotePad**.
 
-## 7. Review
+## 8. Review
 
 You can define the size in pixel of the point for the **End conditions** screen (default = 10 pixels) :
 
 ![Image](../Images/Review15.jpg)
 
-## 8. Structure
+## 9. Structure
 
 You can specify the maximum distance (in meter) between a pipe node and a structure node during the **Node link** operation. MetaStructure will search structure nodes that are distant less than this value from the selected piping node.
