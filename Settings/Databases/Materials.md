@@ -34,15 +34,15 @@ You can also drag a file/folder on another folder.
 
 ![Image](../../Images/Material2.jpg)
 
-Click the **+** button (next to Materials) to add a new material or click the **-** button (next to Name) to remove one.
+Click on **+** button (next to Materials) to add a new material or click on **-** button (next to Name) to remove one.
 
-Define the description, the type, the thermal expansion option, the temperature max, the density and the Poisson's ratio.
+Define the description, type, thermal expansion option, max temperature, density and Poisson's ratio.
 
-Click the **+** button (next to Properties) to add a new row of properties for a **specific temperature** or click the **-** button (end of row) to remove one.
+Click on **+** button (next to Properties) to add a new row of properties for a **given temperature** or click on **-** button (end of row) to remove one.
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
-| Max. temperature | Temperature max | °C | °F |
+| Max. temperature | Max temperature | °C | °F |
 | Density | Density | kg/m³ | lb/ft³ |
 | Poisson | Poisson's ratio | - | - |
 | EH | Modulus of Elasticity | kN/mm² | 10^6.psi |

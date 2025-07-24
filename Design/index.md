@@ -89,7 +89,7 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ![Image](../Images/ViewSupport.png) show/hide the supports
 
-![Image](../Images/ViewMass.png) show/hide the lump masses and element masses
+![Image](../Images/ViewMass.png) show/hide the lump masses
 
 ![Image](../Images/Design12.jpg) show the piping in shaded mode
 
@@ -182,17 +182,32 @@ The **Plugin** PIPESTRESS converts automatically every command of MetaPiping int
 
 ![Image](../Images/Pipestress2.jpg)
 
-- Double click on a **card** shows a window with all fields :
+- Double click on a **card** to open a window with all fields :
 
 ![Image](../Images/Pipestress1.jpg)
 
-- Select a line and click **F9** on keyboard will select the object in the 3D view.
+- You can write/change the file by yourself in this editor. Click on button ![Image](../Images/Pipestress3.jpg) on top (or **F6**) to update the model with the content of the editor.
 
-- Select a line and click **F1** on keyboard will open PIPESTRESS help (if defined in the settings).
+- Click on button ![Image](../Images/Pipestress4.jpg) (or **F9**) to insert a new card at the current cursor position.
+
+- Select a line and click on button ![Image](../Images/Pipestress5.jpg) (or **F5**) to open the Smart Coordinates window :
+
+![Image](../Images/Pipestress6.jpg)
+
+- Select a line and click on button ![Image](../Images/Pipestress7.jpg) (or **F9**) to select the element or support in the 3D view.
+
+- Click on button ![Image](../Images/Pipestress8.jpg) or ![Image](../Images/Pipestress9.jpg)  to increase or decrease the font size.
+
+- Click on button ![Image](../Images/Pipestress10.jpg) to toggle the line numbers.
+
+- Select a line and press **F1** to open PIPESTRESS help (if path is defined in the settings).
+
+- Click right to open the popup menu :
+
+![Image](../Images/Pipestress11.jpg)
+
 
 Click [here](https://documentation.metapiping.com/Settings/General.html) to have more information about the settings.
-
-- You can also write/change the file by yourself in this editor. Press the **Refresh** button (or F6) on top to update the model with the content of the editor.
 
 {: .warning }
 > Attention, this action is irreversible

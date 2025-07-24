@@ -36,7 +36,7 @@ Every command in MetaPiping is stored in a **command list**.
 
 You can *navigate* through this list by pressing the **Undo/Redo** buttons.
 
-## 2. Data controller
+## 2. Load treeview
 
 All loads can be viewed, created, edited, moved and removed in a single treeview :
 

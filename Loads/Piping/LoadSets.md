@@ -28,35 +28,41 @@ When editing, the definition window shows up :
 
 Enter a **Title**.
 
-<ins>Allowable stress reference case number</ins> :
+<ins>Allowable stress reference case</ins> :
 
 The temperature of the reference case is used to determine the allowable stress intensity Sm.
 
 <ins>Situation number</ins> :
 
-For RCC-M Class 1 code only : the two load sets, which form a situation, must be defined with the same situation number. Moreover, the two load sets must have the same number of cycles. The situations are used to determine the maximum value of the penalty factor Ke.
+For RCC-M Class 1 and RCC-MRx codes only : the two load sets, which form a situation, must be defined with the same situation number. Moreover, the two load sets must have the same number of cycles. The situation numbers are used to determine the maximum value of the penalty factor Ke for RCC-M code.
 
-<ins>Transient case number</ins> :
+<ins>Transient case</ins> :
 
-Number of the thermal case associated with the load set.
+Thermal case associated with the load set.
 
-    Use positive (+) sign for heat up transients
-    Use negative (-) sign for cool down transients
+<ins>Cool-down transient</ins> :
+
+Check the box if the final temperature of the transient is lower than the initial temperature. This information is not necessary when **True transient range** is checked in the **Model options**.
 
 <ins>Number of cycles</ins> :
 
-Number of expected occurences.
+Number of expected occurrences.
 
-<ins>Pressure case number</ins> :
+<ins>Pressure case</ins> :
 
 The pressure associated with the load set is taken from the pressure case.
 
-If the moment case for this load set is a dynamic case, then moments used in evaluating equation 12 will be the moments for the pressure case multiplied by Ec/Eh.
+**ASME and RCC-M codes** : if the moment case for this load set is a dynamic case, then moments used in evaluating equation 12 will be the moments for the pressure case multiplied by Ec/Eh.
 
-<ins>Moment case number</ins> :
+**RCC-MRx** : the pressure case and allowable stress reference case must be equal. Moreover, MetaPiping assumes that the pressure case also corresponds to the sole thermal expansion moments (noted ‘m’ in the code). It shall be noted that, for programming reasons, there must be at least another load set which the moment case is equal to this pressure case.
+
+<ins>Moment case</ins> :
 
 The moments associated with the load set are taken from the moment case.
 
 <ins>Dynamic load flag</ins> :
 
-For ASME Class 1 only : if the moment case for this load set is a dynamic case, then the moments used in the evaluation of equation 13  are taken from the combination case with the same flag number.
+**ASME code** : if the moment case for this load set is a dynamic case, then the moments used in the evaluation of equation 13  are taken from the combination case with the same flag number.
+**RCC-MRx** : if the moment case for this load set is a dynamic case, then the primary dynamic moments are taken from the combination case with the same flag number and type of analysis 1. The secondary dynamic moments are taken from the combination case with the same flag number and type of analysis 6.
+
+The dynamic flag is not used for the RCC-M code.

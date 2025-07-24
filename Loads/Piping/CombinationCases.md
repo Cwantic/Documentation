@@ -54,21 +54,32 @@ The equations are code-dependent.
 
 <ins>Duration</ins> :
 
-In hours.
+This field (expressed in hours) is used for HDPE and RCC-MRx codes only.
+
+- For HDPE : duration determines the allowable stress of HDPE materials
+- For RCC-MRx : duration allows to calculate the creep effects. If not entered or 0, the duration entered in the reference case is used
 
 <ins>Dynamic load flag</ins> :
 
+This field is used for Class 1 codes only.
+
 - For ASME Class 1 : the flag is a number from 1 to 9 that identifies the dynamic moments to be used in Equation 13
 - For RCC-M Class 1 : the flag with number 1 identifies the operational earthquake
+- For RCC-MRx : the flag is a number from 1 to 3 that identifies the dynamic moments to be used for Type S damages
 
 <ins>Number of cycles</ins> :
 
-- For ASME Class 1 : number of sub-cycles predicted for each occurrence of the dynamic event (default = 1)
-- For RCC-M Class 1 : number of occurences of the seismic event if the analysis type is 0, or number of seismic sub-cycles if the analysis type is 1
+This field is used for Class 1 codes only.
+
+- For ASME Class 1 and RCC-MRx : number of sub-cycles predicted for each occurrence of the dynamic event (default = 1)
+- For RCC-M Class 1 : number of occurrences of the seismic event if the analysis type is 0, or number of seismic sub-cycles if the analysis type is 1
 
 <ins>Analysis type</ins> :
 
-- For RCC-M Class 1 only : enter 0 (or blank) for the total earthquake moments and 1 for the primary (inertial) earthquake moments
+This field is used for RCC-M Class 1 and RCC-MRx codes only.
+
+- For RCC-M Class 1 : enter 0 (or blank) for the total earthquake moments and 1 for the primary (inertial) earthquake moments
+- For RCC-MRx : enter 1 for the primary dynamic moments and 6 for the secondary dynamic moments. 0 (or blank) may optionally  be entered for the total dynamic moments. If no combination case with analysis type equal to 1 is entered, the primary dynamic moments are then taken equal to the total dynamic moments 
 
 ## 2. Combined cases
 

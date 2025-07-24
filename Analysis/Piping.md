@@ -47,7 +47,10 @@ The **Modes** are generated if the **Extract modes** is checked in the **Model o
 Click [here](https://documentation.metapiping.com/Design/Specification/Options.html#3-modal-extraction) to have more information about the model options.
 
 
-A special load case "Fatigue" is added at the bottom of the combobox for Class 1 piping codes (Code Aster solver only). It allows to visualize the results of the detailed fatigue analysis : elastic shakedown (Eq. 10), usage factor, thermal ratchet, etc.
+A special load case "Fatigue" is added at the bottom of the combobox for Class 1 piping codes (Code Aster solver only). It allows to visualize the results of the detailed fatigue analysis and also, for the RCC-MRx code, the progressive deformation and fatigue + creep interaction check.
+
+A special load case "Creep" is added at the bottom of the combobox for RCC-MRx code if creep is not negligible (Code Aster solver only). It allows to visualize the results of the creep analysis : UA,C(pm), UA,C(pm + Φ⋅pb), ΔUA, WA,C,D(1.35pm) and WA,C,D(1.35(pm + Φ⋅pb)).
+
 
 ### 2.2 Displacements
 
@@ -179,6 +182,6 @@ The stresses are shown at each extremity of the elements. The maximum stresses o
 
 >Tip: you can copy the content of the file
 
->Tip: If the analysis failed, a warning file will be available to know what happen.
+>Tip: If the analysis failed, a warning file will be available to know what happened.
 
 

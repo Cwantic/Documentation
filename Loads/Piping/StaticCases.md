@@ -8,7 +8,9 @@ grand_parent: Loads
 
 # Static cases
 
-    Static cases consist of internal and/or external static loadings on the piping system. MetaPiping will calculate corresponding displacements, rotations, forces, moments and stresses.
+    Static cases consist of internal and/or external static loadings on the piping system.
+    MetaPiping will calculate corresponding displacements, rotations, forces, moments and
+    stresses.
 
 All existing static cases are listed in the combobox with their **Case number** + **Title** :
 
@@ -59,6 +61,13 @@ The equations to be verified are code-dependent. For example, here are the equat
 - 8- Equation 8 (thermal expansion + sustained)
 - S- Equation 9 (settlement)
 
+<ins>Duration</ins> :
+
+This field (expressed in hours) is used for HDPE and RCC-MRx codes only.
+
+- For HDPE : duration determines the Poisson’s ratio, modulus of elasticity and allowable stress of HDPE materials
+- For RCC-MRx : duration allows to calculate the creep effects. If not entered or 0, the duration entered in the reference case is used
+
 
 ## 2. Options
 
@@ -73,7 +82,7 @@ The equations to be verified are code-dependent. For example, here are the equat
 - **Secondary case** : to be checked for displacement-type cases like thermal expansion. Depending on the piping code (e.g. RCC-M Class 2), the moments may be multiplied by Ec/Eh when the **Hot modulus** is used
 - **Pseudo-static cases** : to be checked for dynamic cases that are calculated as static cases (e.g. earthquake calculated with a pseudo-static acceleration)
 - **Disable spring hangers** : for some cases like settlement and cold springing, it is common practice to readjust the spring hangers to their design parameters. This is equivalent to disabling the spring hangers
-- **Non linear** : if checked, non linear restraint is considered in the calculation
+- **Non linear** : if checked, non linear restraints are considered in the calculation
 
 ## 3. Applied loads
 

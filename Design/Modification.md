@@ -103,12 +103,13 @@ Each **piping code** has its own factors.
 
 | Code | SIFS | 
 | -------- | ----------- | 
-| ASME Class 1 | B1, C1, K1, B2, C2, K2, C3, C3', K3 |
+| ASME and RCC-M Class 1 | B1, C1, K1, B2, C2, K2, C3, C3', K3 |
 | ASME Class 2 | i, B1, B2, B2', C2 |
-| B31.1 | i |
-| B31.1 B31.J | ii, io, it, ia, Ii, Io, It, Ia |
+| B31.1 up to ed. 2018| i |
+| B31.1 ed. 2020 (B31J) | ii, io, it, ia, Ii, Io, It, Ia |
 | EN 13480 | io, ii |
-| RCCM Class 2 | i |
+| RCC-M Class 2 | i |
+| RCC-MRx | B1, C1, K1, B2, C2, K2, C3, K3, D1, D21, D22, D23 |
 
 These factors are unitless.
 

@@ -168,6 +168,8 @@ Enter the root of the file name where the input data will be saved. The file wil
 
 You may also enter a title and a memo.
 
+Check the box **Process all restraints** to output the reactions for all supports. If checked, the reactions can be output in the local coordinates of the supports (instead of the global coordinates) by checking the box **Output the reactions in local coordinate system**.
+
 If flanges are to be checked, select the piping code, edition, and calculation method.
 
 
@@ -180,7 +182,7 @@ A group is a combination of load cases defined in the piping model, and/or previ
 | Field | Description |
 | -------- | ----------- |
 | No. | Group number |
-| Method | Algebraic (or 0), Envelope (or 2), SRSS (or 3), or Absolute (or 4) |
+| Method | Algebraic, Envelope, SRSS, or Absolute |
 | No out. | No result is output if checked |
 | Add lines | The results for the group are output in a single line (except for flange check). In order to improve readability, additional lines may be inserted after the group. For example, enter the string **#-#** to insert a line filled with **#** characters, followed by another line filled with **-** characters, and finally a line filled with **#** characters. Use character **b** for inserting a blank line |
 | Level | A (or blank), B, C, D or T (for flange check only) |
@@ -267,7 +269,10 @@ Click on the database button to import data from the database.
 
 Click on button **-** to remove the selected flange and button **+** to add a flange.
 
+Click on button ![Image](../Images/PostProc10.jpg) to copy the data from another flange.
+
 Fields displayed in gray italic are optional for the selected code and method.
+
 
 **General**
 
@@ -323,6 +328,7 @@ Click on the database button to import data from the database.
 | Factor m |  |
 | Seating stress y |  |
 | Friction on steel | For RCC-M only |
+| Seating force mult. | If entered, the seating force calculated according to the code is multiplied by this factor |
 
 **Torque calculation**
 

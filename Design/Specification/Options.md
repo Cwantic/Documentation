@@ -12,7 +12,7 @@ grand_parent: Piping
 
 ![Image](../../Images/Options1.jpg)
 
-This tab lets you define the **calculation code** and its **Edition**, the direction of the **gravity**, the input and output **Units**, the **Plant** name and the **Engineer** name.
+This tab lets you define the **calculation code** and its **Edition**, direction of **gravity**, input and output **Units**, **Plant** name and **Engineer** name.
 
 {: .warning }
 > ATTENTION, when starting a new project, be sure to select a specification that will be compatible with the Units, Code and Edition of the project and do not change these three properties during design.
@@ -29,7 +29,12 @@ This tab lets you define the **calculation code** and its **Edition**, the direc
     - Lumped stat. and dyn. : lumped mass for static analysis, lumped mass for dynamic analysis
     - Unif. stat. / Lumped dyn. : uniform mass for static analysis, lumped mass for dynamic analysis
     - Lumped stat. / Lumped dyn. + rot. : lumped mass for static analysis, lumped mass and rotational inertia for dynamic analysis
-    - Unif. stat. / Lumped dyn. + rot. : uniform mass for static analysis, lumped mass and rotational inertia for dynamic analysis,
+    - Unif. stat. / Lumped dyn. + rot. : uniform mass for static analysis, lumped mass and rotational inertia for dynamic analysis
+- **Branch modeling** (non-Class 1 and non-B31J codes only):
+    - Rigid : the imaginary element connecting the centerline with the surface of the run pipe is rigid
+    - Pipe : the imaginary element connecting the centerline with the surface of the run pipe is a pipe with the same cross section as the branch pipe 
+    - Class 1 : the imaginary element connecting the centerline with the surface of the run pipe is modeled as in Class 1 codes (either rigid or rigid + element of negligible length with local flexibility)
+    - B31J : the imaginary element connecting the centerline with the surface of the run pipe is modeled as in B31J standard
 - **Hot modulus** : for most non-Class 1 piping codes, the Young modulus Ec at room temperature is used by default for all load cases. If **Hot modulus** is checked, the Young modulus Eh at the operating temperature is used instead. For Class 1 piping codes, the Young modulus Eh at the operating temperature is always used
 - **Hot allowable** : for non-Class 1 piping codes, the allowable stress at design temperature is used by default for all load cases. If **Hot allowable** is checked, the allowable at the operating temperature is used instead
 - **Pres. stiffening** : check this option to take into account the pressure stiffening effect on elbows and miter bends (if permitted by the piping code) 
@@ -40,7 +45,8 @@ This tab lets you define the **calculation code** and its **Edition**, the direc
 - **Alternative Ke factor (Class 1)** : if checked, the penalty factor Ke.therm is used for austenitic stainless steels and Ni-Cr-Fe alloys (RCC-M code only)
 - **Optimize residual moments (Class 1)** : contact CWANTIC for further explanations and theoretical background
 - **True transient range (Class 1)** : by default, the range of the thermal gradient stress for a load set pair (LS1, LS2) is calculated assuming that the sign of the thermal stress is positive for heat-up transients and negative for cool-down transients. If this option is checked, the true range of the thermal gradient stress is calculated
-
+- **Output fatigue at all points (Class 1)** : by default, the detailed results of the fatigue analysis are only output at points where the code limits are exceeded. If this option is checked, the detailed results are output at all points
+- **Output Eq. 12 and 13 always (Class 1)** : by default, equations 12 and 13 are only output when equation 10 fails. If this option is checked, equations 12 and 13 are output in all cases
 ## 3. Modal extraction
 
 ![Image](../../Images/Options3.jpg)

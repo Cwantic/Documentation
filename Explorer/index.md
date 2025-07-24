@@ -86,10 +86,10 @@ A project will be created with a study and a complete connection of the internal
 
 The model of the *.fre file will be directly shown in 3D.
 
-You can continue to modify the model with the 3D tools or with the incorporate fre editor, make an analysis (with PIPESTRESS if correctly set) and see the results.
+You can continue to modify the model with the 3D tools or with the incorporated fre editor, make an analysis (with PIPESTRESS if correctly set) and see the results.
 
-When you will exit MetaPiping, the temporary study and project will be removed but the modified fre and the result files will replaced the original ones!
+When you exit MetaPiping, the temporary study and project will be removed but the modified fre and the result files will replace the original ones!
 
-Multiple *.fre opening can be done without exit MetaPiping.
+Multiple *.fre opening can be done without exiting MetaPiping.
 
 Click [here](https://documentation.metapiping.com/Explorer/Study.html#35-pipestress) to have more information about PIPESTRESS **bricks**.

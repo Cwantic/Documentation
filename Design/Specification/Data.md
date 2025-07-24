@@ -27,15 +27,15 @@ Click on the **+** button and enter the description of the new material (Ex : My
 
 A new name has been created for this material (Ex : 100).
 
-Click the **-** button (next to Name) to remove it.
+Click on the **-** button (next to Name) to remove it.
 
-Define the description, the type, the temperature max, the density and the Poisson's ratio.
+Define the description, type, max temperature, density and Poisson's ratio.
 
-Click the **+** button (next to Properties) to add a new row of properties for a **specific temperature** or click the **-** button (end of row) to remove one.
+Click on the **+** button (next to Properties) to add a new row of properties for a **given temperature** or click on the **-** button (end of row) to remove one.
 
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
-| Max. temperature | Temperature max | °C | °F |
+| Max. temperature | Max Temperature | °C | °F |
 | Density | Density | kg/m³ | lb/ft³ |
 | Poisson | Poisson's ratio | - | - |
 | EH | Modulus of Elasticity | kN/mm² | 10^6.psi |
@@ -44,7 +44,7 @@ Click the **+** button (next to Properties) to add a new row of properties for a
 | SY | Yield Stress | N/mm² | ksi |
 | SU | Ultimate Tensile Stress | N/mm² | ksi |
 | SM | Class 1 Allowable Stress | N/mm² | ksi |
-| CR | Creep | N/mm² | ksi |
+| CR | Creep Stress | N/mm² | ksi |
 | GH | Shear Modulus (composite only)| kN/mm² | 10^6.psi |
 | E2 | Circumferential Modulus of Elasticity (composite only) | kN/mm² | 10^6.psi |
 | CO | Thermal Conductivity (Class 1)| kJ/hr/m/°C | btu/hr/ft/°F |
@@ -55,7 +55,7 @@ See [Units](https://documentation.metapiping.com/Design/units.html) for more inf
 {: .warning }
 >ATTENTION, temperatures must be entered in ascending order!
 
->Properties of High Density Polyethylene materials (HDPE) also depend on load duration. The properties are built-in for 5 different specifications:
+>Properties of High Density Polyethylene materials (HDPE) also depend on load duration. The properties are built-in for 5 different specifications :
 >- ISO  : EN 15494:2015 with coefficient = 1.25
 >- ASTM : ASTM with factor = 0.63
 >- ASME : ASTM with factor = 0.5 (= values given in Appendix XXVI)
@@ -64,11 +64,18 @@ See [Units](https://documentation.metapiping.com/Design/units.html) for more inf
 >
 >The user has to enter the density, Poisson's ratio' and thermal expansion coefficient, which are supposed to be constant.
 
+>Properties of RCC-MRx materials are built-in for 5 different specifications :
+>- A3.18AS : X10CrMoVNb9-1 RM 242-2 & 243-1 (P91)
+>- A3.1S : X2CrNiMo17-12-2(N) (316L(N))
+>- A3.3S : X2CrNiMo17-12-2, X2CrNiMo17-12-3 and X2CrNiMo18-14-3 (316L)
+>- A3.4S : X2CrNi18-9 & X2CrNi19-11 (304L)
+>- A3.8S : X4CrNiMo16-05-01
+
 To save time, you can also directly select a material from **database** :
 
 ![Image](../../Images/Design23.jpg)
 
-Click on the **Database** button, select a **Library** and a **Material**. The tables will be filled automatically :
+Click on the **Database** button, select a **Library** and a **Material**. The tables will be filled in automatically :
 
 ![Image](../../Images/Design24.jpg)
 
@@ -215,7 +222,7 @@ Another way to define **Materials** and **Piping elements** is to use a predefin
 
 The goal of a specification is to supervise the engineer's work by predefining all piping elements, sections, materials, bend radius, reducer lengths, tees...
 
-Click to **+** button and select a specification :
+Click on **+** button and select a specification :
 
 ![Image](../../Images/Design27.jpg)
 

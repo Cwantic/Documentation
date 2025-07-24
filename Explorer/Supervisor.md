@@ -26,8 +26,8 @@ MetaPiping let you calculate projects in batch mode.
 ![Image](../Images/Supervisor3.png)
 
 * Auto          : use the study's specified solver
-* Aster         : use Code_Aster solver (even if PipeStress solver is specified in the study)
-* PipeStress    : use PipeStress solver (even if Aster solver is specified in the study)
+* Aster         : use Code_Aster solver (even if PIPESTRESS solver is specified in the study)
+* PipeStress    : use PIPESTRESS solver (even if Aster solver is specified in the study)
 
 3. Calculation
 

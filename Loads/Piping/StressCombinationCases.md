@@ -13,7 +13,7 @@ grand_parent: Loads
     resultant moments of the constituent cases.
 
 {: .warning }
-> ATTENTION, this case may be used for all piping codes except Class 1 and ASME HDPE Code.
+> ATTENTION, this case may be used for all piping codes except ASME Class 1, RCC-M Class 1 and ASME HDPE Codes.
 
 Click [here](https://documentation.metapiping.com/Analysis/Codes.html) for more information about the piping codes.
 
@@ -65,7 +65,8 @@ If this field is not blank and different from 0, then the allowable stress for t
 
 <ins>Duration</ins> :
 
-In hours.
+This field (expressed in hours) is used for RCC-MRx code only. It allows to calculate the creep effects. If not entered or 0, the duration entered in the reference case is used.
+
 
 ## 2. Combined cases
 
@@ -74,6 +75,7 @@ Enter the **number** of the constituent cases and the corresponding **factor**.
     MA = Sustained load case
     MB = Occasional load case
     MC = Thermal load case
+
 
 ![Image](../../Images/Load29.jpg)
 
