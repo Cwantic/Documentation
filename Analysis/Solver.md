@@ -28,10 +28,13 @@ The following features are currently implemented in Code_Aster based solver :
 
 Supported codes :
 
-- EN 13480-3 Editions 2017 and 2020 with Table H.3 (bidirectionnal SIFs)
-- RCC-M Class 1 & 2 Editions 2002, 2007, 2012, 2016, 2017, 2018, 2020
 - ASME Section III Class 1, 2 & 3 Editions 2004 + A06, 2007, 2010, 2013, 2015, 2017, 2019, 2021
 - ANSI/ASME B31.1 Editions 1998, 2004, 2007, 2010, 2012, 2014, 2016, 2018, 2020 (with B31J SIFs)
+- RCC-M Class 1 & 2 Editions 2002, 2007, 2012, 2016, 2017, 2018, 2020
+- RCC-MRx Edition 2022
+- EDF Piping Code for Composite Materials, Indice D and E
+- EN 13480-3 Editions 2017 and 2020 with Table H.3 (bidirectionnal SIFs)
+- ASME HDPE Piping Code (2011 to 2017) includes Code Case N-7555 and Section III Appendix XXVI
 
 
 ## 2. PIPESTRESS (piping)

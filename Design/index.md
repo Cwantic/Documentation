@@ -202,7 +202,7 @@ The **Plugin** PIPESTRESS converts automatically every command of MetaPiping int
 
 - Select a line and press **F1** to open PIPESTRESS help (if path is defined in the settings).
 
-- Click right to open the popup menu :
+- Right click to open the popup menu :
 
 ![Image](../Images/Pipestress11.jpg)
 

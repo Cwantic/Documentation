@@ -25,7 +25,7 @@ For all case types, you can **create**, **modify** or **remove** a selected case
 - **Delete** : remove the selected case
 - **Selection** : list of all cases of the **current load case type**
 
-## 2. Data controller
+## 2. Load tree
 
 All loads can be viewed, created, edited, moved and removed in a single treeview :
 

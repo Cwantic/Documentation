@@ -31,7 +31,7 @@ The data are saved in a text file located in the study folder with **Name** as r
 
 The time steps are entered in the first column is ascending order. The first time step must be 0. The functions are entered in the following column.
 
-To insert or delete a row, add, remove or rename a function, click right and select the desired action in the pop-up. 
+To insert or delete a row, add, remove or rename a function, right click and select the desired action in the pop-up. 
 
 ![Image](../../Images/Load37.jpg)
 

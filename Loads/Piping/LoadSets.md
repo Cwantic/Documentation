@@ -63,6 +63,7 @@ The moments associated with the load set are taken from the moment case.
 <ins>Dynamic load flag</ins> :
 
 **ASME code** : if the moment case for this load set is a dynamic case, then the moments used in the evaluation of equation 13  are taken from the combination case with the same flag number.
+
 **RCC-MRx** : if the moment case for this load set is a dynamic case, then the primary dynamic moments are taken from the combination case with the same flag number and type of analysis 1. The secondary dynamic moments are taken from the combination case with the same flag number and type of analysis 6.
 
 The dynamic flag is not used for the RCC-M code.
