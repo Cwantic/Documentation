@@ -48,11 +48,17 @@ Click [here](https://documentation.metapiping.com/Design/Specification/Data.html
 
 You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
-**Label** :
+Use the left and right keyboard arrows to turn the **X-axis** vector 90°/-90°around the tangent direction.
+
+**LABEL** :
 
 You can define a label to this element. The labels are shown with the node names view button.
 
 ![Image](../../Images/Label1.jpg)
+
+**NEXT NODE** :
+
+You can set the next extremity node name of the element. If blank, the software will define it automatically. The software will also check that the name doesn't already exist.
 
 ---
 

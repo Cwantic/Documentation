@@ -57,11 +57,11 @@ You can change the **flexibility factor** of the reducer. If blank, default valu
 
 You can change the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
-**Label** :
+Use the left and right keyboard arrows to turn the **X-axis** vector 90°/-90°around the tangent direction.
+
+**LABEL** :
 
 You can define a label to this element. The labels are shown with the node names view button.
-
-![Image](../../Images/Label1.jpg)
 
 **LONG WELD** :
 
@@ -76,6 +76,10 @@ For the type, you can choose between :
 Based on this property, define the **Long weld mismatch** [mm or in].
 
 In this example, the default values correspond to the first section preset.
+
+**NEXT NODE** :
+
+You can set the next extremity node name of the element. If blank, the software will define it automatically. The software will also check that the name doesn't already exist.
 
 ---
 
@@ -107,7 +111,7 @@ You can **undo** this command.
 
 **ECCENTRIC REDUCER** :
 
-Uncheck the **Concentric** checkbox and define at which side of the pipe you want to be tangent (thanks to the **Angle** property) :
+Check the **Eccentric** checkbox and define at which side of the pipe you want to be tangent (thanks to the **Angle** property) :
 
 ![Image](../../Images/Reducer8.jpg)
 
@@ -154,6 +158,10 @@ You can change the **flexibility factor** of the reducer. If blank, default valu
 **X-AXIS DIRECTION** :
 
 You can change the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
+
+**LABEL** :
+
+You can change the label of the element.
 
 **SECTION AND MATERIAL** :
 

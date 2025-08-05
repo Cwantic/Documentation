@@ -81,7 +81,9 @@ Based on **type**, you have to define different section properties.
 
 You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
-**Label** :
+Use the left and right keyboard arrows to turn the **X-axis** vector 90°/-90°around the tangent direction.
+
+**LABEL** :
 
 You can define a label to this element. The labels are shown with the node names view button.
 

@@ -42,6 +42,8 @@ Some properties are shown :
 
     To know the UNIT of the value, just let the mouse over the cell. 
 
+>Is cable checkbox can be used to define element that works only in traction (like cable).
+
 You can define the joints, the buckling factors and the local-X axis direction. See below.
 
 The only thing you have to do is to select how to draw the pipe.

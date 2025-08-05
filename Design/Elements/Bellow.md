@@ -24,6 +24,14 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 ![Image](../../Images/Bellow2.jpg)
 
+By default, the orientation of the element is defined to **Insert** represented by a blue arrow with direction tangent to the previous element.
+
+You can decide to use the **orientation tool** to define another direction by unchecking this option. This panel will appear :
+
+![Image](../../Images/Orientation2.jpg)
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.html) for more information about the orientation tool.
+
 **BELLOW PROPERTIES** :
 
 - Axial : *Axial and lateral displacements and rotations are permitted*
@@ -31,8 +39,6 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 - Lateral in all planes : *Lateral displacements are permitted in all directions perpendicular to the element axis Z’. No axial displacements nor rotations are permitted*
 - Angular in a single plane : *Rotations are only permitted about the local axis Y’. The movements are thus restricted to the plane defined by the local axes Z’ and X’*
 - Angular in all planes : *Rotations are permitted about all axes perpendicular to Z’*
-
->The length must be defined by the **orientation tool**.
 
 Based on **type**, you have to define several properties :
 
@@ -128,11 +134,21 @@ The tables will be filled automatically.
 
 Click [here](https://documentation.metapiping.com/Settings/Databases/Components.html) for more information about creation of library of components.
 
-**Label** :
+**X-AXIS DIRECTION** :
+
+You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
+
+Use the left and right keyboard arrows to turn the **X-axis** vector 90°/-90°around the tangent direction.
+
+**LABEL** :
 
 You can define a label to this element. The labels are shown with the node names view button.
 
 ![Image](../../Images/Label1.jpg)
+
+**NEXT NODE** :
+
+You can set the next extremity node name of the element. If blank, the software will define it automatically. The software will also check that the name doesn't already exist.
 
 ---
 

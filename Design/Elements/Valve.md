@@ -24,9 +24,9 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 
 ![Image](../../Images/Valve2.jpg)
 
-By default, the orientation of the valve is defined to **Tangent** (3) represented by a blue arrow.
+By default, the orientation of the valve is defined to **Insert** (3) represented by a blue arrow  with direction tangent to the previous element.
 
-You can decide to use the **orientation tool** by unchecking the option :
+You can decide to use the **orientation tool** to define another direction by unchecking this option (4) :
 
 ![Image](../../Images/Valve3.jpg)
 
@@ -85,6 +85,12 @@ You can define a label to the valve. The labels are shown with the node names vi
 
 You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
 
+Use the left and right keyboard arrows to turn the **X-axis** vector 90°/-90°around the tangent direction.
+
+**NEXT NODE** :
+
+You can set the next extremity node name of the element. If blank, the software will define it automatically. The software will also check that the name doesn't already exist.
+
 ---
 
 You can then define the second point of the valve thanks to the **Orientation tool**.
@@ -116,6 +122,8 @@ You can change the **specification** and **section/material** of the valve.
 **X-AXIS DIRECTION** :
 
 You can change the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
+
+Use the left and right keyboard arrows to turn the **X-axis** vector 90°/-90°around the tangent direction.
 
 Click on the **Modify** button to change the selected valve with these new properties.
 

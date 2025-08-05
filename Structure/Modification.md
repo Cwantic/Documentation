@@ -15,9 +15,9 @@ Click on **Select** button to open the selection window :
 
 ![Image](../Images/Selection9.jpg)
 
-- Click on **Point** to select nodes
-- Click on **Element** to select elements (beam, rigid and spring)
-- Click on **Restraint** to select restraints
+- Click on **Point** to select nodes (or F10)
+- Click on **Element** to select elements (beam, rigid and spring) (or F11)
+- Click on **Restraint** to select restraints (or F12)
 - Press **ESC** on keyboard to hide the selection window
 
 You can now select objects of the corresponding type.
@@ -174,3 +174,27 @@ The point **52** moved.
 >The graphical ending of the "green" beam and the welding have been automatically recalculated !
 
 You can **Undo** this command.
+
+## 7. Properties
+
+![Image](../Images/StructureProperties.jpg)
+
+### 7.1 Section
+
+As in review, the **Section** property shows all sections used in the model with a colored map :
+
+![Image](../Images/StructurePropertiesSection1.jpg)
+
+MetaStructure let you change the section of multiple elements in one operation.
+
+Select multiple elements, a section, and click on the **Modify** button :
+
+![Image](../Images/StructurePropertiesSection2.jpg)
+
+You can **Undo** this command.
+
+Remarks :
+
+>The section proposed are those from **Data** screen.
+
+>If the sections are different between several selected elements, **Variable** will appear. You have to specify the wanted new section to be able to modify.

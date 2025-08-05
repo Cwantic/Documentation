@@ -30,6 +30,22 @@ The Diameter and Thickness properties come from the **current specification**.
 
     To know the UNIT of the value, just let the mouse over the cell. 
 
+**LABEL** :
+
+You can define a label to this element. The labels are shown with the node names view button.
+
+![Image](../../Images/Label1.jpg)
+
+**X-AXIS DIRECTION** :
+
+You can define the **X-axis** vector by defining Xx, Xy, Xz in global coordinates.
+
+Use the left and right keyboard arrows to turn the **X-axis** vector 90°/-90°around the tangent direction.
+
+**NEXT NODE** :
+
+You can set the next extremity node name of the element. If blank, the software will define it automatically. The software will also check that the name doesn't already exist.
+
 The only thing you have to do is to select how to draw the pipe.
 
 Click [here](https://documentation.metapiping.com/Design/Elements/Orientation.html) for more information about the orientation tool.
@@ -53,6 +69,7 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
 
 MetaPiping checks the section of the element on the selected node.
+
 
 ### 2.1 Same section
 

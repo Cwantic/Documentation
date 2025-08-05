@@ -15,9 +15,9 @@ Click on **Select** button to open the selection window :
 
 ![Image](../Images/Selection.jpg)
 
-- Click on **Point** to select nodes
-- Click on **Element** to select piping elements (pipe, bend, reducer, valve, etc.)
-- Click on **Restraint** to select restraints
+- Click on **Point** to select nodes (or F10)
+- Click on **Element** to select piping elements (pipe, bend, reducer, valve, etc.) (or F11)
+- Click on **Restraint** to select restraints (or F12)
 - Click on **Tee** to select nodes where a tee has been assigned
 - Press **ESC** on keyboard to hide the selection window
 
@@ -382,6 +382,8 @@ Select multiple elements, a specification and a section, and click on the **Modi
 ![Image](../Images/Modification30.jpg)
 
 You can **Undo** this command.
+
+>If the sections are different between several selected elements, **Variable** will appear. You have to specify the wanted new section to be able to modify.
 
 ### 9.7 End conditions
 

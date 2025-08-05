@@ -154,6 +154,10 @@ You can define a label to this element. The labels are shown with the node names
 
 ![Image](../../Images/Label1.jpg)
 
+### 2.5 Next node
+
+You can set the next extremity node name of the element. If blank, the software will define it automatically. The software will also check that the name doesn't already exist.
+
 ## 3. Create a bend with 2 points
 
 ![Image](../../Images/Bend19.jpg)
