@@ -31,12 +31,12 @@ has_children: false
 
 >**MetaStructure** :
 
-* New assembly types
+* New clamps capabilities
 * Requests from the user community
 
 >**cwantic_computer** :
 
-* New python library available on pypi that enable user to drive MetaPiping/MetaStructure and the solvers.
+* New python library available on pypi that enable user to drive MetaPiping/MetaStructure and the solvers outside the software.
 
 ## Disclaimer
 
