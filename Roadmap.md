@@ -26,12 +26,12 @@ has_children: false
 * Code updates
 * Pipe-support coupling (injection of *MetaStructure supports* into MetaPiping to take account of stiffness and mass)
 * Python improvement
-* Supervisor : workflow definition, python scripts and new batch mode capabilities
 * Requests from the user community
 
 >**MetaStructure** :
 
 * New clamps capabilities
+* Free stiffeners
 * Requests from the user community
 
 >**cwantic_computer** :
