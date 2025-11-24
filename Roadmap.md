@@ -17,7 +17,7 @@ has_children: false
 
 ### *Expected date*
 
-* December 2025
+* January 2026
 
 ### *Main features*
 
@@ -30,7 +30,7 @@ has_children: false
 
 >**MetaStructure** :
 
-* New clamps capabilities
+* New U-bolts capabilities
 * Free stiffeners
 * Requests from the user community
 
