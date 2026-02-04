@@ -42,6 +42,7 @@ Type of tee :
 - Branch welded-on fitting
 - Lateral connection
 - Partial penetration branch connection
+- Sidewall fusion branch connection (HDPE)
 
 Based on the type, some other properties must be filled :
 
@@ -57,6 +58,7 @@ Based on the type, some other properties must be filled :
 | PD | Pad thickness for reinforced fabricated tees | mm | in |
 | Collector length | Half length of the header of welding tees | m | ft |
 | Branch length | Branch length of welding tees | m | ft |
+| RP | Branch outer radius | mm | in |
 
 >MetaPiping automatically shows the necessary properties for each type.
 

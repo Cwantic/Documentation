@@ -135,7 +135,7 @@ JSON parameters :
 | Type | Ribbon type | 0 (= Conception - see below) |
 | ReviewType | Review category | 0 (= Sections - see below) |
 | ResultType | Result category | 0 (= Displacements - see below) |
-| LoadCase | Index of mode or load case in the list | -1 |
+| LoadCase | Index of mode (+1) or load case in the list | -99 |
 | Factor | Amplification factor of the displacements | 1 |
 | StressIndex | Index in possible stress list | 0 |
 | StressMax | 1 = show the max stress colorisation | 0 |
@@ -221,6 +221,14 @@ Result type values :
         Anchors = 5
         Joints = 6
 
+LoadCase values :
+
+        None : -99
+        Mode : 1 --> all frequencies < 100 (only for displacements)
+        Case : >= 100
+        Fatigue : 0
+        Creep : -1
+
 Examples:
 
 ```
@@ -287,9 +295,17 @@ JSON parameters :
 | Parameter | Description | Default value |
 | -------- | ---- | ---- |
 | Layers | An array of visible layer name | Empty list = all layers will be visible |
-| Loadcase | A loadcase number | -1 (all loadcases) |
+| LoadCase | A loadcase number | -99 (all loadcases) |
 | StressIndex | A stress index | 0 (for stress results only) |
 | NMax | Show only the NMax number of the higher results | 0 (all results) |
+
+LoadCase values :
+
+        All : -99
+        Mode : 1 --> all frequencies < 100 (only for displacements)
+        Case : >= 100
+        Fatigue : 0
+        Creep : -1
 
 Examples:
 

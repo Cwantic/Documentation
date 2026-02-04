@@ -64,7 +64,7 @@ Use the connector to send the file to another brick as an input.
 {: .warning }
 >You can import another **MetaL** file and connect it to the **MetaL** connector of the **Study brick**.
 
-### 3.2 Study link
+### 3.2 Study link (for visual purpose)
 
 This create a brick that virtually replicates existing studies inside another one. This is useful to create new nodes based on those of the linked studies.
 
@@ -79,7 +79,26 @@ This create a brick that virtually replicates existing studies inside another on
 {: .warning }
 >In design, you cannot modify elements of linked studies.
 
-### 3.3 PCF
+Break the connection to change the linked study.
+
+### 3.3 Structures link (for coupled analysis)
+
+This create a brick that virtually replicates existing structure studies inside a piping one. 
+
+This is mandatory to create coupled analysis between piping and supports.
+
+![Image](../Images/Study12.jpg)
+
+{: .warning }
+>All studies must be defined in the same coordinate system XYZ.
+
+Click on the **Select** button and select one or more structures.
+
+Connect it to the piping study on the correct connector.
+
+Break the connection to select other studies.
+
+### 3.4 PCF
 
 The **plugin** PCF lets you import *.pcf files.
 
@@ -89,7 +108,7 @@ Open a file and connect it to the **MetaL** connector of the **Study brick**.
 
 This will convert the PCF to the MetaL file format.
 
-### 3.4 PIPSYS
+### 3.5 PIPSYS
 
 The **plugin** PIPSYS lets you import files with several extensions.
 
@@ -99,7 +118,7 @@ Open a file and connect it to the **MetaL** connector of the **Study brick**.
 
 This will convert the PIPSYS to the MetaL file format.
 
-### 3.5 PIPESTRESS
+### 3.6 PIPESTRESS
 
 The **plugin** PIPESTRESS lets you import *.fre (and *.thf files).
 
@@ -125,7 +144,7 @@ The **plugin** PIPESTRESS also lets you configure all bricks by just importing a
 
 ![Image](../Images/Study8.jpg)
 
-### 3.6 Python
+### 3.7 Python
 
 You can create your own **brick** thanks to the Python scripts.
 
@@ -135,7 +154,7 @@ You can create your own **brick** thanks to the Python scripts.
 
 Click [here](https://documentation.metapiping.com/Python/index.html) to have more information about the script creation.
 
-### 3.7 Comment
+### 3.8 Comment
 
 This creates a brick with text and color capabilities.
 
@@ -143,7 +162,7 @@ Useful to show the state of progress of the study to other users. A conventional
 
 ![Image](../Images/Study9.jpg)
 
-### 3.8 Post-processing : supports + flanges
+### 3.9 Post-processing : supports + flanges
 
 This brick lets you create combinations (or groups) of load cases defined in the piping model and output various results for those combinations :
 - reactions on restraints
@@ -160,7 +179,7 @@ Once the data are entered, click on **Run** to launch the analysis. A report wit
 
 The definition window consists of several tabs.
 
-#### 3.8.1 General
+#### 3.9.1 General
 
 ![Image](../Images/PostProc2.jpg)
 
@@ -173,7 +192,7 @@ Check the box **Process all restraints** to output the reactions for all support
 If flanges are to be checked, select the piping code, edition, and calculation method.
 
 
-#### 3.8.2 Groups
+#### 3.9.2 Groups
 
 ![Image](../Images/PostProc3.jpg)
 
@@ -195,7 +214,7 @@ Multipliers may be specified for the constituent load cases or groups by checkin
 
 The load cases defined in the model are listed on the right. Instead of typing the case number in columns Ref. and C1 to C6, you can also double-click on the load case in the list.
 
-#### 3.8.3 Restraints
+#### 3.9.3 Restraints
 
 ![Image](../Images/PostProc4.jpg)
 
@@ -209,7 +228,7 @@ Enter the nodes which reactions are to be processed.
 
 The retrained nodes are listed on the right. Instead of typing the node name, you can also double-click on the node in the list.
 
-#### 3.8.4 Nodes
+#### 3.9.4 Nodes
 
 ![Image](../Images/PostProc5.jpg)
 
@@ -222,7 +241,7 @@ Enter the nodes which displacements are to be processed.
 
 The nodes are listed on the right. Instead of typing the node name, you can also double-click on the node in the list.
 
-#### 3.8.5 Elements
+#### 3.9.5 Elements
 
 ![Image](../Images/PostProc6.jpg)
 
@@ -236,14 +255,14 @@ Enter the elements which internal forces and moments are to be processed.
 
 The elements are listed on the right. Instead of typing the element name, you can also double-click on the element in the list.
 
-#### 3.8.6 Flanges
+#### 3.9.6 Flanges
 
 Three sets of data may be defined, depending on the selected piping code and method :
 - Curves of rated pressure as function of temperature
 - Flange, neck pipe and bolt material
 - Flange data
 
-#### 3.8.6.1 Ratings
+#### 3.9.6.1 Ratings
 
 ![Image](../Images/PostProc7.jpg)
 
@@ -253,7 +272,7 @@ Enter the name of the curve, title and points (T, P) defining the curve.
 
 Click on the database button to import data from the database.
 
-#### 3.8.6.2 Materials
+#### 3.9.6.2 Materials
 
 ![Image](../Images/PostProc8.jpg)
 
@@ -263,7 +282,7 @@ Enter the name of the material name, description, target (piping for the flange 
 
 Click on the database button to import data from the database.
 
-#### 3.8.6.2 Flanges
+#### 3.9.6.2 Flanges
 
 ![Image](../Images/PostProc9.jpg)
 
@@ -338,8 +357,6 @@ Click on the database button to import data from the database.
 | Max. bearing friction | If 0, taken as 0.15 |
 | Min. thread friction | If 0, taken as 0.15 |
 | Max. thread friction | If 0, taken as 0.15 |
-
-
 
 ## 4. Structure bricks
 

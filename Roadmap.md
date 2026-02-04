@@ -9,34 +9,29 @@ has_children: false
 
 >CWANTIC has a very ambitious roadmap in order to deliver qualified professional solutions, written in the state of the art, using the latest computer technologies and open to Python developers.
 
-## MetaPiping 2025 (Current release)
+## MetaPiping 2026 (Current release)
 
-[See the main features](https://documentation.metapiping.com/WhatsNew/2025_0.html)
+[See the main features](https://documentation.metapiping.com/WhatsNew/2026_0.html)
 
-## MetaPiping 2026
+## MetaPiping 2026.1
 
 ### *Expected date*
 
-* January 2026
+* September 2026
 
 ### *Main features*
 
 >**MetaPiping** :
 
-* Code updates
-* Pipe-support coupling (injection of *MetaStructure supports* into MetaPiping to take account of stiffness and mass)
-* Python improvement
+* FEA improvements (local thickness reduction, weld mismatch, tee, detailed Pm+Pb and fatigue analysis)
+* Multiple modal analysis
 * Requests from the user community
 
 >**MetaStructure** :
 
-* New U-bolts capabilities
-* Free stiffeners
+* New assembly types
+* Custom sections
 * Requests from the user community
-
->**cwantic_computer** :
-
-* New python library available on pypi that enable user to drive MetaPiping/MetaStructure and the solvers outside the software.
 
 ## Disclaimer
 

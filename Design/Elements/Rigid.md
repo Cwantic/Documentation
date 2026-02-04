@@ -94,4 +94,28 @@ Click on the **Remove** button to delete the selected rigid.
 
 You can **undo** this command.
 
+## 3. Insert a rigid on an intermediate node
 
+Click on the **Add rigid** button and select an **intermediate node** between 2 elements.
+
+![Image](../../Images/rigid10.jpg)
+
+Fill the properties (see §1) and select the **insertion mode** :
+
+- Shift forward
+- Shift backwards
+- Reduce the next element
+- Reduce the previous element
+- Symmetrically reduce the neighboring elements
+
+{: .warning }
+>ATTENTION, if the length is null, no mode will be proposed (empty list)
+
+{: .warning }
+>Based on the length of the rigid and the lengths of the neighboring elements, some mode could be hidden.
+
+Select for example "Reduce the next element" and click the **Insert** button :
+
+![Image](../../Images/Matrix5.jpg)
+
+You can **undo** this command.

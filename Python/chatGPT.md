@@ -98,6 +98,12 @@ Examples used to create [Sample3](https://documentation.metapiping.com/Python/Sa
 
 ![Image](../Images/chatGPT11.jpg)
 
-## 7. Conclusion
+## 7. Settings
+
+The chatGPT functionality can be disabled via an option in the settings.
+
+More info [here](https://documentation.metapiping.com/Settings/General.html)
+
+## 8. Conclusion
 
 ChatGPT is the perfect **companion** to help the user writing **scripts** by finding all the necessary information on any subject but more specifically on the use of the **python language** and its numerous mathematical, scientific and computer **libraries**.

@@ -35,6 +35,13 @@ To insert or delete a row, add, remove or rename a function, right click and sel
 
 ![Image](../../Images/Load37.jpg)
 
+<ins>Paste from clipboard</ins> :
+
+It is possible to copy/paste a whole table from Excel.
+
+![Image](../../Images/Load42.jpg) 
+
+Copy multiple lines (with the same number of columns than the number of functions + 1) in Excel, select the first cell, right click, **Paste from clipboard**.
 
 ### 1.2 Graphics
 

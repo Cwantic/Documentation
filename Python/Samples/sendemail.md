@@ -14,11 +14,11 @@ Create a script that will (after pressing **RUN** button) send an email to a fix
 
 ## 2. Script definition
 
-From the Home/Python, click on button 1 (Add project script) :
+From the Home/Python, click on button 2 (Add script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Send SUBJECT and DATE by email".
+Select "Project script" and give it the name "Send SUBJECT and DATE by email".
 
 You need to create a virtual environment :
 

@@ -44,6 +44,10 @@ Some properties are shown :
 
 >Is cable checkbox can be used to define element that works only in traction (like cable).
 
+![Image](../../../Images/Beam24.jpg)
+
+For better vizualisation purpose, a beam with **Cable** option activated will appear with its section color + hatching.
+
 You can define the joints, the buckling factors and the local-X axis direction. See below.
 
 The only thing you have to do is to select how to draw the pipe.

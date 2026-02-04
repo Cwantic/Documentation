@@ -69,7 +69,15 @@ Clicking in the 3D view where no objects are present without **CTRL key** presse
 
 Just press **ESC** on keyboard to hide the **selection tool**.
 
-## 2. Selection type
+## 2. Label selection
+
+You can select a node, an element or a restraint via its label.
+
+![Image](../Images/Selection10.jpg)
+
+Write the label in the cell and press the **Point** button, the **Element** button or the **Restraint** button. The camera will zoom on the selection if it is out of screen.
+
+## 3. Selection type
 
 **MOUSE CLICK** :
 

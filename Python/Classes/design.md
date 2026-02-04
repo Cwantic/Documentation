@@ -30,8 +30,11 @@ This object gives you access to the objects in selection, some current propertie
 | getCurrentLayer() | Layer | Return the current layer |
 | getCurrentJointType() | JointType | Return the current joint type |
 | getCurrentSpecValues() | CurrentPipingValues | Return the current piping/structure values (section, material, diameter, radius...) |
+| getDirectory() | string | Get the current study directory|
 | getScriptDirectory() | string | Return the current script directory |
 | createVariableWindow() | VariableWindow | Return an empty window |
+| getSolution() | solution | Access to current Solution object of the study |
+| disposeSolution() | - | Dispose the solution |
 
 ## 2. selectedList
 
@@ -210,12 +213,14 @@ window = design.createVariableWindow()
 | AddCheck | string, string, bool| Add a variable checkbox (variable name, text, default value) |
 | ShowModal | bool | Show the window and return true if click on OK button |
 | GetValue | string | Return a **numerical** value (variable name) |
+| SetTitle | string | Set the title of the window |
 
 ```python
 # Python script
 directory = design.getScriptDirectory()
 
 window = design.createVariableWindow()
+window.SetTitle("Variable definition")
 window.AddComment("Fill the variables")
 window.AddValue("L", "L =", 10)
 window.AddList("CHOICE", "Choice =", ["Choice A", "Choice B", "Choice C"], 1)

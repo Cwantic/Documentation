@@ -20,12 +20,12 @@ The goal is to facilitate the **exchange** of complex scripts to several compute
 ### 2.1 Export
 
 1. Select a script
-2. Click on **button4**
+2. Click on **button 4**
 3. Give it a name and save it on the computer
 
 ### 2.2 Import
 
-1. Click on **button5**
+1. Click on **button 5**
 2. Select a *.pyckage file that doesn't already exist on your script list
 3. Open it
 

@@ -30,6 +30,8 @@ The fastener characteristics are defined by means of properties normally given i
 
 ![Image](../../Images/Fastener2.jpg)
 
+You can impose a constant stiffness or leave the box empty to let the application determine it.
+
 The ultimate tensile strength fuk and yield strength fyk allow to calculate the partial safety factors for the steel. If not available, the user must enter these safety factors directly.
 
 The resistance to pull-out Nrk,p must be defined for non-bonded fasteners. For bonded fasteners, the strength is calculated based on the parameters provided for chemical anchors.

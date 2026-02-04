@@ -51,6 +51,10 @@ The application lets the user work with English units. In this case, it is also 
 
 Example: 4"1/8 for a diameter
 
+You can also change the piping element colors and define the linked models and distant structures transparency.
+
+![Image](../Images/General2.jpg)
+
 ## 6. PIPESTRESS
 
 For the users of PIPESTRESS that have installed the plugin, they can specify the path of the SOLVER (*PIPESTRESSW.exe* or *PIPESTRESS64W.exe*) and the HELP file (*PIPESTRESS.chm*).
@@ -66,12 +70,15 @@ You can specify the path of your favorite text editor for text report editing.
 
 If blank, MetaPiping uses **Windows NotePad**.
 
-## 8. Review
+## 8. Python
+
+You can disable chatGPT help in the python screen.
+## 9. Review
 
 You can define the size in pixel of the point for the **End conditions** screen (default = 10 pixels) :
 
 ![Image](../Images/Review15.jpg)
 
-## 9. Structure
+## 10. Structure
 
 You can specify the maximum distance (in meter) between a pipe node and a structure node during the **Node link** operation. MetaStructure will search structure nodes that are distant less than this value from the selected piping node.

@@ -13,13 +13,15 @@ In the explorer of projects, user can show informations about the model and/or t
 
 This script do not use ***Python Virtual Environment*** and is so very fast.
 
+This script can also be used for **project/study** purpose.
+
 ## 1. Script definition
 
-From Home/Python, click on button 6 (Add simple script) :
+From Home/Python, click on button 2 (Add script) :
 
 ![Image](../Images/PythonMenu.jpg)
 
-Give it a name.
+Select "Simple script" and give it a name.
 
 A new *main.py* will be created in the file explorer and *Inputs* and *Outputs* nodes in the Project script. Requirements.txt is hidden and the Editor is empty :
 

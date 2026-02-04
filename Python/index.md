@@ -18,6 +18,9 @@ A script contains one or more *.py files and can use a **python virtual environm
 {: .warning }
 >ATTENTION, the use of libraries takes place on the disk ! To be used with care.
 
+{: .warning }
+>ATTENTION, MetaPiping use natively Python 3.7.
+
 ## Script types
 
 The integration can be done at 3 different levels :
@@ -34,12 +37,20 @@ Select **Python** in the application ribbon :
 
 On the upper left menu, a list of buttons proposes several tools :
 
-1. Create a script for **study** level - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
-2. Create a script for **design** level - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
-3. Create a script for **explorer** level - [See Info page for more information](https://documentation.metapiping.com/Python/Info.html) 
+1. Create a folder
+2. Create a script
+3. Remove the selected script or folder
 4. Export a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
 5. Import a script - [See Pyckage page for more information](https://documentation.metapiping.com/Python/Pyckage.html) 
-6. Remove the selected script
+
+When you create a script, select the type of script :
+
+![Image](../Images/PythonMenu2.jpg)
+
+- Project script for **study** level - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
+- Design script for **design** level - [See Design page for more information](https://documentation.metapiping.com/Python/design.html) 
+- Simple script for **explorer** or **study** level - [See Info page for more information](https://documentation.metapiping.com/Python/Info.html) - [See Study page for more information](https://documentation.metapiping.com/Python/Study.html) 
+
 
 ## Screen
 

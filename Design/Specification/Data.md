@@ -61,6 +61,7 @@ See [Units](https://documentation.metapiping.com/Design/units.html) for more inf
 >- ASME : ASTM with factor = 0.5 (= values given in Appendix XXVI)
 >- EDF1 : guide EDF D305914006648 [E]
 >- EDF2 : guide EDF D305921021240 [A]
+>- EDF3 : guide EDF D305921021240 [B]
 >
 >The user has to enter the density, Poisson's ratio' and thermal expansion coefficient, which are supposed to be constant.
 
@@ -195,6 +196,7 @@ Select then the **node connections** of the pipe, which depend on the material :
 - Concentric fabricated reducer
 - Thrust collar
 - Electrofusion coupling
+- HDPE bolted flange
 
 
 You may define the **mismatch** for butt-weld as welded connections, and the **fillet length**  for fillet weld connections [mm or in].
@@ -215,6 +217,12 @@ Other properties :
 | External corrosion | mm | in | 0 |
 | Internal erosion | mm | in | 0 |
 | Bend thickness | mm | in | Thickness of the pipe |
+
+The linear mass of the pipe can also be calculated more precisely by clicking the button :
+
+![Image](../../Images/Design32.jpg)
+
+You can manually specify the density of the pipe material, the thickness and density of the insulation (0 by default), the thickness and density of the jacket (0 by default) and eventual additional mass (0 by default).
 
 ### 1.3 Spec driven mode
 

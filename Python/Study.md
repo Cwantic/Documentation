@@ -25,11 +25,17 @@ Let's see how to create this kind of script.
 
 ## 1. Script definition
 
-From the Home/Python, click on button 1 (Add project script) :
+From the Home/Python, click on button 2 (Add script) :
 
 ![Image](../Images/PythonMenu.jpg)
 
+Select "Project script" :
+
+![Image](../Images/PythonMenu2.jpg)
+
 Give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generating...
+
+![Image](../Images/PythonMenu1.jpg)
 
 A new *main.py* will be created in the file explorer and *Inputs* and *Outputs* nodes in the Project script. Requirements.txt and the Editor are empty :
 

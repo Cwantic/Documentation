@@ -18,11 +18,11 @@ Create a script that will (after selecting a piping node with a restraint and pr
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 2** (Add 3D script) :
+From the Home/Python, click on **button 2** (Add script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Support1"
+Select "Design script" and give it the name "Support1"
 
 >Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
 
@@ -89,9 +89,7 @@ In this kind of script, user has to define the **button** :
 
 The **Target** is Structure!
 
-The location will be **Design** so that the button appears at the end of the ribbon with its name, icon and description :
-
-![Image](../../Images/PythonSample11_6.jpg)
+The location will be **Design** so that the button appears on the right tab with its icon and description.
 
 ## 5. main.py
 
@@ -206,11 +204,11 @@ if n==1:
                     node5 = node5Cmd.Node
                     
                     # Create node sub commands
-                    cmd.addSubCommand("AddNodeCommand", [node1])
-                    cmd.addSubCommand("AddNodeCommand", [node2])
-                    cmd.addSubCommand("AddNodeCommand", [node3])
-                    cmd.addSubCommand("AddNodeCommand", [node4])
-                    cmd.addSubCommand("AddNodeCommand", [node5])
+                    cmd.addSubCommand("AddNodeCommand", [node1, -1])
+                    cmd.addSubCommand("AddNodeCommand", [node2, -1])
+                    cmd.addSubCommand("AddNodeCommand", [node3, -1])
+                    cmd.addSubCommand("AddNodeCommand", [node4, -1])
+                    cmd.addSubCommand("AddNodeCommand", [node5, -1])
                     
                     # Create beam sub commands
                     # Tip : each command must have its own currentValues, initializeCurrentValues create a clone and initialize values

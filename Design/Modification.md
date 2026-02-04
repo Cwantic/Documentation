@@ -35,7 +35,11 @@ You can also select a restraint by entering the node name or its label and click
 
 Click [here](https://documentation.metapiping.com/Design/Selection.html) to have more information about the selection.
 
-## 2. Remove nodes, elements and restraints
+## 2. Measure tool
+
+See [Mesure tool in Review](https://documentation.metapiping.com/Review/Piping.html#4-measure-tool) for more info.
+
+## 3. Remove nodes, elements and restraints
 
 Select **nodes**, **elements** or **restraints** and click on the **Remove elements** button to delete these elements.
 
@@ -43,7 +47,7 @@ You can **Undo** this command.
 
 >The nodes must be isolated (not an extremity or part of an element)!
 
-## 3. Cut element
+## 4. Cut element
 
 It is possible to cut **pipe**, **bend** and **beam** and in several parts.
 
@@ -68,6 +72,8 @@ You can choose from which node to start and the distance.
 
 If the pipe has a bend before, next or both, you can check the cell *Use intersection point* to calculate the distance between these points instead of the extremities of the pipe.
 
+If the position of the cut is outside the selected element, the cut button will not works.
+
 Click on **Cut** to execute the command.
 
     To know the UNIT of the value, just let the mouse over the cell. 
@@ -82,7 +88,7 @@ The tool is available only for pipes, beams and bends. For bends, length and dis
 
 ![Image](../Images/Modification9.jpg)
 
-## 4. Merge elements
+## 5. Merge elements
 
 Select a **Node** between 2 similar colinear pipes or 2 succesive bends with same center and radius, and click on the **Merge** button.
 
@@ -95,7 +101,7 @@ The 2 pipes/bends will be replaced by one pipe/bend.
 
 You can **Undo** this command.
 
-## 5. Node SIF
+## 6. Node SIF
 
 MetaPiping lets you define **Stress Intensification Factors** and **Stress Indices** on nodes.
 
@@ -127,13 +133,13 @@ Select a node and click on the **Node SIF** button.
 
 ![Image](../Images/Modification5.jpg)
 
-Click on **Create** button to apply the SIFs to the model.
+Click on **Apply** button to apply the SIFs to the model.
 
 You can later modify or remove the SIFs by selecting the node and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
-## 6. Body SIF
+## 7. Body SIF
 
 MetaPiping lets you define **Stress Intensification Factors** and **Stress Indices** on elements.
 
@@ -141,13 +147,13 @@ Select an element and click on the **Body SIF** button :
 
 ![Image](../Images/Modification6.jpg)
 
-Click on **Create** button to apply the SIFs to the model.
+Click on **Apply** button to apply the SIFs to the model.
 
 You can later modify or remove the SIFs by selecting the element and clicking on **Modify/Remove** buttons.
 
 You can **Undo** this command.
 
-## 7. Move nodes
+## 8. Move nodes
 
 MetaPiping lets you move nodes.
 
@@ -190,7 +196,7 @@ Click on the *Add bend* button, set the section and the radius, click on the *Cr
 
 This will extend the 2 adjacent elements and place a bend with the desired radius.
 
-## 8. Change length/direction
+## 9. Change length/direction
 
 MetaPiping lets you change length of any element (no bend).
 
@@ -201,7 +207,7 @@ Change mode :
 
 You can select only one element.
 
-### 8.1 Change length
+### 9.1 Change length
 
 Select an element and set the new length :
 
@@ -229,7 +235,7 @@ For eccentric reducer, the change length tool let you change the angle of aligne
 
 Don't forget to shift the next elements to not destroy the pipeline continuity.
 
-### 8.2 Change direction
+### 9.2 Change direction
 
 Select an element and set the new length vector (DX, DY, DZ) :
 
@@ -257,11 +263,92 @@ The **Shift** option offsets all following elements.
 
 You can **Undo** this command.
 
-## 9. Properties
+## 10. Copy elements
+
+MetaPiping lets you copy elements (without the load).
+
+Copy mode :
+
+* Translation
+* Rotation
+* Mirror
+
+{: .warning }
+>ATTENTION, MetaPiping do not check the position of the new nodes. Under no circumstances can they coincide with existing nodes.
+
+### 10.1 Translation
+
+Select the elements and define the translation vector :
+
+![Image](../Images/Copy1.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| DX | m | ft |
+| DY | m | ft |
+| DZ | m | ft |
+
+Set the number of repetition of the copy (default = 1).
+
+{: .warning }
+>ATTENTION, the restraints, node and element properties, DLCS, lump masses, SIF will also be copied but not the loads on the elements or nodes.
+
+A preview shows where the copy will take place.
+
+Click on the **Copy** button :
+
+![Image](../Images/Copy2.jpg)
+
+### 10.2 Rotation
+
+Select the elements, define the position of the global center of rotation, the axis and the angle :
+
+![Image](../Images/Copy3.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| XC | m | ft |
+| YC | m | ft |
+| ZC | m | ft |
+| Angle | °| ° |
+
+Set the number of repetition of the copy (default = 1).
+
+{: .warning }
+>ATTENTION, the restraints, node and element properties, DLCS, lump masses, SIF will also be copied but not the loads on the elements or nodes.
+
+A preview shows where the copy will take place.
+
+Click on the **Copy** button :
+
+![Image](../Images/Copy4.jpg)
+
+### 10.3 Mirror
+
+Select the elements, define the position of a global point of the mirror plane and the plane normal :
+
+![Image](../Images/Copy5.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| XP | m | ft |
+| YP | m | ft |
+| ZP | m | ft |
+
+{: .warning }
+>ATTENTION, the restraints, node and element properties, DLCS, lump masses, SIF will also be copied but not the loads on the elements or nodes.
+
+A preview shows where the copy will take place.
+
+Click on the **Copy** button :
+
+![Image](../Images/Copy6.jpg)
+
+## 11. Properties
 
 ![Image](../Images/Modification10.png)
 
-### 9.1 Installation temperature
+### 11.1 Installation temperature
 
 MetaPiping lets you define installation temperature of elements when different from default one :
 
@@ -279,7 +366,7 @@ You can see the elements with this property by a colored map and the legend in t
 
 You can **Undo** this command.
 
-### 9.2 Design conditions
+### 11.2 Design conditions
 
 MetaPiping lets you define the design conditions of elements in the case of different from default one :
 
@@ -298,7 +385,7 @@ You can see the elements with this property by a colored map and the legend in t
 
 You can **Undo** this command.
 
-### 9.3 Piping code
+### 11.3 Piping code
 
 MetaPiping lets you define the piping code of elements when different from default one :
 
@@ -312,7 +399,7 @@ You can see the elements with this property by a colored map and the legend in t
 
 You can **Undo** this command.
 
-### 9.4 Soil
+### 11.4 Soil
 
 In **Buried piping**, soils must be defined for all elements.
 
@@ -353,7 +440,7 @@ You can see the elements with this property by a colored map and the legend in t
 
 You can **Undo** this command.
 
-### 9.5 Stress On/Off
+### 11.5 Stress On/Off
 
 MetaPiping lets you deactivate the stress report of a portion of the piping system.
 
@@ -369,7 +456,7 @@ You can see the elements with this property by a colored map and the legend in t
 
 You can **Undo** this command.
 
-### 9.6 Section
+### 11.6 Section
 
 As in review, the **Section** property shows all sections used in the model with a colored map :
 
@@ -385,7 +472,7 @@ You can **Undo** this command.
 
 >If the sections are different between several selected elements, **Variable** will appear. You have to specify the wanted new section to be able to modify.
 
-### 9.7 End conditions
+### 11.7 End conditions
 
 The **End conditions** property shows all type of joint between elements with a colored map :
 

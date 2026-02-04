@@ -14,10 +14,6 @@ The **Design** mode is the part of the application dedicated to :
 - Review : review everything before launching the calculation
 - Analysis : analyze the piping
 
->MetaPiping 2025 gives an access to **Design** and **Review**.
-
-The other parts will come soon...
-
 ## 1. Goal
 
 The goal of this kind of script is to create functions that doesn't exist in the application.
@@ -29,11 +25,13 @@ He can add buttons on ribbons with a name, a description, an image and of course
 
 ## 2. Script definition
 
-From Home/Python, click on button 3 (Add 3D script) :
+From Home/Python, click on button 2 (Add script) :
 
 ![Image](../Images/PythonMenu.jpg)
 
-Give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generating...
+Select "Design script", give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generating...
+
+![Image](../Images/PythonMenu1.jpg)
 
 The whole screen and the dropdown lists are the same as the
 [study](https://documentation.metapiping.com/Python/Study.html) scripts.
@@ -42,13 +40,15 @@ The only change is the **Button properties** :
 
 ![Image](../Images/PythonDesign1.jpg)
 
-This 32x32 button will appear on the possible locations :
+You have 3 lines of text (Description) + 64x64 image to explain what the script does.
+
+This button will appear on the possible locations :
 
 - Test      : nowhere, only for test purpose
-- Design    : In Design ribbon
-- Loads     : In Loads ribbon
-- Review    : In Review ribbon
-- Analysis  : In Analysis ribbon
+- Design    : In Design tab
+- Loads     : In Loads tab
+- Review    : In Review tab
+- Analysis  : In Analysis tab
 
 The Target can be **Piping** or **Structure**.
 
@@ -64,13 +64,21 @@ design.
 
 [See the description of the object design](https://documentation.metapiping.com/Python/Classes/design.html)
 
-## 3. Design script
+## 3. Presentation of the design scripts
+
+If one script exists for the specified location and target, the **Python** logo will appear on the right tab with all scripts of this category :
+
+![Image](../Images/PythonDesign4.jpg)
+
+The folders will appear in gray. You can easily organize your scripts with this herarchy tree.
+
+## 4. Design script
 
 If a tool is missing, user can create his own **command** that can interact with the user and modify the selected elements or the whole model.
 
 [See an example of a Design script](https://documentation.metapiping.com/Python/Samples/lyre.html) : Replace a selected pipe by a loop
 
-## 4. Review script
+## 5. Review script
 
 If a tool is missing, user can create his own **tool** to inspect the objects in selection or the whole model.
 
@@ -78,3 +86,4 @@ If a tool is missing, user can create his own **tool** to inspect the objects in
 
 
 [See another example of a Review script](https://documentation.metapiping.com/Python/Samples/distance2.html) : Show the distance between 2 nodes in left frame
+

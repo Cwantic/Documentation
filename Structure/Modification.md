@@ -26,13 +26,17 @@ You can now select objects of the corresponding type.
 
 Click [here](https://documentation.metapiping.com/Structure/Selection.html) to have more information about the selection.
 
-## 2. Remove elements
+## 2. Measure tool
+
+See [Mesure tool in Review](https://documentation.metapiping.com/Review/Piping.html#4-measure-tool) for more info.
+
+## 3. Remove elements
 
 Select elements and click the **Remove elements** button to delete these elements.
 
 You can **Undo** this command.
 
-## 3. Cut beams
+## 4. Cut beams
 
 When you click on the **Cut beams** button without selection, the left panel shows a message :
 
@@ -73,7 +77,7 @@ Click on the **Cut** button :
 
 You can **Undo** this command.
 
-## 4. Merge beams
+## 5. Merge beams
 
 Select a **Node** between 2 similar colinear beams and click the **Merge** button.
 
@@ -88,7 +92,7 @@ The 2 beams will be replaced by one beam.
 
 You can **Undo** this command.
 
-## 5. Move nodes
+## 6. Move nodes
 
 When you click on the **Move nodes** button without selection, the left panel shows a message :
 
@@ -116,7 +120,7 @@ Validate the command by clicking the **Move** button :
 
 You can **Undo** this command.
 
-## 6. Change length/direction
+## 7. Change length/direction
 
 When you click on the **Change length** button without selection, the left panel shows a message :
 
@@ -131,7 +135,7 @@ Change mode :
 
 You can select only one element.
 
-### 6.1 Change length
+### 7.1 Change length
 
 Select an element and set the new length :
 
@@ -153,7 +157,7 @@ The point **55** moved.
 
 You can **Undo** this command.
 
-### 6.2 Change direction
+### 7.2 Change direction
 
 Select an element and set the mode **Direction** :
 
@@ -175,11 +179,92 @@ The point **52** moved.
 
 You can **Undo** this command.
 
-## 7. Properties
+## 8. Copy elements
+
+MetaStructure lets you copy elements (without the load).
+
+Copy mode :
+
+* Translation
+* Rotation
+* Mirror
+
+{: .warning }
+>ATTENTION, MetaStructure do not check the position of the new nodes. Under no circumstances can they coincide with existing nodes.
+
+### 8.1 Translation
+
+Select the elements and define the translation vector :
+
+![Image](../Images/Copy7.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| DX | m | ft |
+| DY | m | ft |
+| DZ | m | ft |
+
+Set the number of repetition of the copy (default = 1).
+
+{: .warning }
+>ATTENTION, the restraints, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
+
+A preview shows where the copy will take place.
+
+Click on the **Copy** button :
+
+![Image](../Images/Copy8.jpg)
+
+### 8.2 Rotation
+
+Select the elements, define the position of the global center of rotation, the axis and the angle :
+
+![Image](../Images/Copy9.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| XC | m | ft |
+| YC | m | ft |
+| ZC | m | ft |
+| Angle | °| ° |
+
+Set the number of repetition of the copy (default = 1).
+
+{: .warning }
+>ATTENTION, the restraints, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
+
+A preview shows where the copy will take place.
+
+Click on the **Copy** button :
+
+![Image](../Images/Copy10.jpg)
+
+### 8.3 Mirror
+
+Select the elements, define the position of a global point of the mirror plane and the plane normal :
+
+![Image](../Images/Copy11.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| XP | m | ft |
+| YP | m | ft |
+| ZP | m | ft |
+
+{: .warning }
+>ATTENTION, the restraints, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
+
+A preview shows where the copy will take place.
+
+Click on the **Copy** button :
+
+![Image](../Images/Copy12.jpg)
+
+## 9. Properties
 
 ![Image](../Images/StructureProperties.jpg)
 
-### 7.1 Section
+### 9.1 Section
 
 As in review, the **Section** property shows all sections used in the model with a colored map :
 

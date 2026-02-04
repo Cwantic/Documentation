@@ -15,11 +15,11 @@ Create a script that will (after pressing a **button** in the ribbon) show by me
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 2** (Add 3D script) :
+From the Home/Python, click on **button 2** (Add script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Distance between 2 nodes by message"
+Select "Design script" and give it the name "Distance between 2 nodes by message"
 
 >Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
 
@@ -39,9 +39,9 @@ In this kind of script, user has to define the **button** :
 
 ![Image](../../Images/PythonSample8_4.jpg)
 
-The location will be **Review** so that the button appears at the end of the ribbon with its name, icon and description :
+The target can be "Piping" or "Structure".
 
-![Image](../../Images/PythonSample8_1.jpg)
+The location will be **Review** so that the button appears on the right tab of the review tab.
 
 ## 5. main.py
 
@@ -73,11 +73,3 @@ design.result = res
 ```
 
 Save it !
-
-## 6. Result
-
-In **Review mode**, select 2 nodes and press the **button** :
-
-![Image](../../Images/PythonSample8_2.jpg)
-
-A message shows the distance !

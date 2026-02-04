@@ -14,13 +14,13 @@ Create a script that will (after pressing **RUN** button) convert user data in a
 
 ## 2. Script definition
 
-From the Home/Python, click on button 1 (Add project script) :
+From the Home/Python, click on button 2 (Add script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Convert XLSX to MetaL".
+Select "Project script" and give it the name "Convert XLSX to MetaL".
 
->Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
+>Say **YES** to the question about creation of virtual environment. The Requirements.txt will be hidden.
 
 ![Image](../../Images/PythonMenu1.jpg)
 

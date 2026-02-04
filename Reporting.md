@@ -80,3 +80,6 @@ You can quit the study, the template and report are still in the directory.
 
 {: .warning }
 >ATTENTION, if you make any modification in the model, the loads or the analysis, you have to re-generate the report. It will restart from the  template document but the latest manual modifications on the final report will be lost.
+
+{: .warning }
+>ATTENTION, if the pictures of analysis do not content the results (deflected lines, reaction arrows or stress color), just go to the **Analysis** tab and go back to the **Reporting** tab. Regenerate the report.

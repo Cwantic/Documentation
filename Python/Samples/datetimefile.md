@@ -24,11 +24,11 @@ The script must save the dates in the current study directory.
 
 ## 2. Script definition
 
-From the Home/Python, click on button 1 (Add project script) :
+From the Home/Python, click on button 2 (Add script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Click at each stage of the project"
+Select "Project script" and give it the name "Click at each stage of the project"
 
 >Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
 

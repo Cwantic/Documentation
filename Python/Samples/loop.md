@@ -10,21 +10,21 @@ grand_parent: Python
 
 ## 1. Goal
 
-Create a script that will (after pressing a **button** in the ribbon) replace a selected pipe by an expansion loop. A window will appear to define the size and the default bend radius.
+Create a script that will (after pressing a **button** in the python tab) replace a selected pipe by an expansion loop. A window will appear to define the size and the default bend radius.
 
 ![Image](../../Images/illustration256x165.png)
 
->This feature does not exists in MetaPiping 2024 so it is useful that user can create his own COMMANDS based on the MetaL internal format and the existing documented commands.
+>This feature does not exists in MetaPiping so it is useful that user can create his own COMMANDS based on the MetaL internal format and the existing documented commands.
 
 >Since the user has to create a COMMAND, the application will manage the undo/redo operations by itself !
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 2** (Add 3D script) :
+From the Home/Python, click on **button 2** (Add script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Add loop"
+Select "Design script" and give it the name "Add loop"
 
 >Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
 
@@ -36,17 +36,17 @@ This kind of script needs some **images** in order to illustrate the **button** 
 
 ![Image](../../Images/PythonSample12_1.jpg)
 
-Press the "three points" button and select "Import image". You need to create a 32x32 transparent PNG for the icon of the button and an illustration of the expansion loop for the window.
+Press the "three points" button and select "Import image". You need to create a 64x64 PNG for the icon of the button and an illustration of the expansion loop for the window.
 
 ## 4. Script properties
 
 In this kind of script, user has to define the **button** :
 
-![Image](../../Images/PythonSample12_2.jpg)
+![Image](../../Images/PythonDesign5.jpg)
 
-The location will be **Design** (Piping ribbon) so that the button appears at the end of the ribbon with its name, icon and description :
+The location will be **Design** so that the button appears on the right tab with its icon and description :
 
-![Image](../../Images/PythonSample12_3.jpg)
+![Image](../../Images/PythonDesign4.jpg)
 
 The target is for piping system.
 

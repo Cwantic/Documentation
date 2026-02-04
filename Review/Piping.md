@@ -23,15 +23,7 @@ A right panel can be opened by clicking on the top button. It presents the selec
 
 >TIP : you can copy the data by CTRL+C and paste in other software.
 
-## 3. Select tool
-
-Click on the **Select** button to open the **Selection tool** :
-
-![Image](../Images/Review7.png)
-
-Click [here](https://documentation.metapiping.com/Design/Selection.html) for more information about the selection tool.
-
-## 4. Measure tool
+## 3. Measure tool
 
 MetaPiping lets you measure the **distance** between 2 nodes :
 
@@ -55,7 +47,7 @@ The name and the coordinates of the two nodes will be shown.
 
 >The **Selection mode** is automatically set to POINT when clicking the **Measure** button.
 
-## 5. Node coordinates
+## 4. Node coordinates
 
 ![Image](../Images/Review1.jpg)
 
@@ -86,7 +78,7 @@ The **Data panel** shows the global coordinates X, Y, Z for each node.
 
 >The data are not editable
 
-## 6. Elements
+## 5. Elements
 
 Click on the **Elements** button :
 
@@ -112,7 +104,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 7. Sections
+## 6. Sections
 
 Click on the **Sections** button :
 
@@ -146,7 +138,7 @@ The piping elements are colorized in the color of their corresponding section.
 
 >The data are not editable
 
-## 8. Materials
+## 7. Materials
 
 Click on the **Materials** button :
 
@@ -167,7 +159,7 @@ The piping elements are colorized in the color of their corresponding material.
 
 >The data are not editable
 
-## 9. Restraints
+## 8. Restraints
 
 Click on the **Restraints** button :
 
@@ -183,7 +175,7 @@ The **label** and modified **Spring Constants** are shown :
 
 >The data are not editable
 
-## 10. Tees
+## 9. Tees
 
 Click on the **Tees** button :
 
@@ -203,7 +195,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 11. End conditions
+## 10. End conditions
 
 Click on the **End conditions** button :
 
@@ -224,7 +216,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 12. Lumped masses
+## 11. Lumped masses
 
 Click on the **Lumped masses** button :
 
@@ -244,7 +236,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 13. Local coordinates
+## 12. Local coordinates
 
 Click on the **Local coordinates** button :
 
@@ -266,7 +258,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 14. Specifications
+## 13. Specifications
 
 Click on the **Specifications** button :
 
@@ -281,7 +273,7 @@ Small colored squares will show the specification of the tees.
 
 Click [here](https://documentation.metapiping.com/Settings/Specifications.html) for more information about creation of specification.
 
-## 15. SIF
+## 14. SIF
 
 MetaPiping lets you define **Stress Intensification Factors** on nodes and elements.
 
@@ -314,7 +306,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 16. Stress On/Off
+## 15. Stress On/Off
 
 Click on the **Stress On/Off** button :
 
@@ -332,7 +324,7 @@ Click [here](https://documentation.metapiping.com/Design/Modification.html#95-st
 
 >The data are not editable
 
-## 17. Soils
+## 16. Soils
 
 Click on the **Soils** button :
 
@@ -342,7 +334,7 @@ Click [here](https://documentation.metapiping.com/Design/Modification.html#94-so
 
 >The data are not editable
 
-## 18. Piping codes
+## 17. Piping codes
 
 Click on the **Piping codes** button :
 
@@ -352,7 +344,7 @@ Click [here](https://documentation.metapiping.com/Design/Modification.html#93-pi
 
 >The data are not editable
 
-## 19. Installation temperatures
+## 18. Installation temperatures
 
 Click on the **Installation temperatures** button :
 
@@ -367,7 +359,7 @@ Click [here](https://documentation.metapiping.com/Design/Modification.html#91-in
 
 >The data are not editable
 
-## 20. Design conditions
+## 19. Design conditions
 
 Click on the **Design conditions** button :
 
@@ -382,3 +374,42 @@ Click [here](https://documentation.metapiping.com/Design/Modification.html#92-de
 
 >The data are not editable
 
+## 20. View options
+
+![Image](../Images/ViewTool8.jpg)
+
+![Image](../Images/ViewTool5.jpg) show/hide the node name
+
+![Image](../Images/Design10.jpg) show/hide the node point
+
+![Image](../Images/ViewTool6.jpg) shows/hides the labels 
+
+![Image](../Images/Design11.jpg) shows/hides the origin symbol
+
+![Image](../Images/ViewTool7.jpg) shows/hides the masses
+
+![Image](../Images/Design9.jpg) modify the font 
+
+![Image](../Images/Design12.jpg) show the structure in shaded mode
+
+![Image](../Images/Design13.jpg) show the structure in hidden lines mode
+
+![Image](../Images/Design14.jpg) show the structure in wireframe mode
+
+![Image](../Images/ViewTool1.jpg) shows/hides the restraints
+
+![Image](../Images/ViewTool2.jpg) increase the restraint's size 
+
+![Image](../Images/ViewTool3.jpg) decrease the restraint's size 
+
+![Image](../Images/Design30.jpg) shows/hides the linked and structure study models 
+
+![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
+
+![Image](../Images/ViewTool9.jpg) shows/hides the inner pipes
+
+This last tool is usefull to see the piping elements inside others :
+
+![Image](../Images/Inner1.jpg)
+
+![Image](../Images/Inner2.jpg)

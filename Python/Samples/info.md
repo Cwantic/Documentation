@@ -16,11 +16,11 @@ Create a script that will show informations about the MetaL and the results of t
 
 ## 2. Script definition
 
-From the Home/Python, click on **button 3** (Add simple script) :
+From the Home/Python, click on **button 3** (Add script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Show study infos"
+Select "Simple script" and give it the name "Show study infos"
 
 ## 3. main.py
 

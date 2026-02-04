@@ -79,31 +79,43 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ### 1.6 View options
 
-![Image](../Images/Design9.jpg) show/hide the node names
+![Image](../Images/ViewTool8.jpg)
 
-![Image](../Images/Design10.jpg) show/hide the node points
+![Image](../Images/ViewTool5.jpg) show/hide the node name
 
-![Image](../Images/ViewLabel.png) show/hide label of elements
+![Image](../Images/Design10.jpg) show/hide the node point
 
-![Image](../Images/Design16.jpg) show/hide the origin symbol
+![Image](../Images/ViewTool6.jpg) shows/hides the labels 
 
-![Image](../Images/ViewSupport.png) show/hide the supports
+![Image](../Images/Design11.jpg) shows/hides the origin symbol
 
-![Image](../Images/ViewMass.png) show/hide the lump masses
+![Image](../Images/ViewTool7.jpg) shows/hides the masses
 
-![Image](../Images/Design12.jpg) show the piping in shaded mode
+![Image](../Images/Design9.jpg) modify the font 
 
-![Image](../Images/Design13.jpg) show the piping in hidden lines mode
+![Image](../Images/Design12.jpg) show the structure in shaded mode
 
-![Image](../Images/Design14.jpg) show the piping in wireframe mode
+![Image](../Images/Design13.jpg) show the structure in hidden lines mode
 
-![Image](../Images/Design15.jpg) show/hide the shadows
+![Image](../Images/Design14.jpg) show the structure in wireframe mode
 
-![Image](../Images/Design30.jpg) show/hide the linked study models 
+![Image](../Images/ViewTool1.jpg) shows/hides the restraints
+
+![Image](../Images/ViewTool2.jpg) increase the restraint's size 
+
+![Image](../Images/ViewTool3.jpg) decrease the restraint's size 
+
+![Image](../Images/Design30.jpg) shows/hides the linked and structure study models 
 
 ![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
 
-![Image](../Images/Design31.jpg) show/hide the concrete (for MetaStructure only) 
+![Image](../Images/ViewTool9.jpg) shows/hides the inner pipes
+
+This last tool is usefull to see the piping elements inside others :
+
+![Image](../Images/Inner1.jpg)
+
+![Image](../Images/Inner2.jpg)
 
 >Tip: if the **Node name** view is active, not all nodes will be shown during navigation to not slow down the application!
 

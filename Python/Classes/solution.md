@@ -31,11 +31,18 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 
 ## 2. How to get the solution ?
 
-The solution object can be reached via the [study](https://documentation.metapiping.com/Python/Classes/study.html) object. An analysis must have been done before.
+The solution object can be reached via the [study](https://documentation.metapiping.com/Python/Classes/study.html) object and the [design](https://documentation.metapiping.com/Python/Classes/design.html) object. An analysis must have been done before.
 
 ```python
 # Python script  
 solution = study.getSolution()
+if solution != None:
+    # ...
+```
+
+```python
+# Python script  
+solution = design.getSolution()
 if solution != None:
     # ...
 ```

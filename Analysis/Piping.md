@@ -91,6 +91,14 @@ You can amplify the displacement by changing the factor cursor.
 
 >TIP : you can copy the data by CTRL+C and paste in other software.
 
+**ANIMATION**
+
+The **MODES** and **DYNAMIC LOADS** can be animated : 
+
+![Image](../Images/Analysis29.jpg)
+
+Start/Stop the animation by clicking the **play** button.
+
 ### 2.3 Forces and moments
 
 1. Select the **Force** button
@@ -118,6 +126,30 @@ The **Data panel** shows the forces and moments for the 2 extremities of each el
 | M | Absolute moment | N.m | lb.ft |
 
 >The **Selection mode** is automatically set to ELEMENT.
+
+**DIAGRAMS**
+
+Select a diagram of force and moment just below the load case :
+
+![Image](../Images/Analysis28.jpg)
+
+Possible diagrams :
+
+* Nothing (default)
+* F1  : forces in lateral direction 1
+* F2  : forces in lateral direction 2
+* N   : normal forces
+* M1  : moment in lateral direction 1
+* M2  : moment in lateral direction 2
+* T   : tortion
+* |F| : absolute forces
+* |M| : absolute moments
+
+You can increase and decrease the size of the diagram.
+
+Selecting an element shows the extremity values.
+
+>The diagram on bends is just a line joining the 2 values!
 
 ### 2.4 Reactions
 
@@ -170,6 +202,12 @@ The stresses are shown at each extremity of the elements. The maximum stresses o
 ![Image](../Images/Analysis13.jpg)
 
 >The **Selection mode** is automatically set to ELEMENT.
+
+### Overstress
+
+For result type = **Ratio** or **Ratio max**, check the **overstress** box to see the two color map with all element with ratio > 1 in red :
+
+![Image](../Images/Analysis32.jpg)
 
 ## 3. Result files
 

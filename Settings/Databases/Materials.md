@@ -80,8 +80,9 @@ Spec values :
 
 * ISO : EN 15494:2015 with coefficient = 1.25
 * ASTM : ASTM with factor = 0.63
-* ASME:  ASTM with factor = 0.5
+* ASME :  ASTM with factor = 0.5
 * EDF1 : D305914006648 [E] EDF guide
 * EDF2 : D305921021240 [A] EDF guide
+* EDF3 : D305921021240 [B] EDF guide
 
 All other properties for the calculation are automatically set.

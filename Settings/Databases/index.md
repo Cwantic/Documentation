@@ -10,7 +10,7 @@ parent: Settings
 
 ![Image](../../Images/Databases.jpg)
 
-MetaPiping lets you create databases of common data as materials, components,  spectra, ratings, beam sections, fasteners or bolts...
+MetaPiping lets you create databases of common data as materials, components,  spectra, ratings, beam sections, fasteners, bolts or U-bolts...
 
 The databases are **JSON** files stored in the directory *Databases* in the **Data** source.
 

@@ -73,11 +73,17 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/index.html)
 
 ![Image](../Images/Structure5.jpg)
 
-![Image](../Images/Design9.jpg) show/hide the node name
+![Image](../Images/ViewTool5.jpg) show/hide the node name
 
 ![Image](../Images/Design10.jpg) show/hide the node point
 
-![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
+![Image](../Images/ViewTool6.jpg) shows/hides the labels 
+
+![Image](../Images/Design16.jpg) shows/hides the origin symbol
+
+![Image](../Images/ViewTool7.jpg) shows/hides the masses
+
+![Image](../Images/Design9.jpg) modify the font 
 
 ![Image](../Images/Design12.jpg) show the structure in shaded mode
 
@@ -85,34 +91,23 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/index.html)
 
 ![Image](../Images/Design14.jpg) show the structure in wireframe mode
 
-![Image](../Images/Design15.jpg) show/hide the shadows
+![Image](../Images/ViewTool1.jpg) shows/hides the restraints
 
-![Image](../Images/Design16.jpg) show/hide the origin symbol
+![Image](../Images/ViewTool2.jpg) increase the restraint's size 
 
-![Image](../Images/Design30.jpg) show/hide the linked study models
+![Image](../Images/ViewTool3.jpg) decrease the restraint's size 
 
-![Image](../Images/Design31.jpg) show/hide the concrete
+![Image](../Images/Design30.jpg) shows/hides the linked study models 
 
+![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
+
+![Image](../Images/ViewTool4.jpg) shows/hides the concrete
 
 ### 1.6 Modification tools
 
 ![Image](../Images/Structure16.jpg)
 
 Click [here](https://documentation.metapiping.com/Structure/Modification.html) to have more information about all modification tools.
-
-### 1.7 Python scripts
-
-MetaStructure lets you create your own **tools**.
-
-If a tool is missing, user can create his own **command** that can interact with the user and modify the selected elements or the whole model.
-
-MetaStructure will take care of the Undo/Redo mechanism.
-
-Click [here](https://documentation.metapiping.com/Python/design.html) to have more information about python script creation.
-
-[See an example of a Design script](https://documentation.metapiping.com/Python/Samples/support.html) : Create a beam support of a piping on a node
-
----
 
 ## 2. 3D Visualization
 
@@ -155,8 +150,6 @@ An interactive **cube** with predefined views is shown in the bottom right corne
 - Click on top corners of the cube to change to predefined axonometric view.
 - Click twice on the faces of the cube to change to 2D views.
 
----
-
 ## 3. Data panel
 
 >The **Data Panel** can be opened/closed with the shortcut **F2**
@@ -184,3 +177,19 @@ You can now show/hide elements and restraints by activating/deactivating the vis
 ![Image](../Images/Structure8.jpg)
 
 >All layer manipulations support Undo/Redo mechanism.
+
+### 3.2 Python scripts
+
+If one script exists for the specified location (design, load, review or analysis), the **Python** logo will appear on the right tab with all scripts of this category :
+
+![Image](../Images/PythonDesign6.jpg)
+
+The folders will appear in gray. You can easily organize your scripts with this herarchy tree.
+
+Goal : if a tool is missing, user can create his own **command** that can interact with the user and modify the selected elements or the whole model.
+
+MetaStructure will take care of the Undo/Redo mechanism.
+
+Click [here](https://documentation.metapiping.com/Python/design.html) to have more information about python script creation.
+
+[See an example of a Design script](https://documentation.metapiping.com/Python/Samples/support.html) : Create a beam support of a piping on a node

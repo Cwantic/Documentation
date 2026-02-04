@@ -43,7 +43,7 @@ All loads can be viewed, created, edited, moved and removed in a single treeview
 ![Image](../Images/LoadTree1.png)
 
 1. Select the load treeview tab
-2. Select a load to edit
+2. Select a load to edit (double click)
 3. Add a load of a particular category
 4. Remove a load
 5. Insert a load between two others

@@ -23,15 +23,7 @@ A right panel can be opened by clicking on the top button. It presents the selec
 
 >TIP : you can copy the data by CTRL+C and paste on other software.
 
-## 3. Select tool
-
-Click on the **Select** button to open the **Selection tool** :
-
-![Image](../Images/SReview4.jpg)
-
-Click [here](https://documentation.metapiping.com/Structure/Selection.html) for more information about the selection tool.
-
-## 4. Measure tool
+## 3. Measure tool
 
 MetaStructure lets you measure the **distance** between 2 nodes :
 
@@ -53,7 +45,7 @@ You can continue to select other nodes (with CTRL pressed), only the 2 last ones
 
 >The **Selection mode** is automatically set to POINT when clicking the **Measure** button.
 
-## 5. Node coordinates
+## 4. Node coordinates
 
 ![Image](../Images/SReview6.jpg)
 
@@ -92,7 +84,7 @@ Release the mouse button, the data are highlighted :
 
 ![Image](../Images/SReview10.jpg)
 
-## 6. Elements
+## 5. Elements
 
 ![Image](../Images/SReview11.jpg)
 
@@ -115,7 +107,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 7. Sections
+## 6. Sections
 
 Click on the **Sections** button :
 
@@ -145,7 +137,7 @@ The beam elements are colorized in the color of their corresponding section.
 
 Other properties can be found on the **Data** screen. Click [here](https://documentation.metapiping.com/Structure/Specification/Data.html#12-beam-definition) for more information.
 
-## 8. Materials
+## 7. Materials
 
 ![Image](../Images/SReview15.jpg)
 
@@ -168,7 +160,7 @@ The elements are colorized in the color of their corresponding material.
 
 >The data are not editable
 
-## 9. Restraints
+## 8. Restraints
 
 ![Image](../Images/SReview17.jpg)
 
@@ -184,7 +176,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 Click [here](https://documentation.metapiping.com/Loads/Structure/Spectra.html#4-restraints) for more informations about **Level** during **Spectra** definition.
 
-## 10. Lumped masses
+## 9. Lumped masses
 
 ![Image](../Images/SReview19.jpg)
 
@@ -204,7 +196,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 11. Local coordinates
+## 10. Local coordinates
 
 ![Image](../Images/SReview22.jpg)
 
@@ -232,7 +224,7 @@ The **INTERACTIVITY** is the same as explained on §5.
 
 >The data are not editable
 
-## 12. Node links
+## 11. Node links
 
 ![Image](../Images/SReview25.jpg)
 
@@ -262,15 +254,21 @@ Click on the **Node links** button :
 
 Click [here](https://documentation.metapiping.com/Structure/Elements/Link.html) for more information about **links**.
 
-### 13. View options
+### 12. View options
 
 ![Image](../Images/Structure5.jpg)
 
-![Image](../Images/Design9.jpg) show/hide the node name
+![Image](../Images/ViewTool5.jpg) show/hide the node name
 
 ![Image](../Images/Design10.jpg) show/hide the node point
 
-![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
+![Image](../Images/ViewTool6.jpg) shows/hides the labels 
+
+![Image](../Images/Design16.jpg) shows/hides the origin symbol
+
+![Image](../Images/ViewTool7.jpg) shows/hides the masses
+
+![Image](../Images/Design9.jpg) modify the font 
 
 ![Image](../Images/Design12.jpg) show the structure in shaded mode
 
@@ -278,8 +276,15 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/Link.html) 
 
 ![Image](../Images/Design14.jpg) show the structure in wireframe mode
 
-![Image](../Images/Design15.jpg) show/hide the shadows
+![Image](../Images/ViewTool1.jpg) shows/hides the restraints
 
-![Image](../Images/Design16.jpg) shows/hides the silhouette drawing
+![Image](../Images/ViewTool2.jpg) increase the restraint's size 
+
+![Image](../Images/ViewTool3.jpg) decrease the restraint's size 
 
 ![Image](../Images/Design30.jpg) shows/hides the linked study models 
+
+![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
+
+![Image](../Images/ViewTool4.jpg) shows/hides the concrete
+

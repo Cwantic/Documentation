@@ -14,11 +14,11 @@ Create a script that will (after pressing **RUN** button) retrieve the **displac
 
 ## 2. Script definition
 
-From the Home/Python, click on button 1 (Add project script) :
+From the Home/Python, click on button 2 (Add script) :
 
 ![Image](../../Images/PythonMenu.jpg)
 
-Give it the name "Max displacement by loadcase number"
+Select "Project script" and give it the name "Max displacement by loadcase number"
 
 >Say **NO** to the question about creation of virtual environment. The Requirements.txt will be hidden.
 

@@ -46,18 +46,20 @@ The **type** that defines the curves can be :
 
 Based on this type, 1, 2 or 3 tables must be filled.
 
-Click the **+** button (next to Dampings) to add a damping value (%) and a label :
+Click the **+** button (1) to add a damping value (%) and a label :
 
 ![Image](../../Images/Spectra2.jpg)
 
-Fill the tables by adding rows for the pair frequency/acceleration.
+Fill the tables by adding rows for the pair frequency/acceleration. Click on **+** button (2) to add a row.
 
 | Property | Unit |
 | -------- | ---- | 
 | Frequency | Hz | 
 | Acceleration | G's | 
 
->It is possible to **insert**  a row between 2 elements!
+>It is possible to **insert**  a row between 2 elements (button 3)!
+
+>It is possible to paste data from clipboard by clicking button 4. Copy for example 2 columns in Excel.
 
 {: .warning }
 >ATTENTION, the frequencies must be filled in ascending order

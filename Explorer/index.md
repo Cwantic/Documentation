@@ -46,6 +46,10 @@ Select a **project** (Ex : Demo). Right click on it lets you :
 {: .warning }
 >The EXPORT project command (from source computer) will copy all studies but also all external files, the used python scripts... and will paste it (or install scripts if not exist on target computer) during IMPORT command.
 
+>The EXPORT project will ask to include all result files, the reports and the FEA folders. Answer NO to reduce the *.prockage file.
+
+![Image](../Images/Explorer9.jpg)
+
 ## 2. Project preview
 
 A **project** is a container of **studies**.
@@ -93,3 +97,6 @@ When you exit MetaPiping, the temporary study and project will be removed but th
 Multiple *.fre opening can be done without exiting MetaPiping.
 
 Click [here](https://documentation.metapiping.com/Explorer/Study.html#35-pipestress) to have more information about PIPESTRESS **bricks**.
+
+{: .warning }
+>ATTENTION, if the *.fre file come from a MetaPiping's study, no project will be created, it will just be opened.

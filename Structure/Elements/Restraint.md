@@ -281,6 +281,24 @@ A combination of *Special* and *Flange* stiffeners :
 
 *X,Y axis based on local to adjacent element coordinate system in the picture*
 
+### 2.7.6 Free stiffeners
+
+Click on the **+** button to add free stiffeners :
+
+![Image](../../Images/Stiffener7.jpg)
+
+Add one or more plate strictly **connected** to the point of the profile or other stiffeners. All blue and black lines represent the axis of the plates or element of profile.
+
+All values are in mm (or in).
+
+Place the mouse over extremity nodes to see their coordinates.
+
+A representation of the selected plate is shown on the bottom with the first point (x1, y1), the height, the bottom vertical height and the top horizontal length.
+
+Results :
+
+![Image](../../Images/Stiffener8.jpg)
+
 ## 2.8 Anchor plate duplication
 
 The definition of an **anchor plate** can be copied and pasted to another restraint :

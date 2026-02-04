@@ -16,7 +16,7 @@ Create a script that will (after pressing a **button** in the ribbon) replace a 
 
 ![Image](../../Images/illustration256x165.png)
 
->This feature does not exists in MetaPiping 2024 so it is useful that user can create his own COMMANDS based on the MetaL internal format and the existing documented commands.
+>This feature does not exists in MetaPiping so it is useful that user can create his own COMMANDS based on the MetaL internal format and the existing documented commands.
 
 >Since the user will have to create a COMMAND, the application will manage the undo/redo operations by itself !
 

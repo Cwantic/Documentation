@@ -92,6 +92,14 @@ The possible cases are :
 
 Low frequency f1 and high frequency f2 for Gupta and Lindley-Yow methods.
 
+<ins>Paste from clipboard</ins> :
+
+It is possible to copy/paste a whole table from Excel.
+
+![Image](../../Images/Load41.jpg)
+
+Copy multiple lines with 2 columns in Excel, select the first cell of a level, right click, **Paste from clipboard**.
+
 ### 2.1 Database
 
 The **Database** button on upper right corner gives an access to the spectra libraries :
