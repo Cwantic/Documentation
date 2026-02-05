@@ -122,8 +122,8 @@ The **Data panel** shows the forces and moments for the 2 extremities of each el
 | M1 | Moment 1 | N.m | lb.ft |
 | M2 | Moment 2 | N.m | lb.ft |
 | T | Torsion | N.m | lb.ft |
-| F | Absolute force | N | lb |
-| M | Absolute moment | N.m | lb.ft |
+| !F! | Absolute force | N | lb |
+| !M! | Absolute moment | N.m | lb.ft |
 
 >The **Selection mode** is automatically set to ELEMENT.
 
@@ -142,8 +142,8 @@ Possible diagrams :
 * M1  : moment in lateral direction 1
 * M2  : moment in lateral direction 2
 * T   : tortion
-* |F| : absolute forces
-* |M| : absolute moments
+* !F! : absolute forces
+* !M! : absolute moments
 
 You can increase and decrease the size of the diagram.
 
@@ -174,8 +174,8 @@ The **Data panel** shows the forces and moments (reactions) for each node.
 | MX | X component of the reaction moment | N.m | lb.ft |
 | MY | Y component of the reaction moment | N.m | lb.ft |
 | MZ | Z component of the reaction moment | N.m | lb.ft |
-| F | Absolute reaction force | N | lb |
-| M | Absolute reaction moment | N.m | lb.ft |
+| !F! | Absolute reaction force | N | lb |
+| !M! | Absolute reaction moment | N.m | lb.ft |
 
 The **forces** are represented by a simple **arrow**.
 
