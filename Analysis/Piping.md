@@ -93,7 +93,7 @@ You can amplify the displacement by changing the factor cursor.
 
 **ANIMATION**
 
-The **MODES** and **DYNAMIC LOADS** can be animated : 
+The displacements can be animated : 
 
 ![Image](../Images/Analysis29.jpg)
 
