@@ -23,6 +23,7 @@ has_children: false
 
 >**MetaPiping** :
 
+* ASME B31.3 - Process Piping for petroleum refineries, chemical, pharmaceutical, hydrogen, textile, paper and pulp, power generation, semiconductor, and cryogenic plants
 * FEA improvements (local thickness reduction, weld mismatch, tee, detailed Pm+Pb and fatigue analysis)
 * Multiple modal analysis
 * Requests from the user community

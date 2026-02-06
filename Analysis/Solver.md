@@ -33,9 +33,9 @@ Supported codes :
 - RCC-M Class 1 & 2 Editions 2002, 2007, 2012, 2016, 2017, 2018, 2020, 2022
 - RCC-MRx Edition 2022
 - EDF Piping Code for Composite Materials, Indice D and E
-- Guide EDF HDPE D305921021240 indice B
-- EN 13480-3 Editions 2017, 2020 with Table H.3 (bidirectionnal SIFs), 2024
+- EN 13480-3 Editions 2017, 2020, 2024 with Table H.3 (bidirectionnal SIFs)
 - ASME HDPE Piping Code (2011 to 2017) includes Code Case N-7555 and Section III Appendix XXVI
+- Guide EDF HDPE D305921021240 indice A and B
 
 
 ## 2. PIPESTRESS (piping)
