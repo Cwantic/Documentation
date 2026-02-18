@@ -9,7 +9,7 @@ has_children: true
 
 MetaPiping offers to users the possibility to manipulate data produced by the software in order to operate custom treatment.
 
-These manipulations can be done via **Python** scripts, a simple and well documented language, with great free mathematical, scientific and computer libraries, appreciated by engineers.
+These manipulations can be done via **Python** scripts. Python is a simple and well documented language, appreciated by engineers, with great free mathematical, scientific and computer libraries.
 
 A script contains one or more *.py files and can use a **python virtual environment**. 
 
@@ -19,7 +19,7 @@ A script contains one or more *.py files and can use a **python virtual environm
 >ATTENTION, the use of libraries takes place on the disk ! To be used with care.
 
 {: .warning }
->ATTENTION, MetaPiping use natively Python 3.7.
+>ATTENTION, MetaPiping natively uses Python 3.7.
 
 ## Script types
 
@@ -61,9 +61,9 @@ The screen is made up of different parts :
 1. The list of all scripts (of all types)
 2. The files (and directories) used in the script - selecting a file shows it in the editor (6)
 3. The properties of the script (Type, Name, Input, Output...)
-4. The **requirements.txt** of the eventual virtual environment of the script
+4. The **requirements.txt** of the virtual environment of the script (if used)
 5. The chatGPT help - [See chatGPT page for more information](https://documentation.metapiping.com/Python/chatGPT.html) 
 6. The Python **Editor** - or image viewer if you select an image in the file explorer (2)
 
 {: .warning }
->ATTENTION : The installation of libraries and the chatGPT help needs an internet connection !
+>ATTENTION : The installation of libraries and the chatGPT help need an internet connection !

@@ -111,7 +111,7 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ![Image](../Images/ViewTool9.jpg) shows/hides the inner pipes
 
-This last tool is usefull to see the piping elements inside others :
+This last tool is useful to see the piping elements inside others :
 
 ![Image](../Images/Inner1.jpg)
 

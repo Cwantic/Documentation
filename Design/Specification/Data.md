@@ -218,7 +218,7 @@ Other properties :
 | Internal erosion | mm | in | 0 |
 | Bend thickness | mm | in | Thickness of the pipe |
 
-The linear mass of the pipe can also be calculated more precisely by clicking the button :
+The linear mass of the pipe can also be calculated more precisely by clicking on the button :
 
 ![Image](../../Images/Design32.jpg)
 

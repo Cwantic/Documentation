@@ -12,12 +12,12 @@ To ensure quality assurance of Aster solver, MetaPiping & MetaStructure provide 
 **Piping references :**
 
 * Piping calculation software PIPESTRESS 4.2
-* RCC-M Code, 2002 to 2020 editions: “Design and construction rules for mechanical components of PWR nuclear islands”.
+* RCC-M Code, 2002 to 2022 editions: “Design and construction rules for mechanical components of PWR nuclear islands”.
 * RCC-MRx Code, 2022 edition: “Design and construction rules for mechanical components of nuclear installations: high temperature, research and fusion reactors”.
-* Code EN 13480-3 2017 edition and Addenda 2020: “Metallic industrial piping”. 
-* ASME Boiler and Pressure Vessel Section III Subsection NB, editions 2015 to 2021 
-* ASME Boiler and Pressure Vessel Section III Subsection NC-ND, editions 2004+A06 to 2021 
-* ASME B31.1 editions 1998 to 2020: “Power Piping”. 
+* Code EN 13480-3 2017 to 2024 editions: “Metallic industrial piping”. 
+* ASME Boiler and Pressure Vessel Section III Subsection NB, editions 2015 to 2025 
+* ASME Boiler and Pressure Vessel Section III Subsection NC-ND, editions 2004+A06 to 2025
+* ASME B31.1 editions 1998 to 2022: “Power Piping”. 
 * Technical note EDF ENSIN9100025 index D and E 
 * “Guide de validation des progiciels de calcul de structures” AFNOR TECHNIQUE 
 * U.S. NRC Piping Benchmark Problems, NUREG/CR-1677, BNL-NUREG-51267, Vol. 1, August 1980 

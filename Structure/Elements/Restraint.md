@@ -287,7 +287,7 @@ Click on the **+** button to add free stiffeners :
 
 ![Image](../../Images/Stiffener7.jpg)
 
-Add one or more plate strictly **connected** to the point of the profile or other stiffeners. All blue and black lines represent the axis of the plates or element of profile.
+Add one or more plate(s) strictly **connected** to the points of the profile or other stiffeners. All blue and black lines represent the axis of the plates or elements of profile.
 
 All values are in mm (or in).
 

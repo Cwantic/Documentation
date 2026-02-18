@@ -32,7 +32,7 @@ Supported codes :
 - ANSI/ASME B31.1 Editions 1998, 2004, 2007, 2010, 2012, 2014, 2016, 2018, 2020 (with B31J SIFs), 2022, 2024
 - RCC-M Class 1 & 2 Editions 2002, 2007, 2012, 2016, 2017, 2018, 2020, 2022
 - RCC-MRx Edition 2022
-- EDF Piping Code for Composite Materials, Indice D and E
+- EDF Piping Code for Composite Materials, indice D and E
 - EN 13480-3 Editions 2017, 2020, 2024 with Table H.3 (bidirectionnal SIFs)
 - ASME HDPE Piping Code (2011 to 2017) includes Code Case N-7555 and Section III Appendix XXVI
 - Guide EDF HDPE D305921021240 indice A and B
@@ -46,13 +46,13 @@ Supported codes :
 
 Supported codes :
 
-- ASME Section III Classes 1, 2 and 3 (1967 to 2021)
-- ANSI/ASME B31.1 (1972 to 2020)
-- ANSI/ASME B31.3 (1999 to 2018)
-- CODETI (1982 to 2016)
-- RCC-M Classes 1 and 2 (1983 to 2020)
+- ASME Section III Classes 1, 2 and 3 (1967 to 2023)
+- ANSI/ASME B31.1 (1972 to 2024)
+- ANSI/ASME B31.3 (1999 to 2022)
+- CODETI (1982 to 2023)
+- RCC-M Classes 1 and 2 (1983 to 2022)
 - RCC-MX (2008)
 - KTA Classes 1 and 2 (1980 to 1992)
-- EDF Piping Code for Composite Materials, Indice D
-- EN 13480-3 Piping Code (2002 to 2017 - A4:2021)
+- EDF Piping Code for Composite Materials, indice D and E
+- EN 13480-3 Piping Code (2002 to 2024)
 - ASME HDPE Piping Code (2011 to 2017) includes Code Case N-7555 and Section III Appendix XXVI

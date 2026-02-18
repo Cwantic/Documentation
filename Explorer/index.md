@@ -44,9 +44,9 @@ Select a **project** (Ex : Demo). Right click on it lets you :
 - Export the project (file with extension *.prockage)
 
 {: .warning }
->The EXPORT project command (from source computer) will copy all studies but also all external files, the used python scripts... and will paste it (or install scripts if not exist on target computer) during IMPORT command.
+>The EXPORT project command (from source computer) will copy all studies but also all external files, used python scripts, etc. and will paste them (and install scripts if not existing on target computer) during IMPORT command.
 
->The EXPORT project will ask to include all result files, the reports and the FEA folders. Answer NO to reduce the *.prockage file.
+>The EXPORT project will ask to include all result files, reports and FEA folders. Answer NO to reduce the size of the *.prockage file.
 
 ![Image](../Images/Explorer9.jpg)
 
@@ -99,4 +99,4 @@ Multiple *.fre opening can be done without exiting MetaPiping.
 Click [here](https://documentation.metapiping.com/Explorer/Study.html#35-pipestress) to have more information about PIPESTRESS **bricks**.
 
 {: .warning }
->ATTENTION, if the *.fre file come from a MetaPiping's study, no project will be created, it will just be opened.
+>ATTENTION, if the *.fre file comes from a MetaPiping study, no project will be created, it will just be opened.

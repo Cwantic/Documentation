@@ -56,7 +56,7 @@ You can **undo** this command.
 
 ## 3. U-bolts
 
-MetaStructure check the restraints on the piping node. If it is a completely blocked restraint or blocked only perpendicular to the pipe, a U-bolt checkbox will appears :
+MetaStructure checks the restraints on the piping node. If it is a completely blocked restraint or blocked only perpendicular to the pipe, a U-bolt checkbox will appear :
 
 ![Image](../../Images/Link4.jpg)
 

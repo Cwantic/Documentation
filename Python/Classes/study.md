@@ -27,7 +27,7 @@ The **study** object gives access to several methods and can be used only in [Pr
 | createMaterialLibraryModel(name) | MaterialLibraryModel | Create a material library by a name (without .materials) |
 | showInformation(title, info) | - | Add 2 strings into the description of a study (one for column 1 and one form column 2)|
 | getScriptDirectory() | string | Return the current script directory |
-| copyDirectoryToTemp(directory) | string | Return the new unic TEMP directory where the copy has been done |
+| copyDirectoryToTemp(directory) | string | Return the new unique TEMP directory where the copy has been done |
 | createVariableWindow() | VariableWindow | Return an empty window |
 | createCommand(name, metal) | CustomCommand | Return an empty command with a name and a metal |
 | executeCommand(command, directory) | - | Execute a CustomCommand (from createCommand) and the directory of the metal |
@@ -279,7 +279,7 @@ val3 will receive the user value for ACTIVE transformed to bool
 
     copyDirectoryToTemp(directory)
 
-Return the new unic TEMP folder where the copy of directory has been done
+Return the new unique TEMP folder where the copy of directory has been done
 
 ```python
 # Python script
@@ -398,7 +398,7 @@ Launch a Finite element Analysis of a piping element
 
 | Parameter | Unit | Description |
 | --- | --- | --- |
-| analysename | string | Name of the analyse |
+| analysename | string | Name of the analysis |
 | solution | Solution | Solution of the piping model |
 | node1name | string | Element's node1 name |
 | node2name | string | Element's node2 name |

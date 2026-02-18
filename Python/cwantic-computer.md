@@ -7,7 +7,7 @@ parent: Python
 
 # cwantic-computer
 
-    cwantic-computer is the Cwantic's Python Library that gives access to MetaPiping and MetaStructure.
+    cwantic-computer is Cwantic's Python Library that gives access to MetaPiping and MetaStructure.
 
 The library does not require the software to be launched !
 

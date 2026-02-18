@@ -41,12 +41,18 @@ This tab lets you define the **calculation code** and its **Edition**, direction
 - **Pres. elongation** : if PIPESTRESS solver is used and this option is checked, the elongation due to internal pressure (also called "Bourdon effect") will be taken into account for all thermal expansion and test weight cases. If Code_Aster solver is used, this option has no effect, the option **Include Bourdon effect** in every load case definition is used instead
 - **PD/t pres. stress** : the pressure stress is calculated with the formula Pd^2/(D0^2 - d^2) by default. The simpler formula PD/t is used if this option is checked 
 - **Branch forces at surface** : check this option to use the forces and moments at run surface instead of intersection point for tees (if permitted by the piping code)
-- **3.Sm average value (Class 1)** : check this option to use the average value of 3Sm between two load sets instead of the minimum value
-- **Alternative Ke factor (Class 1)** : if checked, the penalty factor Ke.therm is used for austenitic stainless steels and Ni-Cr-Fe alloys (RCC-M code only)
-- **Optimize residual moments (Class 1)** : contact CWANTIC for further explanations and theoretical background
-- **True transient range (Class 1)** : by default, the range of the thermal gradient stress for a load set pair (LS1, LS2) is calculated assuming that the sign of the thermal stress is positive for heat-up transients and negative for cool-down transients. If this option is checked, the true range of the thermal gradient stress is calculated
-- **Output fatigue at all points (Class 1)** : by default, the detailed results of the fatigue analysis are only output at points where the code limits are exceeded. If this option is checked, the detailed results are output at all points
-- **Output Eq. 12 and 13 always (Class 1)** : by default, equations 12 and 13 are only output when equation 10 fails. If this option is checked, equations 12 and 13 are output in all cases
+
+***Class 1 only***
+
+- **3.Sm average value** : check this option to use the average value of 3Sm between two load sets instead of the minimum value (ASME only)
+- **Alternative Ke factor** : if checked, the penalty factor Ke.therm is used for austenitic stainless steels and Ni-Cr-Fe alloys (RCC-M only)
+- **Optimize residual moments** : contact CWANTIC for further explanations and theoretical background
+- **True transient range** : by default, the range of the thermal gradient stress for a load set pair (LS1, LS2) is calculated assuming that the sign of the thermal stress is positive for heat-up transients and negative for cool-down transients. If this option is checked, the true range of the thermal gradient stress is calculated
+- **Output fatigue at all points** : by default, the detailed results of the fatigue analysis are only output at points where the code limits are exceeded. If this option is checked, the detailed results are output at all points
+- **Output Eq. 12 and 13 always** : by default, equations 12 and 13 are only output when equation 10 fails. If this option is checked, equations 12 and 13 are output in all cases (ASME and RCC-M only)
+- **Extrapolate creep curves** : check this option to allow extrapolation of the creep curves from Appendix A3.52 and A3.53 (RCC-MRx only)
+- **Alternative rule RB 3661.15** : rule RB 3661.14 is used by default when the efficiency diagram is provided in Appendix A3.481. Check this option to use rule RB 3661.15 in all cases (RCC-MRx only)
+
 ## 3. Modal extraction
 
 ![Image](../../Images/Options3.jpg)

@@ -8,7 +8,7 @@ grand_parent: Piping
 
 # Create matrix
 
-A **matrix** is a virtual element with a user oriented stiffness matrix.
+A **matrix** is a structural element with a user oriented stiffness matrix.
 
 When you click on the **Add matrix** button without selection, the left panel shows a message :
 
@@ -53,7 +53,7 @@ The **selection mode** is automatically set to **POINT**. You can so directly se
 | <font color="red">ft.kips/in</font> | <font color="red">ft.kips/in</font> | <font color="red">ft.kips/in</font> | ft.kips/rad | ft.kips/rad | ft.kips/rad |
 
 {: .warning }
->ATTENTION : a warning will be raised if the matrix is not invertible but without blocking !
+>ATTENTION : a warning will be raised if the matrix is not invertible !
 
 >To know the UNIT of a property, just let the mouse over the cell.
 
@@ -109,7 +109,7 @@ Click on the **Remove** button to delete the selected matrix.
 
 You can **undo** this command.
 
-## 3. Insert a matrix on an intermediate node
+## 3. Insert a matrix at an intermediate node
 
 Click on the **Add matrix** button and select an **intermediate node** between 2 elements.
 
@@ -127,7 +127,7 @@ Fill the properties (see §1) and select the **insertion mode** :
 >ATTENTION, if the length is null, no mode will be proposed (empty list)
 
 {: .warning }
->Based on the length of the matrix element and the lengths of the neighboring elements, some mode could be hidden.
+>Based on the length of the matrix element and the lengths of the neighboring elements, some modes could be hidden.
 
 Select for example "Reduce the next element" and click the **Insert** button :
 

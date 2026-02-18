@@ -9,13 +9,13 @@ parent: Python
 
 A study is a workflow of **bricks** and **connections** - [See Study page for more information](https://documentation.metapiping.com/Explorer/Study.html)
 
-User can create its own **bricks** via Python scripts.
+User can create his own **bricks** via Python scripts.
 
 Click on **Python** in application ribbon in the current study :
 
 ![Image](../Images/PythonStudy1.jpg)
 
-Select a script via the dropdown list :
+Select a script in the dropdown list :
 
 ![Image](../Images/PythonStudy2.jpg)
 
@@ -33,7 +33,7 @@ Select "Project script" :
 
 ![Image](../Images/PythonMenu2.jpg)
 
-Give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generating...
+Give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generated...
 
 ![Image](../Images/PythonMenu1.jpg)
 
@@ -123,7 +123,7 @@ It can for example ask some data from the user via INPUT **EDIT** and give answe
 
 Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own **CONVERTERS** from other file formats or from company's internal data.
 
-Cwantic has created **PLUGINS**, with the same principle, that converts **PIPESTRESS**, **PIPSYS** and **PCF** file format to MetaL file format.
+Cwantic has created **PLUGINS**, with the same principle, that convert **PIPESTRESS**, **PIPSYS** and **PCF** file format to MetaL file format.
 
 User can for example inject **LOADIND TEMPLATES** in current project based on his own data.
 
@@ -131,7 +131,7 @@ User can for example inject **LOADIND TEMPLATES** in current project based on hi
 
 ## 4. MetaL extraction
 
-Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own script to retrieve informations of the model. 
+Based on the explained [MetaL](https://documentation.metapiping.com/Python/Classes/metal.html) internal structure, user can create his own script to retrieve informations about the model. 
 
 
 [See an example of MetaL data extraction](https://documentation.metapiping.com/Python/Samples/totalmass.html) : Calculate the total mass of a piping
@@ -141,7 +141,7 @@ Based on the explained [MetaL](https://documentation.metapiping.com/Python/Class
 
 ## 5. Solution extraction
 
-Based on the explained [Solution](https://documentation.metapiping.com/Python/Classes/solution.html) internal structure, user can create his own script to retrieve informations of the solution. 
+Based on the explained [Solution](https://documentation.metapiping.com/Python/Classes/solution.html) internal structure, user can create his own script to retrieve informations about the solution. 
 
 
 [See an example of Solution data extraction](https://documentation.metapiping.com/Python/Samples/maxdisplacement.html) : Get the max displacement by static case number

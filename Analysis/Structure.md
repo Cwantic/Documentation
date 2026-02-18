@@ -70,8 +70,8 @@ The **Data panel** shows the global displacements for each node.
 | RX | X global rotation | Rad | Rad |
 | RY | Y global rotation  | Rad | Rad |
 | RZ | Z global rotation  | Rad | Rad |
-| D | global absolute displacement | mm | in |
-| R | global absolute rotation | Rad | Rad |
+| D | Resultant displacement | mm | in |
+| R | Resultant rotation | Rad | Rad |
 
 >The **Selection mode** is automatically set to POINT.
 
@@ -118,8 +118,8 @@ The **Data panel** shows the forces and moments for the 2 extremities of each el
 | M1 | Moment 1 | N.m | lb.ft |
 | M2 | Moment 2 | N.m | lb.ft |
 | T | Torsion | N.m | lb.ft |
-| !F! | Absolute force | N | lb |
-| !M! | Absolute moment | N.m | lb.ft |
+| !F! | Resultant force | N | lb |
+| !M! | Resultant moment | N.m | lb.ft |
 
 >The **Selection mode** is automatically set to ELEMENT.
 
@@ -132,14 +132,14 @@ Select a diagram of force and moment just below the load case :
 Possible diagrams :
 
 * Nothing (default)
-* F1  : forces in lateral direction 1
-* F2  : forces in lateral direction 2
+* F1  : forces in shear direction 1
+* F2  : forces in shear direction 2
 * N   : normal forces
-* M1  : moment in lateral direction 1
-* M2  : moment in lateral direction 2
-* T   : tortion
-* !F! : absolute forces
-* !M! : absolute moments
+* M1  : moment in bending direction 1
+* M2  : moment in bending direction 2
+* T   : torsion
+* !F! : resultant forces
+* !M! : resultant moments
 
 You can increase and decrease the size of the diagram.
 
@@ -168,8 +168,8 @@ The **Data panel** shows the forces and moments (reactions) for each node.
 | MX | X component of the reaction moment | N.m | lb.ft |
 | MY | Y component of the reaction moment | N.m | lb.ft |
 | MZ | Z component of the reaction moment | N.m | lb.ft |
-| !F! | Absolute reaction force | N | lb |
-| !M! | Absolute reaction moment | N.m | lb.ft |
+| !F! | Resultant reaction force | N | lb |
+| !M! | Resultant reaction moment | N.m | lb.ft |
 
 The **forces** are represented by a simple **arrow**.
 
@@ -252,14 +252,13 @@ The error numbers are listed below :
 | Error number | Description |
 | -------- | ----------- |
 | 0 | No error |
-| -1 | Non regular arrangement, no check is carried out |
+| -1 | Edge distance c1 < max(10hef,60d) for mounting with lever arm (warning) |
+| 1 | Non regular arrangement, no check is carried out |
 | 2 | Insufficient concrete thickness |
 | 3 | Insufficient edge distance |
 | 4 | Insufficient anchor spacing |
 | 5 | Insufficient edge distance for selected spacing |
-| 6 | Insufficient edge distance c1 in the case of mounting with lever arm |
-| 7 | Insufficient edge distance c1 in case t ≥ 0.25 hef |
-| 9 | Spacing must be > 4 dnom for slab edge failure |
+| 6 | Spacing must be > 4 dnom for slab edge failure |
 
 
 >The **Selection mode** is automatically set to RESTRAINT.

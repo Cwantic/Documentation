@@ -134,7 +134,7 @@ See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for 
 
 ## 9. addText()
 
-In review mode, it can be useful to shows some information about the model or about the selected objects.
+In review mode, it can be useful to show some information about the model or about the selected objects.
 
 These informations can be shown in a standard way using the same controls as MetaPiping.
 
@@ -174,7 +174,7 @@ design.addText("Distance = " + str(round(distance, 3)) + " m", False, 255, 255, 
 
 ## 11. result
 
-If result is not an empty string, a message will appears at the end of execution of the script.
+If result is not an empty string, a message will appear at the end of execution of the script.
 
 ```python
 # Python script

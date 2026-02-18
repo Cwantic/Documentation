@@ -29,7 +29,7 @@ From Home/Python, click on button 2 (Add script) :
 
 ![Image](../Images/PythonMenu.jpg)
 
-Select "Design script", give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generating...
+Select "Design script", give it a name and answer **YES** if you need ***Python Virtual Environment*** for libraries. In this case, wait until the Virtual Environment is generated...
 
 ![Image](../Images/PythonMenu1.jpg)
 

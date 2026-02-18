@@ -8,7 +8,7 @@ parent: Python
 
 # Classes
 
-MetaPiping opens its classes in order to allow the user to **navigate** inside the structure of objects and create custom information processing.
+MetaPiping discloses its classes in order to allow the user to **navigate** inside the structure of objects and create custom information processing.
 
 The **study** object is the start point for "project script" to access the other objects.
 

@@ -23,7 +23,7 @@ This directory cannot be changed.
 
 ## 2. Scripts
 
-The user's scripts are by default located in the directory :
+User's scripts are by default located in the directory :
 
 >C:\ProgramData\Cwantic\MetaPiping\Datas\Scripts
 
@@ -35,7 +35,7 @@ This **Datas** directory contains all user's data like :
 - Python Scripts
 - Specifications
 
-All user's datas can so be shared between users.
+All user's data can so be shared between users.
 
 This directory can be changed via the configuration settings :
 

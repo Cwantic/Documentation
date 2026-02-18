@@ -28,7 +28,6 @@ An empty study contains at least one **Study brick** and one **Solver brick**.
 Connect the connectors 4 and 5 to define the current **Solver**. 
 
     Press left mouse button above connector 4 -> move the mouse to connector 5 -> release the left button
-
     To remove the connection : select the connection and press DELETE on the keyboard.
 
 Select **Aster** for example :
@@ -85,7 +84,7 @@ Break the connection to change the linked study.
 
 This create a brick that virtually replicates existing structure studies inside a piping one. 
 
-This is mandatory to create coupled analysis between piping and supports.
+This is mandatory to perform the coupled analysis of a piping and its supports.
 
 ![Image](../Images/Study12.jpg)
 
@@ -347,7 +346,7 @@ Click on the database button to import data from the database.
 | Factor m |  |
 | Seating stress y |  |
 | Friction on steel | For RCC-M only |
-| Seating force mult. | If entered, the seating force calculated according to the code is multiplied by this factor |
+| Seating force mult. | If entered, the bolt load used in the calculation is the minimum bolt force (needed for gasket seating and no leakage) multiplied by this factor |
 
 **Torque calculation**
 

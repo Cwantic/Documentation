@@ -128,13 +128,13 @@ The **Static equilibrium** is also evaluated (value near 0 reaches the perfect e
     on it is null. It is a state in which all the forces acting on an object are balanced out and the 
     object is not found to be in motion to the relative plane.
 
-The **Fastener ratio max** indicates the max value of all ratios of all fasteners of the plate (must be < 1).
+The **Fastener ratio max** indicates the max ratio of all fasteners of the plate (must be < 1).
 
 Click on the **Open** button to show a summary report of the **fasteners'** results :
 
 ![Image](../../Images/FEA14.jpg)
 
-Each fastener is deeply examined according to the current **standard**.
+Each fastener is thoroughly examined according to the current **standard**. The flexible plate correction according Sharma and Eligehausen method is applied.
 
 ## 5. Report
 

@@ -181,7 +181,7 @@ You can **Undo** this command.
 
 ## 8. Copy elements
 
-MetaStructure lets you copy elements (without the load).
+MetaStructure lets you copy elements (without the loads).
 
 Copy mode :
 
@@ -190,7 +190,7 @@ Copy mode :
 * Mirror
 
 {: .warning }
->ATTENTION, MetaStructure do not check the position of the new nodes. Under no circumstances can they coincide with existing nodes.
+>ATTENTION, MetaStructure does not check the position of the new nodes. Under no circumstances can they coincide with existing nodes.
 
 ### 8.1 Translation
 
@@ -207,7 +207,7 @@ Select the elements and define the translation vector :
 Set the number of repetition of the copy (default = 1).
 
 {: .warning }
->ATTENTION, the restraints, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
+>ATTENTION, the restraint, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
 
 A preview shows where the copy will take place.
 
@@ -231,7 +231,7 @@ Select the elements, define the position of the global center of rotation, the a
 Set the number of repetition of the copy (default = 1).
 
 {: .warning }
->ATTENTION, the restraints, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
+>ATTENTION, the restraint, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
 
 A preview shows where the copy will take place.
 
@@ -252,7 +252,7 @@ Select the elements, define the position of a global point of the mirror plane a
 | ZP | m | ft |
 
 {: .warning }
->ATTENTION, the restraints, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
+>ATTENTION, the restraint, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
 
 A preview shows where the copy will take place.
 
@@ -270,7 +270,7 @@ As in review, the **Section** property shows all sections used in the model with
 
 ![Image](../Images/StructurePropertiesSection1.jpg)
 
-MetaStructure let you change the section of multiple elements in one operation.
+MetaStructure lets you change the section of multiple elements in one operation.
 
 Select multiple elements, a section, and click on the **Modify** button :
 

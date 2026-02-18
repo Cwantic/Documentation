@@ -22,7 +22,7 @@ The **solution** object gives access to all analysis results and can be accessed
 | getModeShape() | list of (displacement, rotation) | Get the displacement/rotation results for a mode number on each node (see § 7)
 | getStressIDList() | list of string | Get the list of all stress types for a load case number (see § 8)
 | getStresses() | list of double | Get the stress value for a load case number and a stress index on each element (see § 9)
-| getMaxStressRatio() | double | Get the max stress ratio for all elements and all load cases. You can specify if the result include the thermal (bool - false by default) (see § 10)
+| getMaxStressRatio() | double | Get the max stress ratio for all elements and all load cases. You can specify if the result includes the thermal expansion cases (bool - false by default) (see § 10)
 
     ATTENTION : the metal given by the solution (getMetal) is different from the metal given by the study ! 
     The 'solution metal' has been transformed depending on the current piping code.

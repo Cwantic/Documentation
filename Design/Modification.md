@@ -265,7 +265,7 @@ You can **Undo** this command.
 
 ## 10. Copy elements
 
-MetaPiping lets you copy elements (without the load).
+MetaPiping lets you copy elements (without the loads).
 
 Copy mode :
 
@@ -274,7 +274,7 @@ Copy mode :
 * Mirror
 
 {: .warning }
->ATTENTION, MetaPiping do not check the position of the new nodes. Under no circumstances can they coincide with existing nodes.
+>ATTENTION, MetaPiping does not check the position of the new nodes. Under no circumstances can they coincide with existing nodes.
 
 ### 10.1 Translation
 
@@ -291,7 +291,7 @@ Select the elements and define the translation vector :
 Set the number of repetition of the copy (default = 1).
 
 {: .warning }
->ATTENTION, the restraints, node and element properties, DLCS, lump masses, SIF will also be copied but not the loads on the elements or nodes.
+>ATTENTION, the restraint, node and element properties, DLCS, lump masses, SIFs will also be copied but not the loads on the elements or nodes.
 
 A preview shows where the copy will take place.
 
@@ -315,7 +315,7 @@ Select the elements, define the position of the global center of rotation, the a
 Set the number of repetition of the copy (default = 1).
 
 {: .warning }
->ATTENTION, the restraints, node and element properties, DLCS, lump masses, SIF will also be copied but not the loads on the elements or nodes.
+>ATTENTION, the restraint, node and element properties, DLCS, lump masses, SIFs will also be copied but not the loads on the elements or nodes.
 
 A preview shows where the copy will take place.
 
@@ -336,7 +336,7 @@ Select the elements, define the position of a global point of the mirror plane a
 | ZP | m | ft |
 
 {: .warning }
->ATTENTION, the restraints, node and element properties, DLCS, lump masses, SIF will also be copied but not the loads on the elements or nodes.
+>ATTENTION, the restraint, node and element properties, DLCS, lump masses, SIFs will also be copied but not the loads on the elements or nodes.
 
 A preview shows where the copy will take place.
 
@@ -368,7 +368,7 @@ You can **Undo** this command.
 
 ### 11.2 Design conditions
 
-MetaPiping lets you define the design conditions of elements in the case of different from default one :
+MetaPiping lets you define the design conditions of elements when different from default one :
 
 ![Image](../Images/Modification25.jpg)
 
@@ -462,7 +462,7 @@ As in review, the **Section** property shows all sections used in the model with
 
 ![Image](../Images/Modification29.jpg)
 
-MetaPiping let you change the section of multiple elements in one operation.
+MetaPiping lets you change the section of multiple elements in one operation.
 
 Select multiple elements, a specification and a section, and click on the **Modify** button :
 
@@ -478,7 +478,7 @@ The **End conditions** property shows all type of joint between elements with a 
 
 ![Image](../Images/EndCondition1.png)
 
-MetaPiping let you change the joint of multiple nodes in one operation.
+MetaPiping lets you change the joint of multiple nodes in one operation.
 
 Select multiple nodes, change the properties, and click on the **Modify** button :
 

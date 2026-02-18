@@ -34,7 +34,11 @@ The temperature of the reference case is used to determine the allowable stress 
 
 <ins>Situation number</ins> :
 
-For RCC-M Class 1 and RCC-MRx codes only : the two load sets, which form a situation, must be defined with the same situation number. Moreover, the two load sets must have the same number of cycles. The situation numbers are used to determine the maximum value of the penalty factor Ke for RCC-M code.
+For RCC-M Class 1 and RCC-MRx codes only : the two load sets, which form a situation, must be defined with the same situation number. Moreover, the two load sets must have the same number of cycles.
+
+- In the RCC-M code, the situation numbers are used to determine the maximum value of the penalty factor Ke.
+
+- In the RCC-MRx code, if the situation consists of a transition between two steady states, the order is important. The steady state that occurs at first has priority. For example, let's consider the situation between room condition and operating condition. Room condition is the starting condition and has therefore priority. The first load set shall represent the stress state AFTER departure from the priority condition (i.e. operating temperature and pressure, thermal expansion moments and thermal gradients due to the startup transient). The second entered load set shall represent the return to the priority condition (i.e. room temperature, no pressure, no thermal expansion moments and thermal gradients due to the shutdown transient).
 
 <ins>Transient case</ins> :
 
@@ -66,4 +70,4 @@ The moments associated with the load set are taken from the moment case.
 
 **RCC-MRx** : if the moment case for this load set is a dynamic case, then the primary dynamic moments are taken from the combination case with the same flag number and type of analysis 1. The secondary dynamic moments are taken from the combination case with the same flag number and type of analysis 6.
 
-The dynamic flag is not used for the RCC-M code.
+The dynamic flag is not used in the RCC-M code.
