@@ -47,7 +47,7 @@ Use HTTrack for that and download it on a new directory.
 
     C:\Users\sebas\Documents\TEMP
 
-### 3.2 Launch HTTrack and create a new project
+### 3.2 Launch WinHTTrack and create a new project
 
 ![Image](../Images/HTTrack1.jpg)
 
@@ -72,7 +72,7 @@ Use HTTrack for that and download it on a new directory.
 
 ![Image](../Images/HTTrack4.jpg)
 
-    Wait 5..10 min
+    Wait 25 min
 
 ![Image](../Images/HTTrack5.jpg)
 
@@ -144,3 +144,13 @@ You will have one executable with the documentation inside :
 ![Image](../Images/VirtualBox10.jpg)
 
 Move the file and remove **TEMP** directory.
+
+### 4.6 Anti-virus
+
+https://forum.enigmaprotector.com/viewtopic.php?t=17774
+
+The executable is blocked by Windows Defender with the message "Program:Win32/Wacapew.C!ml"
+
+Submit the exe to Microsoft here : https://www.microsoft.com/en-us/wdsi/filesubmission 
+
+

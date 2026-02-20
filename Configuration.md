@@ -30,3 +30,5 @@ The visual **scale** of the screen must be such that all the icons on the top ri
 The setup tool will install the software on **Program Files** and the data on **ProgramData**.
 
 This last directory **must** have the **Read** and **Write** rights for the user.
+
+$$ S_{\text{occ}} = \sqrt{\left(|S_{a,\text{occ}}| + S_{b,\text{occ}}\right)^2 + \left(2 S_{t,\text{occ}}\right)^2} \tag{Eq.~11} $$

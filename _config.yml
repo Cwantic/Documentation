@@ -15,4 +15,9 @@ callouts:
     title: Warning
     color: red
 
+# MathJax (pour LaTeX)
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
 #logo: "/Images/MetaPiping_web_title.png"
