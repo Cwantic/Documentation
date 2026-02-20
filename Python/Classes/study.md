@@ -75,7 +75,7 @@ Imagine user wants to create an empty model for the current study :
 
 >REM : a model contains default values but must have at least one layer
 
->REM : the model of the study must be named "conception.metaL"
+>REM : the model of the study must have the same name as the study!
 
 ```python
 # Python script
@@ -87,7 +87,8 @@ layer = Layer("0")
 metal.Layers.Add(layer) # Attention ! metal.Layers is a C# list. Use Add instead of append
 
 dir = study.getDirectory()
-filename = os.path.join(dir, "conception.metaL")
+studyName = os.path.basename(os.path.normpath(dir))
+filename = os.path.join(dir, studyName + ".metaL")
 
 metal.SaveToFile(filename)
 ```

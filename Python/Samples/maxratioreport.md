@@ -57,15 +57,15 @@ if solution != None:
             f.write("------------------------------" + "\n")
             # Get all combination cases
             for combiCase in metal.CombiCases:
-                stressRatios = solution.getStresses(combiCase.Number, 0) # 0 for Ratios
-                if len(stressRatios) > 0:
-                    maxRatio = 0
-                    for ratio in stressRatios:
-                        if ratio > maxRatio:
-                            maxRatio = ratio
-                    st = "{:<4} {:<30} : MAX RATIO = {:<5}".format(combiCase.Number, combiCase.Title, round(maxRatio, 3))
-                    f.write(st + "\n")
-
+                if combiCase.Equation != '1':
+                    stressRatios = solution.getStresses(combiCase.Number, 0) # 0 for Ratios
+                    if len(stressRatios) > 0:
+                        maxRatio = 0
+                        for ratio in stressRatios:
+                            if ratio > maxRatio:
+                                maxRatio = ratio
+                        st = "{:<4} {:<30} : MAX RATIO = {:<5}".format(combiCase.Number, combiCase.Title, round(maxRatio, 3))
+                        f.write(st + "\n")
 ```
 
 Save it !

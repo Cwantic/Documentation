@@ -9,6 +9,8 @@ has_children: false
 
 >CWANTIC has a very ambitious roadmap in order to deliver qualified professional solutions, written in the state of the art, using the latest computer technologies and open to Python developers.
 
+![Image](Images/Roadmap.jpg)
+
 ## MetaPiping 2026 (Current release)
 
 [See the main features](https://documentation.metapiping.com/WhatsNew/2026_0.html)
@@ -30,7 +32,7 @@ has_children: false
 
 >**MetaStructure** :
 
-* New assembly types
+* Table edition
 * Custom sections
 * Requests from the user community
 

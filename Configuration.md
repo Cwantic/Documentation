@@ -19,6 +19,12 @@ In order to exploit the full power of the software, we recommend the following c
 - **Screen resolution** : Full HD (1920x1080) or more
 - **Mouse** : 3 buttons (scroll wheel button)
 
+# Graphic scale
+
+The visual **scale** of the screen must be such that all the icons on the top ribbon are visible:
+
+![Image](Images/Configuration2.jpg)
+
 # Rights requirements
 
 The setup tool will install the software on **Program Files** and the data on **ProgramData**.

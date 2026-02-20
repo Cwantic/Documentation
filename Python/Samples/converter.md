@@ -32,7 +32,7 @@ Add 1 TEXT input and 1 TEXT output :
 
 The input TEXT must receive a XLSX filename from a connection.
 
-The output TEXT is the path to **conception.metaL** filename (the internal file format of MetaPiping). This output can be connected to the main **study** brick.
+The output TEXT is the path to ***.metaL** filename (the internal file format of MetaPiping). This output can be connected to the main **study** brick.
 
 ## 4. requirements.txt
 
@@ -163,7 +163,8 @@ if os.path.exists(filename):
     if not df_materials.empty and not df_sections.empty and not df_nodes.empty and not df_elements.empty:
         # 1. output filename
         dir = study.getDirectory()
-        filename = os.path.join(dir, "conception.metaL")
+        studyName = os.path.basename(os.path.normpath(dir))
+        filename = os.path.join(dir, studyName + ".metaL")
         
         # 2. Create empty metaL
         metal = study.createMetal()
