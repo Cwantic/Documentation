@@ -16,7 +16,16 @@ callouts:
     color: red
 
 # MathJax (LaTeX)
-mathjax: true
-mathjax_cdn: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-
-#logo: "/Images/MetaPiping_web_title.png"
+mathjax:
+  source: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_SVG"
+  config: >
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']]
+      },
+      TeX: {
+        equationNumbers: { autoNumber: "AMS" }
+      },
+      SVG: { mtextFontInherit: true }
+    });

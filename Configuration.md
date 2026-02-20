@@ -3,6 +3,7 @@ layout: default
 title: Configuration
 nav_order: 13
 has_children: false
+mathjax: true
 ---
 
 # System requirements
