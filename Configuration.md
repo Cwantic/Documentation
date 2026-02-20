@@ -31,4 +31,12 @@ The setup tool will install the software on **Program Files** and the data on **
 
 This last directory **must** have the **Read** and **Write** rights for the user.
 
-$$ S_{\text{occ}} = \sqrt{\left(|S_{a,\text{occ}}| + S_{b,\text{occ}}\right)^2 + \left(2 S_{t,\text{occ}}\right)^2} \tag{Eq.~11} $$
+\( S_{\text{occ}} = \sqrt{\left(|S_{a,\text{occ}}| + S_{b,\text{occ}}\right)^2 + \left(2 S_{t,\text{occ}}\right)^2} \tag{Eq.~11} \)
+
+\[ 
+S_{\text{occ}} = \sqrt{\left(|S_{a,\text{occ}}| + S_{b,\text{occ}}\right)^2 + \left(2 S_{t,\text{occ}}\right)^2} \tag{Eq.~11} 
+\]
+
+$$ S_b = \sqrt{\left(\frac{I_i \, M_i}{Z}\right)^2 + \left(\frac{I_o \, M_o}{Z}\right)^2} \tag{Eq.~4} $$
+
+$ S_b = \sqrt{\left(\frac{I_i \, M_i}{Z}\right)^2 + \left(\frac{I_o \, M_o}{Z}\right)^2} \tag{Eq.~4} $

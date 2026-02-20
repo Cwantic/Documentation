@@ -15,9 +15,8 @@ callouts:
     title: Warning
     color: red
 
-# MathJax (pour LaTeX)
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
+# MathJax (LaTeX)
+mathjax: true
+mathjax_cdn: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 
 #logo: "/Images/MetaPiping_web_title.png"

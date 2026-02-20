@@ -153,4 +153,5 @@ The executable is blocked by Windows Defender with the message "Program:Win32/Wa
 
 Submit the exe to Microsoft here : https://www.microsoft.com/en-us/wdsi/filesubmission 
 
+Check with VirusTotal.com
 
