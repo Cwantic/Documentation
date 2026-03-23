@@ -96,6 +96,8 @@ Remove the selected files :
 
 ### 4.1 Launch Enigma Virtual Box.
 
+Open **MetaPipingDocumentationEnigmaProject.evb** in ...\CWANTIC\Documentation\DocToExe directory.
+
 ![Image](../Images/VirtualBox.jpg)
 
 1. Search **MetaPipingDocumentation.exe** (§ 2) as input exe file.
@@ -147,11 +149,40 @@ Move the file and remove **TEMP** directory.
 
 ### 4.6 Anti-virus
 
+Check the final exe with with VirusTotal.com : https://www.virustotal.com/gui/home/upload
+
+If false positive, send the exe to all anti-virus as explained here :
+
+https://www.softwareprotection.info/2011/08/antivirus-false-detection-how-to-solve/
+
+https://docs.virustotal.com/docs/false-positive-contacts
+
+https://pjq.me/?p=2145
+
+![Image](../Images/VirusScan.jpg)
+
+| Anti virus | File submission page | Password of zip |
+| -- | -- | -- |
+| McAfee | https://www.mcafee.com/support/s/article/000001921?language=fr | - |
+| Elastic | https://docs.google.com/forms/d/e/1FAIpQLSfKZOPSPcucmgNR9_j316JnG_qYbJBpti5JSsNxQNQtTHjsxw/viewform | uniquement le lien vers virustotal + sha256 de l'exe |
+| TrapMine | send a an email to fp@trapmine.com | only the link to VirusTotal analysis |
+| GridInSoft | https://gridinsoft.com/incorrect-detection#submit | |
+| Microsoft | https://www.microsoft.com/en-us/wdsi/filesubmission  | |
+
+* Message :
+
+False positive ?
+This exe contains our documentation. Boxed with Enigma Virtual Box.
+
+* SHA256 :
+
+Powershell : Get-FileHash MetaPipingDocumentation.exe -Algorithm SHA256
+
+---
+
 https://forum.enigmaprotector.com/viewtopic.php?t=17774
 
 The executable is blocked by Windows Defender with the message "Program:Win32/Wacapew.C!ml"
 
 Submit the exe to Microsoft here : https://www.microsoft.com/en-us/wdsi/filesubmission 
-
-Check with VirusTotal.com
 

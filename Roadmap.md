@@ -19,21 +19,27 @@ has_children: false
 
 ### *Expected date*
 
-* September 2026
+* June 2026
 
 ### *Main features*
+
+>**Solver** :
+
+* Code_Aster 17.4 upgrade
+
+>**Python** :
+
+* Python 3.10 upgrade
 
 >**MetaPiping** :
 
 * ASME B31.3 - Process Piping for petroleum refineries, chemical, pharmaceutical, hydrogen, textile, paper and pulp, power generation, semiconductor, and cryogenic plants
-* FEA improvements (local thickness reduction, weld mismatch, tee, detailed Pm+Pb and fatigue analysis)
 * Multiple modal analysis
 * Requests from the user community
 
 >**MetaStructure** :
 
-* Table edition
-* Custom sections
+* Grid edition
 * Requests from the user community
 
 ## Disclaimer
