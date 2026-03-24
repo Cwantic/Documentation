@@ -63,7 +63,7 @@ Copy/paste this code in the Editor :
 
 import os
 from System.Windows.Media.Media3D import Vector3D
-from Cwantic.MetaPiping.Core import RemoveElementCommand, AddNodeCommand, DrawPipingCommand, InsertBendCommand
+from Cwantic.MetaPiping.Core import RemoveElementCommand, DrawPipingCommand, InsertBendCommand
    
 # Inspect selection
 n = len(design.selectedList)
@@ -76,69 +76,57 @@ if n==1:
         p1 = pipe.Node1.Coor
         p2 = pipe.Node2.Coor
         
-        # Get the current model
-        model = design.getMetal()
-        
-        # Get the scene vertical vector (+Z or +Y)
-        verticalvec = design.getVerticalVector()
-        
         # Get the current piping values (section, material, radius,...)
         currentValues = design.getCurrentSpecValues()
-        
+            
         # Memorize current radius
         currentRadius = currentValues.MKS_BendRadius
         
-        # Get the pipe direction vector
-        vec1 = Vector3D(pipe.DL.X, pipe.DL.Y, pipe.DL.Z)
-        
-        # Get the script directory
+        # Get the script directory to retrieve illustration256x165.png
         directory = design.getScriptDirectory()
-
-        # Compute the cross product to determine the loop direction
-        dir = Vector3D.CrossProduct(vec1, verticalvec)
-        dir.Normalize()
-
-        # Create a new USER command : cmd
-        cmd = design.createCommand("AddLoop")
         
-        # 1 : Remove the selected pipe
-        
-        # 1.1 : Create params for command "RemoveElementCommand" (see Help)
-        params = []
-        params.append(design.selectedList)
-        
-        # 1.2 : Add sub command to user command cmd
-        valid = cmd.addSubCommand("RemoveElementCommand", params)
+        # Window
+        window = design.createVariableWindow()
+        window.AddComment("Define the length L and Radius of the loop. [meter]")
+        window.AddValue("L", "L =", 1)
+        window.AddValue("R", "Radius =", currentRadius)
+        window.AddImage(os.path.join(directory, "illustration256x165.png"))
+        if window.ShowModal():
+            # Retrieve user choices
+            size = window.GetValue("L")
+            currentValues.MKS_BendRadius = window.GetValue("R")
+                    
+            # Get the current model
+            model = design.getMetal()
+            
+            # Get the scene vertical vector (+Z or +Y)
+            verticalvec = design.getVerticalVector()
+            
+            # Get the selected pipe direction vector
+            vec1 = Vector3D(pipe.DL.X, pipe.DL.Y, pipe.DL.Z)
+            
+            # Compute the cross product to determine the loop direction
+            dir = Vector3D.CrossProduct(vec1, verticalvec)
+            dir.Normalize()
 
-        if valid:
-            # Get variable values - create a window
-            window = design.createVariableWindow()
-            window.AddComment("Fill the variables and click on OK. The loop will be perpendicular to the pipe. L can be positive or negative. [meter]")
-            window.AddValue("L", "L =", 1)
-            window.AddValue("R", "R =", currentRadius)
-            window.AddImage(os.path.join(directory, "illustration256x165.png"))
-            if window.ShowModal():
-                # retrieve the size and radius from the window
-                size = window.GetValue("L")
-                currentValues.MKS_BendRadius = window.GetValue("R")
-                                    
-                # TIP : Create 2 new nodes (N3 and N4) with "AddNodeCommand"
-                node1Cmd = AddNodeCommand(model, p1.X + size*dir.X, p1.Y + size*dir.Y, p1.Z + size*dir.Z, "", False, currentValues)
-                N3 = node1Cmd.Node
-                
-                node2Cmd = AddNodeCommand(model, p2.X + size*dir.X, p2.Y + size*dir.Y, p2.Z + size*dir.Z, "", False, currentValues)
-                N4 = node2Cmd.Node
+            # Create a new USER command : cmd
+            cmd = design.createCommand("AddLoop")
+            
+            # 1 : Remove the selected pipe
+            
+            # 1.1 : Create params for command "RemoveElementCommand" (see Help)
+            params = []
+            params.append(design.selectedList)
+            
+            # 1.2 : Add sub command to user command cmd
+            valid = cmd.addSubCommand("RemoveElementCommand", params)
 
-                # Create node sub commands
-                cmd.addSubCommand("AddNodeCommand", [N3])
-                cmd.addSubCommand("AddNodeCommand", [N4])
-
-                # Create new pipe perpendicular to selected pipe from node1
-
-                # 2.1 : Create params for command "DrawPipingCommand" (see Help)
+            if valid:
+                # 2.1 : Create params for command "DrawPipingCommand" based on coordinates (see Help)
                 params = []
-                params.append(pipe.Node1)
-                params.append(N3)
+                params.append(p1.X)
+                params.append(p1.Y)
+                params.append(p1.Z)
                 params.append(size*dir.X)
                 params.append(size*dir.Y)
                 params.append(size*dir.Z)
@@ -152,11 +140,12 @@ if n==1:
 
                 if valid:
                     # 3 : Create new pipe parallel to selected pipe
-                
-                    # 3.1 : Create params for command "DrawPipingCommand" (see Help)
+                 
+                    # 3.1 : Create params for command "DrawPipingCommand" based on coordinates (see Help)
                     params = []
-                    params.append(N3)
-                    params.append(N4)
+                    params.append(p1.X + size*dir.X)
+                    params.append(p1.Y + size*dir.Y)
+                    params.append(p1.Z + size*dir.Z)
                     params.append(vec1.X)
                     params.append(vec1.Y)
                     params.append(vec1.Z)
@@ -171,10 +160,11 @@ if n==1:
                     if valid:
                         # 4 : Create new pipe to close the loop
                         
-                        # 4.1 : Create params for command "DrawPipingCommand" (see Help)
+                        # 4.1 : Create params for command "DrawPipingCommand" based on coordinates (see Help)
                         params = []
-                        params.append(N4)
-                        params.append(pipe.Node2)
+                        params.append(p2.X + size*dir.X)
+                        params.append(p2.Y + size*dir.Y)
+                        params.append(p2.Z + size*dir.Z)
                         params.append(-size*dir.X)
                         params.append(-size*dir.Y)
                         params.append(-size*dir.Z)
@@ -196,13 +186,13 @@ if n==1:
                             
                             # 5.2 : Add sub command
                             valid = cmd.addSubCommand("InsertBendCommand", params)
-               
-        # Execute command
-        if valid:
-            design.executeCommand(cmd)
-            res = ""
-        else:
-            res = "Incorrect params"
+            # Execute command
+            if valid:
+                design.executeCommand(cmd)
+                res = ""
+            else:
+                res = "Incorrect params"
+                
         # Restore the radius
         currentValues.MKS_BendRadius = currentRadius
     else:
