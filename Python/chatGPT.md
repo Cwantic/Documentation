@@ -2,7 +2,7 @@
 layout: default
 title: ChatGPT
 nav_order: 
-parent: 
+parent: OBSOLETE
 ---
 
 # ChatGPT (OBSOLETE)
