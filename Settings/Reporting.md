@@ -112,7 +112,9 @@ MetaPiping/MetaStructure let you **insert** datas from the current study inside 
 | STATIC EQUILIBRIUM | Finite element analysis | The static equilibrium value | No table |
 | DISPLACEMENT MAX | Finite element analysis | The displacement max | No table |
 | STRESS MAX | Finite element analysis | The stress max | No table |
+| ALLOWABLE STRESS | Finite element analysis | The allowable stress of material | No table |
 | STRAIN MAX | Finite element analysis | The strain max | No table |
+| COMPRESSION MAX | Finite element analysis | The compression max on concrete | No table |
 | FASTENER RATIO MAX | Finite element analysis | The max ratio on all fasteners | No table |
 
 ### 2.3 Pictures
