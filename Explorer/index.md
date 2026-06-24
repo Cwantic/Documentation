@@ -24,6 +24,8 @@ Right click on **Projects** lets you :
 - Import a project (file with extension *.prockage)
 - Add a new folder
 
+REM : the folder name or project name may not contain accent !
+
 Select a **folder** (Ex : Group A). Right click on it lets you :
 
 ![Image](../Images/Explorer3.jpg)
@@ -35,6 +37,8 @@ Select a **folder** (Ex : Group A). Right click on it lets you :
 - Delete the current folder with all projects
 - Rename the current folder
 
+REM : the sub-folder name or project name may not contain accent !
+
 Select a **project** (Ex : Demo). Right click on it lets you :
 
 ![Image](../Images/Explorer4.jpg)
@@ -44,11 +48,18 @@ Select a **project** (Ex : Demo). Right click on it lets you :
 - Export the project (file with extension *.prockage)
 
 {: .warning }
->The EXPORT project command (from source computer) will copy all studies but also all external files, used python scripts, etc. and will paste them (and install scripts if not existing on target computer) during IMPORT command.
+>The EXPORT project command (from source computer) will copy the selected studies but also all external files, used python scripts, etc. and will paste them (and install scripts if not existing on target computer) during IMPORT command.
 
 >The EXPORT project will ask to include all result files, reports and FEA folders. Answer NO to reduce the size of the *.prockage file.
 
 ![Image](../Images/Explorer9.jpg)
+
+User can now select the studies of the project to export :
+
+![Image](../Images/Explorer10.jpg)
+
+{: .warning }
+>If a study contains links to other studies and if one of them is not selected, the export will be aborted.
 
 ## 2. Project preview
 

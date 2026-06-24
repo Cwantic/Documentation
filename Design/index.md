@@ -69,11 +69,9 @@ Click [here](https://documentation.metapiping.com/Design/Specification/index.htm
 
 Click [here](https://documentation.metapiping.com/Design/Elements/index.html) to have more information about piping element creation.
 
----
+### 1.5 Restraints
 
 ![Image](../Images/Design3.png)
-
-### 1.5 Restraints
 
 Click [here](https://documentation.metapiping.com/Design/Restraints.html) to have more information about restraints.
 
@@ -82,6 +80,13 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 ![Image](../Images/ViewTool8.jpg)
 
 ![Image](../Images/ViewTool5.jpg) show/hide the node name
+
+4 modes :
+
+- Hide all nodes
+- Show all nodes
+- Show only restrained nodes
+- Show only tee nodes (only in piping)
 
 ![Image](../Images/Design10.jpg) show/hide the node point
 
@@ -109,31 +114,28 @@ Click [here](https://documentation.metapiping.com/Design/Restraints.html) to hav
 
 ![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
 
-![Image](../Images/ViewTool9.jpg) shows/hides the inner pipes
+![Image](../Images/ViewTool9.jpg) shows/hides the inner and outer pipes
 
-This last tool is useful to see the piping elements inside others :
+This last tool is useful to see the piping elements inside others. It has 4 modes :
+
+- Show all pipes (inner and outer)
+- Show outer pipes in transparent
+- Show only outer pipes
+- Show only inner pipes
+
+Example :
 
 ![Image](../Images/Inner1.jpg)
 
 ![Image](../Images/Inner2.jpg)
 
->Tip: if the **Node name** view is active, not all nodes will be shown during navigation to not slow down the application!
+>REM: if the **Node name** view is active, not all nodes will be shown during navigation to not slow down the application!
 
 ### 1.7 Modification tools
 
+![Image](../Images/Design3.png)
+
 Click [here](https://documentation.metapiping.com/Design/Modification.html) to have more information about all modification tools.
-
-### 1.8 Python scripts
-
-MetaPiping lets you create your own **tools**.
-
-If a tool is missing, user can create his own **command** that can interact with the user and modify the selected elements or the whole model.
-
-MetaPiping will take care of the Undo/Redo mechanism.
-
-Click [here](https://documentation.metapiping.com/Python/design.html) to have more information about python script creation.
-
-[See an example of a Design script](https://documentation.metapiping.com/Python/Samples/lyre.html) : Replace a selected pipe by a loop
 
 ## 2. 3D Visualization
 
@@ -212,6 +214,8 @@ The **Plugin** PIPESTRESS converts automatically every command of MetaPiping int
 
 - Click on button ![Image](../Images/Pipestress10.jpg) to toggle the line numbers.
 
+- Click on button ![Image](../Images/Pipestress12.jpg) to print the fre.
+  
 - Select a line and press **F1** to open PIPESTRESS help (if path is defined in the settings).
 
 - Right click to open the popup menu :

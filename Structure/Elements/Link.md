@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pipe link
-nav_order: 7
+nav_order: 8
 parent: Elements
 grand_parent: Structure
 ---

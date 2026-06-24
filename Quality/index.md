@@ -17,7 +17,9 @@ To ensure quality assurance of Aster solver, MetaPiping & MetaStructure provide 
 * Code EN 13480-3 2017 to 2024 editions: “Metallic industrial piping”. 
 * ASME Boiler and Pressure Vessel Section III Subsection NB, editions 2015 to 2025 
 * ASME Boiler and Pressure Vessel Section III Subsection NC-ND, editions 2004+A06 to 2025
-* ASME B31.1 editions 1998 to 2022: “Power Piping”. 
+* ASME B31.1 editions 1998 to 2022: “Power Piping”.
+* ASME B31.3 editions 2020 to 2024: “Process Piping”.
+* ASME B31J editions 2017 to 2023 : “Stress Intensification Factors (i-Factors), Flexibility Factors (k-Factors), and Their Determination for Metallic Piping Components”.
 * Technical note EDF ENSIN9100025 index D and E 
 * “Guide de validation des progiciels de calcul de structures” AFNOR TECHNIQUE 
 * U.S. NRC Piping Benchmark Problems, NUREG/CR-1677, BNL-NUREG-51267, Vol. 1, August 1980 

@@ -35,6 +35,7 @@ This object gives you access to the objects in selection, some current propertie
 | createVariableWindow() | VariableWindow | Return an empty window |
 | getSolution() | solution | Access to current Solution object of the study |
 | disposeSolution() | - | Dispose the solution |
+| refreshScreen() | - | Refresh the screen after model modification |
 
 ## 2. selectedList
 

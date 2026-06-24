@@ -37,8 +37,8 @@ Fill the **GLOBAL** X, Y, Z coordinates and a name.
 | Property | Description | Unit Metric | Unit USA |
 | -------- | ----------- | ---- | ---- |
 | X | X global coordinate | m | ft |
-| Y | Y global coordinate  | m | ft |
-| Z | Z global coordinate  | m | ft |
+| Y | Y global coordinate | m | ft |
+| Z | Z global coordinate | m | ft |
 | Name | Text or number | - | - |
 
     To know the UNIT of the value, just let the mouse over the cell.
@@ -126,4 +126,10 @@ You can **Undo** this command.
 
 Change the **Selection mode** to POINT and select a node. Only the **Name** can be changed.
 
+![Image](../../Images/Node13.jpg)
+
+Click on the **Modify** button to change the name of the selected node.
+
 You can **Undo** this command.
+
+REM : you can copy the node coordinates with upper right ![Image](../../Images/copypaste20x20i.png) button.

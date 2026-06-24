@@ -18,6 +18,7 @@ MetaStructure proposes several tools to build **structures** :
 * Add node
 * Add rigid
 * Add spring
+* Add matrix
 * Add restraint
 
 ## 2. Link

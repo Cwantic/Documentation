@@ -174,7 +174,6 @@ The keyword is useful to make a correspondence between the **template** and the 
     $$keyword$$ for the template
     [keyword] for the table
 
-
 | Keyword | Description | Remark |
 | -------- | ---- | ---- |
 | STUDY NAME | The name of the current study | No table |
@@ -189,7 +188,9 @@ The keyword is useful to make a correspondence between the **template** and the 
 | STATIC EQUILIBRIUM | The static equilibrium value | No table |
 | DISPLACEMENT MAX | The displacement max | No table |
 | STRESS MAX | The stress max | No table |
+| ALLOWABLE STRESS | The material allowable stress | No table |
 | STRAIN MAX | The strain max | No table |
+| COMPRESSION MAX | The concrete max compression | No table |
 | FASTENER RATIO MAX | The max ratio on all fasteners | No table |
 | ANCHORS RESULTS | The fasteners result file | table [ANCHORS RESULTS] |
 

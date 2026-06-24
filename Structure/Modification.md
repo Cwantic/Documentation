@@ -104,6 +104,10 @@ Select the nodes one by one (with CTRL) or by a selection rectangle :
 
 ![Image](../Images/Move2.jpg)
 
+You can move nodes in translation, rotation or mirror.
+
+### 6.1 Translation
+
 Set the offset to apply to the selected nodes :
 
 ![Image](../Images/Move3.jpg)
@@ -119,6 +123,54 @@ Validate the command by clicking the **Move** button :
 ![Image](../Images/Move4.jpg)
 
 You can **Undo** this command.
+
+### 6.2 Rotation
+
+Set the rotation center, the rotation axis and the angle of rotation around this axis :
+
+![Image](../Images/Move3B.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| XC | m | ft |
+| YC | m | ft |
+| ZC | m | ft |
+| Angle | degree | degree |
+
+REM : you can paste previously copied node coordinates with upper right ![Image](../Images/copypaste20x20i.png) button.
+
+Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html#6-modify-a-node) for more information about the selection of a node.
+
+Validate the command by clicking on the **Move** button :
+
+![Image](../Images/Move4B.jpg)
+
+You can **Undo** this command.
+
+### 6.3 Mirror
+
+Set the mirror point and the plane normal :
+
+![Image](../Images/Move3C.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| XP | m | ft |
+| YP | m | ft |
+| ZP | m | ft |
+
+REM : you can paste previously copied node coordinates with upper right ![Image](../Images/copypaste20x20i.png) button.
+
+Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html#6-modify-a-node) for more information about the selection of a node.
+
+Validate the command by clicking on the **Move** button :
+
+![Image](../Images/Move4C.jpg)
+
+You can **Undo** this command.
+
+{: .warning }
+>ATTENTION, if there is external node linked to structural node, the link will be invalid. Remove the link (and the eventual U-bolt) before moving node.
 
 ## 7. Change length/direction
 
@@ -230,6 +282,10 @@ Select the elements, define the position of the global center of rotation, the a
 
 Set the number of repetition of the copy (default = 1).
 
+REM : you can paste previously copied node coordinates with upper right ![Image](../Images/copypaste20x20i.png) button.
+
+Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html#6-modify-a-node) for more information about the selection of a node.
+
 {: .warning }
 >ATTENTION, the restraint, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.
 
@@ -250,6 +306,10 @@ Select the elements, define the position of a global point of the mirror plane a
 | XP | m | ft |
 | YP | m | ft |
 | ZP | m | ft |
+
+REM : you can paste previously copied node coordinates with upper right ![Image](../Images/copypaste20x20i.png) button.
+
+Click [here](https://documentation.metapiping.com/Structure/Elements/Node.html#6-modify-a-node) for more information about the selection of a node.
 
 {: .warning }
 >ATTENTION, the restraint, node and element properties, DLCS, lump masses will also be copied but not the loads on the elements or nodes.

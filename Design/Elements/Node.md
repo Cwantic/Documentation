@@ -186,7 +186,6 @@ You can later modify or remove this object by selecting this node and click on *
 
 You can **Undo** this command.
 
----
 ## 6. Modify a node
 
 Change the **Selection mode** to POINT and select a node :
@@ -200,3 +199,5 @@ You can change the node properties.
 Click on the **Modify** button to change the selected node.
 
 You can **Undo** this command.
+
+REM : you can copy the node coordinates with upper right ![Image](../../Images/copypaste20x20i.png) button.

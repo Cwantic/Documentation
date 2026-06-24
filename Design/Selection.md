@@ -11,7 +11,7 @@ MetaPiping lets you select one or multiple objects of the same type.
 
 Click on the **Select** button to open the **Selection tool** :
 
-![Image](../Images/Selection1.png)
+![Image](../Images/Selection12.jpg)
 
 Or press directly :
 
@@ -67,7 +67,7 @@ Clicking in the 3D view where no objects are present without **CTRL key** presse
   
 **CANCEL SELECTION** :
 
-Just press **ESC** on keyboard to hide the **selection tool**.
+Just press **ESC** on keyboard to hide the **selection tool** or click on the small cross button.
 
 ## 2. Label selection
 
@@ -116,3 +116,11 @@ You can make continuous selection by pressing the **SHIFT** key on keyboard and 
 ![Image](../Images/Selection8.jpg)
 
 Every object between the 2 elements will be selected (in magenta).
+
+**PICK SELECTION** :
+
+Some thin elements such as rigid, spring and matrix are complicated to select. Press the **ALT** key on keyboard to activate the **PICK** selection with a square of 10 pixels of tolerance.
+
+The pick selection is available only for elements and restraints, not for nodes or tees.
+
+This selection is also usefull in wireframe mode.

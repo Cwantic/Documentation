@@ -22,6 +22,8 @@ A **keyword** is associated to a **section** described in a **table** document (
 
 User can prepare **template** document and **table** document and then import them in the software (the first one in the template section, the second in the table section) as shown in the upper figure.
 
+Select a document shows a preview on the right panel.
+
 {: .warning }
 >ATTENTION, the documents are copied in the settings. The original word files are not moved nor modified.
 
@@ -135,11 +137,11 @@ JSON parameters :
 | Type | Ribbon type | 0 (= Conception - see below) |
 | ReviewType | Review category | 0 (= Sections - see below) |
 | ResultType | Result category | 0 (= Displacements - see below) |
-| LoadCase | Index of mode (+1) or load case in the list | -99 |
+| LoadCase | Index of mode (+1) or load case in the list | -99 (see below ) |
 | Factor | Amplification factor of the displacements | 1 |
 | StressIndex | Index in possible stress list | 0 |
 | StressMax | 1 = show the max stress colorisation | 0 |
-| ShowNodes | 1 = show node point and name | 0 |
+| ShowNodes | 1 = show node point and name | 0 (see below ) |
 | ShowOrigin | 1 = show origin | 0 |
 | ShowAxis | 1 = show axis | 0 |
 
@@ -229,6 +231,13 @@ LoadCase values :
         Fatigue : 0
         Creep : -1
 
+ShowNodes values :
+
+        None : 0
+        All : 1
+        Only restrained nodes : 2
+        Only tee nodes : 3 (only for piping)
+
 Examples:
 
 ```
@@ -297,7 +306,7 @@ JSON parameters :
 | Layers | An array of visible layer name | Empty list = all layers will be visible |
 | LoadCase | A loadcase number | -99 (all loadcases) |
 | StressIndex | A stress index | 0 (for stress results only) |
-| NMax | Show only the NMax number of the higher results | 0 (all results) |
+| NMax | Show only the NMax number of the higher results for each loadcases | 0 (all results) |
 
 LoadCase values :
 
@@ -319,7 +328,7 @@ This will show a table with all displacements (all layers) for all loadcases.
     $$RDISPLACEMENTS;{”Layers”:[“0”,"1"],”LoadCase”:100,”NMax”:5}$$
 ```
 
-This will show a table with the displacements of nodes from layer "0" and "1" and only for loadcase 100.
+This will show a table with the 5 highest displacements of nodes from layer "0" and "1" and only for loadcase 100.
 
 You can combine in your report a **picture** and a result **table** :
 

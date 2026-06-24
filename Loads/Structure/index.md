@@ -33,4 +33,8 @@ All loads can be viewed, created, edited, moved and removed in a single treeview
 
 ![Image](../../Images/LoadTree2.png)
 
-Click [here](https://documentation.metapiping.com/Loads/index.html) for more information about the treeview
+The *combination cases* show the cases and factors in columns for a better preview :
+
+![Image](../../Images/LoadTree4.jpg)
+
+Click [here](https://documentation.metapiping.com/Loads/index.html) for more information about the treeview.

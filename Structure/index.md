@@ -75,6 +75,12 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/index.html)
 
 ![Image](../Images/ViewTool5.jpg) show/hide the node name
 
+4 modes :
+
+- Hide all nodes
+- Show all nodes
+- Show only restrained nodes
+
 ![Image](../Images/Design10.jpg) show/hide the node point
 
 ![Image](../Images/ViewTool6.jpg) shows/hides the labels 
@@ -192,4 +198,12 @@ MetaStructure will take care of the Undo/Redo mechanism.
 
 Click [here](https://documentation.metapiping.com/Python/design.html) to have more information about python script creation.
 
-[See an example of a Design script](https://documentation.metapiping.com/Python/Samples/support.html) : Create a beam support of a piping on a node
+[See an example of a Design script](https://documentation.metapiping.com/Python/Samples/support.html) : Create a beam support of a piping on a node.
+
+### 3.2 Grid editor
+
+It is also possible to create/modify a structure by defining the nodes, the elements and the restraints in a grid way:
+
+![Image](../Images/Structure23.jpg)
+
+Click [here](https://documentation.metapiping.com/Structure/Grid.html) to have more information about grid edition of a structure.

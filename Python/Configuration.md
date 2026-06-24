@@ -13,7 +13,7 @@ The **Python integration** in MetaPiping is automatically made during installati
 
 MetaPiping is intalled with Python version :
 
->Python 3.7
+>Python 3.10
 
 The directory of Python sources is :
 
@@ -34,6 +34,7 @@ This **Datas** directory contains all user's data like :
 - Databases
 - Python Scripts
 - Specifications
+- Word templates
 
 All user's data can so be shared between users.
 

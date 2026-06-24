@@ -8,7 +8,7 @@ grand_parent: Python
 
 # solution
 
-The **solution** object gives access to all analysis results and can be accessed through the [study](https://documentation.metapiping.com/Python/Classes/study.html) object.
+The **solution** object gives access to all analysis results and can be accessed through the [study](https://documentation.metapiping.com/Python/Classes/study.html) object and the [design](https://documentation.metapiping.com/Python/Classes/design.html) object.
 
 ## 1. Properties
 
@@ -24,8 +24,8 @@ The **solution** object gives access to all analysis results and can be accessed
 | getStresses() | list of double | Get the stress value for a load case number and a stress index on each element (see § 9)
 | getMaxStressRatio() | double | Get the max stress ratio for all elements and all load cases. You can specify if the result includes the thermal expansion cases (bool - false by default) (see § 10)
 
-    ATTENTION : the metal given by the solution (getMetal) is different from the metal given by the study ! 
-    The 'solution metal' has been transformed depending on the current piping code.
+    ATTENTION : the metal given by the solution (getMetal) is different from the metal given by the study/design! 
+    The 'solution metal' has been transformed depending on the current piping/structure code.
 
 See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for more information.
 
@@ -180,7 +180,7 @@ The stress value is given in the [output units](https://documentation.metapiping
 
 Once the solution exists, you can retrieve the MAX stress ratio for the whole piping and for all load cases.
 
-getMaxStressRatio() returns a Double. You can specify as parameter a Boolean to include Thermal expansion cases or not.
+getMaxStressRatio() returns a float. You can specify as parameter a Boolean to include Thermal expansion cases or not.
 
 ```python
 # Python script    

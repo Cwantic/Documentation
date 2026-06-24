@@ -20,11 +20,13 @@ In order to exploit the full power of the software, we recommend the following c
 - **Screen resolution** : Full HD (1920x1080) or more
 - **Mouse** : 3 buttons (scroll wheel button)
 
-# Graphic scale
+# Screen resolution
 
-The visual **scale** of the screen must be such that all the icons on the top ribbon are visible:
+The size and visual **scale** of the screen must be such that in **Monitoring** tab you see:
 
-![Image](Images/Configuration2.jpg)
+    Screen resolution : 1920 x 1080
+
+![Image](Images/Configuration3.jpg)
 
 # Rights requirements
 

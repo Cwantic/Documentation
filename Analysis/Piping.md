@@ -215,11 +215,17 @@ For result type = **Ratio** or **Ratio max**, check the **overstress** box to se
 
 1. Click on the **File** button on the right controller :
 2. Select a file in the list
-3. Navigate through the pages of the document with the left and right button (or **PgDn** and **PgUp** shortcuts)
-4. Increase or decrease the size of the font
+3. Increase or decrease the size of the font
+4. Navigate through the pages of the document with the left and right button (or **PgDn** and **PgUp** shortcuts)
+5. Print the current file
+6. Show transient curves (only visible for *.transients files). See §3.1
 
 >Tip: you can copy the content of the file
 
 >Tip: If the analysis failed, a warning file will be available to know what happened.
 
+### 3.1 Transients
 
+Selecting a **condition** and a **property** shows the evolution of this property during time :
+
+![Image](../Images/ResultFile3.jpg)

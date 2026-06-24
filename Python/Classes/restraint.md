@@ -1,11 +1,10 @@
 ---
 layout: default
 title: restraint
-nav_order: 8
+nav_order: 9
 parent: Classes
 grand_parent: Python
 ---
-
 
 # 1. Restraint
 
@@ -13,24 +12,20 @@ grand_parent: Python
 
 ## Properties
 
-| Name | Return | Description |
+| Name | Type | Description |
 | --- | ----------- | ----------- |
 | Node | Node | Restrained node |
 | Level | string | Level (for seismic analysis) |
-| AttachedElement | Element | Element attached to restraint (for local axes - see LCS)|
+| AttachedElement | Element | Element attached to restraint (for local axes - see LCS) |
 | LCS | CoordinateSystem | Coordinate system used for restraint directions |
 | Label | string | Label |
 | LayerID | int | Layer number |
 
-The type *CoordinateSystem* is an enumeration with the following values:
+[Click here for more information about Node](https://documentation.metapiping.com/Python/Classes/node.html)
 
-| Value | Description |
-| ---  | ----------- |
-| Global | Global coordinate system |
-| LocalToConnectedElement |  Local coordinate system of the adjacent element |
-| LocalToPrecedingElement |  Local coordinate system of the preceding element |
-| LocalToFollowingElement |  Local coordinate system of the following element |
-| Local | Local coordinate system specified at restrained node |
+[Click here for more information about Element and Tee](https://documentation.metapiping.com/Python/Classes/element.html)
+
+[Click here for more information about CoordinateSystem](https://documentation.metapiping.com/Python/Classes/types.html)
 
 # 2. AxialRestraint
 
@@ -38,10 +33,19 @@ The type *CoordinateSystem* is an enumeration with the following values:
 
 ## Properties
 
-| Name | Return | Description |
+| Name | Type | Description |
 | --- | ----------- | ----------- |
 | Stiffness | float | Stiffness |
 | Direction | Vector3D | Restrained direction |
+
+Vector3D comes from the library *System.Windows.Media.Media3D*
+
+```python
+# Python script
+from System.Windows.Media.Media3D import Vector3D
+
+restraint.Direction = Vector3D(0, 0, 1)    
+```
 
 # 3. LinearRestraint
 
@@ -49,36 +53,30 @@ The type *CoordinateSystem* is an enumeration with the following values:
 
 ## Properties
 
-| Name | Return | Description |
+| Name | Type | Description |
 | --- | ----------- | ----------- |
 | Type | LinearRestraintType | Type of restraint |
 
 The type *LinearRestraintType* is an enumeration with the following values:
 
 | Value | Description |
-| ---  | ----------- |
+| --- | ----------- |
 | Translational | Translational |
-| Rotational | Rotational|
-| Snubber | Snubber|
+| Rotational | Rotational |
+| Snubber | Snubber |
 
 # 4. SpringHanger
 
-**Branch** inherits from **AxialRestraint**.
+**SpringHanger** inherits from **AxialRestraint**.
 
 ## Properties
 
-| Name | Return | Description |
+| Name | Type | Description |
 | --- | ----------- | ----------- |
 | Force | float | Type of restraint |
 | PinnedCase | PinnedCase | Pinned case option |
 
-The type *PinnedCase* is an enumeration with the following values:
-
-| Value | Description |
-| ---  | ----------- |
-| Design | Pinned for design weight analysis |
-| DesignAndTest | Pinned for design weight and test weight analyses|
-| DesignAndEmpty | Pinned for design weight and empty weight analyses|
+[Click here for more information about PinnedCase](https://documentation.metapiping.com/Python/Classes/types.html)
 
 # 5. MultiRestraint
 
@@ -86,7 +84,7 @@ The type *PinnedCase* is an enumeration with the following values:
 
 ## Properties
 
-| Name | Return | Description |
+| Name | Type | Description |
 | --- | ----------- | ----------- |
 | Kx | float | Stiffness along X: 0 if free, > 0 if rigid |
 | Ky | float | Stiffness along Y: 0 if free, > 0 if rigid |
@@ -101,7 +99,7 @@ The type *PinnedCase* is an enumeration with the following values:
 
 ## Properties
 
-| Name | Return | Description |
+| Name | Type | Description |
 | --- | ----------- | ----------- |
 | Kx | float | Stiffness along X |
 | Ky | float | Stiffness along Y |
@@ -109,3 +107,21 @@ The type *PinnedCase* is an enumeration with the following values:
 | Krx | float | Stiffness around X |
 | Kry | float | Stiffness around Y |
 | Krz | float | Stiffness around Z |
+
+# 7. NonLinearRestraint
+
+**NonLinearRestraint** inherits from **AxialRestraint**.
+
+## Properties
+
+| Name | Type | Description |
+| --- | ----------- | ----------- |
+| Gapm | float | |
+| K1m | float | |
+| K2m | float | |
+| FLm | float | |
+| Gapp | float | |
+| K1p | float | |
+| K2p | float | |
+| FLp | float | |
+| Mu | float | |

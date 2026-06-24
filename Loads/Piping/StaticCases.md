@@ -455,6 +455,10 @@ If you check this option, you will see this **button** in the ribbon :
 | MY | kN.m | kips.ft |
 | MZ | kN.m | kips.ft |
 
+REM : if a **local coordinate system** is defined only one selected node, user can check the **LOCAL** checkbox. The axis X, Y, Z will be this local axis.
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#4-creation-of-a-local-coordinate-system) for more information about definition of a local coordinate system.
+
 You can **undo** this command.
 
 Click on the **Remove** button to delete the force/moment on selected nodes.

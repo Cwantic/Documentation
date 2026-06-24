@@ -41,7 +41,7 @@ Click on **Add new piping study** to create an empty piping study that will be a
 
 Click on **Add new structure study** to create an empty structure study that will be added to the **container** (2).
 
-Give a name to the study (that is not already used) :
+Give a name to the study (that is not already used and without accent) :
 
 ![Image](../Images/NewStudy.png)
 
@@ -68,6 +68,8 @@ After deleting, the first study of the project becomes the current study shown i
 ### 1.5 Rename
 
 Select a study in the **container** (2) and click to **Rename study** to modify the name of the selected study.
+
+REM : the new name may not contain accent !
 
 ---
 ## 2. Study

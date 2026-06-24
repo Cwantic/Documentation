@@ -31,9 +31,15 @@ All projects share the same script that you can specify in this option.
 
 Default value : https://documentation.metapiping.com
 
-In case you do not have access to the Internet, it is possible to have the help in an application format (*.exe). 
+In case you do not have access to the Internet, it is possible to have the help in an application format (*.exe).
 
 Ask Cwantic for this special installer. In this case, just indicate the path of the help application.
+
+The **help** can be accessed via the upper right button :
+
+![Image](../Images/Help1.jpg)
+
+Depending on which screen you're on, clicking “Help” will bring up the correct section.
 
 ## 4. Metal
 
@@ -70,15 +76,12 @@ You can specify the path of your favorite text editor for text report editing.
 
 If blank, MetaPiping uses **Windows NotePad**.
 
-## 8. Python
-
-You can disable chatGPT help in the python screen.
-## 9. Review
+## 8. Review
 
 You can define the size in pixel of the point for the **End conditions** screen (default = 10 pixels) :
 
 ![Image](../Images/Review15.jpg)
 
-## 10. Structure
+## 9. Structure
 
 You can specify the maximum distance (in meter) between a pipe node and a structure node during the **Node link** operation. MetaStructure will search structure nodes that are distant less than this value from the selected piping node.

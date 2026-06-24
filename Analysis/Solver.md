@@ -17,19 +17,20 @@ MetaPiping comes with its built-in solver based on the finite element program Co
 
 The following features are currently implemented in Code_Aster based solver :
 
--	complex geometries made of straight pipes, elbows, miter bends, tees, reducers, valves, rigids, expansion joints, flanges, structual elements, socket welded fittings, beams, matrices and springs, lumped masses
--	supports : anchors, translational and rotational restraints, multiple restraints, snubbers, variable and constant spring hangers
--	static loads : dead weight, thermal expansion, anchor movements, nodal forces and moments, distributed forces, wind and snow, static acceleration, cold springing, variable fluid density and stratification
--	load combinations
--	automatic mass point generation
--	modal extraction
--	time history analysis with applied forces and moments
--	floor response spectrum analysis
+- complex geometries made of straight pipes, elbows, miter bends, tees, reducers, valves, rigids, expansion joints, flanges, structual elements, socket welded fittings, beams, matrices and springs, lumped masses
+- supports : anchors, translational and rotational restraints, multiple restraints, snubbers, variable and constant spring hangers
+- static loads : dead weight, thermal expansion, anchor movements, nodal forces and moments, distributed forces, wind and snow, static acceleration, cold springing, variable fluid density and stratification
+- load combinations
+- automatic mass point generation
+- modal extraction
+- time history analysis with applied forces and moments
+- floor response spectrum analysis
 
 Supported codes :
 
 - ASME Section III Class 1, 2 & 3 Editions 2004 + A06, 2007, 2010, 2013, 2015, 2017, 2019, 2021, 2023, 2025
 - ANSI/ASME B31.1 Editions 1998, 2004, 2007, 2010, 2012, 2014, 2016, 2018, 2020 (with B31J SIFs), 2022, 2024
+- ANSI/ASME B31.3 Editions 2020 and 2022 (with B31J Ed. 2017 SIFs), 2024 (with B31J Ed. 2023 SIFs)
 - RCC-M Class 1 & 2 Editions 2002, 2007, 2012, 2016, 2017, 2018, 2020, 2022
 - RCC-MRx Edition 2022
 - EDF Piping Code for Composite Materials, indice D and E

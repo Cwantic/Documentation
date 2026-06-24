@@ -13,8 +13,8 @@ The main units are given here below.
 
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
-| Element length |  m | ft |
-| Thickness, diameter, etc.| mm | in |
+| Element length | m | ft |
+| Thickness, diameter, etc. | mm | in |
 | Temperature | °C | °F |
 | Pressure | MPa | psi |
 | Mass | Ton | Kips |
@@ -29,14 +29,12 @@ The main units are given here below.
 | Young modulus | 10^3 MPa | 10^3 ksi |
 | Thermal expansion coefficient | 10^-6 mm/mm/°C | 10^-6 in/in/°F |
 
-
 ## 2. Output units
-
 
 | Property | Unit Metric | Unit USA |
 | -------- | ---- | ---- |
-| Displacement |  mm | in |
-| Rotation| mrad | mrad |
+| Displacement | mm | in |
+| Rotation | mrad | mrad |
 | Force | N | lbf |
 | Moment | N.m | lbf.ft |
 | Stress | MPa | ksi |

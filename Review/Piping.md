@@ -380,6 +380,13 @@ Click [here](https://documentation.metapiping.com/Design/Modification.html#92-de
 
 ![Image](../Images/ViewTool5.jpg) show/hide the node name
 
+4 modes :
+
+- Hide all nodes
+- Show all nodes
+- Show only restrained nodes
+- Show only tee nodes
+
 ![Image](../Images/Design10.jpg) show/hide the node point
 
 ![Image](../Images/ViewTool6.jpg) shows/hides the labels 
@@ -406,9 +413,16 @@ Click [here](https://documentation.metapiping.com/Design/Modification.html#92-de
 
 ![Image](../Images/Design11.jpg) copy the 3D view to the clipboard
 
-![Image](../Images/ViewTool9.jpg) shows/hides the inner pipes
+![Image](../Images/ViewTool9.jpg) shows/hides the inner and outer pipes
 
-This last tool is usefull to see the piping elements inside others :
+This last tool is useful to see the piping elements inside others. It has 4 modes :
+
+- Show all pipes (inner and outer)
+- Show outer pipes in transparent
+- Show only outer pipes
+- Show only inner pipes
+
+Example :
 
 ![Image](../Images/Inner1.jpg)
 

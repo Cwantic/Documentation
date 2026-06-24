@@ -15,7 +15,11 @@ Click on **Python** in application ribbon in the current study :
 
 ![Image](../Images/PythonStudy1.jpg)
 
-Select a script in the dropdown list :
+Move the brick and select a script in the dropdown list :
+
+![Image](../Images/PythonStudy10.jpg)
+
+Connect the scripts to other bricks :
 
 ![Image](../Images/PythonStudy2.jpg)
 
@@ -39,7 +43,7 @@ Give it a name and answer **YES** if you need ***Python Virtual Environment*** f
 
 A new *main.py* will be created in the file explorer and *Inputs* and *Outputs* nodes in the Project script. Requirements.txt and the Editor are empty :
 
-![Image](../Images/PythonStudy3.jpg)
+![Image](../Images/PythonInfo1.jpg)
 
 >Requirements.txt is hidden if you answer **NO** to the question about ***Python Virtual Environment***
 

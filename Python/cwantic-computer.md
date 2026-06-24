@@ -1,7 +1,7 @@
 ---
 layout: default
 title: cwantic-computer
-nav_order: 8
+nav_order: 7
 parent: Python
 ---
 

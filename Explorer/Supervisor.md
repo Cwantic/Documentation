@@ -15,11 +15,9 @@ Click on **Supervisor** button to access the batch tool.
 
 MetaPiping let you calculate projects in batch mode.
 
-1. Select piping studies from all projects
+1. Select piping or structure studies from all projects
 
 ![Image](../Images/Supervisor2.png)
-
->Only projects that contains piping studies will be shown and only piping studies will be shown.
 
 2. Select a solver
 
@@ -27,7 +25,7 @@ MetaPiping let you calculate projects in batch mode.
 
 * Auto          : use the study's specified solver
 * Aster         : use Code_Aster solver (even if PIPESTRESS solver is specified in the study)
-* PipeStress    : use PIPESTRESS solver (even if Aster solver is specified in the study)
+* PipeStress    : use PIPESTRESS solver (even if Aster solver is specified in the study) - only for piping studies
 
 3. Calculation
 

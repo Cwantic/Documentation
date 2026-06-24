@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Adjacent nodes
-nav_order: 6
+nav_order: 7
 parent: Elements
 grand_parent: Structure
 ---

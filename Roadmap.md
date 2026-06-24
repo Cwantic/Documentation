@@ -11,35 +11,27 @@ has_children: false
 
 ![Image](Images/Roadmap.jpg)
 
-## MetaPiping 2026 (Current release)
+## MetaPiping 2026.1 (Current release)
 
-[See the main features](https://documentation.metapiping.com/WhatsNew/2026_0.html)
+[See the main features](https://documentation.metapiping.com/WhatsNew/2026_1.html)
 
-## MetaPiping 2026.1
+## MetaPiping 2027
 
 ### *Expected date*
 
-* June 2026
+* January 2027
 
 ### *Main features*
 
->**Solver** :
-
-* Code_Aster 17.4 upgrade
-
->**Python** :
-
-* Python 3.10 upgrade
-
 >**MetaPiping** :
 
-* ASME B31.3 - Process Piping for petroleum refineries, chemical, pharmaceutical, hydrogen, textile, paper and pulp, power generation, semiconductor, and cryogenic plants
-* Multiple modal analysis
+* CODETI Edition 2023
+* FEA improvements
 * Requests from the user community
 
 >**MetaStructure** :
 
-* Grid edition
+* New assembly types
 * Requests from the user community
 
 ## Disclaimer

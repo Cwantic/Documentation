@@ -13,13 +13,13 @@ parent: Piping
 
 Click on **Select** button to open the selection window :
 
-![Image](../Images/Selection.jpg)
+![Image](../Images/Selection10.jpg)
 
 - Click on **Point** to select nodes (or F10)
 - Click on **Element** to select piping elements (pipe, bend, reducer, valve, etc.) (or F11)
 - Click on **Restraint** to select restraints (or F12)
 - Click on **Tee** to select nodes where a tee has been assigned
-- Press **ESC** on keyboard to hide the selection window
+- Press **ESC** on keyboard to hide the selection window or on the upper right cross
 
 You can now select objects of corresponding type.
 
@@ -113,6 +113,7 @@ Each **piping code** has its own factors.
 | ASME Class 2 | i, B1, B2, B2', C2 |
 | B31.1 up to ed. 2018| i |
 | B31.1 ed. 2020 (B31J) | ii, io, it, ia, Ii, Io, It, Ia |
+| B31.3 (B31J) | ii, io, it, ia, Ii, Io, It, Ia |
 | EN 13480 | io, ii |
 | RCC-M Class 2 | i |
 | RCC-MRx | B1, C1, K1, B2, C2, K2, C3, K3, D1, D21, D22, D23 |
@@ -155,11 +156,13 @@ You can **Undo** this command.
 
 ## 8. Move nodes
 
-MetaPiping lets you move nodes.
+MetaPiping lets you move nodes by translation, rotation and mirror.
 
 Select the nodes one by one (with CTRL) or by a selection rectangle :
 
 ![Image](../Images/Modification11.jpg)
+
+### 8.1 Translation
 
 Set the offset to apply to the nodes :
 
@@ -174,6 +177,51 @@ Set the offset to apply to the nodes :
 Validate the command by clicking on the **Move** button :
 
 ![Image](../Images/Modification13.jpg)
+
+You can **Undo** this command.
+
+### 8.2 Rotation
+
+Set the rotation center, the rotation axis and the angle of rotation around this axis :
+
+![Image](../Images/Modification12B.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| XC | m | ft |
+| YC | m | ft |
+| ZC | m | ft |
+| Angle | degree | degree |
+
+REM : you can paste previously copied node coordinates with upper right ![Image](../Images/copypaste20x20i.png) button.
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#6-modify-a-node) for more information about the selection of a node.
+
+Validate the command by clicking on the **Move** button :
+
+![Image](../Images/Modification13B.jpg)
+
+You can **Undo** this command.
+
+### 8.3 Mirror
+
+Set the mirror point and the plane normal :
+
+![Image](../Images/Modification12C.jpg)
+
+| Property | Unit Metric | Unit USA |
+| -------- | ---- | ---- |
+| XP | m | ft |
+| YP | m | ft |
+| ZP | m | ft |
+
+REM : you can paste previously copied node coordinates with upper right ![Image](../Images/copypaste20x20i.png) button.
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#6-modify-a-node) for more information about the selection of a node.
+
+Validate the command by clicking on the **Move** button :
+
+![Image](../Images/Modification13C.jpg)
 
 You can **Undo** this command.
 
@@ -263,6 +311,14 @@ The **Shift** option offsets all following elements.
 
 You can **Undo** this command.
 
+For reducers, you can change an eccentric reducer to a concentric one by changing the direction vector parralel to previous element :
+
+![Image](../Images/Modification33.jpg)
+
+If you set the value to 0, the reducer become concentric :
+
+![Image](../Images/Modification34.jpg)
+
 ## 10. Copy elements
 
 MetaPiping lets you copy elements (without the loads).
@@ -314,6 +370,10 @@ Select the elements, define the position of the global center of rotation, the a
 
 Set the number of repetition of the copy (default = 1).
 
+REM : you can paste previously copied node coordinates with upper right ![Image](../Images/copypaste20x20i.png) button.
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#6-modify-a-node) for more information about the selection of a node.
+
 {: .warning }
 >ATTENTION, the restraint, node and element properties, DLCS, lump masses, SIFs will also be copied but not the loads on the elements or nodes.
 
@@ -334,6 +394,10 @@ Select the elements, define the position of a global point of the mirror plane a
 | XP | m | ft |
 | YP | m | ft |
 | ZP | m | ft |
+
+REM : you can paste previously copied node coordinates with upper right ![Image](../Images/copypaste20x20i.png) button.
+
+Click [here](https://documentation.metapiping.com/Design/Elements/Node.html#6-modify-a-node) for more information about the selection of a node.
 
 {: .warning }
 >ATTENTION, the restraint, node and element properties, DLCS, lump masses, SIFs will also be copied but not the loads on the elements or nodes.

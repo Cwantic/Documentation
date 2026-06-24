@@ -78,3 +78,11 @@ Every object that intersects the **rectangle** will be selected (in magenta).
 **MULTIPLE SELECTION** :
 
 You can make multiple selection by pressing the **CTRL** key on keyboard.
+
+**PICK SELECTION** :
+
+Some thin elements such as rigid, spring and matrix are complicated to select. Press the **ALT** key on keyboard to activate the **PICK** selection with a square of 10 pixels of tolerance.
+
+The pick selection is available only for elements and restraints, not for nodes.
+
+This selection is also usefull in wireframe mode.

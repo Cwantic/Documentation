@@ -38,3 +38,7 @@ All loads can be viewed, created, edited, moved and removed in a single treeview
 5. Insert a load between two others
 
 >Tip: you can also move a load by draging a load and drop it on another one of the same category.
+
+The *combination cases* show the cases and factors in columns for a better preview :
+
+![Image](../../Images/LoadTree3.jpg)

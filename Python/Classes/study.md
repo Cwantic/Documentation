@@ -33,7 +33,8 @@ The **study** object gives access to several methods and can be used only in [Pr
 | executeCommand(command, directory) | - | Execute a CustomCommand (from createCommand) and the directory of the metal |
 | solvePipingModel(solvername, sandbox) | solution | Solve current connected metal with a solver. sandbox = True means not in the study folder |
 | solvePipingModel(metal, solvername, directory) | solution | Solve metal with a solver in directory |
-| analysePipingElement(analysename, solution, node1name, node2name, loadcase, template, options, keepreport) | - | Launch a Finite element Analysis of a piping element |
+| analysePipingElement(analysename, solution, node1name, node2name, loadcase, template, options, keepreport) | dictionary<string, string> | Launch a Finite element Analysis of a piping element |
+| analyseStructureAnchorPlate(analysename, solution, nodename, loadcase, template, options, keepreport) | dictionary<string, string> | Launch a Finite element Analysis of an anchor plate |
 
 See [metal](https://documentation.metapiping.com/Python/Classes/metal.html) for more information.
 
@@ -395,7 +396,7 @@ def SolveMetalWithChanges(solverName, changes):
 
     analysePipingElement(analysename, solution, node1name, node2name, loadcase, template, options, keepreport) 
 
-Launch a Finite element Analysis of a piping element
+Launch a Finite element Analysis of a piping element based on its 2 nodes' name
 
 | Parameter | Unit | Description |
 | --- | --- | --- |
@@ -415,7 +416,49 @@ Launch a Finite element Analysis of a piping element
 * 'brickbend'
 * 'brickreducer'
 
-**options** is a C# dictionary !
+**options** is a C# dictionary :
+
+| Keys | Metric Units | USA Units |
+| --- | --- | --- |
+| "MESH SIZE" | mm | in |
+| "THICKNESS NUMBER" | - | - |
+| "EXTEND" | m | ft |
+| "REPORT TEMPLATE" | - | - |
+| "REPORT TABLE" | - | - |
+
+example :
+
+```python
+# Python script
+from System.Collections.Generic import Dictionary
+
+options = Dictionary[str, str]()
+options["EXTEND"] = "0.1"
+options["MESH SIZE"] = "20"
+options["THICKNESS NUMBER"] = "1"
+options["REPORT TEMPLATE"] = "Cwantic_FEA_Piping_template_SI.docx"
+options["REPORT TABLE"] = "Cwantic_tables_SI.docx"
+```
+
+The **return** is a C# dictionary with all results :
+
+| Keys |
+| --- |
+| "ANALYSIS NAME" |
+| "STUDY NAME" |
+| "CONFIGURATION NAME" |
+| "MESH SIZE" |
+| "THICKNESS NUMBER" |
+| "ELEMENTNAME" |
+| "LOADCASE" |
+| "STATIC EQUILIBRIUM" |
+| "DISPLACEMENT MAX" |
+| "STRESS MAX" |
+| "STRAIN MAX" |
+| "REPORT TEMPLATE" |
+| "REPORT TABLE" |
+| "REPORT FILENAME" |
+| "EXTEND" |
 
 Example :
 
@@ -454,8 +497,11 @@ if solution != None:
     
     # We want to delete the analysis directory and only keep the report in the study directory
     analyseName = "Reducer_180_190" # That will produce a report named "Reducer_180_190.docx"
-    study.analysePipingElement(analyseName, solution, "180", "190", case, "brickreducer", options, True)
+    res = study.analysePipingElement(analyseName, solution, "180", "190", case, "brickreducer", options, True)
     
+    # Here is how to get the max stress
+    maxStress = float(res["STRESS MAX"])
+
     # Rename file with current params
     report = "{0}_Case{1}_Mesh{2}.docx".format(analyseName, case, meshsize)
     filename = os.path.join(study.getDirectory(), analyseName + ".docx")
@@ -473,3 +519,117 @@ if solution != None:
         except Exception as e:
             pass
 ```
+
+### 2.17 analyseStructureAnchorPlate()
+
+    analyseStructureAnchorPlate(analysename, solution, nodename, loadcase, template, options, keepreport)
+
+Launch a Finite element Analysis of an anchor plate on node
+
+| Parameter | Unit | Description |
+| --- | --- | --- |
+| analysename | string | Name of the analysis |
+| solution | Solution | Solution of the structure model |
+| nodename | string | AnchorPlate's node name |
+| loadcase | int | Load case number |
+| template | string | Name of the template file extension |
+| options | dictionary<string, string> | All parameters needed in FEA window |
+| keepreport | bool | True if you want to only keep the analysis report and destroy the analysis directory|
+
+**template** can only be :
+* 'anchorplate'
+
+**options** is a C# dictionary !
+
+| Keys | Metric Units | USA Units |
+| --- | --- | --- |
+| "MESH SIZE" | m | ft |
+| "CONFIGURATION NAME" | - | - |
+| "HEIGHT" | mm | in |
+| "REPORT TEMPLATE" | - | - |
+| "REPORT TABLE" | - | - |
+
+example :
+
+```python
+# Python script
+from System.Collections.Generic import Dictionary
+
+options = Dictionary[str, str]()
+options["CONFIGURATION NAME"] = "Centered"
+options["HEIGHT"] = "0.5"
+options["MESH SIZE"] = "20"
+options["REPORT TEMPLATE"] = "Cwantic_FEA_AnchorPlate_template_SI.docx"
+options["REPORT TABLE"] = "Cwantic_tables_SI.docx"
+```
+
+"CONFIGURATION NAME" can be "Centered", "External" or "Internal".
+
+The **return** is a C# dictionary with all results :
+
+| Keys |
+| --- |
+| "ANALYSIS NAME" |
+| "STUDY NAME" |
+| "CONFIGURATION NAME" |
+| "MESH SIZE" |
+| "HEIGHT" |
+| "IDNODE" |
+| "LOADCASE" |
+| "STATIC EQUILIBRIUM" |
+| "DISPLACEMENT MAX" |
+| "STRESS MAX" |
+| "STRAIN MAX" |
+| "COMPRESSION MAX" |
+| "ALLOWABLE STRESS" |
+| "FASTENER RATIO MAX" |
+| "REPORT TEMPLATE" |
+| "REPORT TABLE" |
+| "REPORT FILENAME" |
+
+Example :
+
+We want to solve all anchor plates of the model, with all static and combination loadcases and in all configurations (centered, external, internal). User has to enter the solution and a mesh size. The output (console) shows the max stress of all possible configurations.
+
+![Image](../../Images/PythonStudy11.jpg) ![Image](../../Images/PythonStudy12.jpg)
+
+```python
+# Python script
+import os
+from System.Collections.Generic import Dictionary
+from Cwantic.MetaPiping.Core import AnchorPlate
+
+solution = study.getSolution()
+if solution != None:
+    try:
+        meshsize = int(study.Inputs[2])
+    except ValueError:
+        meshsize = 20
+    
+    options = Dictionary[str, str]()
+    options["HEIGHT"] = "0.5"
+    options["MESH SIZE"] = str(meshsize)
+    
+    configs = ["Centered", "External", "Internal"]
+
+    log = []
+    metal = solution.getMetal()
+    for config in configs:
+        options["CONFIGURATION NAME"] = config
+        for restraint in metal.Restraints:
+            if isinstance(restraint, AnchorPlate):
+                # StaticCases
+                for loadcase in metal.StaticCases:
+                    analyseName = "AnchorPlate_" + config + "_" + restraint.Node.Name + "_Load_" + str(loadcase.Number)
+                    res = study.analyseStructureAnchorPlate(analyseName, solution, restraint.Node.Name, loadcase.Number, "anchorplate", options, False)
+                    log.append(analyseName + " : Stress max = " + res["STRESS MAX"] + " MPa")
+                # CombiCases
+                for loadcase in metal.CombiCases:
+                    analyseName = "AnchorPlate_" + config + "_" + restraint.Node.Name + "_Load_" + str(loadcase.Number)
+                    res = study.analyseStructureAnchorPlate(analyseName, solution, restraint.Node.Name, loadcase.Number, "anchorplate", options, False)
+                    log.append(analyseName + " : Stress max = " + res["STRESS MAX"] + " MPa")
+    study.Outputs[0] = "\n".join(log)
+else:
+    study.Outputs[0] = "No SOLUTION"
+```
+

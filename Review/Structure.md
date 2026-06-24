@@ -260,6 +260,12 @@ Click [here](https://documentation.metapiping.com/Structure/Elements/Link.html) 
 
 ![Image](../Images/ViewTool5.jpg) show/hide the node name
 
+3 modes :
+
+- Hide all nodes
+- Show all nodes
+- Show only restrained nodes
+
 ![Image](../Images/Design10.jpg) show/hide the node point
 
 ![Image](../Images/ViewTool6.jpg) shows/hides the labels 

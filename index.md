@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MetaPiping 2026
+title: MetaPiping 2026.1
 nav_order: 1
 ---
 

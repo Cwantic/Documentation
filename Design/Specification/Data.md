@@ -84,7 +84,9 @@ Click on the **Database** button, select a **Library** and a **Material**. The t
 
 Click [here](https://documentation.metapiping.com/Settings/Databases/Materials.html) for more information about creation of library of materials.
 
->In Class 1, materials can define a **Fatigue curve** :
+#### 1.1.1 Class 1 materials
+
+In Class 1, materials can define a **Fatigue curve** :
 
 ![Image](../../Images/FatigueCurve.png)
 
@@ -93,6 +95,46 @@ User can define the number of cycles for every stress step.
 Add a curve point by clicking on the **+** button and remove one by clicking on the **-** button.
 
 The stresses must be entered in ascending order!
+
+#### 1.1.2 RCC-MRx materials
+
+RCC-MRx materials can be inspected :
+
+![Image](../../Images/RCCMRx1.jpg)
+
+The inspector opens :
+
+![Image](../../Images/RCCMRx2.jpg)
+
+It shows all properties, curves and let the user calculate a property with specific parameters.
+
+RCC-MRx properties :
+
+- EX : Thermal expansion coefficient
+- EH : Young modulus
+- CO : Thermal conductivity
+- DI : Thermal diffusivity
+- SY : Minimal yield strength
+- SU : Minimal tensile strength
+- SM : Allowable stress
+- K and m: coefficients of monotonic tensile stress-strain curve (σ/K)^1/m
+- Monotonic tensile stress σ
+- K and m: coefficients of cyclic tensile stress-strain curve (σ/K)^1/m
+- Cyclic tensile stress σ
+- Coefficient Kε
+- Coefficient Kν
+- Symmetrisation coefficient Ks
+- Fatigue curve
+- Efficiency diagram
+- Negligible creep curve
+- Creep allowable stress St
+- Creep rupture stress Sr
+- Primary creep coefficients K, x, y
+- Secondary creep coefficients C, n
+- Negligible creep curve (inverted)
+- Creep allowable stress (inverted)
+- Creep rupture stress (inverted)
+- Fatigue curve (inverted)
 
 ### 1.2 Piping definition
 

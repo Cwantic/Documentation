@@ -197,13 +197,11 @@ The stresses are shown at each extremity of the elements. The maximum stresses o
 
 >The **Selection mode** is automatically set to ELEMENT.
 
-
 ### Overstress
 
 For result type = **Ratio max**, check the **overstress** box to see the two color map with all element with ratio > 1 in red :
 
 ![Image](../Images/Analysis27.jpg)
-
 
 ### 2.6 Anchor plates
 
@@ -220,9 +218,7 @@ The results are **code dependent**. The plates are verified according to the str
 
 > Plates are only checked for regular configurations with 2 or 4 fasteners in the current version of MetaStructure.
 
-
  The ratios output in **Data panel** are the calculated values (stress or force) divided by the allowable ones :
-
 
 | Property | Description |
 | -------- | ----------- |
@@ -246,7 +242,6 @@ The results are **code dependent**. The plates are verified according to the str
 | Ratio NVc | Ratio of concrete failure in combined tension and shear |
 | Error | Error number |
 
-
 The error numbers are listed below :
 
 | Error number | Description |
@@ -260,9 +255,7 @@ The error numbers are listed below :
 | 5 | Insufficient edge distance for selected spacing |
 | 6 | Spacing must be > 4 dnom for slab edge failure |
 
-
 >The **Selection mode** is automatically set to RESTRAINT.
-
 
 ### 2.7 Bolted and welded joints
 
@@ -289,17 +282,17 @@ The results are **code dependent**. The ratios output in **Data panel** are the 
 | Ratio bolt comb. | Ratio of the bolts in combined tension and shear |
 | Ratio bearing | Ratio of the bearing stress |
 
-
 >The **Selection mode** is automatically set to ELEMENT.
 
 ## 3. Result files
 
-![Image](../Images/ResultFile2.png)
+![Image](../Images/ResultFile2.jpg)
 
 1. Click on the **File** button on the right controller :
 2. Select a file in the list
 3. Navigate through the pages of the document with the left and right button (or **PgDn** and **PgUp** shortcuts)
 4. Increase or decrease the size of the font
+5. Print the current file
 
 >Tip: you can copy the content of the file
 

@@ -1,11 +1,11 @@
 ---
 layout: default
 title: ChatGPT
-nav_order: 7
-parent: Python
+nav_order: 
+parent: 
 ---
 
-# ChatGPT
+# ChatGPT (OBSOLETE)
 
 MetaPiping provides a privileged connection to **ChatGPT** through an official license to the API.
 

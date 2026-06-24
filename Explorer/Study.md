@@ -161,7 +161,21 @@ Useful to show the state of progress of the study to other users. A conventional
 
 ![Image](../Images/Study9.jpg)
 
-### 3.9 Post-processing : supports + flanges
+### 3.9 Export *.stl
+
+The 3D piping model can be exported (no brick) in STL file format.
+
+A save dialog will open to define the path and the name of the file.
+
+### 3.10 Export *.fre
+
+The 3D piping model can be exported (no brick) in FRE file format.
+
+A save dialog will open to define the path and the name of the file.
+
+This just copy the existing fre file in the study into another place.
+
+### 3.11 Post-processing : supports + flanges
 
 This brick lets you create combinations (or groups) of load cases defined in the piping model and output various results for those combinations :
 - reactions on restraints
@@ -178,7 +192,7 @@ Once the data are entered, click on **Run** to launch the analysis. A report wit
 
 The definition window consists of several tabs.
 
-#### 3.9.1 General
+#### 3.11.1 General
 
 ![Image](../Images/PostProc2.jpg)
 
@@ -191,7 +205,7 @@ Check the box **Process all restraints** to output the reactions for all support
 If flanges are to be checked, select the piping code, edition, and calculation method.
 
 
-#### 3.9.2 Groups
+#### 3.11.2 Groups
 
 ![Image](../Images/PostProc3.jpg)
 
@@ -213,7 +227,7 @@ Multipliers may be specified for the constituent load cases or groups by checkin
 
 The load cases defined in the model are listed on the right. Instead of typing the case number in columns Ref. and C1 to C6, you can also double-click on the load case in the list.
 
-#### 3.9.3 Restraints
+#### 3.11.3 Restraints
 
 ![Image](../Images/PostProc4.jpg)
 
@@ -227,7 +241,7 @@ Enter the nodes which reactions are to be processed.
 
 The retrained nodes are listed on the right. Instead of typing the node name, you can also double-click on the node in the list.
 
-#### 3.9.4 Nodes
+#### 3.11.4 Nodes
 
 ![Image](../Images/PostProc5.jpg)
 
@@ -240,7 +254,7 @@ Enter the nodes which displacements are to be processed.
 
 The nodes are listed on the right. Instead of typing the node name, you can also double-click on the node in the list.
 
-#### 3.9.5 Elements
+#### 3.11.5 Elements
 
 ![Image](../Images/PostProc6.jpg)
 
@@ -254,14 +268,14 @@ Enter the elements which internal forces and moments are to be processed.
 
 The elements are listed on the right. Instead of typing the element name, you can also double-click on the element in the list.
 
-#### 3.9.6 Flanges
+#### 3.11.6 Flanges
 
 Three sets of data may be defined, depending on the selected piping code and method :
 - Curves of rated pressure as function of temperature
 - Flange, neck pipe and bolt material
 - Flange data
 
-#### 3.9.6.1 Ratings
+#### 3.11.6.1 Ratings
 
 ![Image](../Images/PostProc7.jpg)
 
@@ -271,7 +285,7 @@ Enter the name of the curve, title and points (T, P) defining the curve.
 
 Click on the database button to import data from the database.
 
-#### 3.9.6.2 Materials
+#### 3.11.6.2 Materials
 
 ![Image](../Images/PostProc8.jpg)
 
@@ -281,7 +295,7 @@ Enter the name of the material name, description, target (piping for the flange 
 
 Click on the database button to import data from the database.
 
-#### 3.9.6.2 Flanges
+#### 3.11.6.2 Flanges
 
 ![Image](../Images/PostProc9.jpg)
 
@@ -408,3 +422,9 @@ Click [here](https://documentation.metapiping.com/Python/index.html) to have mor
 This creates a brick with text and color capabilities.
 
 Useful to show the state of progress of the study to other users. A conventional color code can be established.
+
+### 4.6 Export *.stl
+
+The 3D structure model can be exported (no brick) in STL file format.
+
+A save dialog will open to define the path and the name of the file.
